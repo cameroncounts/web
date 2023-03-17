@@ -1,0 +1,469 @@
+<html>
+<head><title>Old problems</title></head>
+<body>
+<h2 align="center">Old problems from my St Andrews web page</h2>
+<hr>
+<p><b>Problem 1: Random synchronization</b></p>
+<p>
+Choose two maps from the set {1,&hellip;,<i>n</i>} to itself at random.
+Does the probability that the semigroup they generate is <em>synchronizing</em>
+(i.e. contains an element of rank 1) tend to 1 as <i>n</i>&rarr;&infin;?
+<p>
+A paper by Mikhail Berlinkov in <em>Algorithms and Discrete Applied
+Mathematics</em>, LNCS <b>9602</b> (2016), 73-84, gives an affirmative
+solution to this question (the preprint is
+<a href="http://arxiv.org/pdf/1304.5774v1.pdf">arXiv 1304.5774</a>).
+</p>
+<hr>
+<p><b>Problem 2: Hot and cold matrices</b></p>
+<p>
+This problem was suggested to me by Dennis Lin.
+</p>
+<p>
+Let <i>n</i> be congruent to 2 mod 4. Define a <em>cold matrix</em> to be a
+skew-symmetric matrix of order <i>n</i> with (0 diagonal and) &plusmn;1
+off-diagonal, and a <em>hot matrix</em> to be a matrix with +1 on the diagonal
+and otherwise skew-symmetric with entries &plusmn;1. Thus, <i>C</i> is cold if
+and only if <i>C</i>+<i>I</i> is hot. (The names arise because of the
+motivation from conference and Hadamard matrices.)
+</p>
+<p>
+<b>Conjecture:</b> <i>C</i> has maximum determinant among cold matrices of
+order <i>n</i> if and only if <i>C</i>+<i>I</i> has maximum determinant among
+hot matrices of order <i>n</i>.
+</p>
+<p>
+<hr>
+<p><b>Problem 3: Symmetry of switching classes</b></p>
+<p>
+Here are three problems on switching of graphs and tournaments (two of them
+solved). This replaces Problems 3, 8 and 9 on the original list, resulting in
+some re-numbering.
+<p>
+Let <i>X</i> be a graph on the vertex set <i>V</i>. The operation of
+<em>switching</em> <i>X</i> with respect to a subset <i>A</i> of <i>V</i>
+involves changing all edges between <i>A</i> and its complement into
+non-edges, and all non-edges into edges, while leaving adjacency within
+<i>A</i> or its complement unaltered. Switching is an equivalence relation
+on the set of graphs on <i>V</i>, whose equivalence classes are called
+<em>switching classes</em>.
+</p>
+<p>
+We can define the <em>automorphism group</em> of a switching class in the
+obvious way; it contains the automorphism groups of the graphs in the class
+as subgroups.
+</p>
+<p>
+For tournaments, switching is very similarly defined, but instead of switching
+edges and non-edges, we reverse the directions of edges. Switching classes
+and automorphism groups work in the same way.
+<ol>
+<li>
+<p>
+<b>Problem</b>: Show that, with the exception of the switching classes of the
+complete and null graphs and finitely many others, a switching class whose
+automorphism group is primitive contains a graph whose automorphism group
+is trivial. Find all the finitely many exceptions.
+</p>
+<p>
+<b>Solution:</b> This problem has been solved by Pablo Spiga and me, see
+<em>Australas. J. Combinatorics</em> <b>62</b> (2015), 76-90: 
+<a href="http://ajc.maths.uq.edu.au/pdf/62/ajc_v62_p076.pdf">full text here</a>.
+There are just six exceptions up to complementation.
+</p>
+</li>
+<li>
+<p>
+<b>Problem:</b> Is it true that, with the exception of the switching classes of
+the complete and null graphs and finitely many others, a switching class whose
+automorphism group is primitive contains a graph with trivial endomorphism
+monoid, with finitely many exceptions?
+</p>
+<p>
+This is likely to be more difficult.
+</p>
+</li>
+<li>
+<p>
+Now we turn to switching classes of tournaments. 
+</p>
+<p>
+It is known that a necessary condition for a permutation group <i>G</i> to be the automorphism group of a switching class of tournaments is that the Sylow 2-subgroups of <i>G</i> are cyclic or dihedral and act semiregularly.
+</p>
+<p>
+<b>Problem:</b> Can one classify, for example, the <em>primitive</em> groups for which this condition is not sufficient?
+</p>
+<p><b>Solution:</b> Yes. A primitive group fixes a switching class of tournaments if and only if <em>either</em> it has odd degree and odd order (and so fixes a tournament), <em>or</em> it has degree <i>q</i>+1 and lies between PSL(2,<i>q</i>) and P&Sigma;L(2,<i>q</i>), where <i>q</i> is a prime congruent to 3 (mod&nbsp;4).
+</p>
+</li>
+</ol>
+<hr>
+<p><b>Problem 4: Acyclic orientations</b></p>
+<p>
+(with Celia Glass and Robert Schumacher) Is it true that, for <i>n</i> even, the graph with <i>n</i> vertices and <i>n</i><sup>2</sup>/4 edges with the maximum number of acyclic orientations (among such graphs) is the complete bipartite graph <i>K</i><sub><i>n</i>/2,<i>n</i>/2</sub>? (We know the number for complete bipartite graphs: it is a poly-Bernoulli number with negative index.)
+</p>
+<hr>
+<p><b>Problem 5: A curious recursion</b></p>
+<p>
+Given positive integers <i>k,a,b</i>, with <i>a</i>&gt;<i>b</i>, define a function <i>f</i>(<i>n</i>)&nbsp;=&nbsp;<i>f<sub>k,a,b</sub></i>(<i>n</i>) by the recursion
+</p>
+<p align="center">
+<i>f</i>(0)&nbsp;=&nbsp;<i>k</i>,&nbsp;&nbsp;<i>f</i>(<i>n</i>)&nbsp;=&nbsp;&lceil;<i>f</i>(<i>n</i>&minus;1)(<i>a</i>+<i>n</i>)/(<i>b</i>+<i>n</i>)&rceil;&nbsp;&nbsp;for <i>n</i>&gt;0.
+</p>
+<p>
+How does this function behave for large <i>n</i>? If it were not for the ceilings, it would grow like (<i>k</i>/(<i>b</i>+1)&hellip;<i>a</i>)<i>n<sup>a&minus;b</sup></i>. So we might guess that <i>f</i>(<i>n</i>)/<i>n<sup>a&minus;b</sup></i> tends to a limit. For <i>a</i>=4, <i>b</i>=2, and <i>k</i>=1,&hellip;,12, the limit appears to be 1/6, 1/4, 1/3, 1/2, 1/2, 1/2, 2/3, 3/4, 5/6, 1, 1, 1; then adding 12 to <i>k</i> appears to add 1 to the limit.
+</p>
+<hr>
+<p><b>Problem 6: Endomorphisms and partial isomorphisms</b></p>
+<p>
+Given a finite group <i>G</i>, let End(<i>G</i>) be the semigroup of
+endomorphisms of <i>G</i>, and PIso(<i>G</i>) the semigroup of partial
+isomorphisms of <i>G</i> (isomorphisms between subgroups of <i>G</i>).
+</p>
+<p>
+If <i>G</i> is abelian, then |End(<i>G</i>)|&nbsp;=&nbsp;|PIso(<i>G</i>)|. <em>Does the converse hold?</em>
+</p>
+<hr>
+<p><b>Problem 7: Connection number and M&ouml;bius function</b></p>
+<p>
+There is a well-known connection between the three polyhedral groups on the
+one hand, and the exceptional root lattices <i>E</i><sub>6</sub>,
+<i>E</i><sub>7</sub> and <i>E</i><sub>8</sub> on the other. (See the McKay
+correspondence and various results in singularity theory).
+</p>
+<p>
+For a finite group <i>G</i>, let <i>n</i>(<i>G</i>) denote
+|<i>G</i>|/&mu;(1,<i>G</i>), where &mu; is the M&ouml;bius function
+of the subgroup lattice of <i>G</i>.
+</p>
+<p>
+Is it just coincidence that, ignoring signs, the values of <i>n</i>(<i>G</i>)
+for the three polyhedral groups are equal to the connection numbers of the
+corresponding root lattices (the index in the dual lattice)? Or is there a
+natural explanation? The numbers are 3, 2, 1 respectively.
+</p>
+<p>
+A subsidiary question: If there is a natural explanation, what is the
+interpretation for root lattices of the sign of the M&ouml;bius function?
+</p>
+<hr>
+<p><b>Problem 8: A diameter question</b></p>
+<p>
+Given <i>n</i> and <i>k</i> with <i>k</i>&nbsp;&lt;&nbsp;<i>n</i>, what is the smallest number <i>d</i> with the following property: given a set <i>S</i> of permutations of an <i>n</i>-set <i>X</i> generating a group <i>G</i>, and two <i>k</i>-subsets <i>A</i> and <i>B</i> of <i>X</i> in the same <i>G</i>-orbit, there is a product of at most <i>d</i> elements of <i>S</i> mapping <i>A</i> to <i>B</i>.
+</p>
+<p>
+For <i>k</i>&nbsp;=&nbsp;1, it is clear that <i>n</i>&minus;1 suffices, and it is easy to construct examples showing this to be best possible.
+</p>
+<p>
+I'm really interested in <i>k</i>&nbsp;=&nbsp;2. Here <i>n</i>(<i>n</i>&minus;1)/2&minus;1 suffices, but I conjecture that the true value is much smaller (maybe a factor of 2 smaller?)
+</p>
+<hr>
+<p><b>Problem 9: Groups generated by random loops</b></p>
+<p>
+A <em>quasigroup</em> is a finite set with a binary operation satisfying the
+cancellation laws; that is, one whose Cayley table is a Latin square. A
+<em>loop</em> is a quasigroup with an identity element. The
+<em>multiplication group</em> of a quasigroup or loop is the group generated
+by the left and right translations (which are permutations).
+</p>
+<p>
+It is known that almost every quasigroup (that is, a proportion tending to 1 as n &rarr; &infin;) has multiplication group the symmetric group.
+</p>
+<p>
+<b>Problem</b>: Does the same statement hold for loops?
+</p>
+<hr>
+<p><b>Problem 10: Exchange for generating sets</b></p>
+<p>
+This is a modification of the original Problems 12 and 13. See a forthcoming
+preprint by me, Andrea Lucchini and Colva Roney-Dougal for context.
+</p>
+<p>
+The problem is in two parts.
+<ol>
+<li>
+Suppose that <i>G</i> is a finite group which can be generated by <i>d</i>
+elements. Is it true that, for any two elements <i>x</i> and <i>y</i> of
+<i>G</i>, if
+<p style="margin-left:30px;">
+&lang;<i>x,S</i>&rang;&nbsp;=&nbsp;<i>G</i> if and only if
+&lang;<i>y,S</i>&rang;&nbsp;=&nbsp;<i>G</i>
+</p>
+<p>
+holds for any <i>d</i>-element subset <i>S</i> of <i>G</i>, then it holds for
+any subset of arbitrary size?
+</p></li>
+<li>
+<p>
+Let <i>G</i> be a finite group. Suppose that every non-identity element is 
+contained in a 2-element generating set for <i>G</i>. Are the following two
+properties equivalent for any pair <i>x,y</i> of elements of <i>G</i>?
+<ul>
+<li> For any element <i>z</i> of <i>G</i>,
+<i>G</i>&nbsp;=&nbsp;&lang;<i>x,z</i>&rang; if and only if
+<i>G</i>&nbsp;=&nbsp;&lang;<i>y,z</i>&rang;; </li>
+<li> For any subset <i>S</i> of <i>G</i>,
+<i>G</i>&nbsp;=&nbsp;&lang;<i>x,S</i>&rang; if and only if
+<i>G</i>&nbsp;=&nbsp;&lang;<i>y,S</i>&rang;. </li>
+</ul>
+(It is clear that the second condition implies the first. The second holds if
+and only if <i>x</i> and <i>y</i> lie in the same maximal subgroups of 
+<i>G</i>.)
+</p></li>
+</ol></p>
+<hr>
+<p><b>Problem 11: Trees and cycles</b></p>
+<p>
+Given a tree <i>T</i> on vertex set {1,&hellip;,<i>n</i>}, the edges form a set of <i>n</i>&minus;1 transpositions whose product (in any order) is an
+<i>n</i>-cycle. If <i>T</i> is a star, then the (<i>n</i>&minus;1)! orderings
+of the edges give rise to the (<i>n</i>&minus;1)! cycles, each exactly once;
+but for any other shape of tree, we do not have a bijection. e.g. for the path
+on 4 vertices, of the six 4-cycles we obtain two twice, two once, and two not at all.
+</p>
+<p><b>Problem:</b> What is the distribution of frequencies of occurrence
+of cycles arising from orders of a given tree <i>T</i>?
+</p>
+<hr>
+<p><b>Problem 12: Beyond Keevash's theorem</b></p>
+<p>
+Let <i>k</i> be a positive integer, and <i>I</i> a subset of {0,&hellip;,
+<i>k</i>&minus;1} such that neither <i>I</i> nor its complement is empty.
+For <i>n</i>&nbsp;&ge;&nbsp;2<i>k</i>+1, let <i>G</i>(<i>n,k,I</i>) be the
+graph whose vertex set is the set of <i>k</i>-subsets of {1,&hellip;<i>n</i>},
+two subsets joined if the cardinality of their intersection is in <i>I</i>.
+</p>
+<p><b>Problem</b> Show that, with finitely many exceptions (for given <i>k</i>),
+<i>G</i>(<i>n,k,I</i>) has clique number and chromatic number equal if and
+only if there exists <i>t</i>&nbsp;&lt;&nbsp;<i>k</i> such that
+<ul>
+<li> <i>I</i>&nbsp;=&nbsp;{<i>t</i>,&hellip;<i>k</i>&minus;1}; </li>
+<li> Binom(<i>k</i>&minus;<i>i</i>,<i>t</i>&minus;<i>i</i>) divides
+Binom(<i>n</i>&minus;<i>i</i>,<i>t</i>&minus;<i>i</i>) for
+<i>i</i>&nbsp;&isin;&nbsp;<i>I</i>. </li>
+</ul>
+</p>
+<p><b>Remark</b> The second bullet point above gives the divisibility
+conditions necessary for the existence of a Steiner system S(<i>t,k,n</i>).
+According to the recent result of Peter Keevash, these conditions are also
+asymptotically sufficient. This fact will be relevant for the proof!
+</p>
+<hr>
+<p><b>Problem 13: Counterexamples to Cauchy's theorem</b></p>
+<p>
+Cauchy stated a theorem asserting that a <em>primitive</em> permutation group
+(one preserving no non-trivial partition of its domain) of degree a prime plus
+one is doubly transitive.
+</p>
+<p>
+A century later, Neumann, Sims and Wiegold pointed out that this theorem is
+false: if <i>S</i> is a simple group of order prime plus one, then the group
+<i>S</i>&times;<i>S</i>, acting on <i>S</i> by left and right multiplication,
+is primitive but not doubly transitive.
+</p>
+<p>
+Between 4 and 1000 there are 167 numbers of the form prime plus one; of these,
+five are orders of simple groups (60, 168, 360, 504, 660), and seven more are
+counterexamples to the "theorem" because of other types of primitive group
+(68, 84, 102, 234, 462, 620, 840). Continuing to 2500 there are two more
+simple group orders (1092 and 2448) and five further counterexamples (1040,
+1320, 1550, 1584 and 2162).
+</p>
+<p>
+<b>Problem:</b> Are there infinitely many numbers which provide counterexamples
+to Cauchy's "theorem"? If so, what is the density of the
+Neumann&ndash;Sims&ndash;Wiegold examples among them?
+</p>
+<hr>
+<p><b>Problem 14: Agrawal's Conjecture</b></p>
+<p>
+Let <i>B</i> be a block of a symmetric 2-(<i>v,k</i>,&lambda;) design.
+Construct a <i>k</i>&times;(<i>v</i>&minus;<i>k</i>) array as follows:
+first label the blocks different from <i>B</i> with the numbers 1,&hellip;,
+<i>v</i>&minus;1. The rows of the array are indexed by the points of <i>B</i>
+and the columns by the points outside <i>B</i>. In the cell in row <i>p</i>
+and column <i>q</i>, we put the labels of the blocks which contain <i>q</i>
+but not <i>p</i>. Thus each entry is a set of size <i>k</i>&minus;&lambda;;
+the union of the entries in a row has size <i>v</i>&minus;<i>k</i>, while the
+union of the entries in a column has size <i>k</i>.
+</p>
+<p>
+The problem is to produce a new array with a single entry in each cell, that
+entry being chosen from the set in that position in the first array, in such
+a way that the entries in any row, and the entries in any column, are all
+distinct.
+</p>
+<p>
+It is known that this is impossible for the Fano plane.
+</p>
+<p>
+<b>Conjecture:</b> The construction above is possible in all other cases.
+</p>
+<hr>
+<p><b>Problem 15: A universal sequence from the primes?</b></p>
+<p>
+A zero-one sequence is called <em>universal</em> if every finite zero-one
+sequence occurs as a (consecutive) subsequence of it.
+</p>
+<p>
+Let <i>s</i> be the sequence whose <i>n</i>th term is 0 if the <i>n</i>th odd
+prime is congruent to 1 (mod&nbsp;4), and to 1 if the <i>n</i>th odd prime is
+congruent to 3 (mod&nbsp;4). Is <i>s</i> universal?
+</p>
+<p>
+Unless I am missing something, this is probably a hard problem; but in view of
+the theorem of Green and Tao, it might be worth revisiting.
+</p>
+<hr>
+<p><b>Problem 16: Random sum-free sets</b></p>
+<p>
+A set <i>S</i> of natural numbers is <em>sum-free</em> if it contains no solution {<i>x,y,z</i>} to <i>x</i>+<i>y</i>&nbsp;=&nbsp;<i>z</i>.
+</p>
+<p>
+We can choose a random sum-free set as follows: Consider the natural numbers in turn. When considering <i>n</i>, if <i>n</i> is the sum of two members of <i>S</i>, then <i>n</i> is not in <i>S</i>; otherwise decide whether to put <i>n</i> in <i>S</i> by tossing a fair coin.
+</p>
+<p>
+A little is known, but much is not. Let <i>S</i> be a random sum-free set.
+<ul>
+<li> Does <i>S</i> have a density almost surely? </li>
+<li> Is the spectrum of densities discrete above 1/6? </li>
+<li> Does it have a continuous part below 1/6? </li>
+<li> Is the set of <em>universal</em> sum-free sets (those for which the Cayley graph Cay(<b>Z</b>,<i>S</i>) is isomorphic to Henson's universal triangle-free graph) a null set? </li>
+</ul>
+</p>
+<hr>
+<p><b>Problem 17: Forbidding intersection size 1</b></p>
+<p>
+A very specific problem. Let <i>n</i>&nbsp;=&nbsp;<i>q</i><sup>2</sup>+<i>q</i>+1, <i>k</i>&nbsp;=&nbsp;<i>q</i>+1. If it helps, suppose that a projective plane of order <i>q</i> exists. Let <i>S</i> be a collection of <i>k</i>-subsets of an <i>n</i>-set <i>X</i>, with the property that the intersection of two members of <i>S</i> does not have cardinality 1. The size of such a set is at most
+{<i>n</i>&nbsp;choose&nbsp;<i>k</i>}/<i>n</i>. Suppose that <i>S</i> attains this bound.
+</p>
+<p><b>Problem:</b> Is it true that, if <i>q</i>&nbsp;&gt;&nbsp;2, then the cardinality of the intersection of two members of <i>S</i> must be at least 2?
+</p>
+<p>
+Note that Frankl and F&uuml;redi proved an analogous result under the assumption <i>n</i>&nbsp;&ge;&nbsp;<i>n</i><sub>0</sub>(<i>k</i>) in 1983.
+</p>
+<hr>
+<p><b>Problem 18: A reciprocity question</b></p>
+<p>
+The <em>cycle polynomial</em> <i>F<sub>G</sub></i>(<i>x</i>) of a
+permutation group <i>G</i> is the polynomial
+&sum;{<i>x</i><sup><i>c</i>(<i>g</i>)</sup>&nbsp;:&nbsp;<i>g</i>&isin;<i>G</i>},
+where <i>c</i>(<i>g</i>) is the number of cycles of <i>g</i> (including fixed
+points).
+</p>
+<p>
+The <em>orbital chromatic polynomial</em>
+<i>P</i><sub>&Gamma;,<i>G</i></sub>(<i>x</i>) of the graph &Gamma; and subgroup <i>G</i> of Aut(&Gamma;) is the polynomial whose value at the positive integer
+<i>x</i> is the number of <i>G</i>-orbits on proper colourings of &Gamma; with
+<i>x</i> colours.
+</p>
+<p>
+We call the pair (&Gamma;,<i>G</i>) a <em>reciprocal pair</em> if 
+<i>P</i><sub>&Gamma;,<i>G</i></sub>(<i>x</i>)&nbsp;=&nbsp;(&minus;1)<sup><i>n</i></sup>|<i>G</i>|<i>F<sub>G</sub></i>(&minus;<i>x</i>).
+</p>
+<p>
+<b>Problem:</b> Find all reciprocal pairs.
+</p>
+<p>
+For more information, see Peter J. Cameron and Jason Semeraro, The cycle polynomial of a permutation group, <em>Electronic J. Combinatorics</em> <b>25(1)</b> (2018), <a href="http://www.combinatorics.org/ojs/index.php/eljc/article/view/v25i1p14">Paper P1.14</a>
+</p>
+<hr>
+<p><b>Problem 19: Graphs and groups</b></p>
+<p>
+Given a finite group <i>G</i>, we define four graphs with vertex set <i>G</i>, ordered by inclusion (i.e. the spanning subgraph relation):
+<ul>
+<li> &Gamma;<sub>1</sub> is the <em>power graph</em>, in which <i>g</i> and <i>h</i> are joined if one is a power of the other; </li>
+<li> &Gamma;<sub>2</sub> is the <em>enhanced power graph</em>, in which <i>g</i> and <i>h</i> are joined if the group they generate is cyclic; </li>
+<li> &Gamma;<sub>3</sub> is the <em>commuting graph</em>, in which <i>g</i> and <i>h</i> are joined if they commute; </li>
+<li> &Gamma;<sub>4</sub> is the <em>complement of the generating graph</em>, in which <i>g</i> and <i>h</i> are joined if they do not generate <i>G</i>. </li>
+</ul>
+</p>
+<p>
+(Note that &Gamma;<sub>4</sub> is complete if <i>G</i> is not 2-generated, and contains the commuting graph if <i>G</i> is 2-generated and non-abelian.)
+</p>
+There are classifications of finite groups where two of these graphs are equal (for the third and fourth, these are 2-generated non-abelian groups with all proper subgroups abelian, whose classification is folklore; for the others, it is in the paper of Aalipour <em>et al</em> [1].)
+</p>
+<p>
+<b>Problems:</b>
+<ol>
+<li> Which finite groups have the property that &Gamma;<sub><i>i</i></sub>&nbsp;\&nbsp;&Gamma;<sub><i>i</i>&minus;1</sub> is connected (after isolated vertices are deleted)? </li>
+<li> What can be said for infinite groups? </li>
+</ol>
+</p>
+<p>
+<b>Reference:</b>
+<ol>
+<li> Ghodratallah Aalipour, Saieed Akbari, Peter J. Cameron, Reza Nikandish and Farzad Shaveisi) <a href="http://www.combinatorics.org/ojs/index.php/eljc/article/view/v24i3p16">On the structure of the power graph and the enhanced power graph of a group</a>, <em>Electronic J. Combinatorics </em> <b>24(3)</b> (2017), P3.16. </li>
+</ol>
+</p>
+<hr>
+<p><b>Problem 20: Cliques and cocliques in Cayley graphs</b></p>
+<p>
+Let <i>G</i> be a primitive permutation group with a regular subgroup <i>H</i>;
+then we can identify the set of points permuted with <i>H</i> so that <i>H</i> 
+acts on itself by right multiplication. In particular, any <i>G</i>-invariant
+graph is a Cayley graph for <i>H</i>. Suppose that &Gamma; is such a graph
+(not complete or null), and <i>A</i> a clique and <i>B</i> an independent set
+in &Gamma; such that |<i>A</i>|&middot;|<i>B</i>|&nbsp;=&nbsp;|<i>H</i>|.
+</p>
+<p>
+<b>Problem</b>. Is it true that <i>A</i><sup>&minus;1</sup> is also a clique?
+</p>
+<p>
+This is true if <i>G</i> contains also <i>H</i> acting by left multiplication,
+so in particular if <i>H</i> is abelian. Its truth in general would resolve a
+problem in synchronization theory.
+</p>
+<hr>
+<p><b>Problem 21: Random walks on graphs on groups</b></p>
+<p>
+The <em>commuting graph</em> of a group <i>G</i> is the graph with vertex
+set <i>G</i> in which two elements are joined whenever they commute. (This
+specification includes a loop at every vertex.) The uniform random walk on
+this graph has the property that its limiting distribution is <em>uniform
+on conjugacy classes</em>.
+</p>
+<p>
+To say that two elements commute is equivalent to saying that they generate
+an abelian group. So we could generalise the above graph by putting different
+specifications on the group generated by the two elements: for example, it is
+cyclic (this gives the <em>enhanced power graph</em>), or it is the whole
+group (this gives the <em>generating graph</em>).
+</p>
+<p>
+<b>Problem:</b> What can be said about the uniform random walk on one of these
+graphs?
+</p>
+<hr>
+<p><b>Problem 22: Finiteness conditions for oligomorphic groups</b></p>
+<p>
+A group <i>G</i> is said to satisfy the finiteness condition F<sub><i>n</i></sub> if it acts geometrically (that is, properly and cocompactly) on an (<i>n</i>&minus;1)-connected CW-complex. It satisfies F<sub>&infin;</sub> if it satisfies F<sub><i>n</i></sub> for all <i>n</i>. Here, F<sub>1</sub> is equivalent to being finitely generated, and F<sub>2</sub> to being finitely presented. Finitely generated free groups satisfy F<sub>&infin;</sub>.
+</p>
+<p>
+The <em>Houghton group</em> <i>H<sub>n</sub></i> satisfies F<sub><i>n</i></sub> but not F<sub><i>n</i>+1</sub>. Also, this group contains the <em>finitary symmetric group</em>, so it is <em>highly transitive</em>.
+</p>
+<p>
+<b>Problem:</b> Given a natural number <i>n</i>, does there exist a group <i>G</i> such that 
+<ul>
+<li> <i>G</i> is oligomorphic but not highly transitive (and/or contains no finitary permutation); </li>
+<li> <i>G</i> satisfies F<sub><i>n</i></sub> but not F<sub><i>n</i>+1</i></sub>? </li>
+</ul>
+</p>
+<hr>
+<p><b> Problem 23: A universality question for graphs on groups</b></p>
+<p>
+The <em>power graph</em> of a group <i>G</i> has an edge {<i>x,y</i>} if one of <i>x</i> and <i>y</i> is a power of the other; the <em>enhanced power graph</em>
+ has an edge {<i>x,y</i>} if both <i>x</i> and <i>y</i> are powers of an element <i>z</i> (in other words, the group generated by <i>x</i> and <i>y</i> is cyclic.
+</p>
+<p>
+It is known that the power graph is the comparability graph of a partial order (and power graphs are universal for this class: that is, for any partial order, the comparability graph is embeddable as induced subgraph in the power graph of some group). Moreover, enhanced power graphs of groups form a universal class: every finite graph can be embedded as induced subgraph in the enhanced power graph of some group.
+</p>
+<p><b>Problem:</b> Suppose we are given a colouring of the edges of a finite complete graph with three colours, red, green, and blue. Under what conditions is it the case that the vertices can be embedded in a finite group in such a way that red edges belong to the power graph, green edges to the enhanced power graph but not the power graph, and blue edges to neither?
+</p>
+<p>
+Some conditions are necessary. The red edges must form the comparability graph of a partial order; and if {<i>x,y</i>} is green then there must exist <i>z</i> such that {<i>x,z</i>} and {<i>y,z</i>} are red. Are these two conditions sufficient?
+</p>
+<p>
+<hr>
+<p align="right">Peter J. Cameron<br>21 November 2022</p>
+</body>
+</html>
