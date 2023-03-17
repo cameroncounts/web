@@ -1,0 +1,191 @@
+RequirePackage("design");
+ #
+ # Random walk method of choosing a random Latin square of order n.
+ # The program also searches for a transversal of the Latin square.
+ #
+ # Functions defined:
+ #  - LS: inputs n; returns one Latin square (the Cayley table of C_n)
+ #        as a pair (n, list of triples)
+ #  - OneStepLS: inputs a Latin square; takes one step in the random walk
+ #  - LStoBD: inputs a Latin square; converts the Latin square into a
+ #        block design (the transversal design with 3 groups of size n)
+ #  - transversal: inputs a Latin square; finds a transversal if there is one,
+ #        otherwise returns the empty list
+ #  - orthogonal_mate: inputs a Latin square; finds an orthogonal mate if
+ #        there is one, otherwise returns the empty list
+ #
+LS:=function(n) # generates the Cayley table of the cyclic group
+  local i,j,k,sys;
+  sys:=[];
+  for i in [1..n] do
+    for j in [1..n] do
+      k:=i+j-1; if k>n then k:=k-n; fi;
+      Add(sys,[i,j,k]);
+    od;
+  od;
+  return [n,sys];
+end;
+ #
+ # One step in the random walk
+ #
+OneStepLS:=function(ls)
+  local n, sys, getx, gety, getz, nontriple, isproper,
+        gettx, getty, gettz, update;
+ # local functions
+  getx:=function(sys,y,z)
+    local t;
+    for t in sys do
+      if t[2]=y then if t[3]=z then return t[1]; fi; fi;
+    od;
+  end;
+   #
+  gety:=function(sys,x,z)
+    local t;
+    for t in sys do
+      if t[1]=x then if t[3]=z then return t[2]; fi; fi;
+    od;
+  end;
+   #
+  getz:=function(sys,x,y)
+    local t;
+    for t in sys do
+      if t[1]=x then if t[2]=y then return t[3]; fi; fi;
+    od;
+  end;
+   #
+  nontriple:=function(sys)
+    local i,j,k;
+    i:=Random([1..n]); j:=Random([1..n]);
+    k:=Random(Difference([1..n],[getz(sys,i,j)]));
+    return [i,j,k];
+  end;
+   #
+   # Now code for improper LS. An improper LS is a list with two elements,
+   # first the negative triple, then the list of positive triples.
+   #
+   # Check if system is proper or improper
+   #
+  isproper:=function(sys)
+    return Size(sys)>2;
+  end;
+   #
+  gettx:=function(s,y,z)
+    local t,l;
+    l:=[];
+    for t in s do
+      if t[2]=y and t[3]=z then Add(l,t[1]); fi;
+    od;
+    return l;
+  end;
+   #
+  getty:=function(s,x,z)
+    local t,l;
+    l:=[];
+    for t in s do
+      if t[1]=x and t[3]=z then Add(l,t[2]); fi;
+    od;
+    return l;
+  end;
+   #
+  gettz:=function(s,x,y)
+    local t,l;
+    l:=[];
+    for t in s do
+      if t[1]=x and t[2]=y then Add(l,t[3]); fi;
+    od;
+    return l;
+  end;
+   #
+   # Now the main step in the random walk.
+   # If sys is proper, then [x,y,z] is a random triangle and [x,y,zd] etc are
+   # triples; if sys is improper, then [x,y,z] is the negative triple and
+   # [x,y,zd] etc are random positive triples. Then increase multiplicity of
+   # [x,y,z], [xd,yd,z], ... , and decrease multiplicity of [x,y,zd], ... ,
+   # [xd,yd,zd] to get new system.
+   #
+  update:=function(sys)
+    local x,y,z,xd,yd,zd,s,l;
+    if isproper(sys) then
+      s:=sys;
+      l:=nontriple(sys);
+      x:=l[1]; y:=l[2]; z:=l[3];
+      s:=Union(s,[l]);
+      xd:=getx(sys,y,z); yd:=gety(sys,x,z); zd:=getz(sys,x,y);
+    else
+      s:=sys[2];
+      l:=sys[1];
+      x:=l[1]; y:=l[2]; z:=l[3];
+      xd:=Random(gettx(s,y,z)); yd:=Random(getty(s,x,z));
+      zd:=Random(gettz(s,x,y));
+    fi;
+    s:=Union(s,Set([[xd,yd,z],[xd,y,zd],[x,yd,zd]]));
+    s:=Difference(s,Set([[x,y,zd],[x,yd,z],[xd,y,z]]));
+    if [xd,yd,zd] in s then
+      return Difference(s,[[xd,yd,zd]]);
+    else return [[xd,yd,zd],s];
+    fi;
+  end;
+ #
+ # finally the code for OneStepLS
+ #
+  n:=ls[1]; if n=1 then return ls; fi;
+  sys:=ls[2];
+  repeat sys:=update(sys);
+  until isproper(sys);
+  return [n,sys];
+end;
+ # 
+ # code to convert a latin square to a "blockdesign"
+ #
+LStoBD:=function(ls)
+  local n,sys,l,ll;
+  n:=ls[1];
+  sys:=ls[2];
+  ll:=[];
+  for l in sys do Add(ll, [l[1],l[2]+n,l[3]+2*n]); od;
+  return BlockDesign(3*n,Set(ll));
+end;
+ #
+ # code to test if it has a transversal; returns one or the empty list
+ #
+transversal:=function(ls)
+  local n,D;
+  n:=ls[1]; if n=1 then return ls[2]; fi;
+  D:=BlockDesigns(rec(
+    v:=3*n, blockDesign:=LStoBD(ls),
+    blockSizes:=[3],
+    tSubsetStructure:=rec(t:=1, lambdas:=[1]),
+    isoLevel:=0
+  ));
+  if D=[] then return [];
+  else return List(D[1].blocks, x->[x[1],x[2]-n,x[3]-2*n]);
+  fi;
+end;
+ #
+ # code to test if it has a partition into transversals; returns one or
+ #   the empty list
+ #
+orthogonal_mate:=function(ls)
+  local n,D,DD,res,DX,bl,i;
+  n:=ls[1]; if n=1 then return []; fi;
+  D:=LStoBD(ls);
+  DD:=PartitionsIntoBlockDesigns(rec(
+    v:=3*n, blockDesign:=D,
+    blockSizes:=[3],
+    tSubsetStructure:=rec(t:=1, lambdas:=[1]),
+    isoLevel:=0
+  ));
+  if DD=[] then return [];
+  else
+    res:=[];
+    i:=0;
+    for DX in DD[1].partition do
+      i:=i+1;
+      for bl in DX.blocks do
+        Add(res,[bl[1],bl[2]-n,i]);
+      od;
+    od;
+    return [n,Set(res)];
+  fi;
+end;
+

@@ -1,0 +1,92 @@
+This is pdfTeX, Version 3.14159-1.10b (Web2C 7.4.5) (format=pdflatex 2006.1.19)  1 AUG 2007 10:49
+**fibo
+(./fibo.tex{/usr/share/texmf/pdftex/config/pdftex.cfg}
+LaTeX2e <2001/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, n
+ohyphenation, loaded.
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2001/04/21 v1.4e Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size12.clo
+File: size12.clo 2001/04/21 v1.4e Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+)
+\c@theorem=\count87
+ (./fibo.aux)
+\openout1 = `fibo.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Try loading font information for U+msa on input line 16.
+
+(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 16.
+
+(/usr/share/texmf/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+) [1
+
+{/usr/share/texmf/dvips/config/pdftex.map}] [2] [3] [4] [5] [6] [7] [8] [9] [10
+] [11] [12] [13] [14]
+Overfull \hbox (7.45584pt too wide) in paragraph at lines 699--703
+[]/cmr12/Let us do this for the BTNS with the max-i-mal se-quence $/cmmi12/M/cm
+r12/(/cmsy10@12.0pt/S/cmr12/) = (11 [] 10)[]$
+ []
+
+[15] [16] [17] [18] (./fibo.aux) ) 
+Here is how much of TeX's memory you used:
+ 364 strings out of 95437
+ 4016 string characters out of 1189055
+ 52956 words of memory out of 1000001
+ 3413 multiletter control sequences out of 10000+50000
+ 13060 words of font info for 50 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 1000
+ 22i,6n,22p,138b,238s stack positions out of 1500i,500n,5000p,200000b,5000s
+ 105 PDF objects out of 300000
+ 0 named destinations out of 131072
+ 0 words of extra memory for PDF output out of 65536
+</usr/share/texmf/fonts/type1/bluesky/symbols
+/msbm7.pfb></usr/share/texmf/fonts/type1/bluesky/symbols/msbm10.pfb>{/usr/share
+/texmf/dvips/tetex/aae443f0.enc}</usr/share/texmf/fonts/type1/bluesky/cm/cmmi6.
+pfb>{/usr/share/texmf/dvips/tetex/f7b6d320.enc}</usr/share/texmf/fonts/type1/bl
+uesky/cm/cmr6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmex10.pfb>{/usr/sha
+re/texmf/dvips/tetex/bbad153f.enc}</usr/share/texmf/fonts/type1/bluesky/cm/cmsy
+10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf/fon
+ts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi8.pfb
+></usr/share/texmf/fonts/type1/bluesky/cm/cmmi12.pfb>{/usr/share/texmf/dvips/te
+tex/74afc74c.enc}</usr/share/texmf/fonts/type1/bluesky/cm/cmti12.pfb></usr/shar
+e/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky
+/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/t
+exmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/
+cmr17.pfb>
+Output written on fibo.pdf (18 pages, 154789 bytes).

@@ -1,0 +1,223 @@
+RequirePackage("design");
+ # 
+ # This code, which uses the design package, implements the
+ # random walk method for choosing a random Steiner triple system,
+ # based on the Jacobson-Matthews method for Latin squares.
+ # There are five functions:
+ #
+ # STS constructs an STS of order v (only v < 85 at present);
+ # IsSTS takes a design and checks whether it is an STS;
+ # OneStepSTS takes an STS and makes one step in the random walk.
+ # parclass tests whether an STS has a parallel class
+ # resol tests whether an STS is resolvable
+ #
+ # Steiner triple system constructor
+ # This is intended to construct an STS of order v for any admissible v.
+ # It currently works for v < 85
+ #
+STS:=function(v)
+  local direct, netto, double;
+  if RemInt(v,6)<>1 and RemInt(v,6)<>3 then
+    return fail;
+  fi; # order not admissible
+  if v=1 then return fail; fi; # empty set of blocks not allowed
+   #
+   # Direct construction for 3 mod 6
+   #
+  direct:=function(v)
+    local m,half,l,i,j,k;
+    m:=QuoInt(v,3);
+    half:=QuoInt(m+1,2);
+    l:=[];
+    for i in [1..m] do Add(l,[i,m+i,2*m+i]); od;
+    for i in [0..m-2] do
+      for j in [i+1..m-1] do
+        k:=RemInt((i+j)*half,m);
+        Add(l,Set([i+1,j+1,k+1+m]));
+        Add(l,Set([i+1+m,j+1+m,k+1+2*m]));
+        Add(l,Set([i+1+2*m,j+1+2*m,k+1]));
+      od;
+    od;
+    return BlockDesign(v,Set(l));
+  end;
+   #
+   # doubling construction for 7 mod 12 - works if v=2*w+1, w admissible
+   #
+  double:=function(v)
+    local w,DD,l,i,b;
+    w:=QuoInt(v,2);
+    DD:=STS(w);
+    l:=[];
+    for i in [1..w] do Add(l, [1,2*i,2*i+1]); od;
+    for b in DD.blocks do
+      Add(l, [2*b[1],2*b[2],2*b[3]]);
+      Add(l, [2*b[1],2*b[2]+1,2*b[3]+1]);
+      Add(l, [2*b[1]+1,2*b[2],2*b[3]+1]);
+      Add(l, [2*b[1]+1,2*b[2]+1,2*b[3]]);
+    od;
+    return BlockDesign(v,Set(l));
+  end;
+   #
+   # Netto system for prime power v
+   #
+  netto:=function(v) # v is a prime power congruent to 1 mod 6
+    local F,w,z,l,toints,a,i;
+    F:=GF(v); w:=Z(v); z:=w^QuoInt(v-1,6);
+    l:=[];
+    toints:=function(y) # convert field elements to the set [1..v]
+      if y=0*w then return v;
+      else return 1+LogFFE(y,w);
+      fi;
+    end;
+    for a in F do
+      for i in [0..QuoInt(v-1,6)-1] do
+        Add(l, Set(List([a,a+w^i,a+z*w^i], x->toints(x))));
+      od;
+    od;
+    return BlockDesign(v, Set(l));
+  end;
+   #
+   # Now the main part
+   #
+  if RemInt(v,6)=3 then return direct(v); fi;
+  if IsPrimePowerInt(v) then return netto(v); fi;
+  if RemInt(v,12)=7 then return double(v); fi;
+  return "Not implemented";
+end;
+ #
+ # STS test
+ #
+IsSTS:=function(D)
+  local l;
+  if not IsBlockDesign(D) then return false; fi;
+  if not IsBinaryBlockDesign(D) then return false; fi;
+  if BlockSizes(D) <> [3] then return false; fi;
+  l:=AllTDesignLambdas(D);
+  if Size(l)<3 then return false; fi;
+  return l[3]=1;
+end;
+ #
+OneStepSTS:=function(D)
+  local v, sys, # then local function names
+  OneLine, ThirdPoint, NonTriple, IsProper, TwoPoints, Update;
+  if not IsSTS(D) then return fail; fi;
+  v:=D.v;
+  if v<=3 then return fail; fi; # we need at least one triangle!
+  sys:=D.blocks;
+   #
+   # Some code for proper STS
+   #
+   # Find the line through two points p,q in sys
+   #
+  OneLine:=function(sys,p,q)
+    local l;
+    for l in sys do
+      if (p in l) and (q in l) then
+      return l;
+      fi;
+    od;
+  end;
+   #
+   # Find the third point on the line through p and q
+   #
+  ThirdPoint:=function(sys,p,q)
+    return Difference(OneLine(sys,p,q),Set([p,q]))[1];
+  end;
+   #
+   # Choose a random triangle in sys
+   #
+  NonTriple:=function(sys)
+    local i,j,k;
+    i:=Random([1..v]);
+    repeat j:=Random([1..v]); until j<>i;
+    repeat k:=Random([1..v]); until (k<>i) and (k<>j) and
+                                     not(Set([i,j,k]) in sys);
+    return Set([i,j,k]);
+  end;
+   #
+   # Now code for improper STS. An improper STS is a list with two elements,
+   # first the negative triple, then the list of positive triples.
+   #
+   # Check if sys is proper or improper. Improper systems have two elements.
+   #
+  IsProper:=function(sys)
+    return Size(sys)>2;
+  end;
+   #
+   # Find the set of two points on positive triples through p,q, where
+   # p and q are on the negative triple
+   #
+  TwoPoints:=function(sys,p,q) 
+    local l,a,z;
+    a:=[];
+    for l in sys[2] do
+      if (p in l) and (q in l) then
+        z:=Difference(l, Set([p,q]))[1]; Add(a,z);
+      fi;
+    od;
+    return Set(a);
+  end;
+   #
+   # Now the main step in the random walk. 
+   # If sys is proper, then [x,y,z] is a random triangle and [x,y,zd] etc are
+   # triples; if sys is improper, then [x,y,z] is the negative triple and
+   # [x,y,zd] etc are random positive triples. Then increase multiplicity of
+   # [x,y,z], [xd,yd,z], ... , and decrease multiplicity of [x,y,zd], ... ,
+   # [xd,yd,zd] to get new system.
+   #
+  Update:=function(sys)
+    local x,y,z,xd,yd,zd,s,l;
+    if IsProper(sys) then
+      s:=sys;
+      l:=NonTriple(sys);
+      x:=l[1]; y:=l[2]; z:=l[3];
+      s:=Union(s,[l]);
+      xd:=ThirdPoint(sys,y,z);
+      yd:=ThirdPoint(sys,x,z);
+      zd:=ThirdPoint(sys,x,y);
+    else
+      s:=sys[2];
+      l:=sys[1];
+      x:=l[1]; y:=l[2]; z:=l[3];
+      xd:=Random(TwoPoints(sys,y,z)); yd:=Random(TwoPoints(sys,x,z));
+      zd:=Random(TwoPoints(sys,x,y));
+    fi;
+    s:=Union(s,Set([Set([xd,yd,z]),Set([xd,y,zd]),Set([x,yd,zd])]));
+    s:=Difference(s,Set([Set([x,y,zd]),Set([x,yd,z]),Set([xd,y,z])]));
+    l:=Set([xd,yd,zd]);
+    if l in s then
+      return Difference(s,[l]);
+    else return [l,s];
+    fi;
+  end;
+   #
+   # Now finally we can do it
+   #
+  repeat sys:=Update(sys); until IsProper(sys);
+  return BlockDesign(v,sys);
+end;
+ #
+ # code to test if it has a parallel class; returns one or the empty list
+ #
+parclass:=function(D)
+  if RemInt(D.v,3)<>0 then return []; fi;
+  return BlockDesigns(rec(
+    v:=D.v, blockDesign:=D,
+    blockSizes:=[3],
+    tSubsetStructure:=rec(t:=1, lambdas:=[1]),
+    isoLevel:=0
+  ));
+end;
+ #
+ # code to test if it is resolvable; return a resolution or the empty list
+ #
+resol:=function(D)
+  if RemInt(D.v,3)<>0 then return []; fi;
+  return PartitionsIntoBlockDesigns(rec(
+    v:=D.v, blockDesign:=D,
+    blockSizes:=[3],
+    tSubsetStructure:=rec(t:=1, lambdas:=[1]),
+    isoLevel:=0
+  ));
+end;
+

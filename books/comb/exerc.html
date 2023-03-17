@@ -1,0 +1,257 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<HTML>
+
+<HEAD><TITLE>Combinatorial Exercises</TITLE></HEAD>
+
+<BODY BGCOLOR="99CCFF" LINK="#0000FF" VLINK="#FF0000" ALINK="#00FF00">
+
+<H1 ALIGN=CENTER>Combinatorial exercises</H1>
+
+These exercises are a very mixed bag in terms of subject and difficulty!
+<P>
+<HR>
+<P>
+
+1. Let <I>n</I> and <I>k</I> be given non-negative
+integers. Consider all strictly increasing sequences of <I>k</I> integers
+in the range 1..<I>n</I>. For each sequence, multiply all its members
+together, and then add all these products. Call the result <I>A</I>(<I>n,k</I>).
+Now do the same for all weakly increasing sequences, and call the result
+<I>B</I>(<I>n,k</I>). Both <I>A</I>(<I>n,k</I>) and <I>B</I>(<I>n,k</I>)
+are Stirling numbers: the question is, which ones?
+<P>
+<HR>
+<P>
+
+2. Let <I>P</I> and <I>Q</I> be the two tableaux of the same shape
+corresponding to the permutation <I>g</I> under the Robinson-Schensted-Knuth
+correspondence. Prove that the length of the first row of <I>P</I> and <I>Q</I>
+is equal to the longest increasing subsequence of <I>g</I>.
+
+<P>
+
+* Can you find an interpretation of the length of the first column of
+<I>P</I> and <I>Q</I>?
+
+<P>
+
+(I am grateful to Kurt Johansson for this exercise.)
+<P>
+<HR>
+<P>
+
+3. If you have lunch in the sandwich bar described below five days a week,
+fifty weeks a year, how long could you go without repeating an order?
+
+<BLOCKQUOTE>
+The miserable wasteland of multidimensional space was first brought home 
+to me in one gruesome solo lunch hour in one of MIT's sandwich
+shops. "Wholewheat, rye, multigrain, sourdough or bagel? Toasted, one 
+side or two? Both halves toasted, one side or two? Butter,
+polyunsaturated margarine, cream cheese or hoummus? Pastrami, salami, 
+lox, honey cured ham or Canadian bacon? Aragula, iceberg,
+romaine, cress or alfalfa? Swiss, American, cheddar, mozzarella, 
+or blue? Tomato, gherkin, cucumber, onion? Wholegrain, French, English or
+American mustard? Ketchup, piccalilli, tabasco, soy sauce? Here or to go?"
+
+<P>
+From a review by Myles Aston of <I>Life without Genes: the History and
+Future of Genomes</I> by Adrian Woolfson, in the Balliol College
+Annual Record 2001.
+</BLOCKQUOTE>
+<P>
+<HR>
+<P>
+
+4. A car park has <I>n</I> spaces, numbered from 1 to <I>n</I>,
+arranged in a row. <I>n</I> drivers each independently choose
+a favourite parking space in the park. As each driver enters the
+park, he drives to his favourite space. If it is empty, he parks
+there. Otherwise, he continues along the line and parks in the
+first free space. If all spaces between his favourite and
+<I>n</I> are taken, he leaves in disgust.
+<UL>
+<LI> Show that, out of the <I>n<SUP>n</SUP></I> choices of favourite spaces
+that the drivers can make, just (<I>n</I>+1)<SUP>(<I>n</I>-1)</SUP> lead to all
+drivers parking successfully.
+<LI> This is the number of labelled trees on <I>n</I>+1 vertices.
+What is the connection?
+</UL>
+<P>
+<HR>
+<P>
+
+5. The following algorithm for constructing a magic square of order divisible
+by 4 was given by Ibn Qunfudh in the 14th century, in his book
+<I>Lifting the Veil from the Operations of Calculation</I>.
+The case <I>n</I>=4 is illustrated.
+<P>
+<TABLE BORDER>
+<TR>
+<TD WIDTH=60%>
+Let <I>n</I> be a multiple of 4. Begin with an empty
+<I>n</I>&nbsp;x&nbsp;<I>n</I> grid.
+</TD>
+<TD WIDTH=20% ALIGN=CENTER>
+  <TABLE BORDER>
+  <TR>
+  <TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+  <TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+  <TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+  <TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+  </TR>
+  <TR>
+  <TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+  <TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+  <TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+  <TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+  </TR>
+  <TR>
+  <TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+  <TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+  <TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+  <TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+  </TR>
+  <TR>
+  <TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+  <TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+  <TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+  <TD>&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+  </TR>
+  </TABLE>
+</TD>
+<TR>
+<TD>
+<B>Step 1</B>. Mark some of the squares, so that the following condition
+are satisfied:
+<UL>
+<LI> every square lying on either diagonal is marked;
+<LI> half of the squares in any row or column are marked;
+<LI> the set of marked squares is symmetric under reflection in either the
+horizontal or the vertical axis.
+</UL>
+</TD>
+<TD ALIGN=CENTER>
+  <TABLE BORDER>
+  <TR>
+  <TD>&nbsp;*&nbsp;</TD><TD>&nbsp;&nbsp;&nbsp;</TD>
+  <TD>&nbsp;&nbsp;&nbsp;</TD><TD>&nbsp;*&nbsp;</TD>
+  </TR>
+  <TR>
+  <TD>&nbsp;&nbsp;&nbsp;</TD><TD>&nbsp;*&nbsp;</TD>  
+  <TD>&nbsp;*&nbsp;</TD><TD>&nbsp;&nbsp;&nbsp;</TD>  
+  </TR>
+  <TR>
+  <TD>&nbsp;&nbsp;&nbsp;</TD><TD>&nbsp;*&nbsp;</TD>
+  <TD>&nbsp;*&nbsp;</TD><TD>&nbsp;&nbsp;&nbsp;</TD>
+  </TR>
+  <TR>
+  <TD>&nbsp;*&nbsp;</TD><TD>&nbsp;&nbsp;&nbsp;</TD>
+  <TD>&nbsp;&nbsp;&nbsp;</TD><TD>&nbsp;*&nbsp;</TD>
+  </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR>
+<TD>
+<B>Step 2</B>. Count the squares, starting at the top right, and
+proceeding from right to left along each row, and down the rows from top to
+bottom. Insert the corresponding number in each marked square. (Unmarked
+squares are counted but numbers are not entered.)
+</TD>
+<TD ALIGN=CENTER>
+  <TABLE BORDER>
+  <TR>
+  <TD>&nbsp;4</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;1</TD>
+  </TR>
+  <TR>
+  <TD>&nbsp;</TD><TD>&nbsp;7</TD><TD>&nbsp;6</TD><TD>&nbsp;</TD>  
+  </TR>
+  <TR>
+  <TD>&nbsp;</TD><TD>11</TD><TD>10</TD><TD>&nbsp;</TD>
+  </TR>
+  <TR>
+  <TD>16</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>13</TD>
+  </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR>
+<TD>
+<B>Step 3</B>. Count the squares, starting at the bottom left, and
+proceeding from left to right along each row, and up the rows from bottom to
+top. Insert the corresponding number in each unmarked square.
+</TD>
+<TD ALIGN=CENTER>
+  <TABLE BORDER>
+  <TR>
+  <TD>&nbsp;4</TD><TD>14</TD><TD>15</TD><TD>&nbsp;1</TD>
+  </TR>
+  <TR>
+  <TD>&nbsp;9</TD><TD>&nbsp;7</TD><TD>&nbsp;6</TD><TD>12</TD>
+  </TR>
+  <TR>
+  <TD>&nbsp;5</TD><TD>11</TD><TD>10</TD><TD>&nbsp;8</TD>
+  </TR>
+  <TR>
+  <TD>16</TD><TD>&nbsp;2</TD><TD>&nbsp;3</TD><TD>13</TD>
+  </TR>
+   </TABLE>
+</TD>
+</TR>
+</TABLE>
+<P>
+Prove that the resulting square is magic, that is, that all rows, columns,
+and diagonals have the same sum.
+<P>
+<HR>
+<P>
+
+6. The following problem arises in the theory of clinical trials.
+<P>
+A new drug is to be tested out. Of 2<I>n</I> subjects in the trial, 
+<I>n</I> will receive the new drug and <I>n</I> will get a placebo. 
+To avoid bias, it is important that the doctor administering the 
+treatments does not know, and cannot reliably guess, which treatment 
+each patient receives. The patients enter the trial one at a
+time, and are numbered from 1 to 2<I>n</I>.
+<P>
+If the treatments were allocated randomly with probability 1/2, the doctor's
+guesses could be no better than random (so that the expected values for the
+numbers of correct and incorrect guesses are both <I>n</I>); but then the 
+numbers of patients receiving drug and placebo would be unlikely to be equal. 
+Given that they must balance, the doctor can certainly guess at least the last
+patient's treatment correctly.
+<P>
+If we allocated the drug and the placebo randomly to patients 2<I>i</I>-1 and 
+2<I>i</I> for <I>i</I>=1,...,<I>n</I>, then the doctor can correctly guess 
+the treatment for each even-numbered patient.
+<P>
+Suppose that instead we choose a random set of <I>n</I> patients to allocate 
+the drug to, and the remaining <I>n</I> get the placebo; each of the 
+<SUP>2<I>n</I></SUP>C<SUB><I>n</I></SUB> sets
+is equally likely. Suppose also that the doctor
+guesses according to the following rule. If the number of patients
+so far having the drug and the placebo are equal, he guesses at random about
+the next treatment. If the drug has occurred more often than the placebo, he
+guesses that the next treatment is the placebo, and vice versa if the
+placebo has occurred more often than the drug.
+<P>
+Find a formula, and an asymptotic estimate, for the expected value of the
+difference between the number of correct guesses and the number of incorrect
+guesses that the doctor makes.
+
+<P>
+<HR>
+<P ALIGN=CENTER>
+<A HREF="index.html">"Combinatorics" book homepage</A>
+
+<P ALIGN=RIGHT>
+<A HREF=mailto:p.j.cameron@Qmw.ac.uk>Peter J. Cameron</A><BR>
+26 August 2003.
+
+</BODY>
+
+</HTML>
+
+

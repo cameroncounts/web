@@ -1,0 +1,1171 @@
+NOTE: This file is now available as an HTML page (quotes.html) -- you
+may want to update your bookmarks.
+
+*********************************************************************
+
+It may not be a coincidence that the two systems in the universe
+that most impress us with their open-ended complex design --
+life and mind -- are based on discrete combinatorial systems.
+
+	Steven Pinker, "The Language Instinct", Penguin, London 1994.
+
+*********************************************************************
+
+Journalists say that when a dog bites a man, that is not news, but
+when a man bites a dog, that is news ... Thanks to the mathematics
+of combinatorics, we will never run out of news.
+
+        Steven Pinker, How the Mind Works, W. W. Norton, 1997.
+
+******************************************************************
+
+This method of deduction ... is often called "combinatory". Its
+usefulness is not exhausted at this stage, but it does even at
+the outset lead to some valuable conclusions ...
+
+	John Chadwick, "The decipherment of Linear B", CUP, Cambridge, 
+	1958.
+
+*********************************************************************
+
+The mathematical sciences particularly exhibit order, symmetry and
+limitation; and these are the greatest forms of the beautiful.
+
+	Aristotle, Metaphysics, 3-1078b.
+
+*********************************************************************
+
+These results, which are partly combinatorial and partly real
+mathematics ...
+
+	A. Joseph, lecture to the London Mathematical Society,
+	Oxford, 22 February 1997.
+
+*********************************************************************
+
+Reasoning and logic are to each other as health is to medicine, or - 
+better - as conduct is to morality. Reasoning refers to a gamut of 
+natural thought processes in the everyday world. Logic is how we 
+ought to think if objective truth is our goal - and the everyday 
+world is very little concerned with objective truth. Logic is the 
+science of the justification of conclusions we have reached by 
+natural reasoning. My point here is that, for such natural 
+reasoning to occur, consciousness is not necessary. The very 
+reason we need logic at all is because most reasoning is not 
+conscious at all.
+
+	Julian Jaynes, "The Origin of Consciousness in the 
+	Breakdown of the Bicameral Mind", Houghton Mifflin, 
+	New York, 1976.
+
+*****************************************************************
+
+Love was even more mathematical than poetry; it was the pure 
+mathematics of the spirit.
+
+	Charles Williams, "Descent into Hell", 1937 (reprinted 
+	William B. Eerdman, Grand Rapids, MI, 1983).
+
+*****************************************************************
+
+"Nought usually comes at the beginning," Ralph said.
+"Not necessarily," said Sibyl. "It might come anywhere. Nought isn't a
+number at all. It's the opposite of number."
+Nancy looked up from the cards. "Got you, aunt," she said. "What about
+ten? Nought's a number there -- it's part of ten."
+"Well, if you say that any mathematical arrangement of one and nought
+really makes ten -- " Sibyl smiled. "Can it possibly be more than a 
+way of representing ten?"
+
+	Charles Williams, "The Greater Trumps", Victor Gollancz, 
+	London, 1932.
+
+*****************************************************************
+
+"It's a fact I've continually observed in the witness box," he said
+abstractedly, "that nine people out of ten, off their own subject, are
+incapable of lucidity, whereas on their own subject they can be as 
+direct as a straight line before Einstein ..."
+
+.................................................................
+
+"... I think in a line -- but there is the potentiality of the plane."
+This perhaps was what great art was -- a momentary apprehension of 
+the plane at a point in the line.
+
+	Charles Williams, "Many Dimensions", 1931.
+
+*****************************************************************
+
+A "good" algorithm should have three properties:
+	(a) it should be clear and simple, laying out step by 
+	    step the procedures to be followed,
+	(b) it should emphasize the general character of its 
+	    applications by pointing out its appropriateness, 
+	    not to a single problem but to a group of similar 
+	    problems, and
+	(c) it should show clearly the answer obtained after 
+	    the prescribed set of operations is completed.
+
+	George Gheverghese Joseph, The Crest of the Peacock: 
+	Non-European Roots of Mathematics, Penguin, London 1991.
+
+******************************************************************
+
+A non-symbolic argument or proof can be quite rigorous when given 
+for a particular value of the variable; the conditions for rigor 
+are that the particular value of the variable should be typical, 
+and that a further generalization to any value should be immediate.
+
+	R. J. Gillings, Mathematics in the Time of the Pharaohs, 
+	MIT Press, Cambridge, 1972.
+
+******************************************************************
+
+Like the crest of a peacock, like the gem on the head of a snake, 
+so is mathematics at the head of all knowledge.
+
+	Vedanga Jyotisa
+
+******************************************************************
+
+Wherefore in all great works are Clerks so much desired? 
+Wherefore are Auditors so well-fed? 
+What causeth Geometricians so highly to be enhaunsed? 
+Why are Astronomers so greatly advanced? 
+Because that by number such things they find, 
+which else would farre excell mans minde.
+
+	Robert Recorde
+
+******************************************************************
+
+Whoever then has the effrontery to study physics while neglecting 
+mathematics, should know from the start that he will never make his 
+entry through the portals of wisdom.
+
+	Thomas Bradwardine
+
+******************************************************************
+
+What could be more general than 2, which can represent two galaxies 
+or two pickles, or one galaxy plus one pickle (the mind doth boggle), 
+or just 2 gently bobbing -- where? It, like God, is an "I am" and many 
+have thought that it must be a precipitate of ultimate reality.
+
+	Alfred W. Crosby, The Measure of Reality: Quantification and 
+	Western Society, 1250-1600, Cambridge University Press, 
+	Cambridge, 1997.
+
+******************************************************************
+
+For many parts of nature can neither be invented with sufficient 
+subtility nor demonstrated with sufficient perspicuity nor 
+accommodated into use with sufficient dexterity, without the 
+aid and intervening of the Mathematics: of which sort are 
+Perspective, Music, Astronomy, Cosmology, Architecture, Enginery, 
+and divers others.
+
+	Francis Bacon
+
+******************************************************************
+
+At the end of the thirteenth century, Raymond Lully was prepared 
+to solve all arcana by means of an apparatus of concentric, 
+revolving disks of different sizes, divided into sectors with 
+Latin words; John Stuart Mill, at the beginning of the nineteenth, 
+feared that some day the number of musical combinations would be 
+exhausted and there would be no place in the future for indefinite 
+Webers and Mozarts; Kurd Lasswitz, at the end of the nineteenth, 
+toyed with the staggering fantasy of a universal library which 
+would register all he variations of the twenty-odd orthographical 
+symbols, in other words, all that it is given to express in all 
+languages. Lully's machine, Mill's fear and Lasswitz's chaotic 
+library can be the subject of jokes, but they exaggerate a 
+propensity which is common: making metaphysics and the arts 
+into a kind of play with combinations.
+
+	Jorge Luis Borges, "Labyrinths", New Directions, 
+	New York, 1964.
+
+******************************************************************
+
+... combinatorics, a sort of glorified dice-throwing ...
+
+.................................................................
+
+... mathematics is not best learned passively; you don't sop it up
+like a romance novel. You've got to go out to it, aggressive, and 
+alert, like a chess master pursuing checkmate.
+
+	Robert Kanigel, The Man who Knew Infinity: A Life of
+	The Genius Ramanujan, Scribner, New York, 1991.
+
+*******************************************************************
+
+A choice of axioms is not purely a subjective task. It is usually 
+expected to achieve some definite aim -- some specific theorem or 
+theorems are to be derivable from the axioms -- and to this extent 
+the problem is exact and objective. But beyond this there are 
+always other important desiderata of a less exact nature: the 
+axioms should not be too numerous, their system is to be as simple 
+and transparent as possible, and each axiom should have an 
+immediate intuitive meaning by which its appropriateness can be 
+judged directly.
+
+	J. von Neumann and O. Morgenstern, Theory of Games and 
+	Economic Behavior, Princeton University Press, 1944.
+
+******************************************************************
+
+To start with invention is the mark of the fertile mind ... and 
+leads later to the interpretation of experience; to start with 
+the reproduction of experience is the infallible index of a 
+barren invention.
+
+	Dorothy L. Sayers, Cat o' Mary, quoted by James Brabazon, 
+	Dorothy L. Sayers: A biography, Gollancz, London, 1988.
+
+******************************************************************
+
+I often say that when you can measure what you are speaking about 
+and express it in numbers you know something about it; but when you 
+cannot measure it, when you cannot express it in numbers, your 
+knowledge is of a meagre and unsatisfactory kind.
+
+	William Thompson, Lord Kelvin
+
+******************************************************************
+
+... the laws of physics and of logic ... the number system ... the
+principle of algebraic substitution. These are ghosts. We just 
+believe in them so thoroughly they seem real.
+
+	Robert M. Pirsig, Zen and the Art of Motorcycle Maintenance: 
+	An Inquiry into Values, Bodley Head, London, 1974.
+
+******************************************************************
+
+I have often admired the mystical way of Pythagoras, and the secret 
+magic of numbers.
+
+	Sir Thomas Browne, Religio Medici, I, 12.
+
+******************************************************************
+
+There is divinity in odd numbers, either in nativity, chance or death.
+
+	Shakespeare, The Merry Wives of Windsor, V, 1.
+
+******************************************************************
+
+Whatever you have to do with a structure-endowed entity Sigma try to
+determine its group of automorphisms ... You can expect to gain a deep
+insight into the constitution of Sigma in this way.
+
+	H. Weyl, Symmetry, Princeton U. P. 1952.
+
+******************************************************************
+
+... the branch of topology we now call "graph theory" ...
+
+	Stuart Hollingdale, Makers of Mathematics, Penguin, London, 1989.
+
+******************************************************************
+
+Set theory has a dual role in mathematics. In pure mathematics, it is
+the place where questions about infinity are studied. Although this is
+a fascinating study of permanent interest, it does not account for the
+importance of set theory in applied areas. There the importance stems
+from the fact that set theory provides an incredibly versatile toolbox
+for building mathematical models of various phenomena.
+
+	Jon Barwise and Lawrence Moss, Vicious Circles: On the 
+	Mathematics of Non-Wellfounded Phenomena, CSLI, Stanford, 1996.
+
+******************************************************************
+
+"I count a lot of things that there's no need to count," Cameron said.
+"Just because that's the way I am. But I count all the things that need
+to be counted."
+
+	Richard Brautigan, The Hawkline Monster: A Gothic Western, 
+	Picador, London, 1976.
+
+******************************************************************
+
+A Miscellany is a collection without a natual ordering relation.
+
+	J. E. Littlewood, A Mathematian's Miscellany, Methuen & Co., 
+	London, 1953; reprinted as Littlewood's Miscellany 
+	(ed. Bela Bollobas), Cambridge University Press, 
+	Cambridge, 1986.
+
+******************************************************************
+
+Birkhoff's idea of putting numerical values on spatial and temporal
+patterns, tonal harmonies, etc., was considered decidedly offbeat in
+its day, though lately information theory and computer analysis lend 
+a certain stylishness to this kind of approach.
+
+	Arthur Berger, Introduction to D. W. Prall, Aesthetic 
+	Analysis, Apollo, New York, 1967.
+
+******************************************************************
+
+The Naturalist  theory of possibility now to be advanced will be 
+called a Combinatorial theory. It traces the very idea of 
+possibility to the idea of the combinations -- all the combinations 
+-- of given, actual elements.
+
+.................................................................
+
+Set theory is important ... because mathematics can be exhibited 
+as involving nothing but set-theoretical propositions about 
+set-theoretical entities.
+
+.................................................................
+
+Mathematics ... is concerned with a wider domain than that domain 
+which it is the object of the natural sciences to describe and 
+categorize. The natural sciences are concerned with the actual 
+world. Mathematics is concerned with "all possible worlds".
+
+.................................................................
+
+Philosophers have not found it easy to sort out sets ...
+
+	D. M. Armstrong, A combinatorial theory of possibility, 
+	Cambridge University Press, Cambridge, 1989.
+
+******************************************************************
+
+The standard "foundation" for mathematics starts with sets and 
+their elements. It is possible to start differently, by axiomatising 
+not elements of sets but functions between sets. This can be done 
+by using the language of categories and universal constructions.
+
+.................................................................
+
+... in one sense a foundation is a security blanket: If you 
+meticulously follow the rules laid down, no paradoxes or 
+contradictions will arise. In reality there is now no guarantee 
+of this sort of security ...
+
+.................................................................
+
+... the membership relation for sets can often be replaced by the
+composition operation for functions. This leads to an alternative 
+foundation for Mathematics upon categories -- specifically, on 
+the category of all functions. Now much of Mathematics is dynamic, 
+in that it deals with morphisms of an object into another object 
+of the same kind. Such morphisms (like functions) form categories, 
+and so the approach via categories fits well with the objective 
+of organizing and understanding Mathematics. That, in truth, 
+should be the goal of a proper philosophy of Mathematics.
+
+	S. MacLane, Mathematics: Form and Function Springer, 
+	New York, 1986.
+
+******************************************************************
+
+
+It was difficult enough being a mathematician, this being the 
+frightening subject of which even educated people knew nothing, 
+and of which they might proudly boast ignorance.
+
+.................................................................
+
+
+The thesis was that "mind" or psychology could properly be 
+described in terms of Turing machines because they both lay on 
+the same level of description of the world, that of discrete 
+logical systems.
+
+	Andrew Hodges, Alan Turing: The Enigma, Burnett  1983.
+ 
+******************************************************************
+
+... the word "theory" ... was originally an Orphic word, which
+Cornford interprets as "passionate sympathetic contemplation"... 
+For Pythagoras, the "passionate sympathetic contemplation" was 
+intellectual, and issued in mathematical knowledge... To those 
+who have reluctantly learnt a little mathematics in school this 
+may seem strange; but to those who have experienced the 
+intoxicating delight of sudden understanding that mathematics 
+gives, from time to time, to those who love it, the Pythagorean 
+view will seem completely natural ...
+
+.................................................................
+
+It seems to  us unwise to have insisted on teaching geometry 
+to the younger Dionysius, tyrant of Syracuse, in order to make 
+him a good king, but from Plato's point of view it was essential. 
+He was sufficiently Pythagorean to think that without mathematics 
+no true wisdom is possible.
+
+.................................................................
+
+... mathematical knowledge ... is, in fact, merely verbal 
+knowledge.  "3" means "2+1", and "4" means "3+1". Hence it 
+follows (though the proof is long) that "4" means the same 
+as "2+2". Thus mathematical knowledge ceases to be mysterious.
+
+	Bertrand Russell, History of Western Philosophy, 
+	George Allen and Unwin, London, 1961.
+
+******************************************************************
+
+There is something breathtaking about the basic laws of crystals. 
+They are in no sense a discovery of the human mind; they just 
+"are" -- they exist quite independently of us. The most that 
+man can do is become aware, in a moment of clarity, that they 
+are there, and take cognizance of them.
+
+	M. C. Escher
+
+******************************************************************
+
+"Can you do Addition?" the White Queen Asked. "What's one and one 
+and one and one and one and one and one and one and one and one?"
+"I don't know," said Alice. "I lost count."
+"She ca'n't do Addition," the Red Queen interrupted.
+
+.................................................................
+
+"Contrariwise," continued Tweedledee, "if it was so, it might be; 
+and if it were so, it would be; but as it isn't, it ain't. 
+That's logic."
+
+	Lewis Carroll, "Through the Looking-Glass, and what 
+	Alice found there", 1875.
+
+******************************************************************
+
+If, like the truth, falsehood had only one face, we should know 
+better where we are, for we should then take the opposite of what 
+a liar said to be the truth. But the opposite of the truth has a 
+hundred thousand shapes and a limitless field.
+
+	Montaigne, Essays, I, 9.
+
+.................................................................
+
+One man may have some special knowledge at first-hand about the 
+character of a river or a spring, who otherwise knows only what 
+everyone else knows.  Yet to give currency to this shred of 
+information, he will undertake to write on the whole science of 
+physics. From this fault many great troubles spring.
+
+	ibid., I, 31.
+
+******************************************************************
+
+"One of the virtues of this simple but at the same time complex 
+design", said Bembel Rudzak, "this design in which we see the 
+continually reciprocating action of unity and multiplicity, is 
+that it suits the apparent action to the mind of the viewer: those 
+who look outward see the outward pre-eminent; those who look 
+inward see the inward."
+
+.................................................................
+
+"There is transitive motion and there is intransitive motion: 
+the motion of a galloping horse is transitive, it passes through 
+our field of vision and continues on to where it is going; the 
+motion in a tile pattern is intransitive, it does not pass,  
+it moves but it stays in our field of vision. It arises from 
+stillness, and I should like to think about the point at which 
+stillness becomes motion. Another thing I should like to
+think about is the point at which pattern becomes consciousness."
+
+.................................................................
+
+"When a pattern shows itself in tiles or on paper or in your mind 
+and says, 'This is the mode of my repetition; in this manner I 
+extend myself to infinity', it has already done so, it has 
+already been infinite from the very first moment of its being; 
+the potentiality and the actuality are one thing. If two and 
+two can be four then they actually are four, you can only 
+perceive it, you have no part in making it happen by writing 
+it down in numbers or telling it out in pebbles."
+
+	Russell Hoban, "Pilgermann", Pan, London, 1984.
+
+******************************************************************
+
+Ive got to work the E qwations and the low cations
+Ive got to comb the nations of it.
+
+	Russell Hoban, Riddley Walker, Jonathan Cape, London, 1980.
+
+******************************************************************
+
+More and more I'm aware that the permutations are not unlimited.
+
+	Russell Hoban, Turtle Diary, Jonathan Cape, London, 1975.
+
+******************************************************************
+
+We have learned to pass with such facility from cardinal to ordinal 
+number that the two aspects appear to us as one. To determine the 
+plurality of a collection, that is, its cardinal number, we do not 
+bother anymore to find a model collection with which we can match 
+it -- we count it. And to the fact that we have learned to identify 
+the two aspects of number is due our progress in mathematics ... 
+The operations of arithmetic are based on the tacit assumption that 
+we can always pass from any number to its successor, and this is 
+the essence of  the ordinal concept.
+
+And so matching by itself is incapable of creating an art of 
+reckoning.  Without our ability to arrange things in ordered 
+succession little progress could have been made. Correspondence 
+and succession, the two principles that permeate all mathematics 
+-- nay, all realms of exact thought -- are woven into the very 
+fabric of our number system.
+
+	Tobias Dantzig, Number: The Language of Science, Macmillan, 
+	New York, 1930.
+
+******************************************************************
+
+A proof only becomes a proof after the social act of "accepting it 
+as a proof".
+
+	Yu. I. Manin
+
+******************************************************************
+
+Mathematics never reveals man to the degree, never expresses him 
+in the way, that any other field of human endeavour does: the 
+extent of the negation of man's corporeal self that mathematics 
+achieves cannot be compared with anything. Whoever is interested 
+in this subject I refer to my articles.  Here I will say only that 
+the world injected its patterns into human language at the very 
+inception of that language; mathematics sleeps in every utterance, 
+and can only be discovered, never invented.
+
+	Stanislaw Lem, "His Master's Voice" (1968).
+
+******************************************************************
+
+It is given to us to live for the most part under the guidance of
+mathematics ... It is impossible to distinguish from other living
+creatures anyone who does not understand how to quantify.
+
+	Cassiodorus, quoted in David Ewing Duncan, "The Calendar", 
+	Fourth Estate, London, 1998.
+
+******************************************************************
+
+You see, the chemists have a complicated way of counting: instead 
+of saying "one, two, three, four, five protons", they say, 
+"hydrogen, helium, lithium, beryllium, boron."
+
+	Richard Feynman, "QED: The Strange Theory of Light and 
+	Matter", Princeton U.P., 1985.
+
+******************************************************************
+
+... mathematics is not just another language. ... it is a language
+plus logic. Mathematics is a tool for reasoning.
+
+.................................................................
+
+Everybody who reasons carefully about anything is making a 
+contribution ...  and if you abstract it away and send it to 
+the Department of Mathematics they put it in books ...
+
+.................................................................
+
+There was a time when the newspapers said that only twelve men 
+understood the theory of relativity. I do not believe there ever 
+was such a time ...  On the other hand, I think I can safely say 
+that nobody understands quantum mechanics.
+
+	Richard Feynman, "The Character of Physical Law", BBC, 1965.
+
+******************************************************************
+
+"In India, I learned a proverb that says, 'Distrust the calculation 
+seven times over, the mathematician a hundred times.'"
+
+.................................................................
+
+"'Without the help of mathematics,' the wise man continued, 'the 
+art could not advance and all the sciences would perish.'"
+
+	Malba Tahan, "The Man who Counted" (tr. Leslie Clark and 
+	Alastair Reid), Canongate Press, Edinburgh, 1994.
+
+******************************************************************
+
+Inside the museums, infinity goes up on trial.
+Voices echo, "This is what salvation must be like, after a while."
+
+	Bob Dylan, "Visions of Johanna"
+
+******************************************************************
+
+All these people that I used to know, they're an illusion to me now.
+Some are mathematicians, some are carpenters' wives.
+
+	Bob Dylan, "Tangled up in blue"
+
+******************************************************************
+
+The pleasure we obtain from music comes from counting, but counting
+unconsciously. Music is nothing but unconscious arithmetic.
+
+	G. F. Leibniz, quoted by Oliver Sacks, "The Man who Mistook 
+	his Wife for a Hat", Duckworth, London, 1985.
+
+******************************************************************
+
+Though [scholarship] may have appealed to some -- men such as 
+Aldhelm of Malmesbury who could even find tackling fractions 
+an exciting challenge - it still went against the (male) 
+barbarian grain.
+
+	Henrietta Leyser, "Medieval Women: A Social History of 
+	Women in England 450-1500", Weidenfeld and Nicholson, 
+	London, 1995.
+
+******************************************************************
+
+During a counterpoint class at UCLA, Schoenberg sent everybody 
+to the blackboard. We were to solve a particular problem he had 
+given and to turn around when finished so that he could check 
+on the correctness of the solution. I did as directed. He said, 
+"That's good. Now find another solution." I did. He said, 
+"Another." Again I found one. Again he said, "Another." And so 
+on. Finally, I said, "There are no more solutions." He said, 
+"What is the principle underlying all of the solutions?"
+
+	John Cage, Four Statements on the Dance, from "Silence: 
+	Lectures and Writings", Calder and Boyars, 1968.
+
+.................................................................
+
+Curiously enough, the twelve-tone system has no zero in it. Given 
+a series: 3, 5, 2, 7, 10, 8, 11, 9, 1, 6, 4, 12 and the plan of 
+obtaining its inversion by numbers which when added to the 
+corresponding ones of the original series will give 12, one 
+obtains 9, 7, 10, 5, 2, 4, 1, 3, 11, 6, 8 and 12. For in this 
+system 12 plus 12 equals 12. There is not enough of zero in it.
+
+	Cage, Eric Satie, ibid.
+
+******************************************************************
+
+Although no mathematician can ever define properly what the 
+"elegance" or the "beauty" of a mathematical theorem, proof or 
+construction really means, all of them have an indescribable 
+feeling for it; ... however, programmers are more concerned 
+about efficiency and other practical problems ...
+
+	I. Herman, "The Use of Projective Geometry in 
+	Computer Graphics", Lecture Notes in Computer Science 
+	564, Springer, Berlin, 1992.
+
+******************************************************************
+
+We have not begun to understand the relationship between combinatorics
+and conceptual mathematics.
+
+	Jean Dieudonne, A Panorama of Pure Mathematics: As seen by 
+	N. Bourbaki, Academic Press, New York, 1982.
+
+******************************************************************
+
+The process is directed always towards analysing and separating the
+material into a collection of discrete counters, with which the 
+detached intellect can make, observe and enjoy a series of abstract, 
+detailed, artificial patterns of words and images (you may be 
+reminded of the New Criticism) ...
+
+	Elizabeth Sewell, Lewis Carroll and T. S. Eliot as 
+	Nonsense Poets, in Neville Braybrooke (ed.), T. S. Eliot: 
+	A Symposium for his Seventieth Birthday, Hart-Davies, 
+	London, 1958.
+
+******************************************************************
+
+The Way begets one; one begets two; two begets three; three begets 
+the myriad creatures.
+
+	Lao Tse, Tao Te Ching.
+
+******************************************************************
+
+In Plane Geometry that afternoon, I got into an argument with 
+Mr Shull, the teacher, about parallel lines. I say they have 
+to meet. I'm beginning to think everything comes together somewhere.
+
+	William Wharton, Birdy, Alfred A. Knopf, New York, 1979.
+
+******************************************************************
+
+In the Middle Ages the problem of infinity was of interest mainly 
+in connection with arguments about whether the set of angels who 
+could sit on the head of a pin was infinite or not.
+
+	N. Ya. Vilenkin, Stories about Sets, Academic Press, 
+	New York, 1968.
+
+******************************************************************
+
+... the true mathematician and physicist know very well that the 
+realms of the small and the great often obey quite different rules.
+
+	Kurt Singer, Mirror, Sword and Jewel: The Geometry of 
+	Japanese Life, Croom Helm, London, 1973.
+
+******************************************************************
+
+In Geometry (which is the only science that it hath pleased God 
+hitherto to bestow on mankind) men begin at settling the 
+significations of their words; which ... they call Definitions
+
+	Thomas Hobbes, Leviathan
+
+******************************************************************
+
+Tout ce qu'on invente est vrai, soi-en sure. La poesie est une
+chose aussi precise que la geometrie.
+
+	Gustave Flaubert, letter to Louise Colet
+
+******************************************************************
+
+Some of the particulars recommended by Abulafia contributed to the 
+aura of magic surrounding Kabbalah: the best hour for meditative 
+permutations (known as tzeruf) was midnight. The meditator was to 
+light many candles, wear phylacteries and a prayer shawl, and write 
+out the permutations of the alphabet with ever increasing speed. 
+The resulting ecstatic state accompanied by the desire of the soul 
+to leave the body could be so powerful that there was even the 
+possibility of death. At the peak of ecstatic experience there 
+would be a rush of unintelligible language and the kabbalist had 
+to envision a surrounding circle of angels who could help to 
+decipher the divine message. It was the sheer force of the letters 
+themselves which brought forth the meaning, since the only link 
+between the Sephirot of non-verbal Wisdom and verbal Intelligence
+was through the letters of the alphabet.
+
+	Johanna Drucker, The Alphabetic Labyrinth: The Letters in 
+	History and Imagination, Thames and Hudson, London, 1995.
+
+******************************************************************
+
+Lord of sequence and design
+
+	Richard G. Jones, "The Earth is the Lord's", 
+	Hymns for Today 33.
+
+******************************************************************
+
+All of mathematics can be deduced from the sole notion of an integer;
+here we have a fact universally acknowledged today.
+
+	E. Borel, Contribution a l'analyse arithmetique du continu,
+	Oeuvres 3, 1439-1485.
+
+******************************************************************
+
+The formalism and rigor of skaldic poetry is in no way inferior 
+to that of modern mathematics, and anyone who is able to weave 
+kjenninger while respecting the rules of alliteration will also be 
+able to derive theorems from one another following the rules of 
+logic. In both cases, creativity is a bonus; it adds meaning and 
+beauty and distinguishes the artist from the laborer.
+
+	Ivar Ekeland, "The Broken Dice, and other mathematical tales 
+	of chance", University of Chicago Press, Chicago, 1993.
+
+******************************************************************
+
+Why had not the Public Prosecutor asked him: "Defendant Rubashov, 
+what about the infinite?" He would not have been able to answer -- 
+and there, there lay the real source of his guilt 
+... Could there be a greater?
+
+	Arthur Koestler, "Darkness at Noon", quoted in Tiresias, 
+	"Notes from Overground", Paladin,  London, 1984.
+
+******************************************************************
+
+Although the idea that we have no bananas is unlikely to be a new 
+one, or one that is hard to grasp, the idea that no bananas, no 
+sheep, no children, no prospects are really all the same, in that 
+they have the same numerosity, is a very abstract one.
+
+	Brian Butterworth, "The Mathematical Brain", Macmillan, 
+	London, 1999.
+
+******************************************************************
+
+Why waste words? Geometry existed before the Creation, is co-eternal 
+with the mind of God, is God himself (what exists in God that is not 
+God himself?): geometry provided God with a model for the Creation 
+and was implanted into man, together with God's own likeness -- 
+and not merely conveyed to his mind through the eyes.
+
+	Johannes Kepler, Harmonice Mundi, quoted in Arthur Koestler, 
+	The Sleepwalkers, Hutchinson, London, 1959.
+
+
+Thus God himself
+was too kind to remain idle
+and began to play the game of signatures
+signing his likeness unto the world:
+therefore I chance to think
+that all nature and the graceful sky are
+symbolized in the art of Geometria.
+
+Now, as God the maker play'd
+he taught the game to Nature
+whom he created in his image;
+taught her the selfsame game
+which he played to her.
+
+	Johannes Kepler, Tertius Interveniens, quoted in 
+	Arthur Koestler, The Sleepwalkers
+
+******************************************************************
+
+There is no problem in all mathematics that cannot be solved by
+direct counting.
+
+	Ernst Mach, quoted by A. T. Benjamin, G. M. Levin,
+	K. Mahlburg and J. J. Quinn, Random approaches to
+	Fibonacci identities, Amer. Math. Monthly 107 (2000),
+	p.511.
+
+******************************************************************
+
+I wish to God these calculations had been executed by steam.
+
+(Charles Babbage)
+
+.................................................................
+
+To spare themselves, the mathematicians farmed out 
+the routine work to the "computers" -- a common 
+reference to people who performed calculations. 
+(Computers are not the only devices to have human 
+antecedents. Later in the nineteenth century, 
+"typewriter" referred to a person who typed rather 
+than to the machine itself. It was not unheard of for 
+the boss to elope with his typewriter.)
+
+.................................................................
+
+Science was not an established profession and offered 
+no secure career path.
+
+.................................................................
+
+Babbage ...  wrote to Herschel saying that ... in a 
+few years his completed engine would produce 
+"logarithmic tables as cheap as potatoes".
+
+.................................................................
+
+[Babbage] took the ergonomics of reading tables to 
+extraordinary lengths, producing samples using 
+every permutation of ink colour and backing paper 
+including -- bizarrely it seems -- green ink on three 
+shades of green paper. He was a mathematician and 
+a logician, and a permutation is a permutation.
+
+.................................................................
+
+From the start there has been a curious affinity 
+between mathematics, mind and computing ... It is 
+perhaps no accident that Pascal and Leibniz in the 
+seventeenth century, Babbage and George Boole in 
+the nineteenth, and Alan Turing and John von Neumann 
+in the twentieth -- seminal figures in the history of 
+computing -- were all, among their other accomplishments, 
+mathematicians, possessing a natural affinity for 
+symbol, representation, abstraction and logic.
+
+.................................................................
+
+Yet it is by the laborious route of analysis that [the 
+man of genius] must reach truth; but he cannot 
+pursue this unless guided by numbers; for without 
+numbers it is not given to us to raise the veil which 
+envelopes the mysteries of nature.
+
+(L. Menabrea, transl. A. Lovelace)
+
+	Doron Swade, "The Cogwheel Brain; Charles Babbage 
+	and the quest to build the first computer", 
+	Little, Brown, London, 2000.
+
+*****************************************************************
+
+While [Maynard Smith] believed that a Marxist in 
+science could take a lot of different positions, he 
+saw the need for "some kind of substitute for 
+Hegelian dialectics ... some kind of concept that in 
+dynamical systems there are going to be sudden 
+breaks and thresholds and transformations, and so 
+on". He added that, in his opinion, "today we really 
+do have a mathematics for thinking about complex 
+systems and things which undergo transformations 
+from quantity into quality". Here he saw Hopf 
+bifurcations and catastrophe theory as really 
+nothing other than a change of quantity into 
+quality in a dialectical sense.
+
+	Ullica Segerstrale, "Defenders of the Truth: The 
+	Battle for Science in the Sociobiology Debate and 
+	Beyond", Oxford University Press, Oxford, 2000.
+
+*****************************************************************
+
+To be is to be the value of a variable.
+
+	Willard Van Ormond Quine, "On What There Is", 1948.
+
+*****************************************************************
+
+On sighting mathematicians [poetry] should unhook the 
+algebra from their minds and replace it with poetry; 
+on sighting poets it should unhook poetry from their 
+minds and replace it with algebra.
+
+	Brian Patten, "Prosepoem towards a definition 
+	of itself".
+
+*****************************************************************
+
+The sea squirt, after an active life, settles on the sea 
+floor and, like a professor given tenure, absorbs its brain.
+
+	Steve Jones, "Almost like a whale: the Origin 
+	of Species updated", Doubleday, 1999.
+
+*****************************************************************
+
+. . . the professors [at Bologna] were kept in absolute 
+and even humiliating subservience to their students. 
+They had to swear obedience to the student rectors and to 
+the student-made statutes, which bore very hardly upon them,
+e.g. the professor was fined if he began his teaching a minute 
+late or continued a minute longer than the fixed time, and 
+should this happen the students who failed to leave the 
+lecture-room immediately were themselves fined. In addition, 
+the professor was fined if he shirked explaining a difficult 
+passage, or if he failed to get through the syllabus; he was 
+fined if he left the city for a day without the rector's 
+permission, and if he married, was allowed only one day off 
+for the purpose. The city, for its part, took a hand in 
+controlling the professors, and they were forced to take
+an oath not to leave Bologna in search of more lucrative or 
+less onerous posts.
+
+	David Knowles, "The Evolution of Medieval Thought", 
+	Vintage Books, New York, 1962.
+
+*****************************************************************
+
+O Maximin,
+You are the mountain and the valley.
+
+	Hildegard of Bingen, "Hymn to St Maximin".
+
+*****************************************************************
+
+Astrologers . . . were suspect because of their 
+mathematical calculations. The memory of Roger Bacon
+had been besmirched by the assumption that mathematics
+was part of the black art, and it was notorious that the
+Edwardian reformers had destroyed mathematical manuscripts
+at Oxford under the delusion that they were conjuring books.
+"Where a red letter or a mathematical diagram appeared,
+they were sufficient to entitle the book to be Popish or
+diabolical." (This may account for the disappearance at
+this period of nearly all the works of the fourteenth-
+century Merton College school of astronomers.)
+
+	Keith Thomas, "Religion and the Decline of Magic", 
+	Weidenfeld & Nicholson, London, 1971.
+
+*****************************************************************
+
+[Roger] Lyndon produces elegant mathematics and thinks in terms 
+of broad and deep ideas. . . I once asked him whether there
+was a common thread to the diverse work in so many different 
+fields of mathematics, he replied that he felt the problems 
+on which he had worked had all been combinatorial in nature.
+
+	K. I. Appel, in "Contributions to Group Theory" (ed.
+	K. I. Appel, J. G. Ratcliffe and P. E. Schupp), AMS,
+	Providence, 1984.
+
+*****************************************************************
+
+Mathematics may be the only exception in the sciences that leaves 
+no room for skepicism. But, if mathematical results are exact as 
+no empirical law can ever be, philosophers have discovered that 
+they are not absolutely novel -- instead, they are tautological.
+
+.................................................................
+
+We chose to do this work mathematically, which has the advantage 
+of precision but is not always appreciated by readers. It is 
+perhaps for this reason that anthropologists have not shown much 
+interest in these models, unlike economists, for example, for 
+whom the use of mathematics poses no problem. However, one could 
+reach the same conclusions by using just a bit of common sense.
+
+	Luigi Luca Cavalli-Sforza, "Genes, Peoples and Languages", 
+	Allen Lane, London, 2000.
+
+*****************************************************************
+
+The miserable wasteland of multidimensional space was first 
+brought home to me in one gruesome solo lunch hour in one of 
+MIT's sandwich shops. "Wholewheat, rye, multigrain, sourdough 
+or bagel? Toasted, one side or two? Both halves toasted, one 
+side or two? Butter, polyunsaturated margarine, cream cheese 
+or hoummus? Pastrami, salami, lox, honey cured ham or Canadian
+bacon? Aragula, iceberg, romaine, cress or alfalfa? Swiss, 
+American, cheddar, mozzarella, or blue? Tomato, gherkin, 
+cucumber, onion? Wholegrain, French, English or American 
+mustard? Ketchup, piccalilli, tabasco, soy sauce? Here or
+to go?" . . . Comparative genomics and structural biochemistry 
+say that the building blocks of living organisms are few, 
+modular, and combinatorial. Proteins comprise a few hundred 
+protein structural domains; nucleic acids are simpler, with 
+a few tens of structural domains and regulatory binding sites
+for sequence-specific protein domains. The combinations of 
+these elements are vastly larger than any universe we can 
+comprehend, but a large proportion of these should work, when 
+given familiar network architectures similar to those of 
+existing organisms. Why waste time marking out the hyperspace 
+of possibilities when we already know where the good stuff is?
+
+	Review by Myles Aston of "Life without genes: the 
+	history and future of genomes" by Adrian Woolfson, 
+	in the Balliol College Annual Record 2001.
+
+*****************************************************************
+
+All mathematics is divided into three parts: cryptography 
+(paid for by CIA, KGB and the like), hydrodynamics (supported 
+by manufacturers of atomic submarines) and celestial mechanics 
+(financed by military and other institutions dealing with 
+missiles, such as NASA).
+
+Cryptography has generated number theory, algebraic geometry 
+over finite fields, algebra, combinatorics and computers.
+
+Hydrodynamics procreated complex analysis, partial differential 
+equations, Lie groups and algebra theory, cohomology theory and 
+scientific computing.
+
+Celestial mechanics is the origin of dynamical systems, linear 
+algebra, topology, variational calculus and symplectic geometry.
+
+The existence of mysterious relations between all these 
+different domains is the most striking and delightful feature 
+of mathematics (having no rational explanation).
+
+	V. I. Arnold, Polymathematics:  Is mathematics a single
+	science or a set of arts? 
+	in "Mathematics: Frontiers and Perspectives" (ed. 
+	V. Arnold, M. Atiyah, P. Lax and B. Mazur), 
+	American Math. Soc., 1999, pp. 403-416.
+
+.................................................................
+
+It is obvious that mathematics needs both sorts of mathematicians
+[theory-builders and problem-solvers} . . . It is equally obvious
+that different branches of mathematics require different
+aptitudes. In some, such as algebraic number theory, or the
+cluster of subjects now known simply as Geometry, it seems . . .
+to be important for many reasons to build up a considerable
+expertise and knowledge of the work that other mathematicians
+are doing, as progress is often the result of clever
+combinations of a wide range of existing results. Moreover, if
+one selects a problem, works on it in isolation for a few years 
+and finally solves it, there is a danger, unless the problem is 
+very famous, that it will no longer be regarded as all that
+significant.
+
+At the other end of the spectrum is, for example, graph theory,
+where the basic object, a graph, can be immediately comprehended.
+One will not get anywhere in graph theory by sitting in an
+armchair and trying to understand graphs better. Neither is it
+particularly necessary to read much of the literature before 
+tackling a problem: it is of course helpful to be aware of
+some of the most important techniques, but the interesting 
+problems tend to be open precisely because the established 
+techniques cannot easily be applied.
+
+	W. T. Gowers, The two cultures of mathematics, 
+	ibid. pp. 65-78.
+
+.................................................................
+
+Of the properties of mathematics, as a language, the most 
+peculiar one is that by playing formal games with an input 
+mathematical text, one can get an output text which seemingly 
+carries new knowledge. The basic examples are furnished by 
+scientific or technological calculations: general laws plus
+initial conditions produce predictions, often only after 
+time-consuming and computer-aided work. One can say that
+the input contains an implicit knowledge which is thereby 
+made explicit. One could try to find a parallel in the 
+humanities by comparing this to hermeneutics: the art of 
+finding hidden meanings of sacred texts. Legal discourse, 
+too, has some common traits with scientific discourse. In 
+the course of history, the modern language of science slowly 
+emerged from these two archaic activities, and it still owes
+a lot to them, especially in the more descriptive and less 
+mathematicised domains.
+
+	Yu. I. Manin, Mathematics as profession and vocation, 
+	ibid. pp. 153-159.
+
+.................................................................
+
+First, I want to quote a definition of what is mathematics 
+due to Davis and Hersh . . . "The study of mental objects 
+with reproducible properties is called mathematics." I love 
+this definition because it doesn't try to limit mathematics 
+to what has been called mathematics in the past but really
+attempts to say why certain communications are classified 
+as math, others as science, others as art, others as gossip. 
+Thus reproducible properties of the physical world are 
+science whereas reproducible mental objects are math. Art
+lives on the mental plane (the real painting is not the set 
+of dry pigments on the canvas nor is a symphony the sequence 
+of sound waves that convey it to our ear) but, as the 
+post-modernists insist, is reinterpreted in new contexts
+by each appreciator. As for gosip, which includes the vast 
+majority of our thoughts, its essence is its relation to a 
+unique local part of time and space.
+
+	David Mumford, The dawning of the age of stochasticity, 
+	ibid. pp. 197-218.
+
+*****************************************************************
+
+. . . statistics is not a subset of mathematics, and calls
+for skills and judgement that are not exclusively mathematical.
+On the other hand, there is a large intersection between the
+two disciplines, statistical theory is serious mathematics,
+and most of the fundamental advances, even in applied
+statistics, have been made by mathematicians like R. A. Fisher.
+
+	Sir John Kingman, interview in the EMS Newsletter, 
+	March 2002.
+
+*****************************************************************
+

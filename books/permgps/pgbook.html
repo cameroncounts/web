@@ -1,0 +1,267 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<HTML>
+
+<HEAD>
+<TITLE>Permutation Groups</TITLE>
+<META NAME="description" CONTENT="Web page supporting the book Permutation
+Groups by Peter J. Cameron: list of misprints, further exercises and
+problems, links, GAP code, etc.">
+<META NAME="keywords" CONTENT="permutation groups, automorphism groups,
+representation theory, association schemes">
+</HEAD>
+
+<BODY BGCOLOR="99CCFF" LINK="#0000FF" VLINK="#FF0000" ALINK="#00FF00">
+
+<H1>Permutation Groups</H1>
+
+This Web page is associated with the book 
+<A HREF="http://uk.cambridge.org/mathematics/catalogue/0521653789/default.htm">
+<I>Permutation Groups</I></A>, by
+Peter J. Cameron, published by 
+<A HREF="http://uk.cambridge.org/">Cambridge University Press</A>
+in the
+<A HREF="http://www.lms.ac.uk/publications/">London Mathematical Society</A>
+<A HREF="http://uk.cambridge.org/series.asp?series=LMST&rec=1">
+Student Texts</A> series. 
+
+<P>
+
+Here you will find, in addition to notes and links:
+<UL>
+<LI> the <A HREF="perfront.ps">contents and preface</A> in PostScript;
+<LI> a list of <A HREF="misprints.html">misprints and corrections</A>;
+<LI> <A HREF="exerc.html">further exercises</A>;
+<LI> solutions to the Exercises in the book (someday...);
+<LI> a <A HREF="burnside.html">note on Burnside's Theorem</A> (Theorem 4.3);
+<LI> a <A HREF="cellular.html">terminological note on cellular algebras</A>;
+<LI> commented GAP code for the examples in
+<A HREF="pg_gap1.txt">Chapter 1</A> and <A HREF="pg_gap2.txt">Chapter 3</A>.
+The code for Chapter 3 now constructs the 
+2-transitive action of the Higman-Sims group.
+<LI> a short <A HREF="pc.pdf">note</A> about permutation characters;
+<LI> <A HREF="#refs">update to the bibliography</A>.
+</UL>
+
+<H2>Notes</H2>
+
+1. <A HREF=mailto:lanowitz@pipeline.com>Lewis Nowitz</A> points out that 
+in Figure 3.3, the cube on the right, which
+is used as an aid to explain the concept of antipodal equivalence classes,
+is labelled clockwise in bridge-suit order: clubs, diamonds, hearts, and
+spades. Therefore, although the cube can't be duplicated, it <EM>can</EM>
+be doubled...
+
+<P>
+
+2. As promised, the GAP code in the book has been checked on GAP4 and works
+correctly, though the output is not in quite the same form as in the
+book; sometimes more or less detail is given. Two new features of GAP4 are 
+worth pointing out. There is now a command <TT>AutomorphismGroup</TT>
+which can be applied to either a group or a graph, and a command
+<TT>Transitivity</TT> which gives the degree of transitivity of a
+permutation group. I have used these in the commented GAP code for 
+<A HREF="pg_gap2.txt">Chapter 3</A>.
+
+<P>
+
+3. The reference to the classification of the affine 2-transitive groups
+(p.110) is inadequate and should be supplemented with the following papers:
+<UL>
+<LI> Cristoph Hering,
+Transitive linear groups and linear groups which contain irreducible subgroups 
+of prime order. II.
+<I>J. Algebra</I> <B>93</B> (1985), 151-164.
+<LI> Martin W. Liebeck,
+The affine permutation groups of rank three,
+<I>Proc. London Math. Soc.</I> (3) <B>54</B> (1987), 477-516.
+</UL>
+
+
+4. Reviews:
+
+<P>
+
+From the review by W. Knapp in <I>Zentralblatt f&uuml;r Mathematik</I>:
+<BLOCKQUOTE>
+... an excellent concise account of the modern theory of permutation groups 
+including many recent developments...
+In spirit and scope it may be considered as a (post-)modern equivalent of 
+<I>H. Wielandt</I>'s famous book
+"Finite Permutation Groups" ...
+A special feature is given by the worked examples using
+the computer algebra system GAP.
+</BLOCKQUOTE>
+
+<P>
+
+From the review in the EMS Newsletter:
+<BLOCKQUOTE>
+Students should find this book very stimulating because of the many different
+connections it mentions ...
+</BLOCKQUOTE>
+
+<H2>Links</H2>
+<UL>
+<LI><A HREF="permgps.html">Permutation Groups resources</A> (under
+construction)
+<LI><A HREF="http://www.win.tue.nl/math/eidma/index.html">Euler Institute
+for Discrete Mathematics and Applications</A> (you can see the original
+course announcement 
+<A HREF="http://www.win.tue.nl/math/eidma/courses/minicourses/cameron/MC-DAG-5.html">
+here</A>)
+<LI><A HREF="http://www.maths.qmw.ac.uk/~pjc/design/drg.html">
+Design Research Group homepage</A>
+<LI><A HREF="http://www-gap.dcs.st-and.ac.uk/~gap/">GAP homepage</A> (including
+the manuals for 
+<A HREF="http://www-gap.dcs.st-and.ac.uk/~gap/Info/manual.html">GAP 3</A> and 
+<A HREF="http://www-gap.dcs.st-and.ac.uk/~gap/Info4/manual.html"> GAP 4</A>)
+<LI><A HREF=mailto:aeb@cwi.nl>Brouwer's DRG finder</A> (READ THE INSTRUCTIONS
+BELOW)
+<LI><A HREF="http://www.math.colostate.edu/~hulpke/index.html">
+Alexander Hulpke's</A>
+<A HREF="http://www.math.colostate.edu/~hulpke/smalldeg.html">
+transitive groups of small degree</A>
+<LI><A HREF="http://members.aol.com/matroids/index.htm">Matroids page</A>
+<LI><A HREF="http://www.mat.bham.ac.uk/atlas/">ATLAS of Group
+Representations</A>
+<LI><A HREF="../pgprob.html">Permutation group problems</A>
+<LI><A HREF="http://www.maths.ex.ac.uk/~rjc/etc/bertrand.dvi">
+Proof of Bertrand's Postulate</A> by Robin Chapman
+<LI>"Permutations", preprint of paper for the Erd&ouml;s memorial conference
+(<A HREF="../preprints/e99paper.dvi">dvi</A> or 
+<A HREF="../preprints/e99paper.ps">PostScript</A>). You can find an update
+on the problems from this paper <A HREF="permutations.html">here</A>.
+<LI> A course on
+<A HREF="../doccourse.html">Permutation groups, structures and polynomials</A>
+at Charles University, Prague, in 2004.
+</UL>
+
+<B>Instructions for Brouwer's DRG finder</B><BR>
+The Subject of your mail must be
+<PRE>
+        exec drg
+</PRE>
+The body of the mail should contain any number of lines of the form
+<PRE>
+        drg d=D B[0],B[1],...,B[d-1]:C[1],...,C[d]
+</PRE>
+where D is the diameter and B[i], C[i] the standard parameters.
+
+<H2><A NAME="refs">Updates to references</A></H2>
+
+References [9], [12], [48], [81], [119], [131] and [165] have all appeared:<BR>
+[9] L&aacute;szl&oacute; Babai and Peter J. Cameron,
+Automorphisms and enumeration of switching classes of tournaments,
+<I>Electronic J. Combinatorics</I> <B>7</B> (2000), #38 (25pp.)<BR>
+[12] R. A. Bailey, <I>Association Schemes: Designed Experiments, Algebra and
+Combinatorics</I>, Cambridge Studies in Advanced Mathematics, Cambridge
+University Press, 2004.<BR>
+[48] Peter J. Cameron and Csaba Szab&oacute;, Independence algebras,
+<I>J. London Math. Soc.</I> (2) <B>61</B> (2000), 321-334.<BR>
+[81] L. A. Goldberg and M. R. Jerrum, The "Burnside process' converges slowly,
+in: Proceedings of Random 1998, <I>Randomisation and Approximation Techniques
+in Computer Science</I>, Lecture Notes in Computer Science <B>1518</B>,
+Springer-Verlag, pp. 331-345.<BR>
+[119] Martin W. Liebeck and Aner Shalev, Simple groups, permutation groups,
+and probability, <I>J. Amer. Math. Soc.</I> <B>12</B> (1999), 497-520.<BR>
+[131] Dugald Macpherson, Sharply multiply homogeneous permutation groups,
+and rational scale types, <I>Forum Math.</I> <B>8</B> (1996), 501-507.<BR>
+[165] &Aacute;kos Seress, <I>Permutation Group Algorithms</I>, Cambridge
+Tracts in Mathematics <B>152</B>, Cambridge University Press, 2003.
+
+<P>
+
+Reference [17] is now more accessible; it has been published by
+Springer-Verlag as volume 12 in the series <I>Texts and Readings in
+Mathematics</I> in 1998.
+
+<P>
+
+A proof of the Strong Perfect Graph Conjecture (see p.155) has been
+announced by M. Chudnovsky, N. Robertson, P. Seymour and R. Thomas.
+
+<P>
+
+Here are some further references:
+
+<ol>
+<li> P. J. Cameron, Permutations,  pp. 205-239 in <i>Paul Erd&ouml;s and his 
+Mathematics</i>, Vol. II, Bolyai Society Mathematical Studies <b>11</b>,
+Budapest, 2002.
+<li>
+Peter J. Cameron,
+<a HREF="http://www.combinatorics.org/Volume_9/v9i1toc.html#N2">Cycle 
+index, weight enumerator and Tutte polynomial</a>, 
+<a HREF="http://www.combinatorics.org"><i>Electronic J. Combinatorics</i></a>
+<b>9(1)</b> (2002), #N2 (10pp).
+<li>
+Peter J. Cameron, Michael Giudici, Gareth A. Jones, William M. Kantor,
+Mikhail H. Klin, Dragan Marusic and Lewis A. Nowitz,
+Transitive permutation groups without semiregular subgroups,
+<i>J. London Math. Soc.</i> (2) <b>66</b> (2002), 325-333.
+<li>
+Peter J. Cameron and C. Y. Ku, Intersecting families of permutations,
+<i>Europ. J. Combinatorics</i> <b>24</b> (2003), 881-890.
+<li>
+Clara Franchi, On permutation groups of finite type,
+<i>European J. Combinatorics</i> <b>22</b> (2001), 821-837.
+<li>
+Daniele A. Gewurz,
+Reconstruction of permutation groups from their Parker vectors,
+<i>J. Group Theory</i> <b>3</b> (2000), 271-276. 
+<li>
+Michael Giudici, Quasiprimitive groups with no fixed point free elements of 
+prime order, <i>J. London Math. Soc.</i> (2) <b>67</b> (2003), 73-84.
+<li>
+Martin W. Liebeck and Aner Shalev, Bases of primitive permutation groups,
+pp. 147-154 in <i>Groups, Combinatorics and Geometry</i> (ed. A. A. Ivanov,
+M. W. Liebeck and J. Saxl), World Scientific, New Jersey, 2003.
+<li>
+A. Mar&oacute;ti, On the orders of primitive groups,
+<i>J. Algebra</i> <b>258</b> (2002), 631-640.
+</ol>
+
+Further references will be added here from time to time.
+
+
+<HR>
+
+<P ALIGN=CENTER>
+<A HREF="../index.html">My homepage</A>
+
+<P ALIGN=RIGHT>
+<A HREF=mailto:p.j.cameron@qmw.ac.uk>Peter J. Cameron</A><BR>
+27 August 2004.
+
+
+<CENTER>
+<TABLE BORDER=0 CELLPADDING=3 CELLSPACING=0 WIDTH="90%">
+<TR><TD ALIGN=CENTER BGCOLOR="#FFFFCC">
+<FONT FACE="helvetica"><B>
+Permutation Groups Pages at Queen Mary:
+</B></FONT>
+</TD></TR>
+<TR><TD ALIGN=CENTER BGCOLOR="#FFFFCC">
+<FONT FACE="helvetica" SIZE=-1><B>
+<A HREF="permgps.html">Resources</A>
+|
+<A HREF="notes.html">Lecture Notes</A>
+|
+<A HREF="../pgprob.html">Problems</A>
+|
+<A HREF="pgbook.html">The Book</A>
+|
+<A HREF="permutations.html">Problems from "Permutations"</A>
+</B></FONT>
+</TD></TR>
+<TR><TD ALIGN=CENTER BGCOLOR="#FFFFCC">
+<FONT FACE="helvetica" SIZE=-1><B>
+<A HREF="http://www.maths.qmul.ac.uk/MRC/">Maths Research Centre</A>
+</B></FONT>
+</TD></TR>
+</TABLE>
+</CENTER>
+
+</BODY>
+</HTML>
+

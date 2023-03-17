@@ -1,0 +1,212 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<HTML>
+
+<HEAD>
+<TITLE>Introduction to Algebra: Misprints</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="FFFFFF" TEXT="000066" LINK="#3333FF" VLINK="#FF0000" ALINK="#00FF00">
+
+<H1>Misprints</H1>
+
+Here is a list of known misprints in the first edition of the book
+<A HREF="algebra.html">Introduction to Algebra</A> by Peter J. Cameron.
+
+<P>
+
+There is a gap in the proof of the Fundamental Theorem of Galois Theory
+(Theorem 8.24, page 258), pointed out to me by 
+<A HREF=mailto:gmg@maths.may.ie>Gary McGuire</A>. Here is a corrected proof.
+
+<P>
+
+Let <I>K</I>/<I>F</I> be a Galois extension with Galois group <I>G</I>.
+The proof given shows that Fix(Gal(<I>K</I>/<I>L</I>))=<I>L</I> for all
+intermediate fields <I>L</I>. To show that the maps Fix and Gal are inverse
+bijections, we also need to show that Gal(<I>K</I>/Fix(<I>H</I>))=<I>H</I>
+for all subgroups <I>H</I> of <I>G</I>.
+
+<P>
+
+We need the forward implication in the Theorem of the Primitive Element,
+Theorem 8.34: if <I>K</I>/<I>F</I> is a finite extension and only finitely
+many fields lie between <I>F</I> and <I>K</I>, then
+<I>K</I>=<I>F</I>(<I>a</I>) for some <I>a</I> in <I>K</I>.
+The proof of this uses no Galois theory. Now it follows from what is
+proved that, if <I>K</I>/<I>F</I> is a Galois extension, then the map
+from intermediate fields to subgroups is injective; so we conclude that
+<I>K</I>=<I>F</I>(<I>a</I>) for some <I>a</I>, since the finite group
+<I>G</I> has only finitely many subgroups.
+
+<P>
+
+Let <I>H</I> be any subgroup. Since <I>K</I> is a Galois extension of
+Fix(<I>H</I>), with Galois group <I>H</I>', say, it will suffice to show
+that if <I>H</I>&lt;<I>H</I>' then Fix(<I>H</I>) is strictly
+larger than Fix(<I>H</I>'). So we have to prove the following:
+
+<P>
+
+<B>Lemma.</B> Let <I>K</I>/<I>F</I> be a Galois extension with Galois
+group <I>G</I>. If <I>H</I>&lt;<I>G</I>, then Fix(<I>H</I>)&gt;<I>F</I>.
+
+<P>
+
+<B>Proof.</B> Suppose, for a contradiction, that Fix(<I>H</I>)=<I>F</I>.
+Let <I>K</I>=<I>F</I>(<I>a</I>) have degree <I>n</I>
+over <I>F</I>, and let <I>a</I>=<I>a</I><SUB>1</SUB>, ...,
+<I>a<SUB>n</SUB></I> be the roots of the minimal polynomial of <I>a</I>
+over <I>F</I>. Now <I>G</I> permutes {<I>a</I><SUB>1</SUB>, ...,
+<I>a<SUB>n</SUB></I>} transitively, and hence regularly. So
+the proper subgroup <I>H</I> cannot act transitively on this set. 
+Let {<I>a</I><SUB>1</SUB>, ..., <I>a<SUB>r</SUB></I>} be an orbit.
+Then the coefficients of the monic polynomial with roots
+<I>a</I><SUB>1</SUB>, ..., <I>a<SUB>r</SUB></I>, being the elementary
+symmetric functions in these values, are all fixed by <I>H</I>, and so
+lie in <I>F</I>.Thus <I>a</I>=<I>a</I><SUB>1</SUB> satisfies a polynomial
+of degree <I>r</I> over <I>F</I>, contradicting the fact that
+[<I>F</I>(<I>a</I>):<I>F</I>]=<I>n</I>. So we are done.
+
+<P>
+
+Other misprints and corrections:
+
+<P>
+<UL>
+<LI> On Page 5, in the example, the intersection of <I>A</I> and <I>B</I>
+should be {2} and their symmetric difference {1, 3, 4, 5}.
+<LI> Page 45, line 8, has an extra ) that shouldn't be there.
+<LI> Page 45, line 18 should say "only finitely many are <I>non-zero</I>"
+(rather than "only finitely many are zero"). (Spotted by
+<A HREF="mailto:yhk@stanford.edu">Young-Han Kim</A>.)
+<LI> Page 50, second line of proof of Theorem 2.15: 
+<I>a</I>(1-<I>cd</I>)=1 should read <I>a</I>(1-<I>cd</I>)=0.
+(Spotted by <A HREF=mailto:applearab@hotmail.com>Amjad Tuffaha</A>.)
+<LI> "Maximal ideals": <A HREF=mailto:martin@wpi.edu>Bill Martin</A>
+points out two problems: First, they are used (in Exercise 2.15, page 46)
+before they are defined; second, the definition doesn't make clear that
+a ring is not a maximal ideal of itself!
+<LI> Page 63, line 9: <I>ab in X</I>. (Spotted by
+<A HREF="mailto: r.forman@etoncollege.org.uk">Roderick Forman</A>.)
+<LI> Page 72, line 18: <I>h</I> should be <I>H</I>. (Spotted  by
+<A HREF="mailto:nayimrashid@yahoo.com">Nayim Rashid</A>.)
+<LI> Page 73, line 2, <I>a,b</I> subsets of <I>G</I> should read
+<I>A,B</I> subsets of <I>G</I>. (Spotted by 
+<A HREF="bulldog@directory.reed.edu">Laura Alexander</A>).
+<LI> Page 74, line beginning (E1): <I>g</I><SUP>1</SUP> should be
+<I>g</I><SUB>1</SUB>. (Spotted by Elizabeth Rothwell.)
+<LI> Page 79, line -13. The thetas should be on the right. Similarly
+on Page 83, lines 5-6. (Spotted by
+<A HREF="mailto: r.forman@etoncollege.org.uk">Roderick Forman</A>.)
+<LI> Page 80, proof of Proposition 3.11(a): the conclusion should be that
+Im(theta) is a subgroup of <I>H</I> (not <I>G</I>). (Spotted by
+<A HREF=mailto:benrrubin@hotmail.com>Ben Rubin</A>.)
+<LI> Page 80, line -7: <I>R</I> should read <I>G</I>.
+<LI> Page 82, line 15: the left hand side of the equation should be
+((<I>Ng</I><SUB>1</SUB>)(<I>Ng</I><SUB>2</SUB>))(<I>Ng</I><SUB>3</SUB>),
+not
+((<I>Ng</I><SUB>1</SUB>)(<I>Ng</I><SUB>2</SUB>))(<I>Ng</I><SUB>2</SUB>).
+(Spotted by <A HREF="mailto:hubjl1@rhodes.edu">Jessica Hubbs</A>.)
+<LI> Page 83, line 3: it should say "for all <i>g</i> in <i>G</i>". (Spotted
+by M. Q. Baig.)
+<LI> Page 84, displayed equation defining centraliser of <I>x</I>:
+the quantifier "for all <I>g</I> in <I>G</I>" is incorrect and should
+be deleted. (Spotted by <A HREF=mailto:bulldog@directory.reed.edu">Laura
+Alexander</A>.)
+<LI> <A HREF=mailto:ioannis.pantelidakis@queens.oxford.ac.uk>Ioannis
+Pantelidakis</A> suggests a simpler argument for Step 2 of Theorem 3.33
+on page 102:
+<BLOCKQUOTE>
+<B>Step 2:</B> Given a generating set <I>S</I> for <I>G</I>, if we know the 
+product of each element of <I>G</I> by each element of <I>S</I> then 
+<I>G</I> has been determined. This is because we can obtain the rest of 
+the multiplication table by the associative law.
+So we can only count the number of tables of size <I>n</I> &times; 
+log<SUB>2</SUB><I>n</I> and there are at most 
+<I>n</I><SUP>(<I>n</I>&nbsp;log<SUB>2</SUB><I>n</I>)</SUP> of them.
+</BLOCKQUOTE>
+<LI> Page 104, vector space axioms: (VM1) should read
+<I>c</I>(<I>v</I>+<I>w</I>)=<I>cv</I>+<I>cw</I> (not <I>vw</I>); and
+(VM2) and (VM3) should both read "For all <I>c,d</I> in <I>F</I>" (not
+in <I>V</I>). (Spotted by <A HREF=mailto:bmp_none@hotmail.com>Brandon
+Peden</A>.)
+<LI> On page 119, in the third displayed line, the summations over <I>k</I>
+should run from 1 to <I>n</I>, not <I>m</I>. (Spotted by
+<A HREF=mailto:rippon.gupta@virgin.net>Rippon Gupta</A>.)
+<LI> On page 126, the term <I>ceh</I> in the formula for the 3 by 3
+determinant should read <I>cdh</I>.
+<LI> Page 127, first displayed formula should be
+det(<I>B</I>) = det(<I>A</I>) + <I>c</I> det(<I>C</I>) = det(<I>A</I>).
+(Spotted by <A HREF=mailto:will_funk@hotmail.com>Will Funk</A>.)
+<LI> Page 131, line 10: the exponent of <I>omega</I> should be -<I>ij</I>,
+not -<I>j</I>. (Spotted by <A HREF=mailto:millerd@georgetown.edu>William H.
+Millerd</A>.)
+<LI> Page 135, axiom (MA0): <I>m</I><SUB>1</SUB>+<I>m</I><SUB>1</SUB> should
+be <I>m</I><SUB>1</SUB>+<I>m</I><SUB>2</SUB>. (Spotted by
+<A HREF=mailto:will_funk@hotmail.com>Will Funk</A>.)
+<LI> On page 139, top, I say I will consider right modules and, in the
+next definition, immediately contradict myself. It should of course say
+"right <I>R</I>-module" in the first line of the definition.
+<LI> Page 142, Theorem 5.6: "Suuppose" is su(u)pposed to be "Suppose".
+(Spotted by <A HREF=mailto:csaba@cs.elte.hu>Csaba Szab&oacute;</A>)
+<LI> Page 146, last line of Proposition 5.10: Ann(<I>M<SUB>)</SUB></I>
+should read Ann(<I>M<SUB>2</SUB></I>).
+<LI> Page 153, first line: the second = in the displayed equation should be +.
+<LI> Page 156, middle: <I>v<SUB>i=1</SUB></I> should read 
+<I>v<SUB>v+1</SUB></I>.
+<LI> Page 170, line 9: "polynomials" mis-spelt.
+<LI> Page 170, second definition: should be "<I>E</I> a subfield of <I>F</I>".
+<LI> Page 172, first line of proof of Proposition 6.13: should be "Since
+<I>c</I> is algebraic ..."
+<LI> Page 180, last line: 
+<I>x</I><SUP>3</SUP>+<I>x</I><SUP>2</SUP>-2 <I>x</I>+1 = 0. (not +0.)
+(Spotted by <A HREF=mailto:kefedje@clunet.edu>Karl Fedje</A>.)
+<LI> Page 182, middle: lower-case <I>g</I> should be capital <I>G</I>.
+<LI> Page 184, the first displayed formula is garbled It should be:
+"<I>(p<SUP>a</SUP>m choose p<SUP>a</SUP>)</I> is congruent to <I>m</I>
+mod <I>p</I>".
+<LI> Page 190, line 8: "<I>A</I><SUB><I>n</I>-1</SUB> intersect <I>N</I> =
+<I>N</I>" should read "<I>A</I><SUB><I>n</I>-1</SUB> intersect <I>N</I> =
+<I>A</I><SUB><I>n</I>-1</SUB>". (Spotted by
+<A HREF=mailto:matthew.harvey@st-johns.oxford.ac.uk>Matt Harvey</A>)
+<LI> Page 205, line -14: opening bracket missing.
+<LI> Page 211, line -6: should be "<I>psi(m) = phi(m)</I>".
+<LI> Page 235, line -4: the second "the" should be "then". 
+(Spotted by <A HREF=mailto:kefedje@clunet.edu>Karl Fedje</A>.) 
+<LI> Page 254, 2nd line of definition: <I>f</I> should be <I>F</I>; and
+3rd line: <I>F</I> should be <I>f</I>.
+(Spotted by <A HREF=mailto:rbanders@unity.ncsu.edu>Richard Anderson</A>.)
+<LI> Page 256, proof of Theorem 8.22: "Lemma 8.20" and "Lemma 8.21" should
+be "Proposition 8.20" and "Proposition 8.21". (Spotted by
+<A HREF=mailto:csaba@cs.elte.hu>Csaba Szab&oacute;</A>)
+<LI> Page 269: the reference to Stewart should be [25].
+<LI> Page 284, 4th last line of solution of 3.25: should be "smaller than
+<I>x</I>". 
+<LI> Page 287, index entry for "associate class" should be page 49, not 48.
+(Spotted by <A HREF=mailto:emilyf@mit.edu>Emily Ford</A>.)
+<LI> Pages 288 and 294: the index entry for "Reed-Solomon code" should be
+250-251, rather than 251. (Spotted by <A HREF=mailto:kefedje@clunet.edu>Karl
+Fedje</A>.)
+<LI> Page 293: the index entry for "permutation group" should be page 87, not
+81. (Spotted by <A HREF=mailto:stevedimauro@yahoo.com>Steve DiMauro</A>.)
+</UL>
+
+<P>
+Special thanks to <A HREF="http://www.maths.ex.ac.uk/~rjc/rjc.html">
+Robin Chapman</A>, and to a number of students of Csaba Szab&oacute;,
+for spotting several misprints.
+
+<P>
+
+Please send me reports of further misprints.
+
+<HR>
+
+<P ALIGN=RIGHT>
+Peter J. Cameron<BR>
+13 April 2005
+
+</BODY>
+
+</HTML>
+

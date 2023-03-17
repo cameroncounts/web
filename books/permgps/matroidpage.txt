@@ -1,0 +1,41 @@
+From yggrynd@gte.net Thu Oct 22 21:27 BST 1998
+Received: from delta.qmw.ac.uk (delta.qmw.ac.uk [138.37.6.9])
+	by dirac.maths.qmw.ac.uk (8.8.6/8.8.6/Maths Relay 1.18 (Arrigo)) with SMTP id VAA01638
+	for <pjc@mailhost.maths.qmw.ac.uk>; Thu, 22 Oct 1998 21:27:37 +0100 (BST)
+Received: from smtp2.mailsrvcs.net (actually host smtp2.gte.net) 
+          by delta.qmw.ac.uk with SMTP-UK with ESMTP;
+          Thu, 22 Oct 1998 21:27:34 +0100
+Received: from default (1Cust240.tnt1.lexington.ky.da.uu.net [208.254.112.240])	by smtp2.mailsrvcs.net  
+          with SMTP id PAA02770;	Thu, 22 Oct 1998 15:27:20 -0500 (CDT)
+Reply-To: yggrynd <yggrynd@gte.net>
+From: "Steven R. Pagano" <yggrynd@gte.net>
+To: srkingan <srkingan@aol.com>, LockeS <LockeS@acc.fau.edu>,
+        "p.j.cameron" <p.j.cameron@Qmw.ac.uk>, broby <broby@daimi.aau.uk>,
+        rusin <rusin@math.niu.edu>, fpotter <fpotter@uci.edu>,
+        Tomz <zaslav@math.binghamton.edu>
+Subject: Change of Address for Matroid Page
+Date: Thu, 22 Oct 1998 16:24:14 -0400
+Message-ID: <000001bdfdf9$f03f3480$f070fed0@default>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook 8.5, Build 4.71.2173.0
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.3155.0
+Content-Type: text/plain;	charset="iso-8859-1"
+Content-Length: 205
+Status: R
+
+It's now at my UK site,
+	http://www.ms.uky.edu/~pagano/Matridx.htm
+
+The old site will stay up for only a few more days before I cancel my
+account at GTE.net.
+
+--Steve
+
+Steve and Vi Pagano
+yggrynd@gte.net
+
+

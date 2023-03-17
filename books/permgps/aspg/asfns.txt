@@ -1,0 +1,286 @@
+#
+# This file defines the following functions (for transitive groups only!)
+#
+# IsGenTrans(G)   - true iff G is generously transitive
+# IsTwoTrans(G)   - true iff G is 2-transitive
+# IsTwoHomog(G)   - true iff G is 2-homogeneous
+# IsMultFree(G)   - true iff G is multiplicity-free
+# IsStrat(G)      - true iff G is stratifiable
+# IsASFree(G)     - true iff G is AS-free
+# IsASFriendly(G) - true iff G is AS-friendly
+#
+# It also defines the following functions for lists of matrices (assumed
+# to be zero-one matrices summing to the all-1 matrix and with first element
+# the identity):
+#
+# IsAS(l)         - true iff l is an association scheme
+# IsHCC(l)        - true iff l is a homogeneous coherent configuration
+# IsComm(l)       - true iff the members of l commute
+#
+# Finally, it includes the functions
+#
+# OrbsList(G)     - produces the list of basis matrices for G
+# SymOrbsList(G)  - produces the list of symmetrised basis matrices for G
+#
+
+# Code for testing generous transitivity, 2-transitivity, 2-homogeneity
+
+IsGenTrans:=function(G) 
+  local x,y,s,n;
+  if not IsTransitive(G) then return false; fi;
+  if G=(()) then return true; fi;
+  n:=LargestMovedPoint(G);
+  s:=Orbits(G,Arrangements([1..n],2),OnPairs);
+  for x in s do
+    if not ([x[1][2],x[1][1]] in x) then return false; fi;
+  od;
+  return true;
+  end;
+
+IsTwoTrans:=function(G)
+  return Transitivity(G)>1;
+end;
+
+IsTwoHomog:=function(G)
+  local n;
+  if G=Group(()) then return false; fi;
+  if IsTwoTrans(G) then return true; fi;
+  n:=LargestMovedPoint(G);
+  return IsTransitive(G,Combinations([1..n],2),OnSets);
+end;
+
+# Next, create the adjacency matrices for a transitive group G of degree n.
+# By convention the identity matrix is first.
+
+# Turn an orbit on pairs into a matrix
+
+MakeMat:=function(l,n) # l is a G-orbit on 2-tuples
+  local i,j,a;
+  a:=[];
+  for i in [1..n] do
+    Add(a,[]);
+    for j in [1..n] do
+      if ([i,j] in l) then Add(a[i],1); else Add(a[i],0); fi;
+    od;
+  od;
+  return a;
+end;
+
+# turn a list of pairs of distinct elements into a list of matrices
+
+MakeList:=function(l,n)
+  local s,x;
+  s:=[IdentityMat(n)];
+  for x in l do Add(s,MakeMat(x,n)); od;
+  return s;
+end;
+
+# symmetrise a matrix
+
+Symmet:=function(A)
+  local B;
+  B:=TransposedMat(A);
+  if A<>B then return A+B; else return A; fi;
+end;
+
+# turn a list of pairs of distinct elements into a list of symmetric matrices
+
+MakeSymList:=function(l,n) 
+  local s,x;
+  s:=[IdentityMat(n)];
+  for x in l do Add(s,Symmet(MakeMat(x,n))); od;
+  return DuplicateFreeList(s);
+end;
+
+# construct list of adjacency matrices for a group
+
+OrbsList:=function(g) # g a transitive group
+  local n;
+  n:=LargestMovedPoint(g);
+  return MakeList(Orbits(g,Arrangements([1..n],2),OnPairs),n);
+end;
+
+# construct list of symmetrised adjacency matrices for a group
+
+SymOrbsList:=function(g) # g a transitive group
+  local n;
+  n:=LargestMovedPoint(g);
+  return MakeSymList(Orbits(g,Arrangements([1..n],2),OnPairs),n);
+end;
+ 
+# find the first non-zero entry in the first row of a matrix
+
+Rep:=function(A)
+  local i,x,n;
+  n:=Length(A);
+  for i in [1..n] do
+    if A[1][i]<>0 then return i; fi;
+  od;
+end;
+
+# Is the matrix A a linear combination of matrices in l?
+# Use the "first row" trick - in the centraliser of a transitive group
+# or in a homogeneous coherent configuration,
+# it is enough to test the first row of A
+
+TestLC:=function(v,l)
+  local w,C;
+  w:=v-v;
+  for C in l do
+    w:=w+v[Rep(C)]*C[1];
+  od;
+  return v=w;
+end;
+
+# Do the matrices A and B commute?
+# use the "first row" trick
+
+Commute:=function(A,B)
+  return A[1]*B=B[1]*A;
+end;
+
+# does the list l of matrices form an association scheme? (This doesn't
+# check symmetry!)
+
+IsAS:=function(l)
+  local A,B;
+  for A in l do
+    for B in l do
+      if not Commute(A,B) then return false; fi;
+      if not TestLC(A[1]*B,l) then return false; fi;
+    od;
+  od;
+  return true;
+end;
+
+# does the list l form a homogeneous coherent configuration? (This
+# only checks the last condition!)
+
+IsHCC:=function(l)
+  local A,B;
+  for A in l do
+    for B in l do
+      if not TestLC(A[1]*B,l) then return false; fi;
+    od;
+  od;
+  return true;
+end;
+
+# do the matrices in the list commute?
+
+IsComm:=function(l)
+  local A,B;
+  for A in l do
+    for B in l do
+      if not Commute(A,B) then return false; fi;
+    od;
+  od;
+  return true;
+end;
+
+# Is a transitive group multiplicity-free?
+# We get some easily checked cases out of the way first!
+
+IsMultFree:=function(G)
+  local l;
+  if not IsTransitive(G) then return false; fi;
+  if G=Group(()) then return true; fi;
+  if IsTwoHomog(G) then return true; fi;
+  if IsPrimitive(G) then if Earns(G)<>fail then return true; fi; fi;
+  l:=OrbsList(G);
+  return IsComm(l);
+end;
+
+# Similarly, is G stratifiable?
+
+IsStrat:=function(G)
+  local x,a,b;
+  if not IsTransitive(G) then return false; fi;
+  if G=Group(()) then return true; fi;
+  if IsTwoHomog(G) then return true; fi;
+  if IsPrimitive(G) then if Earns(G)<>fail then return true; fi; fi;
+  x:=SymOrbsList(G);
+  for a in x do
+    for b in x do
+      if not Commute(a,b) then return false; fi;
+    od;
+  od;
+  return true;
+end;
+
+# The rest of the code tests for AS-freeness and AS-friendliness
+# The strategy is: partition the set of non-identity symmetrised
+# adjacency matrices in all possible ways and decide whether the
+# sums of the parts (with identity) form an association scheme -
+# if only in the trivial case, the group is AS-free;
+# if the meet of all such is an AS, the group is AS-friendly.
+
+# generate all partitions of [1..m] having 1 as a part
+# this is the most inefficient part of the code - for even moderate m
+# this list is very long!!
+
+PartList:=function(m)
+  local l, ll, x;
+  l:=[];
+  for x in PartitionsSet([2..m]) do
+    ll:=[[1]]; Append(ll,x);
+  Add(l,ll);
+  od;
+  return l;
+end;
+
+# from a partition u to the prospective basis matrices as sums from l
+
+MakeTestList:=function(l,u)
+  return List(u,x->Sum(x,y->l[y]));
+end;
+
+# calculate meet of two partitions
+
+MeetPart:=function(u,v)
+  local w,p,i,j;
+  w:=[];
+  for i in u do
+    for j in v do
+      p:=Intersection(i,j);
+      if p<>[] then Add(w,p); fi;
+    od;
+  od;
+  return Set(w);
+end;
+
+# The next function returns 2 is G is AS-free, 1 is AS-friendly but not
+# AS-free, and 0 if not AS-friendly
+
+ASFdata:=function(G)
+  local l,u,parts,currentmeet,n;
+  if not IsTransitive(G) then return 0; fi;
+  if G=Group(()) then return 2; fi; # convention(?)
+  if IsTwoHomog(G) then return 2; fi;
+  if IsPrimitive(G) then if Earns(G)<>fail then return 1; fi; fi;
+  if IsStrat(G) then return 1; fi;
+  if IsRegular(G) then return 0; fi; # for regular groups, AF iff Strat
+  n:=LargestMovedPoint(G);
+  l:=SymOrbsList(G);
+  parts:=Length(l);
+  currentmeet:=[[1],[2..parts]];
+  for u in PartList(parts) do
+    if IsAS(MakeTestList(l,u)) then
+      currentmeet:=MeetPart(currentmeet,u);
+      if Length(currentmeet)=parts then return 0; fi;
+    fi;
+  od;
+  if Length(currentmeet)=2 then return 2;
+  elif IsAS(MakeTestList(l,currentmeet)) then return 1;
+  else return 0;
+  fi;
+end;
+
+IsASFree:=function(G)
+  return ASFdata(G)=2;
+end;
+
+IsASFriendly:=function(G)
+  return ASFdata(G)>0;
+end;
+

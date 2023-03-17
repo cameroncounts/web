@@ -1,0 +1,67 @@
+
+<p>
+.&nbsp;.&nbsp;. the membership relation for sets can often be replaced by the
+composition operation for functions. This leads to an alternative 
+foundation for Mathematics upon categories &mdash; specifically, on 
+the category of all functions. Now much of Mathematics is dynamic, 
+in that it deals with morphisms of an object into another object 
+of the same kind. Such morphisms (like functions) form categories, 
+and so the approach via categories fits well with the objective 
+of organizing and understanding Mathematics. That, in truth, 
+should be the goal of a proper philosophy of Mathematics.
+</p>
+
+<blockquote>
+S. Mac Lane, <i>Mathematics: Form and Function</i>, Springer, New York, 1986.
+</blockquote>
+
+<hr>
+
+<p>
+Nowadays, one of the most interesting points in mathematics is that, although 
+all categorical reasonings are formally contradictory, we use them and we 
+never make a mistake. Grothendieck provided a partial foundation in terms of 
+universes but a revolution of the foundations similar to what Cauchy and 
+Weierstrass did for analysis is still to arrive. In this respect, he was 
+pragmatic: categories are useful and they give results so we do not have to 
+look at subtle set-theoretic questions if there is no need. Is today the 
+moment to think about these problems? Maybe .&nbsp;.&nbsp;.
+</p>
+
+<blockquote>
+Pierre Cartier, interview in <i>Newsletter of the European Mathematical
+Society</i>, January 2010.
+</blockquote>
+
+<hr>
+
+<p>
+Category theory is intended as a universal language of mathematics, so all
+concepts should be translated into it. Much as beavers, who as a species hate
+the sound of running water, plaster a creek with mud and sticks until alas
+that cursed tinkle stops, so do category theorists devise elaborate and 
+obscure definitions in an attempt to capture a concept that to most of us
+seemed perfectly clear before they got to it. But at least sometimes this
+works admirably &ndash; for instance no one can be immune to the charm of
+treating knot invariants with braided monoidal categories.
+</p>
+
+<p>
+...
+</p>
+
+<p>
+This generality of course comes with a price: it can wash away all of the
+endearing special features of a favourite theory or structure. There certainly
+are contexts where, for example, all human beings should be considered equal,
+but there are other contexts where the given human is none other than your
+mother and must be treated as such.
+</p>
+
+<blockquote>
+Terry Gannon, <i>Moonshine Beyond the Monster: The Bridge connecting Algebra,
+Modular Forms and Physics</i>, Cambridge University Press, 2006.
+</blockquote>
+
+<hr>
+

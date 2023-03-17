@@ -1,0 +1,121 @@
+From abit@wintermute.anu.edu.au Wed Mar 29 03:39 BST 2000
+Received: from theta.qmw.ac.uk (theta.qmw.ac.uk [138.37.6.7])
+	by dirac.maths.qmw.ac.uk (8.8.5/8.8.6/Maths Relay 2.0) with ESMTP id DAA08444
+	for <pjc@mailhost.maths.qmw.ac.uk>; Wed, 29 Mar 2000 03:39:23 +0100 (BST)
+Received: from wintermute.anu.edu.au ([150.203.33.75])
+	by theta.qmw.ac.uk with esmtp (Exim 3.02 #1)
+	id 12a8OA-00026L-00
+	for p.j.cameron@qmw.ac.uk; Wed, 29 Mar 2000 03:39:23 +0100
+Received: from room.anu.edu.au (room [150.203.33.222])
+	by wintermute.anu.edu.au (8.9.3/8.9.3) with ESMTP id MAA09987
+	for <p.j.cameron@qmw.ac.uk>; Wed, 29 Mar 2000 12:39:14 +1000 (EST)
+Received: from localhost (abit@localhost)
+	by room.anu.edu.au (8.8.8+Sun/8.8.8) with ESMTP id MAA04300
+	for <p.j.cameron@qmw.ac.uk>; Wed, 29 Mar 2000 12:39:14 +1000 (EST)
+X-Authentication-Warning: room.anu.edu.au: abit owned process doing -bs
+Date: Wed, 29 Mar 2000 12:39:13 +1000 (EST)
+From: Alberto <abit@wintermute.anu.edu.au>
+X-Sender: abit@room
+To: p.j.cameron@qmw.ac.uk
+Subject: misprint in Permutation Groups?
+Message-ID: <Pine.GSO.4.10.10003291223490.27915-100000@room>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Length: 646
+Status: RO
+
+
+Hi,
+    sorry to bother you for such a minor and harmless misprint.
+
+Exercise 7.4, section 7.5, page 198.
+
+  Use Burnside's Theorem and table 6.4 to determine the transitive ...
+
+should probably be
+
+  Use Burnside's Theorem and table 7.4 to determine the transitive ...
+
+I guess it is just enough to latex the document one more time.
+Sorry again but the temptation to write to Peter J. Cameron was eventually
+too strong... 
+
+regards,
+                                Alberto.                  *
+----------------------------------------                *  .*
+      abit@maths.anu.edu.au
+----------------------------------------                  *
+
+(Alberto Basile?)
+
+From abit@wintermute.anu.edu.au Wed Mar 29 11:09 BST 2000
+Received: from theta.qmw.ac.uk (theta.qmw.ac.uk [138.37.6.7])
+	by dirac.maths.qmw.ac.uk (8.8.5/8.8.6/Maths Relay 2.0) with ESMTP id LAA27496
+	for <pjc@mailhost.maths.qmw.ac.uk>; Wed, 29 Mar 2000 11:09:15 +0100 (BST)
+Received: from wintermute.anu.edu.au ([150.203.33.75])
+	by theta.qmw.ac.uk with esmtp (Exim 3.02 #1)
+	id 12aFPR-0005A1-00
+	for P.J.Cameron@qmw.ac.uk; Wed, 29 Mar 2000 11:09:13 +0100
+Received: from room.anu.edu.au (room [150.203.33.222])
+	by wintermute.anu.edu.au (8.9.3/8.9.3) with ESMTP id UAA13403
+	for <P.J.Cameron@qmw.ac.uk>; Wed, 29 Mar 2000 20:09:02 +1000 (EST)
+Received: from localhost (abit@localhost)
+	by room.anu.edu.au (8.8.8+Sun/8.8.8) with ESMTP id UAA13036
+	for <P.J.Cameron@qmw.ac.uk>; Wed, 29 Mar 2000 20:09:01 +1000 (EST)
+X-Authentication-Warning: room.anu.edu.au: abit owned process doing -bs
+Date: Wed, 29 Mar 2000 20:09:00 +1000 (EST)
+From: Alberto <abit@wintermute.anu.edu.au>
+X-Sender: abit@room
+To: Peter Cameron <P.J.Cameron@qmw.ac.uk>
+Subject: Re: misprint in Permutation Groups?
+In-Reply-To: <200003290938.KAA08537@burnside.maths.qmw.ac.uk>
+Message-ID: <Pine.GSO.4.10.10003291941020.27915-100000@room>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Length: 2219
+Status: R
+
+
+Dear Peter,
+
+> If you send me the rest of your name I can acknowledge you properly.
+
+  I feel so honoured and happy just by receiving your message. Really it
+would be much too much for me to appear anywhere because of that little
+tiny misprint. In fact, I would rather wait for a more important reason,
+in the hope that there will be one (which does not need to be a worse
+misprint on "Permutation Groups" of course).
+
+However, my name is Alberto Basile, born in Verona, Italy in 1968 and
+graduated in matematica at the university of Padova in 1996 under the
+supervision of Prof F. Menegazzo and A. Lucchini with a thesis concernig
+finite permutation groups. I was at Castelvecchio Pascoli in July 1996
+where I've seen you for the first time. I did not give any talk though. I
+am now enrolled as research PhD student here at the ANU under the
+supervision of L. G. Kovacs. I should finish by the end of the Year.
+
+I have not published anything yet, nor I have produced something worth's
+reading. I'm trying to prove that there are only finitely many lattices of
+heights $2$ which are intervals in the subgroup lattice of an alternating
+(or symmetric) group with the alternating (or symmetric) group as top
+group of the interval. That is, there are only finitely many positive
+integers $n$ such that there is a subgroup $H$ of an alternating finite
+(or symmetric) group, say $G$, such that the proper subgroups of $G$
+properly containing $H$ are exactly in number of $n$ and also al these
+subgroups are maximal in $G$. This is a little subcase of an open question
+coming from universal algebra. It is proved that every finite lattice is
+interval in the subgroup lattice of some group but no-one could make that
+group to be finite as well. In fact, it is a general feeling that it is
+not possible. Not even for the very elementary lattices of length $2$.
+
+Anyway, thank you again for your reply. I will probably meet you before
+the end of the Year here in Australia.
+
+See you then,
+                           
+                                Alberto.                  *
+----------------------------------------                *  .*
+      abit@maths.anu.edu.au
+----------------------------------------                  *
+
+

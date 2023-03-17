@@ -1,0 +1,830 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsfonts}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{definition}[theorem]{Definition}
+\newcommand{\head}[1]{\medbreak\noindent\textit{#1}\ }
+
+\begin{document}
+
+\title{Fibonacci notes}
+\author{Peter J. Cameron and Dima G. Fon-Der-Flaass}
+\date{}
+\maketitle
+
+\begin{abstract}
+These notes put on record part of the contents of a conversation
+the first author had with John Conway in November 1996, concerning some
+remarkable properties of the Fibonacci numbers discovered by Clark
+Kimberling~\cite{kimberling} and by Conway himself. Some of these
+properties are special cases of much more general results, while
+others are specific to the Fibonacci sequence; some are proved,
+while others are merely observation (as far as we know). The first
+four sections are purely expository.
+The last two sections on numeration systems are the work of the
+second author. We am grateful to members of the Combinatorics Study Group
+at QMW, especially Julian Gilbey, for discussions and help with the details.
+\end{abstract}
+
+\section{Fibonacci numbers}
+
+The \emph{Fibonacci number} $F_n$, for positive integer $n$, can be
+defined as the number of ways of writing $n$ as the sum of a
+sequence of terms, each equal to $1$ or $2$. So, for example, $4$
+can be expressed in any of the forms
+\[2+2=2+1+1=1+2+1=1+1+2=1+1+1+1,\]
+so $F_4=5$.
+
+The most important property of the Fibonacci numbers is that they
+satisfy the recurrence relation
+\[F_n=F_{n-1}+F_{n-2}\]
+for $n\ge3$. For consider all the sequences of $1$s and $2$s
+with sum~$n$. Divide the sequences into two classes according to
+whether the last term is $1$ or $2$. There are $F_{n-1}$ sequences
+in the first class, since the terms except the last sum to~$n-1$.
+Similarly, there are $F_{n-2}$ sequences in the second class.
+Since the classes don't overlap, and every sequence lies in one
+of them, the recurrence relation follows.
+
+This recurrence, together with the initial values $F_1=1$ and
+$F_2=2$, determines $F_n$ for all~$n$.
+
+We can extend the definition of $F_n$ to $n=0$ in a natural way:
+the empty sequence is the only one with sum~$0$, so $F_0=1$.
+It is possible to define $F_n$ for negative $n$ so that the
+recurrence is satisfied, but there is no natural counting
+interpretation of these numbers.
+
+Standard arguments give the formula
+\[F_n=\frac{1}{\sqrt{5}}\left(\left(\frac{1+\sqrt{5}}{2}\right)^{n+1}
+-\left(\frac{1-\sqrt{5}}{2}\right)^{n+1}\right).\]
+
+Since $\alpha=(1+\sqrt{5})/2=1.618\ldots>1$ and
+$\beta=(1-\sqrt{5})/2=-0.618\ldots>-1$, we see that $F_n$ is the nearest
+integer to $(1/\sqrt{5})((1+\sqrt{5})/2)^{n+1}$. In particular,
+$F_{n+1}/F_n$ tends to the limit $(1+\sqrt{5})/2$ as $n\to\infty$.
+
+Note that $\alpha-1=-\beta$ is the \emph{golden ratio} $\tau$, the point
+of division of a unit interval with the property that the ratio of the
+larger part to the whole is equal to the ratio of the smaller part to the
+larger.
+
+\section{The Fibonacci successor function}
+\label{s:fsf}
+
+In this section we define a function on the positive integers
+which has the property that it maps each Fibonacci number to
+the next. It depends on the following property of Fibonacci
+numbers:
+
+\begin{theorem}
+Every positive integer $n$ has a unique expression in the form
+\[n=F_{i_1}+F_{i_2}+\cdots+F_{i_k},\]
+where $i_{j+1}\ge i_j+2$ for $j=1, \ldots, k-1$; in other words,
+as the sum of a set of Fibonacci numbers with no two consecutive.
+\end{theorem}
+
+We call the expression in the theorem the \emph{Fibonacci
+representation} of~$n$.
+
+To prove this, we use a simple fact about Fibonacci numbers,
+easily demonstrated by induction:
+
+\begin{lemma}
+The sum of alternate Fibonacci numbers ending with $F_k$ is
+$F_{k+1}-1$.
+\end{lemma}
+
+\head{Proof} The inductive step goes from $k$ to $k+2$: if we
+assume the result for $k$, and add $F_{k+2}$ to both sides of
+the equation, then on the right we obtain $F_{k+3}-1$. So it is
+necessary to start the induction separately for odd and even $k$,
+by observing that $F_1=F_2-1$ and $F_2=F_3-1$.
+
+\medbreak
+
+Now given an integer $n$, let $F_k$ be the largest Fibonacci
+number not exceeding $n$. Then any representation of $n$ as the
+sum of Fibonacci numbers with no two consecutive must include
+$F_k$, since by the Lemma if we omit $F_k$ the greatest we can
+get is $F_k-1$. Now, by induction, $n-F_k$ has a unique Fibonacci
+representation; and this representation cannot include $F_{k-1}$,
+since $n<F_{k+1}=F_k+F_{k-1}$. So we have constructed the unique
+Fibonacci representation of $n$.
+
+Now we define the \emph{Fibonacci successor function} $\sigma$
+as follows: if
+\[n=F_{i_1}+F_{i_2}+\cdots+F_{i_k}\]
+is the Fibonacci representation of~$n$, then
+\[\sigma(n)=F_{i_1+1}+F_{i_2+1}+\cdots+F_{i_k+1}.\]
+Note that $\sigma(F_k)=F_{k+1}$, and that $m$ is the Fibonacci
+successor of some (unique) positive integer if and only if $F_1$
+does not occur in the Fibonacci representation of $m$.
+
+Note also that $n+\sigma(n)=\sigma^2(n)$ for any $n$, where
+$\sigma^2(n)$ denotes $\sigma(\sigma(n))$. So, in order to
+apply the successor function repeatedly, we only have to apply
+it once and then use the Fibonacci recurrence relation.
+
+We call the positive integer $n$ a \emph{Fibonaacci successor} if
+$n=\sigma(m)$ for some $m$. This holds if and only if the
+Fibonacci representation of $n$ does not contain $F_1$.
+
+We oserved in the last section that each Fibonacci number is
+approximately $\alpha$ times the preceding one, where $\alpha=
+(1+\sqrt{5})/2$. The convergence is exponentially rapid. A small
+amount of analysis of geometric progressions in fact shows the
+following. Given a positive integer $n$, let $\rho(n)$ be the
+integer nearest to $n\alpha$.
+
+\begin{theorem}
+For any positive integer~$n$, either $\sigma(n)=\rho(n)$, or
+$\sigma(n)=\rho(n)+1$. The first alternative holds if $n$ is a
+Fibonacci successor.
+\label{t:approx}
+\end{theorem}
+
+We can extend the domain of the Fibonacci successor function to
+include zero, in a natural way. Since the Fibonacci representation
+of zero is empty, we take $\sigma(0)=0$.
+
+\section{The table}
+\label{s:table}
+
+We consider the following table. (Ignore for the moment the
+two columns at the left.)
+\[
+\begin{array}{|r|r|rrrrrrrrr|}
+\hline
+0&1&1&2&3&5&8&13&21&34&\ldots\\
+\hline
+1&3&4&7&11&18&29&47&76&123&\ldots\\
+\hline
+2&4&6&10&16&26&42&68&110&178&\ldots\\
+\hline
+3&6&9&15&24&39&63&102&165&267&\ldots\\
+\hline
+4&8&12&20&32&52&84&136&220&356&\ldots\\
+\hline
+5&9&14&23&37&60&97&157&254&411&\ldots\\
+\hline
+6&11&17&28&45&73&118&191&309&500&\ldots\\
+\hline
+7&12&19&31&50&81&131&212&343&555&\ldots\\
+\hline
+8&14&22&36&58&94&152&246&398&644&\ldots\\
+\hline
+9&16&25&41&66&107&173&280&453&733&\ldots\\
+\hline
+10&17&27&44&71&115&186&301&487&788&\ldots\\
+\hline
+\end{array}
+\]
+
+The table is constructed as follows. The first row contains the
+Fibonacci numbers. As we already saw, these are produced by
+starting with~$1$ and applying the Fibonacci successor function
+repeatedly.
+
+The first element in the next row is the smallest number which
+has not been encountered previously (which happens to be~$4$).
+Then we apply the successor function repeatedly to it to generate
+the row. As we also saw, we only need to apply the successor
+function once:
+\[4=1+3=F_1+F_3,\]
+so
+\[\sigma(4)=F_2+F_4=2+5=7.\]
+Then the remaining elements can be found from the Fibonacci
+recurrence relation: next is $7+4=11$, then $11+7=18$, and so on.
+
+Now we repeat this for each succeeding row: the first entry is the
+smallest number not used in the table so far, and the rest of its
+row is obtained by applying the successor function repeatedly
+(or by applying the successor function once and then the recurrence
+relation).
+
+Clearly the first element in any row is not itself the
+Fibonacci successor of anything. So the first elements in
+the rows are the numbers whose Fibonacci representations include
+$F_1$, arranged in order. We see that every positive integer
+occurs exactly once in the table: the integer
+\[n=F_{i_1}+F_{i_2}+\cdots+F_{i_k}\]
+occurs in column $i_1$ of the row with first element
+\[m=F_1+F_{i_2-i_1+1}+\cdots+F_{i_k-i_1+1}.\]
+
+Let $T_{i,j}$ denote the entry in row~$i$ and column~$j$ of the table.
+(For technical reasons, we take the first row to have number~$0$).
+Various remarkable properties hold: we now give some of these.
+
+\begin{theorem}\label{th3_1}
+Let $a_1$ and $a_2$ be positive integers, and define a sequence
+$(a_n)$ by the Fibonacci recurrence: that is, $a_{n+2}=a_n+a_{n+1}$
+for $n\ge1$. Then there exist $k,l,m$ such that $a_{m+n}=T_{k,l+n}$
+for all $n\ge0$. In other words, every sequence generated by
+the Fibonacci recurrence occurs, from some point on, in the table.
+\end{theorem}
+
+\head{Proof} It is enough to show that $a_{n+1}=\sigma(a_n)$ for
+some $n$: for the number $a_n$ occurs in the table (by our
+previous remark) and the given sequence agrees with that row from
+that point on.
+
+Now the solution to any Fibonacci recurrence is given by
+\[a_n=A\alpha^n+B\beta^n\]
+for some $A$ and $B$, where $\alpha$ and $\beta$ are as in
+Section~1. Since $|\beta|<1$, for sufficiently large $n$ we see
+that $a_{n+1}=\rho(a_n)$, the nearest integer to $a_n\alpha$.
+So, by Theorem~\ref{t:approx}, it is enough to find a sufficiently
+large $n$ such that $a_n$ is a Fibonacci successor.
+
+Suppose that $a_n$ is not a Fibonacci successor, say
+\[a_n=F_1+F_k+\cdots,\]
+with $k\ge3$. Then by Theorem~\ref{t:approx}, we have
+\[a_{n+1}=\rho(a_n)=\sigma(a_n)-1=F_1+F_{k+1}+\cdots.\]
+But then
+\[a_{n+2}=a_n+a_{n+1}=F_2+F_{k+2}+\cdots\]
+is a Fibonacci suuccessor, as required.
+
+\head{Remark} If two sequences satisfying the Fibonacci recurrence
+agree from some point on, then (by extrapolting back) they agree
+throughout their entire ength. So, in Theorem~3.1, we may assume
+that either $l$ or $m$ is equal to~$1$.
+
+\medbreak
+
+Let $r_n$ be the number of the row containing the positive integer~$n$.
+The sequence $(r_n)$ begins
+\[0,0,0,1,0,2,1,0,3,2,1,4,0,5,3,2,6,1,7,4,0,\ldots\]
+The lengths of the gaps between successive zeros are Fibonacci numbers
+(starting with $F_0=1$). The numbers in the gap of length $F_k$ are
+a permutation $\pi_k$ of $\{1,2,\ldots, F_k-1\}$, and the permutation 
+$\pi_{k+1}$ is obtained from $\pi_k$ by inserting the additional numbers
+in appropriate gaps. 
+
+\medbreak
+
+We can imagine that the table is extrapolated backwards using
+the recurrence: that is, $T_{i,0}=T_{i,2}-T_{i,1}$ and
+$T_{i,-1}=T_{i,1}-T_{i,0}$ for all $i\ge0$.
+
+\begin{theorem}
+We have $T_{i,{-1}}=i$ and $T_{i,0}=\sigma(i)+1$. Moreover,
+$T_{i,1}=\sigma(T_{i,0})-1$.
+\end{theorem}
+
+\head{Proof} The function $\sigma$ is strictly monotonic, and the
+entries in column~$1$ of the table are (by construction) increasing.
+So the numbers
+\[\sigma^{-1}(\sigma^{-1}(T_{i,1}+1)-1)\]
+are strictly increasing. So it suffices to prove that every
+non-negative integer $n$ can be expressed in the form
+\[n=\sigma^{-1}(\sigma^{-1}(m+1)-1)\]
+for some $m$ which is not a Fibonacci successor, and that,
+conversely, if $m$ is not a Fibonacci successor, then it can
+be written in the form
+\[m=\sigma(\sigma(n)+1)-1\]
+for some $n$.
+
+For the first, take any $n$ and write its Fibonacci representation.
+There are two cases. If $F_1$ occurs (that is, $n$ is not a
+Fibonacci successor), then, say,
+\[n=F_1+\cdots+F_{2l-1}+F_k+\cdots,\]
+with $k>2l+1$. Then
+\[\sigma(n)+1=F_{2l+1}+F_{k+1}+\cdots,\]
+whence
+\[\sigma(\sigma(n)+1)-1=F_1+\cdots+F_{2l+1}+F_{k+2}+\cdots,\]
+which is not a Fibonacci successor. On the other hand, if $F_1$
+does not occur in the representation of $n$, then say
+\[n=F_2+\cdots+F_{2l}+F_k+\cdots,\]
+with $k\ge2l+2$ (and possibly $l=0$). Then
+\[\sigma(n)+1=F_1+F_3+\cdots+F_{2l+1}+F_{k+1}=\cdots,\]
+and
+\[\sigma(\sigma(n)+1)-1)=F_1+F_4+\cdots+F_{2l+2}+F_{k+2}+\cdots,\]
+which again is not a Fibonacci successor.
+
+For the converse, suppose that
+\[m=F_1+F_3+\cdots+F_{2l+1}+F_k=\cdots,\]
+where $k>2l+3$. Then
+\[m+1=F_{2l+2}+F_k+\cdots,\]
+so that
+\[\sigma^{-1}(m+1)=F_{2l+1}+F_{k-1}+\cdots.\]
+Then
+\[\sigma^{-1}(m+1)-1=F_2+\cdots+F_{2l}+F_{k-1}+\cdots,\]
+and so
+\[\sigma^{-1}(\sigma^{-1}(m+1)-1)=F_1+\cdots+F_{2l-1}+F_k=\cdots.\]
+(It is possible that the initial terms $F_1+\cdots+F_{2l-1}$ are
+absent, if $l=0$.)
+
+\medbreak
+
+So the entries in column~$-1$ conveniently label the rows by
+non-negative integers.
+
+\section{Phyllotaxis}
+
+Fibonacci numbers, and the golden ratio, are popularly associated
+with the growth of plants. In order that the leaves of a growing
+plant should not shade the leaves below them, each new leaf
+should grow so as to make an angle of $\tau$ of a circle with
+the previous one, where $\tau=(\sqrt{5}-1)/2$ is the golden ratio.
+See the discussion in Coxeter~\cite{coxeter}, Chapter~11.
+
+Let us consider the leaves on such an idealised plant. Suppose
+that the stem has unit circumference, and that leaf number zero
+grows at the reference point $0$. Then the position of leaf number
+$n$ is at $\{n\tau\}=n\tau-\lfloor n\tau\rfloor$, the fractional
+part of $n\tau$. When it emerges, the circle is already divided
+into $n$ intervals by the existing leaves. Suppose that there
+are $a_n$ intervals between the zeroth and the $n$th leaf when it
+emerges, and $b_n$ intervals between the $n$th leaf and the zeroth.
+(Thus $a_n+b_n=n+1$.) What can be said about the ordered pairs
+$(a_n,b_n)$?
+
+It is known that the ratio of consecutive Fibonacci numbers is a
+close approximation to the golden ratio. More precisely,
+\[\lim_{k\to\infty}F_k/F_{k+1}=\tau,\]
+and the ratio $F_k/F_{k+1}$ is a better approximation to $\tau$
+than any rational with smaller denominator; moreover, the ratio
+is alternately greater and less than its limit. Thus, when leaf
+number $n=F_{k+1}$ emerges, we have either $a_n=1$ (if $k$ is odd)
+or $b_n=1$ (if $k$ is even). Thus,
+\[\hbox{If }n=F_{k+1}\hbox{ then } (a_n,b_n)=
+\cases{(1,n)& if $k$ is odd,\cr (n,1)& if $k$ is even.\cr}\]
+Moreover, the Fibonacci numbers are the only numbers with this
+property: that is, if $n$ is not a Fibonacci number then
+$a_n,b_n>1$.
+
+We find the following values:
+\[
+\begin{array}{|r|r|r|}
+\hline
+n & a_n & b_n \\
+\hline
+1  &  1  &  1  \\
+2  &  1  &  2  \\
+3  &  3  &  1  \\
+4  &  2  &  3  \\
+5  &  1  &  5  \\
+6  &  5  &  2  \\
+7  &  3  &  5  \\
+8  &  8  &  1  \\
+9  &  5  &  5  \\
+10  &  2  &  9  \\
+11  &  9  &  3  \\
+12  &  5  &  8  \\
+13  &  1  &  13  \\
+14  &  10  &  5  \\
+15  &  5  &  11  \\
+16  &  15  &  2  \\
+17  &  9  &  9  \\
+18  &  3  &  16  \\
+19  &  15  &  5  \\
+20  &  8  &  13  \\
+21  &  21  &  1  \\
+22  &  13  &  10  \\
+23  &  5  &  19  \\
+24  &  20  &  5  \\
+25  &  11  &  15  \\
+\hline
+\end{array}
+\]
+
+Now observe what happens as $n$ runs along a row of our master
+table. We already noted that, if $n$ runs through the Fibonacci
+numbers, then one of $a_n$ and $b_n$ is equal to $1$, and this
+number bounces from side to side. Empirically, something similar
+happens for any row, except that the `bouncing number' is not~$1$
+for any other row. In fact, the values of the bouncing number
+$t$ are as shown in the following table:
+\[
+\begin{array}{|r|r|}
+\hline
+n & t \\
+\hline
+0 & 1 \\
+1 & 3 \\
+2 & 2 \\
+3 & 5 \\
+4 & 8 \\
+5 & 5 \\
+6 & 9 \\
+7 & 5 \\
+8 & 10 \\
+9 & 15 \\
+10 & 9 \\
+\hline
+\end{array}
+\]
+The bouncing number seems to be often but not always a Fibonacci
+number. We do not know how to explain these patterns!
+
+\section{Recurrent numeration systems}
+
+This section gives a wide generalisation of the table of sequences
+satisfying the Fibonacci relation.
+
+\newcommand{\N}{\mathbb{N}} \newcommand{\Z}{\mathbb{Z}} 
+\newcommand{\e}{\varepsilon}
+We let $\N$ denote the natural numbers, starting at zero, and
+$\N^+=\N\setminus\{0\}$ the positive integers. Also,
+$\mathcal{P}$ is the set of all nonempty finite subsets of $N$ ordered
+lexicographically. We shall often identify elements of $\mathcal{P}$ with
+finite binary words: every set $X\in\mathcal{P}$ is identified with the word
+$\e_m\ldots\e_0$ where $m=\max X$, and $\e_i=1$ whenever $i\in X$.
+Thus the words corresponding to elements of $\mathcal{P}$ always 
+begin with $1$.
+
+By a general \emph{numeration system} (NS) we mean any infinite subset
+$\mathcal{S}\subseteq\mathcal{P}$ together with the uniquely determined 
+order-preserving bijection $n:\mathcal{S}\rightarrow\N^+$.
+
+We now give some examples.
+
+\head{Example 1.} The most trivial example: $\mathcal{S}$ is the collection of
+all one-element sets. Then every
+positive integer $n$ is the image of the word $B_n=10\ldots 0$ ($n$ zeros).
+
+\head{Example 2} The most common example: the binary system.
+$\mathcal{S}=\mathcal{P}$, all non-empty finite sets. The positive
+integer $n$ is the image of its own base~$2$ representation.
+
+\head{Example 3} The example which has motivated this section: the Fibonacci
+numbering system. $\mathcal{S}$ is the collection of all finite sets
+containing no two consecutive numbers.
+
+\medbreak
+
+A numeration system $(\mathcal{S},n)$ is called {\it based}
+if there exists a {\it base sequence} $B(\mathcal{S})=(b_0,b_1,\ldots)$
+of positive natural numbers such that
+$$n(X)=\sum_{i\in X}b_i$$
+for every $X\in\mathcal{S}$.
+
+In \emph{Example 1}, the base sequence is just the sequence of natural
+numbers $1,2,\ldots$. In \emph{Example 2}, it is the sequence of powers
+of $2$, while in \emph{Example 3}, it is the Fibonacci sequence (this
+follows from the Fibonacci representation in Section~\ref{s:fsf}).
+
+\medbreak
+
+A NS $(\mathcal{S},n)$ is called {\it tree-like} if it satisfies the following
+three properties (here we look at $\mathcal{S}$ as a set of binary words):
+\begin{description}
+\item{(T1)} $1\in\mathcal{S}$;
+\item{(T2)} if $w\in\mathcal{S}$ then $w0\in\mathcal{S}$;
+\item{(T3)} every nonempty initial segment of $w\in\mathcal{S}$ belongs to 
+$\mathcal{S}$.
+\end{description}
+
+The set $\mathcal{S}$ with the set of arcs $(w,w\e)$, $\e\in\{0,1\}$, forms a
+directed tree rooted at the vertex $1$. Label every arc $(w,w\e)$ by
+$\e$. Now, if we add another vertex $0$, and an arc $(0,1)$ labelled by $1$,
+we get a rooted tree $T(\mathcal{S})$, and every element of $\mathcal{S}$
+is the sequence of labels on some path beginning at $0$. Every vertex
+$w\neq 0$ has outdegree $1$ or $2$, and the outgoing arcs are labelled by
+$0$, or by $0$ and $1$. If we start at $0$ and choose an arc with label $1$
+whenever possible, we get
+
+\begin{lemma}\label{l1}
+Let $\mathcal{S}$ be a tree-like NS. There exists an infinite binary sequence
+$M=M(\mathcal{S})=m_1m_2m_3\ldots$, $m_1=1$, the {\em maximal sequence} of 
+$\mathcal{S}$, such that every its initial segment $M_k=m_1\ldots m_k$
+is the lexicographically maximal $k$-digit word in $\mathcal{S}$.
+\end{lemma}
+
+The arcs labelled by $0$ determine a partition of $\mathcal{S}$ into infinite
+sequences $C_0,C_1,\ldots$ numbered in the increasing order of their
+initial elements. Let $C_i=(v_{i1},v_{i2},\ldots)$. Then the numbers
+$c_{ij}=n(v_{ij})$ form the \emph{table} of the NS $(\mathcal{S},n)$.
+
+\medbreak
+
+Our three examples are tree-like.
+
+In \emph{Example 1}, we have $M=1000\ldots$, and $(b_i)=(1,2,3,4,\ldots)$.
+The table is a single row $(1,2,3,4,\ldots)$. In \emph{Example 2},
+$M=1111\ldots$; and $b_i=2^i$. Entries of the table are $c_{ij}=(2i+1)2^{j-1}$,
+for $i\geq 0$, $j\geq 1$: that is, the rows start with the odd numbers, and
+each entry is double the one to its left.
+
+In \emph{Example 3}, the base sequence $(b_i)=(1,2,3,5,8,\ldots)$
+is the Fibonacci sequence: $b_0=1$, $b_1=2$, $b_n=b_{n-1}+b_{n-2}$.
+Finally, $M=101010\ldots$. The table is the one given in Section~\ref{s:table}.
+
+\medbreak
+
+In the other direction, a numeration system can be constructed as follows.
+
+Take any infinite binary sequence $M=m_1m_2\ldots$ beginning with $m_1=1$;
+for $i=0,1,\ldots$ let $M_i$ be its initial segment of length $i$, and
+define $M_i'=M_{i-1}0$ for those $i>0$ for which $m_i=1$;
+
+Let $\mathcal{S}$ be the set of words $w$ which begin with $1$ and can be
+represented in the form $w=v_1'\ldots v_s'v$, $s\geq 0$, where $v_i'$ are
+some words $M_j'$, and $v$ is one of $M_i$ (if it exists, such representation
+is unique). We have $M=M(\mathcal{S})$ (cf.\ Lemma \ref{l1}).
+
+The base sequence of $\mathcal{S}$ is defined recursively by $b_0=1$ and
+\begin{equation}
+b_{n}=m_1b_{n-1}+m_2b_{n-2}+\ldots+m_nb_0+1.\label{eq0}
+\end{equation}
+
+And now, at last, the first non-trivial result of this section.
+
+\begin{theorem}\label{t1}
+Every numeration system which is both tree-like and based is
+constructed by the above recipe from an infinite binary sequence $M$.
+
+Conversely, every set $\mathcal{S}$ so constructed is a tree-like based
+numeration system.
+\end{theorem}
+
+\head{Proof} The theorem immediately follows from three claims:
+
+(1) If $\mathcal{S}$ is a based tree-like NS (for short, BTNS) with
+$M=M(\mathcal{S})$ as in Lemma \ref{l1} then its base sequence is given
+by the formula (\ref{eq0}).
+
+(2) There exists at most one BTNS with any given base sequence.
+
+(3) The system $\mathcal{S}$ defined in the theorem is a BTNS with the base
+sequence given by (\ref{eq0}).
+
+\head{Proof of (1)} The minimal word in $\mathcal{S}$ is 1: this implies that
+$b_0=1$. For every $k\geq 1$, the maximal $k$-letter word in $\mathcal{S}$ is
+$M_k$, by Lemma \ref{l1}; and the minimal $(k+1)$-letter word is
+$B_k=100\ldots 0$ ($k$ zeros). We have $n(B_k)-n(M_k)=1$ which is equivalent
+to (\ref{eq0}).
+
+\head{Proof of (2)} We shall show by induction that the sets $\mathcal{S}_k$
+of words of length $k$ in $\mathcal{S}$ are determined uniquely; this is true
+for $k=1$ ($\mathcal{S}_1=\{1\}$). Given $\mathcal{S}_k$, the set
+$\mathcal{S}_{k+1}$ consists of all words $w0$ for $w\in\mathcal{S}_k$ and,
+possibly, some of the words $w1$. Let $w'$ be the immediate successor of $w$
+in $\mathcal{S}_k$, or $w'=B_k$ when $w$ is maximal in $\mathcal{S}_k$. We
+see that the word $w1$ is in $\mathcal{S}_{k+1}$ if and only if
+$n(w'0)-n(w0)=2$, and thus the set $S_{k+1}$ is uniquely determined. Note
+that if $n(w'0)-n(w0)$ is less than $1$ or greater than $2$ then the
+BTNS does not exist.
+
+\head{Proof of (3)} Let $\mathcal{S}$ be the system defined in the theorem.
+We shall need three properties of $\mathcal{S}$ which easily follow
+from the definition.
+
+(a) If $w1\in\mathcal{S}$ for some non-empty word $w$
+then $w0\in\mathcal{S}$, and in the decomposition
+$w0=v_1'\ldots v_s'v$ the word $v$ is empty.
+
+(b) For each $k\geq 1$, the word $M_k$ is the maximal word of length $k$
+in $\mathcal{S}$.
+
+(c) For $w\in\mathcal{S}$, the decomposition $w=v_1'\ldots v_s'v$ can be found
+in one pass from left to right, without backtracking and/or looking
+ahead.
+
+Now, take an arbitrary word $x\in\mathcal{S}$ of length $\geq 2$. We shall find
+the word $y\in\mathcal{S}$ immediately preceding $x$ in the lexicographic
+order, and check that $n(x)-n(y)=1$ --- this will suffice to prove the claim.
+
+If $x=x'1$ then by (a) we have $x'0\in\mathcal{S}$, therefore $y=x'0$ and
+$n(x)-n(y)=1$, as required.
+
+Let $x=x'10\ldots 0$, with $k\geq 1$ zeros at the end.
+If $x'$ is empty then (b) implies that $y=M_k$,
+and $n(x)-n(y)=1$ from the recurrence (\ref{eq0}).
+Otherwise we can apply the property (a) to the word $x'1\in\mathcal{S}$
+to obtain that the word $x'0$ is in $\mathcal{S}$, and that in its
+decomposition $x'0=v_1'\ldots v_s'v$ the tail $v$ is empty. Therefore,
+appending to $x'0$ any word from $\mathcal{S}$ results again in a word from
+$\mathcal{S}$, and by (c) all words from $\mathcal{S}$ beginning with
+$x'0$ can be obtained in this way.
+So, again by (b), we have $y=x'0M_k$. Again the recurrence (\ref{eq0})
+implies that $n(x)-n(y)=1$. So, the claim, and the theorem, are proved.
+
+\medbreak
+
+Our three examples have two features in common: first, that the sequence
+$M$ is periodic; second, that the numbers $(b_i)$ satisfy some linear
+recurrence. The following theorem shows that these two properties are
+equivalent.
+
+\begin{theorem}\label{t2}
+Let $\mathcal{S}$ be a BTNS. Then its base sequence $B(\mathcal{S})$ satisfies
+some linear recurrence if and only if its maximal sequence $M(\mathcal{S})$ is 
+periodic. If $M(\mathcal{S})$ has a period of length $p$ after an initial
+segment of length $l$ then there exists a linear recurrence for
+$B(\mathcal{S})$ of degree at most $p+l$ with integer coefficients.
+\end{theorem}
+
+\head{Proof} Let $B(\mathcal{S})=(b_0,b_1,\ldots)$,
+$M(\mathcal{S})=m_1m_2\ldots$.
+Take any real numbers $a_1,\ldots,a_k$. For $i=1,\ldots,k$ define
+\begin{equation}\label{eq1}
+x_i=b_{k-i}-\sum_{j=1}^{k-i}a_jb_{k-i-j}.
+\end{equation}
+In particular, we have $x_k=b_0=1$. Let also
+\begin{equation}\label{eq2}
+d=a_1+\ldots+a_k-1.
+\end{equation}
+Equation (\ref{eq0}) implies that, for any $n\geq 0$,
+\begin{eqnarray*}
+b_{n+k}&-&a_1b_{n+k-1}-a_2b_{n+k-2}-\ldots-a_kb_n=\\
+&=&(1+\sum_{i=1}^{n+k}m_ib_{n+k-i})-\\
+&&-a_1(1+\sum_{i=1}^{n+k-1}m_ib_{n+k-1-i})-\ldots
+-a_k(1+\sum_{i=1}^{n}m_ib_{n-i})\\
+&=&\sum_{i=1}^{n}m_i(b_{n+k-i}-a_1b_{n+k-i-1}-\ldots-a_kb_{n-i})+\\
+&&+m_{n+1}x_1+\ldots+m_{n+k}x_k-d.
+\end{eqnarray*}
+
+It follows that $B(\mathcal{S})$ satisfies the recurrence
+$b_{n+k}=a_1b_{n+k-1}+\ldots+a_kb_n$ if and only if for every subword
+$(m_{n+1}\ldots m_{n+k})$ of $M(\mathcal{S})$ we have
+\begin{equation}\label{eq3}
+m_{n+1}x_1+\ldots+m_{n+k}x_k=d.
+\end{equation}
+
+If (\ref{eq3}) holds then $m_{n+k}$ is uniquely determined by
+$m_{n+1},\ldots,m_{n+k-1}$. As there are only finitely many binary words
+of length $k-1$, the sequence $M(\mathcal{S})$ is periodic.
+
+Conversely, let $M(\mathcal{S})$ be periodic with period of length $p$
+after an initial sequence of length $l$. Take $k=l+p$. We can easily
+satisfy the equations (\ref{eq3}) by taking $x_1=\ldots=x_l=0$,
+$x_{l+1}=\ldots=x_{l+p}=1$, and $d$ equal to the number of ones
+in the period. Then from the equations (\ref{eq1}) we can successively
+determine the numbers $a_1,\ldots,a_{k-1}$:
+$$a_{k-i}=b_{k-i}-x_i-\sum_{j=1}^{k-i-1}a_jb_{k-i-j}.$$
+Finally, from the equation (\ref{eq2}) we can find $a_k$.
+The theorem is proved.
+
+When $M(\mathcal{S})$ is purely periodic with period of length $p$, the
+recurrence for $B(\mathcal{S})$ is especially simple: we can take
+$$a_1=m_1,\;a_2=m_2,\ldots,a_{p-1}=m_{p-1},\;a_p=m_p+1.$$
+
+$l+p$ is not necessarily the lowest possible degree of the recurrence;
+an interesting question is: how long can the period of $M(\mathcal{S})$ be
+if $B(\mathcal{S})$ satisfies a recurrence of degree $k$?
+
+\section{Complete tables}
+
+The most interesting property of the Fibonacci table is its 
+{\em completeness}: it contains all sequences satisfying Fibonacci
+recurrence (Theorem \ref{th3_1}). In this section we shall give another,
+purely combinatorial proof of this fact, and at the same time we shall
+find infinitely many other recurrences having the same nice property.
+
+\begin{definition}
+Let $\mathcal{S}$ be a BTNS whose base sequence $B=(b_0,b_1,b_2,\ldots)$
+satisfies the recurrence
+\begin{equation}\label{eqA}
+b_{n+k}=a_1b_{n+k-1}+\ldots+a_kb_n.
+\end{equation}
+The system $\mathcal{S}$ is complete if every sequence of positive integers
+satisfying this recurrence occurs, from some point on, in the successor 
+table of $\mathcal{S}$.
+\end{definition}
+
+One way to demonstrate that a certain $\mathcal{S}$ is complete is the 
+following: to prove that every sequence of natural numbers satisfying
+(\ref{eqA}) is a linear combination with positive integer coefficients
+of some successor sequences (for instance, of some shifts of the base 
+sequence); and then to prove that every such linear combination is
+a successor sequence from some point on. Note that the 
+base sequence always coincides with the first row of the successor 
+table. 
+
+Let us do this for the BTNS with the maximal sequence 
+$M(\mathcal{S})=(11\ldots 10)^*$ ($k-1$ ones). The system $\mathcal{S}$
+consists of all binary words not containing $k$ consecutive ones;
+its base sequence satisfies the recurrence 
+\begin{equation}\label{eqB}
+b_{n+k}=b_{n+k-1}+\ldots+b_n
+\end{equation}
+with the initial values $b_i=2^i$ for $i=0,1,\ldots,k-1$. 
+Going backwards, we find:
+$$b_{-1}=1,\;b_{-2}=\ldots=b_{-k}=0,\;b_{-(k+1)}=1.$$
+Thus, the sequences satisfying (\ref{eqB}) and beginning with $k$-tuples
+\begin{eqnarray*}
+b^{(0)}&=&(1,0,0,\ldots,0,0)\\
+b^{(1)}&=&(0,1,1,2,\ldots,2^{k-3})\\
+&&\ldots\\
+b^{(k-3)}&=&(0,\ldots,0,1,1,2)\\
+b^{(k-2)}&=&(0,0,\ldots,0,1,1)\\
+b^{(k-1)}&=&(0,0,\ldots,0,0,1)
+\end{eqnarray*}
+are shifts of the base sequence.
+
+The vectors $b^{(0)},b^{(1)},\ldots,b^{(k-1)}$ form a basis of the 
+$k$-dimensional row space. One easily finds that
+\begin{eqnarray*}
+(a_0,\ldots,a_{k-1})&=&a_0b^{(0)}+a_1b^{(1)}+(a_2-a_1)b^{(2)}+
+(a_3-a_2-a_1)b^{(3)}\\&&+\ldots+(a_{k-1}-a_{k-2}-\ldots-a_1)b^{(k-1)}.
+\end{eqnarray*}
+Thus, if $(x_n)_{n\geq 0}$ is any sequence of natural numbers satisfying
+(\ref{eqB}) then the $k$-tuple $(x_k,x_{k+1},\ldots,x_{2k-1})$ is a linear
+combination of $b^{(0)},\ldots,b^{(k-1)}$ with integer non-negative
+coefficients; and we have fulfilled the first part of our plan.
+
+\medskip
+For the second part, we introduce the following game. Fix a natural number 
+$k\geq 2$.
+On the doubly infinite strip of squares indexed by integers 
+are placed finitely many pebbles (possibly, more than one pebble in a square).
+One is allowed to make moves of two kinds.
+
+1. If there are $k$ consecutive non-empty squares, say $n,n+1,\ldots,n+k-1$
+then one can remove one pebble from each of them, and add one pebble to the 
+square $n+k$.
+
+2. If a square $n$ contains two or more  pebbles then one can remove from 
+it two pebbles, and add to the squares $n-k$ and $n+1$ one pebble each. 
+
+\begin{lemma}\label{pebblem}
+The game described above always terminates; and the final position 
+depends only on the initial position, and not on the sequence of moves.
+\end{lemma}
+
+\head{Proof}
+Let $(w_i)_{i\in\Z}$ be any sequence of real numbers satisfying the recurrence
+(\ref{eqB}). Every position in the game is determined by the sequence
+$(a_i)$ of non-negative integers, all but finitely many of which are 
+equal to 0. The weight of the position $A=(a_i)$ is defined as 
+$$w(A)=\sum w_ia_i.$$
+The rules of the game are chosen so that legal moves don't change the weight 
+of the position. Also, they don't increase the number of pebbles.
+
+Now, let $\alpha$ be the positive root of the equation
+$$x^k=x^{k-1}+x^{k-2}+\ldots+x+1.$$
+We have $1<\alpha<2$. Let $w_i=\alpha^i$; obviously, this sequence 
+satisfies (\ref{eqB}). 
+
+First we shall prove by induction on the number of pebbles that the game 
+eventually stops. Consider the maximal index of a pebble in the position.
+It does not decrease, but it cannot increase indefinitely (the weight 
+of the position is bounded) --- therefore, from some moment on, the pebble
+with the maximal index is left untouched, and we can apply induction to the 
+remaining pebbles.
+
+In any final position, there is at most one pebble in each square, and 
+there are no $k$ consecutive non-empty squares. To finish the proof 
+it suffices to show that any two different positions with these 
+properties have different weights. Let $X=(x_i)$ and $Y=(y_i)$ be two 
+such positions; $n$ --- the maximal index for which $x_n\neq y_n$; say,
+$x_n=1$, $y_n=0$. Let $s=\sum_{i>n}w_ix_i=\sum_{i>n}w_iy_i$. Then 
+\begin{eqnarray*}
+w(X)&\geq&s+\alpha^n;\\
+w(Y)&  < &s+\sum_{l\geq 0}\sum_{i=1}^{k-1}\alpha^{n-kl-i}=s+\alpha^n;
+\end{eqnarray*}
+and $w(X)>w(Y)$. The lemma is proved. 
+
+\medskip
+Now, let $a_n=\sum x_ib_{n+i}$ be any linear combination of shifts 
+of the base sequence with non-negative integer coefficients.
+Take $(x_i)$ as the initial position of the above game; let $(y_i)$
+be the corresponding unique final position. As in the proof of the lemma,
+we have $\sum y_ib_{n+i}=\sum x_ib_{n+i}=a_n$. 
+Let $m$ be the minimal index for which $y_m\neq 0$. We see that, starting from
+$n=-m$, the sequence $(a_i)$ is a successor sequence.
+
+\medskip
+By a similar but more involved argument one can prove that the numeration
+system with the maximal sequence $100100100\ldots$ (and with the recurrence
+$b_{n+1}=b_n+b_{n-2}$) is also complete. On the other hand, this is not so
+for the recurrence $b_{n+1}=b_n+b_{n-3}$. 
+
+\medskip
+{\bf Problem.}\quad Classify all based tree-like numeration systems
+with recurrent base sequences which are complete.
+ 
+\medskip
+{\bf Remark.} Lemma \ref{pebblem} was given as a problem at 1997 Russian
+Mathematical Olympiad, and was voted by the participants 
+``the best problem of the year''.
+
+\section{Exercise}
+
+Given $n$, form all possible sequences of
+positive integers with sum $n$. For each such sequence, multiply
+the terms together; then take the sum of all these products.
+What is the result?
+
+\begin{thebibliography}{9}
+
+\bibitem{coxeter}
+H. S. M. Coxeter, \textit{Introduction to Geometry}, Wiley, New York, 1961.
+
+\bibitem{kimberling}
+C. Kimberling,
+Numeration systems and fractal sequences,
+\textit{Acta Arith.} \textbf{73} (1995), 103--117.
+
+\end{thebibliography}
+
+\end{document}
+
+
+
+

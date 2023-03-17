@@ -1,0 +1,360 @@
+From sagan@math.msu.edu Sun Oct 10 06:08 BST 1999
+Received: from theta.qmw.ac.uk (theta.qmw.ac.uk [138.37.6.7])
+	by dirac.maths.qmw.ac.uk (8.8.6/8.8.6/Maths Relay 1.18 (Arrigo)) with ESMTP id GAA29505
+	for <pjc@mailhost.maths.qmw.ac.uk>; Sun, 10 Oct 1999 06:08:48 +0100 (BST)
+Received: from nemo.mth.msu.edu ([35.8.72.8])
+	by theta.qmw.ac.uk with esmtp (Exim 3.02 #1)
+	id 11aBE0-0006E8-00
+	for P.J.Cameron@qmw.ac.uk; Sun, 10 Oct 1999 06:08:48 +0100
+Received: from juno (juno [35.8.72.2])
+	by nemo.mth.msu.edu (8.9.2/8.9.2) with SMTP id BAA14179
+	for <P.J.Cameron@qmw.ac.uk>; Sun, 10 Oct 1999 01:06:03 -0400 (EDT)
+Received: by juno (SMI-8.6/Pan-1.0)
+	id BAA29723; Sun, 10 Oct 1999 01:08:41 -0400
+Date: Sun, 10 Oct 1999 01:08:41 -0400
+Message-Id: <199910100508.BAA29723@juno>
+From: Bruce Sagan <sagan@math.msu.edu>
+To: P.J.Cameron@qmw.ac.uk
+In-reply-to: <199910070815.JAA24121@burnside.maths.qmw.ac.uk> (message from
+	Peter Cameron on Thu, 7 Oct 1999 09:15:52 +0100)
+Subject: Re: question
+Content-Type: text
+Content-Length: 1289
+Status: R
+
+Dear Peter,
+
+Thanks for clarifying the Sperner argument for me.  I didn't think of
+using what we'd proved in the first half.
+
+Here's a list of errata.  There aren't very many and the wonderful
+style of presentation far outweighs these small errors.  In this 
+list p/l (resp p//l)  is line l from the top (resp bottom) of page p.
+Also A <- B means A should be replaced by B.
+
+See you at a conference sometime!
+
+-Bruce 
+
+31//3 	Exercise 12 <- Exercise 14
+31//2 	Exercise 13 <- Exercise 15
+44//2 	k is odd <- n is odd
+45/12 	Section 3.11 <- Section 3.12
+61//4 	2n-2 <- 2n
+62//5 	This double exponential is underfined as a formal power series
+72 Ex 20(a) 1-t^2 <- 1-t
+81/7  	than <- that
+97-98 	There is no Exercise 2
+102/3 	(n-|A|!) <- (n-|A|)!
+110/16 	It *is* necessary to count the triples since if we do not have
+	enough, then it is not an STS.
+131/134 puropse <- purpose
+138	Your use of [*,*,*] for [x,y,z] and [a,b,c] is confusing.
+141//13 6^th <- i^th
+141//3	Fact 4 <- Fact 3
+200/10	1 <= i <= n <- 1 <= k <= n
+202/1	One also needs to check that this mu is in I(P_1 x ... P_k)
+	(which is easy, but should be noted).
+202//11	precisely <- dually
+261/13	16.1.2 <- 16.1.3
+263//6 	root <- double root
+319/8 	specail <- special
+320//9	exampes <- examples
+353 projective plane entry 102 <- 103
+
+From sagan@math.msu.edu Sun Oct 10 16:41 BST 1999
+Received: from theta.qmw.ac.uk (theta.qmw.ac.uk [138.37.6.7])
+	by dirac.maths.qmw.ac.uk (8.8.6/8.8.6/Maths Relay 1.18 (Arrigo)) with ESMTP id QAA15393
+	for <pjc@mailhost.maths.qmw.ac.uk>; Sun, 10 Oct 1999 16:41:00 +0100 (BST)
+Received: from nemo.mth.msu.edu ([35.8.72.8])
+	by theta.qmw.ac.uk with esmtp (Exim 3.02 #1)
+	id 11aL5o-0002Gu-00
+	for p.j.cameron@qmw.ac.uk; Sun, 10 Oct 1999 16:41:00 +0100
+Received: from juno (juno [35.8.72.2])
+	by nemo.mth.msu.edu (8.9.2/8.9.2) with SMTP id LAA16163
+	for <p.j.cameron@qmw.ac.uk>; Sun, 10 Oct 1999 11:38:20 -0400 (EDT)
+Received: by juno (SMI-8.6/Pan-1.0)
+	id LAA00516; Sun, 10 Oct 1999 11:40:58 -0400
+Date: Sun, 10 Oct 1999 11:40:58 -0400
+Message-Id: <199910101540.LAA00516@juno>
+From: Bruce Sagan <sagan@math.msu.edu>
+To: p.j.cameron@qmw.ac.uk
+Subject: correction
+Content-Type: text
+Content-Length: 246
+Status: R
+
+Dear Peter,
+
+I realized that my erratum on page 110 is itself in error!  Ignore it.
+And I've found another one.  On page 111, 3 of the lines are missing
+from the figure of the STS(9), namely the ones of the form c_i,c_j,a_k.
+
+All the best, Bruce
+
+From sagan@math.msu.edu Mon Oct 11 22:34 BST 1999
+Received: from theta.qmw.ac.uk (theta.qmw.ac.uk [138.37.6.7])
+	by dirac.maths.qmw.ac.uk (8.8.6/8.8.6/Maths Relay 1.18 (Arrigo)) with ESMTP id WAA15408
+	for <pjc@mailhost.maths.qmw.ac.uk>; Mon, 11 Oct 1999 22:34:44 +0100 (BST)
+Received: from nemo.mth.msu.edu ([35.8.72.8])
+	by theta.qmw.ac.uk with esmtp (Exim 3.02 #1)
+	id 11an5g-0006Fq-00
+	for p.j.cameron@qmw.ac.uk; Mon, 11 Oct 1999 22:34:44 +0100
+Received: from juno (juno [35.8.72.2])
+	by nemo.mth.msu.edu (8.9.2/8.9.2) with SMTP id RAA01209
+	for <p.j.cameron@qmw.ac.uk>; Mon, 11 Oct 1999 17:32:02 -0400 (EDT)
+Received: by juno (SMI-8.6/Pan-1.0)
+	id RAA07421; Mon, 11 Oct 1999 17:34:41 -0400
+Date: Mon, 11 Oct 1999 17:34:41 -0400
+Message-Id: <199910112134.RAA07421@juno>
+From: Bruce Sagan <sagan@math.msu.edu>
+To: p.j.cameron@qmw.ac.uk
+Subject: another erratum
+Content-Type: text
+Content-Length: 249
+Status: R
+
+Dear Peter,
+
+It was brought to my attention in class today that in order for
+Theorem 8.1.2 to be true for n=3 you need to allow n=m, while on page
+107 you insist that n>m.  It's a minor point, but there is nothing
+wrong with allowing n=m=l.
+
+-Bruce
+
+
+From sagan@math.msu.edu Fri Oct 22 22:49 BST 1999
+Received: from theta.qmw.ac.uk (theta.qmw.ac.uk [138.37.6.7])
+	by dirac.maths.qmw.ac.uk (8.8.6/8.8.6/Maths Relay 1.18 (Arrigo)) with ESMTP id WAA15661
+	for <pjc@mailhost.maths.qmw.ac.uk>; Fri, 22 Oct 1999 22:49:48 +0100 (BST)
+Received: from nemo.mth.msu.edu ([35.8.72.8])
+	by theta.qmw.ac.uk with esmtp (Exim 3.02 #1)
+	id 11emZH-0007Ll-00
+	for p.j.cameron@qmw.ac.uk; Fri, 22 Oct 1999 22:49:47 +0100
+Received: from juno (juno [35.8.72.2])
+	by nemo.mth.msu.edu (8.9.2/8.9.2) with SMTP id RAA08399
+	for <p.j.cameron@qmw.ac.uk>; Fri, 22 Oct 1999 17:46:49 -0400 (EDT)
+Received: by juno (SMI-8.6/Pan-1.0)
+	id RAA04138; Fri, 22 Oct 1999 17:49:41 -0400
+Date: Fri, 22 Oct 1999 17:49:41 -0400
+Message-Id: <199910222149.RAA04138@juno>
+From: Bruce Sagan <sagan@math.msu.edu>
+To: p.j.cameron@qmw.ac.uk
+Subject: more errata
+Content-Type: text
+Content-Length: 517
+Status: R
+
+Dear Peter,
+
+Here is the latest list.  The first two numbers of each row are the page
+and line numbers and <- is replacement.
+
+-Bruce
+
+
+
+112 Prop 8.3.1 statement, you need w>1 for an STS(7) subsystem
+
+112 -1 x <- X
+
+113 14-15 v>u is not the reason m=v-u is even.  It's because v, u are
+	1 or 3 mod 6.  But you want m nonzero, which is because v>u.
+
+130 In the definition of triangle you need to say that the lines do
+	intersect pariwise.
+
+131 4th line of 9.5 subsets of B <- subsets of X
+
+134 -13 line L' <- line L''
+
+From sagan@math.msu.edu Thu Oct 28 21:21 BST 1999
+Received: from theta.qmw.ac.uk (theta.qmw.ac.uk [138.37.6.7])
+	by dirac.maths.qmw.ac.uk (8.8.6/8.8.6/Maths Relay 1.18 (Arrigo)) with ESMTP id VAA10799
+	for <pjc@mailhost.maths.qmw.ac.uk>; Thu, 28 Oct 1999 21:21:55 +0100 (BST)
+Received: from nemo.mth.msu.edu ([35.8.72.8])
+	by theta.qmw.ac.uk with esmtp (Exim 3.02 #1)
+	id 11gw3X-0002cn-00
+	for p.j.cameron@qmw.ac.uk; Thu, 28 Oct 1999 21:21:56 +0100
+Received: from juno (juno [35.8.72.2])
+	by nemo.mth.msu.edu (8.9.2/8.9.2) with SMTP id QAA04020
+	for <p.j.cameron@qmw.ac.uk>; Thu, 28 Oct 1999 16:18:50 -0400 (EDT)
+Received: by juno (SMI-8.6/Pan-1.0)
+	id QAA22155; Thu, 28 Oct 1999 16:21:48 -0400
+Date: Thu, 28 Oct 1999 16:21:48 -0400
+Message-Id: <199910282021.QAA22155@juno>
+From: Bruce Sagan <sagan@math.msu.edu>
+To: p.j.cameron@qmw.ac.uk
+Subject: question
+Content-Type: text
+Content-Length: 850
+Status: RO
+
+Dear Peter,
+
+Below is the latest list.  I also have a question about your proof of
+Fact 2 in the Bruck-Ryser Theorem.  It seems you never use the fact
+that p is an odd prime in the 2-square case.  But I suspect it is
+necessary for the 4-square case since I don't see how to get s<r by
+using the same argument as for 2 squares.  But this is also puzzling
+since I don't see how knowing something about p gives you any control
+over r.  Can you please indicate where you need p an odd prime and how
+you get s<r for 4 squares?  Thanks!
+
+All the best, Bruce
+
+
+137 2	W=v <- W+v
+
+137 -13	(For let <- For let
+	since you never close this parenthesis and there is already a 
+	parenthetical remark furhter on in the sentence.
+
+137 -5 	r-1 <- r+1 in two places
+
+137 -2 	t+1 <- t-1
+
+141 -3	Fact 4 <- Fact 3
+
+145 -5  Do you define the degree of a net in the text?
+
+
+From sagan@math.msu.edu Mon Nov 15 21:46 GMT 1999
+Received: from theta.qmw.ac.uk (theta.qmw.ac.uk [138.37.6.7])
+	by dirac.maths.qmw.ac.uk (8.8.6/8.8.6/Maths Relay 1.18 (Arrigo)) with ESMTP id VAA11026
+	for <pjc@mailhost.maths.qmw.ac.uk>; Mon, 15 Nov 1999 21:46:51 GMT
+Received: from nemo.mth.msu.edu ([35.8.72.8])
+	by theta.qmw.ac.uk with esmtp (Exim 3.02 #1)
+	id 11nTxV-0005Z5-00
+	for p.j.cameron@qmw.ac.uk; Mon, 15 Nov 1999 21:46:46 +0000
+Received: from juno (juno [35.8.72.2])
+	by nemo.mth.msu.edu (8.9.2/8.9.2) with SMTP id QAA20455
+	for <p.j.cameron@qmw.ac.uk>; Mon, 15 Nov 1999 16:43:20 -0500 (EST)
+Received: by juno (SMI-8.6/Pan-1.0)
+	id QAA00849; Mon, 15 Nov 1999 16:46:40 -0500
+Date: Mon, 15 Nov 1999 16:46:40 -0500
+Message-Id: <199911152146.QAA00849@juno>
+From: Bruce Sagan <sagan@math.msu.edu>
+To: p.j.cameron@qmw.ac.uk
+Subject: more problems ...
+Content-Type: text
+Content-Length: 1669
+Status: RO
+
+Dear Peter,
+
+Below is the latest list of errata.  I have also come up against an
+incorrect proof that I have not been able to fix and would appreciate
+it if you could tell me how to do it correctly.  In your proof that
+partial transversals form a matroid (on page 204, part 4), you take
+transversals Y,Z with |Y|<|Z| and then consider the sets A_y indexed
+by the elements of y and a set B_z indexed by some element of Z.
+You then look at X'=Y U z and consider the restrictions of the sets
+A_y and B_z to X'.  You then claim that if these sets have an SDR,
+then we are done as X' is an SDR of the original family.  This is
+false.  What if z is not in Y but B_z = B_y for some y.  Then an SDR
+of the restrictions does not lift to a transversal of the original
+sets since two of the restrictions correspond to only one of the
+originals.  You can fix this by only considering the case when B_z does
+not equal any A_y.  But then the second part of your proof goes awry,
+as we can only conclude that such z are in Y, not that Z is contained
+in Y, and so get no contradiction.  HELP!
+
+-Bruce
+
+
+112  	The last line of Prop 8.3.1 (statement) should have w > 1
+
+112//1	x <- X
+
+113/14-15 v - u isn't even because v > u but because v, u are both even
+
+131	In the definition of triangle, the lines should also be coplanar
+
+132	The 4th line of 9.5: subsets of B <- subsets of X
+
+134//13	line L' <- line L''
+
+203	In the exchange axiom you must take z in Z\Y
+
+204	In the proof, part 3, |V|-|Y|+1 <- |V|-|Y|
+
+204	The proof in part 4 is incorrect
+
+207	Exercise 4, I believe you want Prop 12.6.1(b) as 12.5.1(b) is trivial
+	and you say during the proof of 12.6.1 that (b) is an exercise
+
+
+From sagan@math.msu.edu Tue Nov 16 05:02 GMT 1999
+Received: from theta.qmw.ac.uk (theta.qmw.ac.uk [138.37.6.7])
+	by dirac.maths.qmw.ac.uk (8.8.6/8.8.6/Maths Relay 1.18 (Arrigo)) with ESMTP id FAA23569
+	for <pjc@mailhost.maths.qmw.ac.uk>; Tue, 16 Nov 1999 05:02:55 GMT
+Received: from nemo.mth.msu.edu ([35.8.72.8])
+	by theta.qmw.ac.uk with esmtp (Exim 3.02 #1)
+	id 11nalb-0000Ow-00
+	for p.j.cameron@qmw.ac.uk; Tue, 16 Nov 1999 05:02:55 +0000
+Received: from juno (juno [35.8.72.2])
+	by nemo.mth.msu.edu (8.9.2/8.9.2) with SMTP id XAA24694
+	for <p.j.cameron@qmw.ac.uk>; Mon, 15 Nov 1999 23:59:32 -0500 (EST)
+Received: by juno (SMI-8.6/Pan-1.0)
+	id AAA03571; Tue, 16 Nov 1999 00:02:53 -0500
+Date: Tue, 16 Nov 1999 00:02:53 -0500
+Message-Id: <199911160502.AAA03571@juno>
+From: Bruce Sagan <sagan@math.msu.edu>
+To: p.j.cameron@qmw.ac.uk
+Subject: yet more errata
+Content-Type: text
+Content-Length: 1455
+Status: RO
+
+Dear Peter,
+
+Here are yet more errata.  There are also some logical difficulties.
+
+In the proof of Proposition 10.4.3, it seems you could get a better
+bound of 2^{(l-1)/2} for l>=2 as follows.  You get the count of
+{n choose l} 2/2^{l choose 2} as before and then use l!>=2 and
+n(n-1)...(n-l+1)<n^l to get that this is bounded above by
+n^l/2^{l choose 2} and now the better bound works.
+
+On page 193, to show that a bijection s of lattices is an
+isomorphism, it suffices to prove either that s preserves meet or
+join.  You need not do both.  To see this, use the equivalent
+definition that s and s^{-1} should be order preserving.  Assume just
+that s preserves join.  Then if a <= b we have a v b = b so
+s(b) = s(a v b) = s(a) v s(b) so s(a) <= s(b).  On the other hand,
+if s(a) <= s(b) then s(b) = s(a) v s(b) = s(a v b) so b = a v b
+by injectivity and a <= b.
+
+On the same page, do you really want the first bulleted statement in
+the definition of complementation?  It is not in the definitions I've
+seen (eg in Stanley's text) and you don't use it in the proof of 12.3.3.
+
+All the best, Bruce
+
+143/7	Exercise 12 <- Exercise 13
+
+148//9	division by n <- division by q
+
+153	Proposition 10.4.3 can be strengthened to (l-1)/2 in the exponent
+	and for l >= 2
+
+189	In the lattice of subspaces example, PG(n,q) <- PG(n-1,q)
+
+193	In Step 5, one of (a) or (b) suffices
+
+193	The first bulleted line in the definition of complementation 
+	is not needed
+
+
+
+
+
+
+
+
+
+
+
+

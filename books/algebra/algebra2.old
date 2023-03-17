@@ -1,0 +1,43 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<HTML>
+
+<HEAD>
+<TITLE>Introduction to Algebra</TITLE>
+<META NAME="description" CONTENT="Web page supporting the book Introduction to
+Algebra (2nd edition) by Peter J. Cameron: 
+problems, links, etc.">
+<META NAME="keywords" CONTENT="ring theory, group theory, vector spaces,
+modules, Galois theory, coding theory, abstract algebra">
+</HEAD>
+
+<BODY BGCOLOR="FFFFFF" TEXT="000066" LINK="#3333FF" VLINK="#FF0000" ALINK="#00FF00">
+
+<h1 align="center">Introduction to Algebra</h1>
+<h2 align="center">Second edition</h2>
+
+<img src="../new1.jpg" alt="NEW!">
+A new edition of <i>Introduction to Algebra</i> is due to be published by
+Oxford University Press in February 2008.<p>
+<ul>
+ <li><a href="http://www.oup.com/uk/catalogue/?ci=9780198569138">Hardback</a>: 
+ISBN13: 9780198569138; ISBN10: 0198569130
+ <li><a href="http://www.oup.com/uk/catalogue/?ci=9780198527930">Paperback</a>: 
+ISBN13: 9780198527930; ISBN10: 0198527934
+</ul><p>
+
+You can see the
+preface and table of contents <a href="prefcont.pdf">here</a>.
+<p>
+
+The <a href="algebra.html">Web page for the first edition</a> is available
+here.
+
+<hr>
+
+<p align="right">
+Peter J. Cameron<br>
+<tt>p.j.cameron(at)qmul.ac.uk</tt><br>
+1 June 2007.
+
+</body>
+</html> 

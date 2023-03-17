@@ -1,0 +1,202 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<HTML>
+
+<HEAD>
+<TITLE>Introduction to Algebra</TITLE>
+<META NAME="description" CONTENT="Web page supporting the book Introduction to
+Algebra by Peter J. Cameron: list of misprints, further exercises and
+problems, links, etc.">
+<META NAME="keywords" CONTENT="ring theory, group theory, vector spaces,
+modules, Galois theory, coding theory, abstract algebra">
+</HEAD>
+
+<BODY BGCOLOR="FFFFFF" TEXT="000066" LINK="#3333FF" VLINK="#FF0000" ALINK="#00FF00">
+
+<H1>Introduction to Algebra</H1>
+
+<TABLE>
+<TR>
+<TD>
+<A HREF="http://www.oup.co.uk/isbn/0-19-850195-1"><IMG SRC="introalg.gif" 
+ALT="BOOK"></A>
+</TD>
+<TD>
+This page contains supporting material
+for the textbook <I>Introduction to Algebra</I>, by Peter J. Cameron,
+published by 
+<A HREF="http://www.oup.co.uk">Oxford University Press</A> in April 1998.
+
+<P>
+
+The ISBNs for the book are
+<UL>
+<LI>019 850195 1 (hardback)
+<LI>019 850194 3 (paperback)
+</UL>
+
+<P>
+
+This site will contain solutions to the exercises, further material, problems,
+corrections, and links to other sites of interest to algebraists.
+</TD>
+</TR>
+</TABLE>
+
+<HR>
+
+<H3>From the reviews:</H3>
+
+By  Plamen Koshlukov in <I>Zentralblatt f&uuml;r Mathematik</I>:
+<BLOCKQUOTE>
+... a very good textbook in Algebra... The lecturers who are going to decide 
+to use this book for their classes will make a good choice; they and their 
+students will benefit a lot from this book.
+</BLOCKQUOTE>
+
+<HR>
+
+<H3>A simple argument</H3>
+
+Here is a much shorter proof that the commutativity of addition follows
+from the other axioms in a ring with identity (Exercise 2.7).
+
+<P> Expand (1+1)(<I>x</I>+<I>y</I>) in two different ways:
+<UL>
+<LI> (1+1)(<I>x</I>+<I>y</I>) = 1(<I>x</I>+<I>y</I>)+1(<I>x</I>+<I>y</I>) 
+= <I>x</I>+<I>y</I>+<I>x</I>+<I>y</I>
+<LI> (1+1)(<I>x</I>+<I>y</I>) = (1+1)<I>x</I>+(1+1)<I>y</I> 
+= <I>x</I>+<I>x</I>+<I>y</I>+<I>y</I>
+</UL>
+Now cancellation gives <I>y</I>+<I>x</I> = <I>x</I>+<I>y</I>.
+
+<HR>
+
+<H3>Solutions to exercises</H3>
+
+The PDF files below give the solutions to all the exercises in
+Chapters 1-3. Others will be added.
+<UL>
+<LI> <A HREF="ch1t.pdf">Chapter 1: Introduction</A>
+<LI> <A HREF="ch2t.pdf">Chapter 2: Rings</A>
+<LI> <A HREF="ch3t.pdf">Chapter 3: Groups</A>
+</UL>
+
+<HR>
+
+<H3>Misprints</H3>
+
+A <A HREF="misprints.html">list of corrections</A> is available. Please
+send me reports of misprints (an email link is given below).
+
+<HR>
+
+<H3>A problem</H3>
+
+Prove that there is no simple group of order 3<SUP>3</SUP>.7.13.409.
+
+<HR>
+
+<H3>Miscellany</H3>
+
+1. <A HREF="../alk2.gif">Here</A> is a picture of Muhammad Al-Khwarizmi, who
+gave us the word "Algebra".
+
+<P>
+
+2. Can you explain what the following is about?
+
+<BLOCKQUOTE>
+
+Curiously enough, the twelve-tone system has no zero in it. 
+Given a series: 3, 5, 2, 7, 10, 8, 11, 9, 1, 6, 4, 12 and the 
+plan of obtaining its inversion by numbers which when added 
+to the corresponding ones of the original series will give 12, 
+one obtains 9, 7, 10, 5, 2, 4, 1, 3, 11, 6, 8 and 12. For in 
+this system 12 plus 12 equals 12. There is not enough of zero 
+in it.
+
+</BLOCKQUOTE>
+
+John Cage, "Eric Satie",  in
+<I>Silence: Lectures and Writings</I>, Calder and Boyars, 1968.
+
+<P>
+
+<A HREF="cage.pdf">Read my solution</A>
+
+<P>
+
+3. Hermann Weyl on Proposition 2.12(c), the statement that
+(<I>ST</I>)<SUP>-1</SUP>=<I>T</I><SUP>-1</SUP><I>S</I><SUP>-1</SUP>:
+
+<BLOCKQUOTE>
+With this rule, although perhaps not with its mathematical expression,
+you are all familiar. When you dress, it is not immaterial in which
+order you perform the operations; and when in dressing you start with
+the shirt and end up with the coat, then in undressing you observe the
+opposite order; first take off the coat and the shirt comes last.
+</BLOCKQUOTE>
+
+Hermann Weyl, <I>Symmetry</I>, Princeton University Press, 1952.
+<HR>
+
+<H3>Links</H3>
+
+<UL>
+<LI><A HREF="http://www.maths.qmul.ac.uk/~pjc/">Peter Cameron's homepage</A>
+at Queen Mary, University of London
+<LI><A HREF="http://www.bath.ac.uk/~masgcs/gpf.html">Group-Pub-Forum
+homepage</A> at the University of Bath
+<LI><A HREF="http://www.maths.qmul.ac.uk/~pjc/permgps/permgps.html">
+Permutation groups resources</A> at Queen Mary, University of London
+<LI><A HREF="http://www.mat.bham.ac.uk/atlas/">ATLAS of Finite Group
+Representations</A> at the University of Birmingham
+<LI><A HREF="http://www-gap.dcs.st-and.ac.uk/~gap/">GAP homepage</A> at
+St Andrews University
+<LI><A HREF="http://www.maths.bath.ac.uk/Magma/">Overview
+of MAGMA</A> (mirror site at the University of Bath - original at the
+University of Sydney)
+<LI><A HREF="http://www-groups.dcs.st-and.ac.uk/~history/HistTopics/Matrices_and_determinants.html">History of Matrices and Determinants</A> and
+<A HREF="http://www-groups.dcs.st-and.ac.uk/~history/HistTopics/Development_group_theory.html">History of Group Theory</A> from the
+<A HREF="http://www-groups.dcs.st-and.ac.uk/~history/">MacTutor History of
+Mathematics Archive</A> at St Andrews University
+<LI><A HREF="http://www.combinatorics.org/Surveys/ds5/VennEJC.html">A Survey
+of Venn diagrams</A> by Frank Ruskey, from the
+<A HREF="http://www.combinatorics.org">Electronic Journal of Combinatorics</A>
+<LI><A HREF="http://www.museums.reading.ac.uk/vmoc/algebra/">
+A Brief History of Algebra and Computing: An Eclectic Oxonian View </A>
+by Jonathan P. Bowen at the University of Reading
+<LI><A HREF="http://www.lib.virginia.edu/science/parshall/algebra.html">
+The Art of Algebra from Al-Khwarizmi to Viete</A> by Karen Hunger Parshall
+at the University of Virginia
+<LI><A HREF="http://library.wolfram.com/examples/quintic/main.html">
+Solving the quintic</A> (worked example in Mathematica)
+<LI><A HREF="http://www.maths.soton.ac.uk/semigroups/homepage.html">Semigroups
+directory</A> at the University of Southampton
+<LI><A HREF="http://www.algebra.uni-linz.ac.at/Nearrings/">Nearrings
+homepage</A> at the University of Linz
+<LI><A HREF="http://www.tac.mta.ca/tac/">Theory and Applications of
+Categories</A> (electronic journal)
+</UL>
+
+The mailing list 
+<A HREF=mailto:group-pub-forum@maths.bath.ac.uk>group-pub-forum</A> 
+is for the discussion of any aspect of Group Theory. The reason for the name 
+is that the spirit is supposed to be
+that of a conversation in a pub at a Group Theory conference.
+
+<P>
+
+GAP and MAGMA are systems for computation with algebraic structures
+including groups and rings.
+
+<HR>
+
+<P ALIGN=RIGHT>
+<A HREF=mailto:p.j.cameron@qmul.ac.uk>Peter J. Cameron</A><BR>
+4 January 2001.
+
+</BODY>
+
+</HTML>
+

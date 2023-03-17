@@ -1,0 +1,40 @@
+#
+# This code computes the 2-closure of a transitive permutation group G,
+# or tests whether G is 2-closed. It is required that G should be transitive
+# on the set [1..n] for some n, else the functions return "fail".
+#
+# This runs much faster than the built-in "TwoClosure" in GAP.
+#
+# Two functions are defined:
+#
+# TwoClosureTrans(G)  - returns the 2-closure of G where G is transitive
+# IsTwoClosedTrans(G) - returns true iff the transitive group G is 2-closed
+#
+
+RequirePackage("grape");
+
+TwoClosureTrans:=function(G)
+  local X,s,n;
+  if G=Group(()) then return G; fi;                   # handle S_1
+  n:=LargestMovedPoint(G);
+  if not IsTransitive(G,[1..n]) then return fail; fi; # as promised
+    # Now compute intersection of automorphism groups of orbital graphs
+    # using GRAPE functions AutomorphismGroup and EdgeOrbitsGraph.
+    # If we reach G then G is the 2-closure.
+  X:=SymmetricGroup(n);
+  for s in Orbits(Stabilizer(G,1),[2..n]) do
+    X:=Intersection(X,AutomorphismGroup(EdgeOrbitsGraph(G,[1,s[1]],n)));
+    if IsSubgroup(G,X) then return G; fi;             # 1-sided test!
+  od;
+  return X;
+end;
+
+IsTwoClosedTrans:=function(G)
+  local X;
+  X:=TwoClosureTrans(G);
+  if X=fail then return fail;
+  else return (X=G);
+  fi;
+end;
+
+

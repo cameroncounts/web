@@ -1,0 +1,53 @@
+There is a gap in the proof of the Fundamental Theorem of Galois Theory
+(Theorem 8.24). Here is a corrected proof.
+
+<P>
+
+Let <I>K</I>/<I>F</I> be a Galois extension with Galois group <I>G</I>.
+The proof given shows that Fix(Gal(<I>K</I>/<I>L</I>))=<I>L</I> for all
+intermediate fields <I>L</I>. To show that the maps Fix and Gal are inverse
+bijections, we also need to show that Gal(<I>K</I>/Fix(<I>H</I>))=<I>H</I>
+for all subgroups <I>H</I> of <I>G</I>.
+
+<P>
+
+We need the forward implication in the Theorem of the Primitive Element,
+Theorem 8.34: if <I>K</I>/<I>F</I> is a finite extension and only finitely
+many fields lie between <I>F</I> and <I>K</I>, then
+<I>K</I>=<I>F</I>(<I>a</I>) for some <I>a</I> in <I>K</I>.
+The proof of this uses no Galois theory. Now it follows from what is
+proved that, if <I>K</I>/<I>F</I> is a Galois extension, then the map
+from intermediate fields to subgroups is injective; so we conclude that
+<I>K</I>=<I>F</I>(<I>a</I>) for some <I>a</I>, since the finite group
+<I>G</I> has only finitely many subgroups.
+
+<P>
+
+Let <I>H</I> be any subgroup. Since <I>K</I> is a Galois extension of
+Fix(<I>H</I>), with Galois group <I>H</I>', say, it will suffice to show
+that if <I>H</I>&lt;<I>H</I>' then Fix(<I>H</I>) is strictly
+larger than Fix(<I>H</I>'). So we have to prove the following:
+
+<P>
+
+<B>Lemma.</B> Let <I>K</I>/<I>F</I> be a Galois extension with Galois
+group <I>G</I>. If <I>H</I>&lt;<I>G</I>, then Fix(<I>H</I>)&gt;<I>F</I>.
+
+<P>
+
+<B>Proof.</B> Suppose, for a contradiction, that Fix(<I>H</I>)=<I>F</I>.
+Let <I>K</I>=<I>F</I>(<I>a</I>) have degree <I>n</I>
+over <I>F</I>, and let <I>a</I>=<I>a</I><SUB>1</SUB>, ...,
+<I>a<SUB>n</SUB></I> be the roots of the minimal polynomial of <I>a</I>
+over <I>F</I>. Now <I>G</I> permutes {<I>a</I><SUB>1</SUB>, ...,
+<I>a<SUB>n</SUB></I>} transitively, and hence regularly. So
+the proper subgroup <I>H</I> cannot act transitively on this set. 
+Let {<I>a</I><SUB>1</SUB>, ..., <I>a<SUB>r</SUB></I>} be an orbit.
+Then the coefficients of the monic polynomial with roots
+<I>a</I><SUB>1</SUB>, ..., <I>a<SUB>r</SUB></I>, being the elementary
+symmetric functions in these values, are all fixed by <I>H</I>, and so
+lie in <I>F</I>.Thus <I>a</I>=<I>a</I><SUB>1</SUB> satisfies a polynomial
+of degree <I>r</I> over <I>F</I>, contradicting the fact that
+[<I>F</I>(<I>a</I>):<I>F</I>]=<I>n</I>. So we are done.
+
+<P>
