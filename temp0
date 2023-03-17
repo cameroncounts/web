@@ -1,0 +1,36 @@
+
+<h4> Diagonal groups (update) </h4>
+<p>
+Diagonal groups <i>D</i>(<i>G,m</i>) for <i>G</i> a finite simple group are
+one of the classes arising in the O'Nan--Scott Theorem. However, they can be
+defined for any group <i>G</i>, not necessarily finite or simple. With Rosemary
+Bailey, Cheryl Praeger and Csaba Schneider, I have defined for each pair
+<i>G,m</i> where <i>G</i> is a group and <i>m</i> a dimension greater than 1,
+a geometric structure called a <em>diagonal semilattice</em> whose automorphism
+group is the corresponding diagonal group. We also gave simple axioms for these
+geometries. For <i>m</i>&nbsp;=&nbsp;2, a structure satisfying the axioms is
+precisely a Latin square, but for <i>m</i>&nbsp;&gt;&nbsp;2 the group <i>G</i>
+arises naturally from the combinatorial axioms.
+</p>
+<p>
+These structures consist of <i>m</i>+1 partitions of a set, any <i>m</i> of
+which are the least elements in a <em>Cartesian lattice</em>.  With Rosemary,
+Cheryl, and Michael Kinyon, I have looked at larger sets of partitions
+satisfying these conditions, and found connections with orthogonal arrays,
+arcs in projective space, and MDS codes.
+</p>
+<p>
+Finally, the paper with Sean Eberhard contains a mistake which we have been
+unable to fix.
+<ul>
+<li> R. A. Bailey, P. J. Cameron, C. E. Praeger and C. Schneider,
+The geometry of diagonal groups,
+arXiv <a href="https://arxiv.org/abs/2007.10726">2007.10726</a> </li>
+<li> R. A. Bailey, Peter J. Cameron, Michael Kinyon and Cheryl E. Praeger,
+Diagonal groups and arcs over groups,
+arXiv <a href="https://arxiv.org/abs/2010.16338">2010.16338</a> </li>
+<li> R. A. Bailey and Peter J. Cameron, The diagonal graph,
+<a href="https://arxiv.org/abs/2101.02451">arXiv 2101.02451</a> </li>
+</ul>
+</p>
+
