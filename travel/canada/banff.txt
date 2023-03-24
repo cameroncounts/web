@@ -1,0 +1,672 @@
+Banff, Alberta, Canada, 19-24 July 2009
+
+Banff, a small town in the Rocky Mountains, is the centre of the oldest
+National Park in Canada (and third oldest in the world). On the outskirts
+of the town, under Tunnel Mountain, is the Banff Centre, an arts centre
+supported by the Alberta provincial government. Almost as an afterthought,
+the centre includes BIRS (the Banff International Research Station for
+Mathematical Discovery and Innovation) which runs week-long conferences on
+the Oberwolfach model. In the period 19-24 July 2009, there was a meeting
+on "Permutation Groups", my real mathematical subject, to which I was
+invited (though because of being too busy at work, I hadn't been able to
+get myself into the right frame of mind for the trip).
+
+19 July 2009
+
+Getting underway took several attempts since I first wanted to have the
+limo schedule at Calgary to hand and then I realised I had forgotten my hat.
+
+The District Line is not running east of Aldgate East, so I had a fair walk
+on setting out. The sky was cloudy but the sun was shining as I walked down
+through a very uncrowded Whitechapel. There was some wait for the tube,
+but eventually it came and I got a seat.
+
+When we emerged into the daylight again at Barons Court, it had been raining;
+the tracks were wet. The second tube to come took me to Heathrow. Since I
+had checked in online, I went to the departure gate. But the scanner wouldn't
+read my boarding pass, so they sent me back downstairs to have another one
+printed out. That, fortunately, worked OK.
+
+I sat in the departure lounge and worked on a new chapter for my counting
+notes (on permanents, SDRs, and Latin squares) until the gate was announced.
+At the gate, they didn't like my passport; the picture was not printed with
+waterproof ink, and has smudged from a bit of water getting into it in
+Galway. (What a relief that I didn't spend a lot of money getting a UK
+resident stamp put into it!) But they accepted my old passport as ID and
+let me in.
+
+The flight was late leaving. They announced that this was caused by delay to
+the incoming plane, and that we would be boarding in five or ten minutes.
+Fifteen minutes later they repeated this announcement, word for word. But
+the second time it was actually correct. Then, when we were ready to go,
+the pilot was told by air traffic control that there was a further fifteen
+minutes' delay. We messed around on the tarmac for quite a long time, and
+in the end were almost an hour late leaving. There is now almost no chance
+of catching the limo; I should have booked a later one.
+
+On taking off, there was a lot of turbulence, so they didn't turn off the
+seat belt sign for quite a while. I listened to "Highway 61 revisited" for
+a while, until lunch came. The flight data system is not working so I cannot
+get updates on our position or even find out for sure how many hours Calgary
+is behind London (I think it is seven).
+
+After lunch and coffee, I got the white toy out and typed up the chapter I
+have written. I am not sure yet how much to say about Falikman's proof of the
+van der Waerden conjecture, so I have deferred that decision and written up
+the rest.
+
+Then I read for a while (travel diaries, then a book), and listened to
+music, while time passed. None of the other music compared to Bob Dylan, so
+after a while I went back to Highway 61. Just three tracks in, we were
+interrupted by an announcement that we were 35 minutes from Calgary, the
+ordeal almost over.
+
+Coming down into Calgary, we went through some quite bad turbulence; they
+were having a storm. (The runways were wet when we landed.) A passenger
+a few rows in front of me was airsick, and the disagreeable smell spread
+through the cabin. But finally we were down, just 35 minutes late. Customs
+and immigration took only ten minutes.
+
+I had a shock when I looked at the limo receipt; I had mistakenly booked
+for 2:30 instead of 4:30. But the girl had adjusted the bookings and told
+me everything was fine, I should come back to the desk five minutes before
+departure, and I should go to the loo since it is a two-hour journey.
+
+There were five of us on the minibus, all going to the Banff Centre. A family
+of father, mother and six-year-old boy from Los Angeles, the parents doing
+some art thing at the Banff festival; a girl frm Philadelphia who plays the
+trumpet and is teaching some classes there; and me. The little boy reads a
+series of comic books called "Captain Underpants", which the American girl
+had heard of. We chatted for a while and then fell to sleeping or watching
+the scenery.
+
+Calgary is such a pleasant town. Set in saucer-like basins separated by
+ridges, it sprawls a long way, the suburbs consisting of patches of identical
+houses separated by wide expanses of mown grass which seems not to be used
+for anything. The whole place has a raw look, with no mature trees. But from
+the tops of the ridges we could get a glimpse of jagged mountains in the
+distance. The only thing of note was a large bird of prey in the far distance.
+
+Eventually we turned west on the highway and Calgary fell behind. At first
+the ground was fairly flat with some cultivation. Then it became more
+undulating, and very green, and cattle replaced crops. The undulations
+became full-scale hills, with more trees (pine, and some with broad shiny
+leaves), and steep gullies ran down. By th roadside were increasing numbers
+of wildflowers, including some striking blue ones. All the time the mountains
+were drawing nearer, until after an hour we reached them.
+
+They were as rugged as they had looked from a distance, with craggy cliffs
+riven by crevices, dangerous-looking scree slopes, and clear strata at
+vetiginous angles or violently twisted. But we didn't have to
+climb them; the road ran through a valley with a fast-flowing river and
+an industrial town. The panorama of mountains changed as we proceeded; one
+view of a mountain standing alone made us all catch our breath.
+
+After another half hour we reached the entrance to the Banff National Park,
+which has a lower speed limit on the highway. Signs warned of wildlife on the
+highway, though we didn't see any. (Before the park, they had warned of
+pedestrians on the highway.) Before long we turned off, drove through Banff
+town (it has a "Swiss village") and round the back streets to the Banff
+Centre, where the driver let us off.
+
+I read my instructions, which hinted that I should be somewhere different
+from the main reception. But I went in to reception anyway, and it was the
+right place. I got my key, my room card, a map, and rather complicated
+directions for getting to the building where I am staying (there is a large
+building site between). Chipmunks (maybe) scampered away across a lawn as
+I passed.
+
+I dumped my bags in my room, found my way to the common room where my 
+badge and computer account details were. But the notice said that the entry
+code to the room had been emailed to me. Fortuately I had printed out this
+email, so on my second try I got the badge and account.
+
+Then I went over to dinner. They swipe your card at the door (it knows who
+you are) and then you are in and take what you like. I took a bowl of soup
+and found my way to the BIRS tables, and many old friends having dinner.
+At the first table I reached, Persi invited me to sit down in a place 
+which had just been vacated. Opposite him was Ben Steinberg, whom I met 
+now for the first time, despite having exchanged many emails.
+
+I ate and had a long conversation, first with Persi, then with Ben and Peter
+Neumann, who came by. I am told it stays light very late here at this 
+time of year, but thought I should try to sleep at some point before my 
+body thinks it is morning and time to get up. (The time difference was, 
+indeed, seven hours).
+
+Coming out of the dining room, we saw a small elk with a fine set of antlers
+eating the flowers in a flower pot outside the building.
+
+Back home I tried the computer and found it worked; but I can't connect
+the white toy, and can't find a USB port on the SUN terminal.
+
+20 July 2009
+
+I woke several times in the night, but had no trouble getting back to sleep.
+Twice I heard trains rumbling past somewhere in the distance, whistling a
+minor chord rather than the FAB chord (major third and tone) of the
+Quebec trains.
+
+Eventually I realised I was wide awake so I got up and read my email. I am
+in an apartment with two rooms sharing a bathroom; I don't know who is in
+the other one, but whoever it is made quite a lot of clattering round locking
+and unlocking doors last night, and at one point there was a terrific crash.
+A notice in my room says that the thermostat is in the neighbouring bedroom,
+so presumably this is intended as a family apartment. Anyway, I showered
+quite early to avoid conflict over the bathroom.
+
+I went early to breakfast. The Banff Centre caters for a lot of arty things
+(some of which the people on the bus yesterday were going to), with mathematics
+as just the small change; and the huge new building will dwarf the rest of 
+the site. But it made for some interesting photographs of the mountains
+through tthe building work. At breakfast, I found Persi, John van Bon, and
+Richard Weiss. Later Katrin Tent and Martin Ziegler came, then Bob Guralnick
+and his wife who have just driven from Princeton. Other friends all around
+on other tables. Very nice breakfast, though I was somewhat restrained.
+
+After that, it was almost time for the opening of the conference. Brenda,
+the BIRS person, told us a few things, including the fact that there is a
+computer manual in our desk drawer. She also said that this is the first
+week of good weather in Banff all year.
+
+Gary Seitz gave the first talk, announcing his result with Martin Liebeck 
+(long coming) about classes and centralisers of unipotent elements in 
+algebraic groups. Then John Shareshian and Michael Aschbacher talked about 
+finding a lattice which is not an interval in a subgroup lattice of any finite 
+group. The classical candidate is the n-point line; Michael concentrated on 
+this (and has reduced it to two problems about almost simple groups) while 
+John seemed to prefer taking a slightly more complicated type of lattice.
+
+At coffee time I discussed with Brenda the possibility of a walk around
+Sulphur Mountain on the Sundance trail for the free afternoon. I do not
+want to spend half the time in a car going to Lake Louise, which seems
+to be the popular alternative.
+
+At lunch I fell into a discussion with Persi and Ben, which after a while
+came round to the order of the arguments in a wreath product, and hence to
+actions on the left or the right. On the way to lunch, we had discussed the
+little animals on the grass; Ben, the only Canadian resident present, was not
+sure what they are: too big for chipmunks, and the wrong sort of tail for
+squirrels. (Later it was suggested to me that they were marmots.)
+
+After lunch they had put on a campus tour but I decided to go for a walk
+instead. I decided to see how far up the Tunnel Mountain trail I could get
+if I were to get back in time for the conference photo at 2.
+
+The distant views were stunning, and there were quite a lot of wildflowers
+too: harebells, purple and orange daisies, stonecrop, and a grey-leafed shrub
+with yellow flowers, were the most common. I reached the ridge, which gives
+astonishing views of the next bit of the river valley and the other side of
+Mt Rundle. I had to turn back just before the summit, having had the best
+part, I'm sure.
+
+Before the photo, Brenda appeared with a map and some bad news: the Sundance
+Trail is closed from April to October. I will have to find something else to
+do: I am sure I want to do a serious walk!
+
+The photo was taken by the IT person and was very quick and painless, and
+then we had a lovely talk by Persi about his encounters with Gelfand pairs
+with an appropriate story from probability or statistics to illustrate
+each one, including a story from Piaget about how children learn the idea
+of randomness. 
+
+After tea we reassembled for the last three talks. Just before the first,
+Bill Kantor gave me the news that Bob Liebler has just died, on a hike, it
+seems. He didn't feel too good, and told his companion to go on ahead, and
+was not seen alive after that.
+
+The last three talks were a mixed bag; the one most interesting to me,
+because of the project with Robert, was Akos Seress' talk about 
+distinguishing number. Having done primitive groups completely, he is 
+now doing what he calls "two-step imprimitive groups", but it is far 
+from complete. I think Robert and I are absolved from the burden of 
+trying to cover this  in the survey of bases that we are writing.
+(Distinguishing number is relevant to calculating the base size of
+a wreath product in the product action.)
+
+When the talks ended,  I went back to my room to dump my things, and 
+discovered who my mystery neighbour is; it is Tim Burness. At dinner I 
+ate with Bill and Phyllis Kantor. Phyllis had walked to the Hoodoos (a
+group of standing rocks down the river a little way) and thoroughly 
+recommended it.
+
+After dinner I went back to my room. I tried to look up Sundance Pass on 
+Google but could find no information. I downloaded the conference photo, and 
+also transferred my day's photos from the camera onto the white toy and
+wrote up my diary. The computer manual tells me where the USB port is - in
+a very inaccessible place where you need tiny fingers to get it in and out
+and run the risk of dislodging the keyboard and mouse leads. So I uploaded
+yesterday's diary and emailed it to Ro. There is a paper from Tatiana which
+I have to read, and the conference photo is on the web.
+
+Then I went out to sit on the porch. I wanted to think about my talk and
+about a theorem of Ken Johnson that Persi quoted in his talk (that the 
+permutation group generated by the left and right multiplications in a 
+quasigroup is multiplicity-free), but soon Peter Neumann came by, and gradually
+quite a large crowd accumulated and a couple of bottles of wine appeared.
+We sat there until the mosquitoes drove us in. The others went to the
+common room to continue, but I decided it was my bedtime.
+
+
+21 July 2009
+
+I slept better, though still woke a few times. I had been having evening
+coffee to keep me awake until bedtime -- meals are very early here, dinner
+5:30-7:30 -- but I think it is time to stop now.
+
+Last night I read through the computer manual and found that there is free
+wi-fi here. I tried it out and it worked fine, no login required. But this
+morning it is not working.
+
+I made my way to breakfast. It is quite chilly here in the morning, before
+the sun gets over the mountains. People told me the food used to be quite
+bad here, but it is excellent now. For breakfast, they have several sorts
+of cereal, a range of milk including soy milk and yoghurt, chopped fruit
+(melon, pineapple, etc.); cooked breakfast of bacon, sausage, ham, egg,
+diced fried potato (with a discreet amount of spring onion in it), waffles
+and tiny pancakes; muffins, bagels, a range of tea (Persi asked for Earl
+Grey yesterday and an individual pot appeared) and coffee, and they 
+encourage you to take a piece of fruit when you leave. You can even have 
+an omelette cooked to order!
+
+After breakfast, I realised that I had made the reverse mistake with my
+booking for the airport bus: coming out, I booked the bus two hours too
+early; returning, two hours too late, so I would have missed my plane.
+The wireless wasn't working so I logged on to the SunRay to change the
+booking, which all went very smoothly and I got an acknowledgment almost
+immediately. Then I spent half an hour on Tatiana's paper, and got it 
+almost ready (but another email from her says she is still not happy).
+This was very intense and concentrated work, and at the end I was exhausted.
+
+We had three lovely morning talks: Martin Liebeck on triangle presentations
+of simple groups of Lie type; Tom de Medts on a beautiful construction for
+a locally finite tree with a vertex-transitive automorphism group in which
+the stabiliser acts as any prescribed group on the neighbourhood of a vertex;
+then Alex Lubotzky on short presentations of simple groups. He told the
+story beautifully, leading the audience down all the blind alleys that he
+and his collaborators had been trapped in. But it is a beautiful theorem!
+
+In the interval, Cheryl gave everyone the news about Bob Liebler, as far 
+as it is known.
+
+Jan had arranged a hike to the Hoodoos after lunch, and expected me to be
+the leader. On the white toy, in the lecture room, with the Wi-Fi now 
+working, I was able to find a webpage which gave the distance as 5.1km
+with a climb of 60 metres (one way), and a beautiful picture, which might
+have persuaded some of the doubtful. After lunch, leaving was a terribly
+slow business, as people kept disappearing, but fourteen of us finally set
+off. One disappeared early on; I am not even sure who it was.
+
+We took a nice path through the woods and down to the river. The scenery here
+was very fine indeed, with the sheer cliff edge of Tunnel Mountain on our
+left and Mt Rundle towering over us on our right across the rapidly-flowing
+river with islands and backwaters. 
+
+When we came to the first uphill, Richard Lyons slowed down. I went back to
+see how he was; he said he was turning back because he didn't feel too good,
+but would sit and watch the river for a while. After the news about Bob
+Liebler, you can imagine what a shock this gave me. But lightning doesn't
+strike twice, I told myself, and went on.
+
+The trail climbed a bit, then levelled off through a nice bit of forest at
+the foot of the Tunnel Mountain cliffs (the ones I had stood above yesterday).
+Then it reached the road, and a map showed there was only a little over a
+kilometre to go. When we got there, it was a bit of a disappointment; the
+viewing platform was high above the rocks, and there seemed to be no way
+down (not that we had time to go further anyway). We turned for home.
+
+On the way back, all walked at different speeds; I took a bit of trouble 
+ensuring that nobody was lost, but basically felt that they could look
+after themselves now, so went on with Akos Seress. When we got back to the
+Banff Centre, I was relieved to see Richard sitting on a seat in the shade
+looking completely relaxed. He had had a bit of a cramp, and, knowing that
+he was not very fit, had decided to play it safe. I had time for a relaxing
+cool shower before the afternoon talks.
+
+These were more intense and long-winded than before, and a lot of the
+audience was not in good shape for them, especially when Yoav Segev insisted
+on going substantially over time. Finally we finished and it was dinnertime.
+
+I ate with Bill and Phyllis, but Bill was soon hijacked by Akos to talk about
+mathematics. So I went back to Corbett Hall. A party was going off to look
+at wildlife; they asked me but I declined, wanting to prepare my talk. Then
+Jan came with a map, thinking about a walk. He hadn't noticed that, according
+to his map, the starting point is inaccessible to cars (but there is a gondola
+to take you there). It looks an attractive spot; I might be tempted to go
+with them (especially since there are several ways to extend the walk with
+extra bits).
+
+After that, I went and got a beer, a dark Bigrock ale from Calgary, and sat
+on the porch drinking it. I wrote up my diary, transferred my photos, and
+read my email. Then I went back to  my room, and printed out the revised
+Airporter booking. The schedule has been rearranged so that we finish at
+coffee time on Friday morning. I wouldn't have been able to catch an earlier
+plane, but I have all day to wait, so a chance to get a bit more hiking.
+
+22 July 2009
+
+I slept much more soundly, and was a bit late for breakfast (partly because
+I read my email and then found a very amusing account of Mayor's Question
+Time on London Reconnections). Parts of my talk were running in my head
+over breakfast. As usual I have too much material, but the bits that will
+probably be cut are actually some of the most interesting, showing the
+power of this approach.
+
+I did take a little time to start writing an account, possibly destined
+for Strider. There is a story to tell, given yesterday's business.
+
+But then the drawback of having two rooms sharing a bathroom became clear;
+my apartment-mate went in for a long session. I had to take a long walk to
+the lecture building to clean my teeth!
+
+My talk went very well. I had 45 minutes, so I had to prune ruthlessly; but
+I managed to tell a story, make propaganda for both monoids and graphs, 
+and I even got a cheer from Persi when I said that we have to solve some 
+problems even if they are NP-hard. Afterwards there were a couple of 
+interesting suggestions from various people including Peter Neumann, who 
+made the conjecture that any primitive group and any non-uniform map generate a
+synchronizing monoid, and also suggested a possible source of affine examples.
+
+Then Rob Wilson talked about his construction of the large Ree groups. Lovely
+stuff, and he makes it all look so easy. At the end, several members of the
+audience came out as secret Ree-group constructors. After the break, Pham
+Tiep talked about the problem of classifying representations which remain
+irreducible on restriction to a proper subgroup.
+
+Jan announced that the walk would involve driving to the bottom of the
+road up to Sunshine Village and catching the bus up the hill, at a cost
+of 25 dollars per person. I said I would come but reserved the right not
+to go on the bus. Ruth was good enough to make me a copy of the map. I
+tried gently to persuade someone to come with me, but failed (maybe just
+as well - I ended up walking 21km in less than four hours, with 700m 
+difference between the highest and lowest point).
+
+We were divided up among the available cars (Peter and Sylvia Neumann took
+Simon Blackburn and me) and drove down the highway a bit and then off a side
+road up a little valley to the huge car park and gondola station. (Sunshine
+Village exists for skiing; it claims to have snow for nine months of the
+year.) On the way we passed a big herd of wild goats. They were still there
+when we returned home; I noticed that some of them were licking the road 
+surface in a small lay-by; presumably they salt the roads in winter and
+some of the salt stays there.
+
+At the car park, where the bus (a retired school bus, rather battered)
+was waiting, I went into the little shop in search of information, and
+picked up a leaflet about the wildflowers. There was also a notice on a
+board about "grizzly activity" reported in Healy and Simpson passes. This
+was not to scare people off, rather the reverse; you were encouraged to 
+join an expedition to see the grizzlies. In the event, I saw no sign of
+any bears, but on the way down the dusty road I did meet two people with 
+bells on their boots to scare the bears away.
+
+The others got into the bus and set off; I found the trail and headed
+off along it. At first we went in almost the same direction, the trail 
+just below the dusty gravel road - the bus driver told the party that 
+sooner or later I would have to scramble up to the road. But the path 
+along Healy Creek soon turned off while the road switchbacked up the 
+hill.
+
+It was a lovely forest path with a huge cliff rising on the other side of the
+valley. Wildflowers grew beside the path, most of which I was able to
+identify from the leaflet, but a very common one with four curved and pointed
+petals was not listed - later I looked it up and found it to be bunchberry.
+The path climbed and crossed a lovely clear stream. A young hiker was sitting
+by the stream and explained to me that he had got ahead of his party. Sure
+enough, I soon found a large group of kids, and told the adult that I had
+seen one of his group.
+
+After a while the path levelled off in an alpine meadow with a discreet 
+camping site and a food cache (both clearly signposted). I had decided to
+take a slightly less direct route to the start of the Simpson Pass trail;
+it turned out to involve a much stiffer climb. (The contour lines on maps 
+of the Rockies are at 50 metre intervals, so the maps can be a bit misleading
+at first glance.) Nearing the top, I heard the noise of a helicopter echoing
+from the surrounding mountains; just as I stepped out from the trees, it was
+flying away.
+
+I was now in competely different country, a flatter area with boggy lakes
+and stunning views of the mountains and a different selection of 
+wildflowers. Soon I came to a couple of young people by a stream; they 
+turned out to be park workers putting in stepping stones. It is possible 
+that the helicopter was dropping them off for their afternoon's work. 
+Then I met a hiker who stopped to talk. Just as he complained about the 
+heat, a cooling breeze sprang up.
+
+A very steep descent brought me to an open valley and the start of the Simpson
+Pass trail. After a short climb, the trail came to the bottom of a huge
+crumbling cliff, which had spilt a huge pile of stones and rubble along its
+base, stretching out nearly to the trail in places. From the map I saw that
+the Alberta-BC border runs along the top of the cliff; presumably, like the
+Queensland-NSW border, the surveyors were told to follow the top of the ridge.
+
+At the end of the ridge, the path climbed gently to a pass, and I thought I
+was over, but not so. It crossed a valley and climbed the other side, with
+the steepest climb of the whole walk. Just before the real summit, it went
+round a cwm in which snow was lying in full sunlight (but on the shady side,
+so presumably only in sun for a few hours a day.) The top brought a view of
+a chain of huge bare mountains rising to almost 3000m. As I walked down the
+other side, a cloud shadow crossed one of the mountain flanks like a giant
+butterfly. The wildflowers here were the best yet.
+
+The path led down a ski run to Sunshine Village, with one barn-like
+accommodation block and the top of the gondola and the bottoms of a couple
+of chairlifts. I headed down the dusty road with spectacular views of
+mountains all around. Several cars came by kicking up the dust, then a water
+truck spraying the road (and me). It made more dust than any of the others,
+but afterwards things were not so bad. The road went on down; I could see
+the trail I had taken earlier; and on the dot of 5:45, the scheduled meeting
+time, I walked into the car park. The bar was closed, but I had a bottle of
+water left, so I drank that, while checking the wildflowers. Among other things
+I had seen lots of Indian paintbrush, purple fleabane (the orange and purple
+daisies), glacier lily (well past its best), alpine forget-me-not, white
+dryad, white globe flower, heart-leaf arnica, yellow fleabane, heather,
+common stonecrop, and wild strawberry (no fruit yet, sadly).
+
+There had been relatively few birds. Apart from some unidentified small ones,
+I had only seen a raven with something in its beak. But there were birds in
+the trees, making a lovely melodious whistling, in some places.
+
+Soon the bus arrived, and we got into cars for the trip back.
+
+Most of the others went to have showers, but I decided to eat first, since we
+were on that side of the campus. After dinner, I soaked for a while; I am
+remarkably un-stiff after quite a demanding walk. Then I took a beer and went
+and sat on the porch. After a while Peter joined me, and then Ben, and the
+talk fell to synchronization. On the walk I had checked Peter's affine
+construction and found an even better variant (which he must really have
+known about); and I trumped his conjecture about non-uniform maps always
+synchronizing a primitive group with an even stronger conjecture that the
+only maps that don't synchronize are maps onto the core of some G-invariant
+graph.
+
+While we were sitting there, an elk came and sat down under a tree, allowing
+all the passers-by to inspect it. Jan, Ruth and Sylvia decided to jump into
+a car and drive off to Lake Minnewanka where a moose had been seen yesterday.
+(They didn't see it, but they saw a very fine sunset.)
+
+Once the mosquitoes started biting, we went in to the common room, and tried
+(ineffectively) to prove one or other of these conjectures. By 10:30 we 
+were all tired and went to bed to sleep on them instead.
+
+23 July 2009
+
+At breakfast time, there were ripples of cloud in the sky behind Mt Rundle.
+(The weather forecasts are divided about whether it will rain in the next
+couple of days or not.) On the way back, I saw a dark grey mouse-like creature
+with a short tail trying to pluck up courage to cross the path.
+
+There were three morning talks: a lovely but fiercely technical talk by
+Richard Weiss on constructing affine buildings; Gunter Malle on a variant
+of the k(GV) problem; and Kay Magaard on maximal subgroups of rank 3 groups
+whose permutation characters don't contain the rank 3 character. I was
+a bit distracted in Kay's talk by trying to guess how long the chalk would
+hover over the board before making a mark (and also by his talking about the
+stabiliser of a non-singular point in the natural module for symplectic 
+groups).
+
+Jan asked me to lead the walk up Tunnel Mountain, but forgot to announce it.
+I said I would show up at 1 and take anyone who turned up at that time.
+Meanwhile Peter tried to refute my conjecture, but it turned out he hadn't
+quite got what the conjecture says.
+
+By lunchtime, the sky was quite hazy; there are forest fires west of us, in
+BC, and just enough wind to blow the smoke over. Also clouds building up; a
+storm not impossible.
+
+Only one person showed up for the walk, namely Ben (though Andrea Lucchini
+had walked up on his own; we met him coming down). The views were much less
+impressive than on Monday, because of the increasing haze in the air. Ben
+talked on about synchronization all the way up, but coming down the 
+conversation turned to more general properties, and finally to producing
+a public draft of the paper. Ben thinks it should be re-written to give
+graphs a more prominent role (so my lecture was successful in one respect
+at least).
+
+We missed a turn on the way back and had to climb back up the road for some
+distance, but were still back in plenty of time for tea. But it was so humid
+that I needed a cool shower first.
+
+The afternoon talks were all rather heavy on detail, though all very different,
+and despite good intentions I found myself drifting off a couple of times.
+
+By dinnertime, the sky was clouding over. Tatiana wants me to do another job
+on the paper, rewrite the introduction; I have been putting it off but it has
+to be done sometime. So after dinner I sat down and got on with it. As usual
+in such a situation, I found that there was little to do on the introduction,
+but there were other errors throughout the paper which needed fixing. By 9
+I had done it all, sent it off, and earned myself a drink.
+
+By now, clouds were rolling over, and thunder was echoing around the mountains,
+but no rain and little wind, and it was very hot and humid. Even the heat
+generated by the white toy had become oppressive. By the time I had finished
+my beer, it hadn't changed much, but I made an embarrassing discovery. When
+I had opened the window (with some difficulty), I failed to see that it was a
+double window; so I hadn't actually let any fresh air in after all. But 
+even with the window open, it was still very stuffy. I had an early night:
+tomorrow morning will be packing and check-in.
+
+The storm was a squib - by the time I went to bed, there was a lovely pink
+sunset light on the clouds in the west.
+
+24 July 2009
+
+I woke up and did the first job (checking in) before breakfast. It was
+simple enough: find Air Canada with Google, go to "check-in", type in my
+booking number, tick a few boxes, hit "print". Then I had to get dressed
+to go next door to the reading room to pick up the boarding pass from
+the printer.
+
+I heard a rather worrying story from Katrin Tent at breakfast, concerning
+the LMS. She has had three papers recently mutilated by copy-editors. In
+one case, they had added her husband's name as an author on the paper;
+and they had preceded a list of conditions by the phrase "The following
+conditions are equivalent:". Yesterday, walking up Tunnel Mountain, Ben
+had told me a similar (but not quite so drastic) tale. Should I write
+to Kenneth Falconer about it?
+
+At breakfast, I realised that I would be back in Britain in 24 hours if
+nothing went wrong. There were light clouds in the sky. Coming back, I
+met Cheryl, who wants to talk about the paper this afternoon - there goes
+my chance for a last walk.
+
+I finished my packing and went over to the lecture room. The conference
+finished with two absolutely splendid talks by Ben Steinberg and Peter
+Neumann, and then Persi thanked the organisers. He said that he had heard
+many people saying this was one of the best conferences ever. As far as I
+am concerned, it had a very high proportion of excellent talks, and a very
+high proportion of things I am interested in. And having people like Persi
+to talk to is an added bonus.
+
+There was supposed to be transport for our bags, but I sat down and fell into
+conversation with various people including Persi and Ben and missed my chance.
+At 11:30 Cheryl finished her work with Simon Guest, and we agreed to have
+lunch and work afterwards.
+
+After lunch I went to the reception to check out and leave my bag. I had
+thought that we were meeting there, so waited for a while. While there, I
+was entertained by an extraordinary crow. It sat in a pine tree and uttered
+repeated calls in a recognisably musical monotone on the note of G. Then
+it flew to a neighbouring tree, which seemed to extend its repertoire, to
+a more crow-like caw and also a throaty rattle.
+
+When Cheryl didn't show up, I remembered that she had suggested meeting
+in the lounge in Corbett Hall, when we had planned to do it before lunch.
+So I went back there and couldn't find her. I found Chris Parker, who 
+hadn't seen her, so I went back to reception. A little while later Chris 
+showed up, saying that Cheryl was now in Corbett Hall. So I went back, and 
+we finally met up.
+
+We sat in the lounge and talked about what to do with our paper. She also
+told me about a problem posed to her by a number theorist. Given a transitive
+group G, the problem is to minimize the sum of subdegrees for which the 
+corresponding double cosets generate G. (This isn't quite how she stated it,
+but I think a further formulation is helpful: find the minimum valency of a
+G-invariant connected digraph.)
+
+She had been going to walk with Peter and Sylvia, but they had now gone, so
+she agreed to come with me; we would walk as far up Mt Rundle as we could do
+in the time available. While I waited at the door for her, two chambermaids
+came in. I told them how much I had enjoyed my stay. One of them asked me
+where I was from; I said "London, England." She asked what language they
+spoke there, and was dumbfounded when I said "English"; she thought that
+English came from America...
+
+We walked down the hill beside the river, with views of the Bow Falls, and
+a really scary sign telling you not to walk on a trail at the top of the 
+cliffs (so you can't get a really good view of the falls). So we walked down
+the road, finding a river path after a while, crossed over the only bridge, 
+walked back on the other side (with better, lower-level views of the falls),
+across a bridge over Spray River, and after walking along the road by the 
+golf course for a while we found the start of the trail.
+
+It soon started climbing, going almost straight up the sloping face of the
+mountain. There were nice woods, with Indian paintbrush and some 
+waxy-looking flower that turned out to be white camas, as well as various 
+fungi and a sponge-like moss. We hoped to get above the treeline but the 
+clock beat us; we had to turn back at about 1800 metres. We talked about 
+many things, including the struggles of the mathematicians in Australia with 
+the bureaucrats running the research assessment there.
+
+On the way back, we saw people paddling in the beautiful clear water of the
+Bow River. I was so tempted to take off my boots and go in, but time didn't
+permit. We went on, and back up the hill, where I retrieved my bag from the
+reception desk and had only a short wait for the bus.
+
+I was the only passenger boarding at the Banff Centre, or indeed in Banff;
+there was one more passenger booked from Canmore, so the very good-natured
+driver phoned her up to say he was running a bit ahead of time, was that 
+OK with her? 
+
+The bus rolled on down the valley between the mountains. Clouds were beginning
+to spill over the range on our right, and mysterious shafts of light
+penetrated the gloom; on the other side there was blue sky with only some
+high cirrus cloud. Then back through the hills and blue wildflower meadows,
+the cattle country, the cultivation, and finally the outskirts of Calgary.
+
+It is not much of an exaggeration to say that half the trip is the journey
+from Banff to Calgary, and the other half is a trek through suburban Calgary;
+but finally we were at the airport, a quarter of an hour early. I went to the
+bathroom, where I changed my underwear and socks, shaved and brushed my 
+teeth one last time; then I asked about the flight at the check-in desk 
+(no queue!) and got a gate number.
+
+Going through security I had a bad moment. "Any liquids?" "No". "Any large
+electronics?" "Yes, a netbook." "Put it in the bin." It turned out that he
+meant the tray that goes through the X-ray machine, not the trash can where
+excess liquid goes... Maybe it is Canada where they don't speak English.
+
+I had actually gone into Zone A, because the security check at Zone B was
+closed. There were places to eat in that part of the airport, but after a
+long trek through a narrow winding corridor to Zone B, there were only a
+couple of tiny snack bars, all closed. It will be quite a while before I
+get to eat!
+
+We started boarding a few minutes early, pushed back right on time, and
+taxied out to the runway under an extraordinary orange sky, with a thin
+crescent moon sinking into the murk. The woman who was seated beside me
+had gone to a spare seat somewhere else in the plane, giving me two seats
+to spread out my things on.
+
+Dinner came promptly and the entertainment system didn't work, so there was
+nothing for it but to go to sleep.
+
