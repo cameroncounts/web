@@ -1,0 +1,486 @@
+<h4>25 September</h4>
+
+<p>
+On waking, I thought about PSp(4,3) again. I realised that I could prove
+exactly the reverse of what I wanted for this, and indeed for all classical
+groups. What we require for non-spreading is a multiset <i>A</i> and a
+set <i>B</i>, such that |<i>A</i>| divides <i>n</i> and <i>A<i> meets every
+translate of <i>B</i> in a constant number of points. I can do this, but
+with <i>A</i> a set and <i>B</i> a multiset. So I got up and wrote this down.
+I cannot remember why Ben wanted it the way round he did, or indeed why
+<i>A</i> and <i>B</i> cannot both be allowed to be multisets.
+</i>
+
+<p>
+Not terribly early to work, but nobody else there. I sent off the thing I
+wrote to the synch list. There were responses from Bill and Alan to my draft
+report on the Newton Institute programme; I revised it accordingly. Some of
+what Alan mentioned I hdn't even known about; perhaps it happened when I was
+in New Zealand.
+</p>
+
+<p>
+Pablo arrived between 11 and 12, so I told him about the spreading business.
+He has almost finished the computation showing that PSp(4,3) doesn't satisfy
+the condition in the case where <i>A</i> and <i>B</i> are both sets. I also
+observed that if we allow <i>A</i> and <i>B</i> both to be multisets and
+delete the condition that |<i>A</i>| divides <i>n</i>, the condition is
+precisely equivalent to non-QI. So at least I understand that better!
+</i>
+
+<i>
+Dan came a little after 1, so the four of us went to his favourite restaurant
+on Via Tiburtina. He walked right past it at first and we had to backtrack.
+I had penne arrabiata (good and spicy), and ssome delicious hake, with house
+white wine, and coffee.
+</i>
+
+<i>
+Back to the department, arriving ten minutes before I was due to talk. 
+Francesca came and took us to the seminar room; by the time the boards
+were cleaned and the data projector warmed up, it was time to begin. Dina
+was going to be late, and had asked us to delay; but several people had to
+go promptly at 4, so this was not possible. Actually Dina missed the 
+chit-chat but got almost all of the serious stuff.
+</p>
+
+<p>
+The talk went quite well. I apologised to the audience that I had too much
+to say; I had to put the computer on a chair, and I couldn't read what was
+on the screen; but I covered most of the important things I wanted to cover,
+and I think I did the chit-chat quite well. Flavio D'Alessandro and
+Arturo Carpi, who work on the &#268;ern&yacute; conjecture from another
+point of view, were there, and talked to me afterwards, giving me a copy of
+their paper. I also talked to Claudia Malvenuto, who with Benoit Larose
+proved the same theorem that Ku and I proved; I told her about the work of
+David Ellis.
+</p>
+
+<p>
+Afterwards, we went to the student bar and had a couple of beers. Then
+Pablo, Francesca, Rosemary and I caught a bus down town. It took a long
+and meandering route through the less attractive part of town, but finally
+reached Piazza Barberini. We got off soon after, and walked around past the
+parliament building (where they were changing the guard so we couldn't get
+through), the Pantheon, and a small restaurant which
+Francesca vaguely remembered and managed to navigate to without a mistake.
+</p>
+
+<p>
+There was quite a long queue, mostly made up of American tourists; it seems
+that this restaurant is in the guidebooks. They told us there was a 20 minute
+wait; we were seated well before that but the order took a while to come.
+But it was indeed good pizza, and we had an enjoyable mea.
+</p>
+
+<p>
+After dinner, we walked further, down some very narrow streets and alleys,
+through the area where the posh shops are, to the Spanish Steps. From the
+top, we could see the dome of St Peter's, behind another dome in the 
+foreground. The church of Trinita dei Monti was open, so we went in. Several
+small figures in white, absolutely motionless, were kneeling in the front
+of the church, I thought at first they were statutes, but I think they were
+in fact real.
+</p>
+
+<p>
+After that, we walked down the long straight road to Piazza Barberini, where
+Pablo and Francesca could get the metro (he is staying with Francesca for
+a couple of days) and Rosemary and I got the bus back. It was the 492, the
+same bus we came on, but took a more direct route and was much less impeded
+by traffic, so quite a quick journey.
+</p>
+
+<h4>26 September</h4>
+
+<p>
+We were too late last night to go to the shop, so I went first thing for
+some breakfast. Bread was a problem; yesterday's bread had gone, except for
+one sliced half-loaf, and today's hadn't arrived. (I discount plastic bread!)
+But everything else was there.
+</p>
+
+<p>
+Pablo arrived in the department fairly soon after I did: I had read my email
+and got the Newton Institute report sent off (Dave had emailed to say it was
+OK with him). There was also an email from Ben Steinberg, saying that his
+definition of spreading is what is needed to prove the &#268;ern&yacute;
+conjecture, but admitting that the subject has taken on a life of its own
+and other definitions can also be contemplated.
+</p>
+
+<p>
+So we sat down to look more seriously at PSp(4,3). The multiset <i>A</i>
+we have is too big (cardinality 30), so we decided to look for a smaller one.
+I explained my idea of looking for a short vector in the appropriate submodule,
+and Pablo suggested using linear programming (with constraints to say that the
+integer vector lies in the submodule (i.e. is orthogonal to all the sum-zero
+vectors corresponding to lines) and has non-negative integer coefficients with
+one coefficient at least 1.
+</p>
+
+<p>
+MAGMA has a function to do this, and the documentation promises to find an
+integer vector if one is asked for. To our surprise and initial disappointment,
+we found that it produced a solution where the entries were decimals with
+about 20 decimal places! But closer inspection showed that these were very
+close to integers, and when we rounded them to the nearest integer we found
+that we did indeed have a multiset of size 20 which satisfied the constraints.
+So this group is indeed non-spreading!
+</p>
+
+<p>
+At this point we stopped for lunch, and went back to the same place we've
+eaten at earlier in the week. The special was spaghetti with funghi and 
+seafood, which was excellent. We skipped dessert but had coffee there before
+returning.
+</p>
+
+<p>
+After lunch, Flavio D'Alessandro, one of the two guys here who work on the 
+&#268;ern&yacute; conjecture came by and gave me a little tutorial on his 
+paper (which I had speed-read after breakfast). I am sure there are some
+very useful ideas there, so I asked his permission to send a digested
+version to the synch list, and perhaps put him in contact with other 
+people. His concept of an independent set in a transformation semigroup 
+is in any case an exact generalisation of that of a sharply transitive 
+set of permutations, snd probably interesting in its own right.
+But his main theorem says that if a synchronizing automaton has such a set
+then there is a &#268;ern&yacute;-type bound for the length of a reset word.
+In the other direction, a synchronizing automaton necessarily has an
+independent set.
+</p>
+
+<p>
+After that I offered to give the next part of the tutorial. Amazingly we
+managed to assemble Dina, Francesca, Daniele, Pablo, and (for at least part
+of the time) Rosemary. So I explained my new view of spreading and QI, and
+described what Pablo and I had discovered. Over lunch I had realised that
+there is a nice geometric description of this 20-element multiset.
+</p>
+
+<p>
+Then Dina read her email and found that, contrary to explicit instructions,
+Rosemary's expenses have been sent to the campus branch of the bank rather
+than to her British account. So she has to go there on Monday, and try to
+negotiate something not involving carrying nearly two thousand euros round
+Rome and London for a couple of days! Oh dear. Meanwhile I suggested an
+outing to Lago Albano on Sunday, and looked up train times. If all goes
+according to plan, we will go out on the 12:10 train from Termini and come
+back on the 19:24. Pablo was beginning the computation for PSp(4,5), only
+to find that the linear program wouldn't run because the computer kept
+dividing by zero; we tried it theoretically but, modulo a few mistakes in
+the calculations, the nice geonmetric consruction seems not to work for any
+field order except 3. Strange! Also I had to prepare a reference letter for
+Daniele in a sealed envelope; some panic while I tried to locate the file,
+eventually finding it on the white toy (of course).
+</p>
+
+<p>
+We went back to the student bar (just four of us now, Dina, Pablo, Rosemary and
+me) and had a beer. I showed Dina the video of Logan and Lex, and gave her
+and Pablo copies of the slides of my talk and the LaTeX file to generate
+them. (Dina is going to learn <tt>beamer</tt>.)
+Then we went our separate ways; Pablo to buy a cake for
+Francesca, Dina back to the department, and we back to the flat, where I
+wrote up an account of what Pablo and I had achieved.
+</p>
+
+<h4>27 September</h4>
+
+<p>
+It is said that John Lennon composed "I am the Walrus" while listening to a
+two-tone British ambulance siren -- the first four bars of the vocal line are
+alternating notes a semitone apart. Perhaps Paul McCartney was inspired to
+the introduction to "Two of Us" by Italian ambulances, which have two notes
+a major sixth apart. We hear a lot of them; the flat is quite near the 
+Policlinico.
+</p>
+
+<p>
+Some mornings I have found myself singing "Killing Floor", and old
+anti-Vietnam War song by (I think) Blood, Sweat and Tears in the late sixties.
+I didn't know wny until I realised that its instrumental break is similar to
+the closing line of "Two of Us". Of course this also resembles the closing
+of "Hello Goodbye", which for some reason never played in my mind. (Perhaps
+it will now!)
+</p>
+
+<p>
+It was colder last night. For the first time, I was unable to get warm under
+a sheet. I may have to dig out a blanket tonight.
+</p>
+
+<p>
+We had a leisurely breakfast and then set out to be tourists. We started off
+towards Termini. While walking along beside the wall, we saw an extraordinary
+sight: a suitcase was perched on a ledge among the vines, and two policemen
+with a broom were attempting (successfully) to get it down. Who knows what
+the story was?
+</p>
+
+<p>
+We walked through the underpass beneath Termini, and zigzagged our way to
+Santa Maria Maggiore, somehow missing the market which I remember being
+round there somewhere. We went in. It is a very grand church with an
+extraordinary ceiling and a colourful window in the west wall. 
+The air was full of the light of camera flashes and the sound of cameras
+being switched on, despite the fact that a service was in progress.
+</p>
+
+<p>
+Out of the church, we went down the Via in Selci, past a house where I lived
+for a month in the early 90s, climbed up the steps, and walked round to San 
+Pietro in Vincoli, a much plainer church where Michaelangelo's statue of
+Moses (with horns) is. We saw that and the chains in which St Peter was
+supposedly held in prison. (I think the story is that the chains were
+parted by an angel, who welded them back together afterwards). Along past
+the engineering faculty of the university, and down past the Colosseum to 
+the Forum.
+</p>
+
+<p>
+We queued up, and were prepared to pay to go in, at the higher rate (since
+we had no proof that we were from the EU), to be told that entry was free
+today. We made the most of it, spending a long time, both up on the Palatine
+hill, and in the Forum. A lot of it is closed off now; I can remember going
+through the temple of the Vestal Virgins once before, but this was no longer
+possible. Nonetheless, there were some astonishingly well-preserved carvings
+and inscriptions to see, and the old Senate building was an extraordinary
+space, converted back to something like its original state after having been
+used as a church for some time. Being free, it was of course veery crowded,
+with the noise of audioguides in the air. People walked around talking on
+their phones and not looking at what they were walking past.
+</p>
+
+<p>
+We went out up the stairs to the Capitoline, down the other side, and found
+a small restaurant where we had spaghetti, beer, and coffee. The food was
+fairly cheap but the beer was an astonishing price.
+</p>
+
+<p>
+After lunch, we walked through the old Jewish ghetto, across the Tiber via
+the island, through the back streets, and up the Janiculum. The day was
+superbly clear, with some clouds building up, and we had stunning views over
+the city of Rome, as well as the hundreds of statues of Garibaldi's patriots.
+We got ice-creams (lemon and pistachio) and ate them looking at the view.
+</p>
+
+<p>
+Then we came down past the lighthouse, the dead oak tree and amphitheatre,
+the Bambino Gesu children's hospital, and down steps to the river. Crossing
+over, we started heading for home. We could follow a more-or-less straight
+course through the centre, just missing things we saw on Thursday night
+(the Pantheon, Piazza Navona, and Piazza Barberini), but passing the Trevi
+fountain (which was more crowded than I have ever seen it). Then up past
+the Quatro Fontane to Repubblica and the Baths of Diocletian, where the
+garden was open (and free). 
+</p>
+
+<p>
+We went in and sat for a while. While we were there, a rather lynx-like cat
+came sauntering pat, paying not the slightest attention to anyone.
+Astonishingly, it was only the third cat we had seen all day. I remember Rome
+from my first visit as a city alive with cats, as Budapest is with dogs. But
+I suppose they have had a campaign to reduce their numbers.
+</p>
+
+<p>
+And so home, without ever quite getting to Termini. Near the place where the
+police had been retrieving a suitcase, a bag lady was sitting on the pavement
+with her supper all laid out around her, calmly eating it.
+</p>
+
+<p>
+We went to the shop on
+the way home for bread, and got a bottle of beer and some tartufo to make 
+supper a little bit special. Back home, we spent some time organising photos 
+before getting on with supper. Some have worked, some not, of course! One
+was added at the last minute as the sun went down in a blaze of colour.
+</p>
+
+<h4>28 September</h4>
+
+<p>
+We had arranged to catch the 12:10 with whoever turned up, and so had a
+leisurely start to the day. Walking to the station, we found both the bag lady
+and the police at the haunted spot, having a heated altercation. Perhaps it
+was her suitcase and she was annoyed with the police for taking it, who knows?
+</p>
+
+<p>
+We got our tickets and waited. Dina came along with a bit less than ten minutes
+to go, and said that Francesca was too ill to come. Dina herself was a bit
+nervous; though she has been to Lago Albano many times, she has never taken
+the train. She could, though, tell us something that I may have known once
+but had completely forgotten. We should not go to Albano, which is beyond the
+lake and over a very high ridge. She advised getting out at Castel Gandolfo.
+When we came to Marino, I recognised the place where I had got out in the past,
+but we stuck to plan and alighted at Castel Gandolfo.
+</p>
+
+<p>
+This is a tiny station beside a busy road up the hill from the lake. Everyone
+who got off the train started up the hill, and, after asking advice from a
+knowledgable-looking person, we followed. Soon there was a turnoff forbidden
+to cars, with a steep road soon becoming stairs, that led us right to the top,
+coming out by the domed church with splendid views of the lake. A party of
+boys wearing red, white and green garlands and surrounded by adults were 
+listening to an address.
+</p>
+
+<p>
+There was a nice-looking restaurant near the top, but it was obviously laid
+out for a fancy party, so we didn't even ask. We went up to the main square,
+where the Swiss Guard were standing in the doorway to the Pope's place, and
+a bride was being photographed by the fountain (fairly clearly it was this
+wedding party who were booked in at the restaurant). We went along the main
+street a little way, and finally found a nice-looking restaurant, where we ate.
+</p>
+
+<p>
+It was all a little bit strange. We had pasta with porcini mushrooms, a local
+speciality (very good), and then some beautiful grilled lamb with lemon slices
+meant to be eaten with the fingers; we also ordered a litre of local white
+wine which turned out to be rather dreadful, but at least not too strong
+tasting, so didn't spoil the food. The waiter had got the waiters' trick of
+avoiding catching our eye down to a fine art; when Dina finally got his
+attention and asked for some parmesan to put on the pasta, he informed her
+that one shouldn't put parmesan on porcini mushrooms, and went to retrieve
+the restaurant's one contained of parmesan, which was at another table.
+Not quick, and not cheap, but the food at least was excellent.
+</p>
+
+<p>
+Dina asked several people (the waiter, and a couple of street traders outside)
+how to get down to the lake. Nobody could tell her; clearly the locals don't
+walk! We aimed to find the steps back to the station, but missed
+them and ended up walking down the road (fortunately on a footpath). We
+continued down, and eventually found a small road almost impassable to traffic,
+which took us down to the road on the lake shore. we followed it to the point
+where cars can go no further.
+</p>
+
+<p>
+Here we encountered a slight problem. The gates were locked, though it was
+easy to step over the crash barrier and back again on the other side, and
+there was a big notice which according to Dina said that access was forbidden;
+but there were clearly many people walking down the road, so we followed. Dina
+rather nervous lest rocks from the cliffs should fall on our heads (an event
+I considered extremely unlikely). But, leaving the worrying aside, it was a
+really lovely walk, living up to my old memories (though not quite the route
+I remember), and thoroughly enjoyable.
+</p>
+
+<p>
+The woods were full of pink cyclamen flowers, forming a dense carpet in
+places. There were chestnut trees laden with fruit. At many points there
+were nice views down to the lake surface, and from opposite Castel Gandolfo
+there was a spectacular display of sunlight streaming from the clouds (but
+not onto the Pope's place, which remained in shadow). We saw cormorants sitting
+on buoys out on the lake, and seagulls landing on the lake.
+</p>
+
+<p>
+Coming into the built-up area at the north end of the lake, a very light
+sprinkle of rain began. We decided to stop for coffee in a lakeside 
+restaurant. It was as well we didn't leave it till later, since the 
+restaurants further along were vast, and could obviously handle tourists
+on an industrial scale. Anyway, the rain stopped while we had our coffee,
+and the rest of the walk was fine, though we could see that it had rained
+harder on the west side.
+</p>
+
+<p>
+We retraced our steps up the hill. At the station, we were in for a shock, 
+when the timetable said that the 19:24 from Albano didn't stop on Sundays.
+We figured out a clever plan. Our outward tickets were for Albano, so we
+caught the train to the end of the line, and had half an hour in Albano
+before catching the same train back to Termini. It was a good choice. Instead
+of being faced with the decision whether to climb back up again in search of
+a bar or sit in the cold for more than an hour, we got to see part of
+Albano, with an absolutely spectacular sunset over the plain looking towards
+the sea. We climed up a flight of stairs to a little pedestrian place with
+a fountain in the middle featuring tortoises spitting water into a pool,
+took a look at the dreadful snarl of traffic on the main road to Rome (making
+Dina very glad she hadn't driven), and went back to the station for the train.
+</p>
+
+<p>
+The train journey back was pleasant, though it stopped for a while just
+outside Termini and was a few minutes late. We parted in the subway, and we
+walked home for bread, cheese and ham.
+</p>
+
+<h4>29 September</h4>
+
+<p>
+I woke at the usual time, and decided to be productive, so I got up and
+showered and then started on a new version of the definitive synchronization
+document. I'd made a good start by breakfast time (and managed to push
+further during the day).
+</p>
+
+<p>
+Then in to work for the last day in the department.
+</p>
+
+<p>
+We arrived about 10. Dina came and took Rosemary to the bank. More bad news:
+they couldn't transfer the money because they needed an account to transfer it
+<i>from</i>... So she came away with a lot of money, mostly in very high
+denomination Euro notes. Ah well, we will no doubt spend it one day.
+</p>
+
+<p>
+I sent to the synch list both an account of our battle with PSp(4,3) and a
+summary of the paper by Flavio and Arturo. (Later Ben replied that the
+contents of this paper are not original, a more general result being known.)
+Francesca and Daniele came and we talked a bit more about the numeration
+systems and the possibility that Lyndon words have something to do with
+the problem. More experiments required! Daniele offered to drive us to the
+airport; I said I would phone him when we knew whether we had been able to
+check in on-line. Tullio arrived and we chatted for a while.
+</p>
+
+<p>
+Finally Dina was free, so we picked up Francesca and six of us went to lunch.
+Since we had all that money, I suggested that we should treat the others. I had
+lasagne, but there were more interesting things on offer: Tullio had tripe,
+while Dina had liver and onions. Then dessert and coffee, all for a very
+reasonable sum.
+</p>
+
+<p>
+In the afternoon, I tried to check in but the BA computers were down. However,
+we did succeed later on, and even succeeded in getting adjacent seats despite
+our bookings having been made at quite different times. All I had to do was
+click on a little picture of me in one seat, turning it green, and then click
+on the seat I wanted. I opted to get a pdf file of the boarding pass, which
+came straight to the white toy; Rosemary was in the computer centre, so I
+copied it to London, emailed it to her, she copied it to Rome and printed it
+out. All hopefully in order, and we were able to tell Daniele that he needn't
+get up so early in the morning.
+</p>
+
+<p>
+Finally all was over. We swapped pictures, I wrote a report on my visit,
+handed over the keys and the computer centre card, and we set off with 
+Dina to pay the rent, Dina coming along to
+act as interpreter with Sergio. He invented some figures for gas and 
+electricity (or so it seemed to me), but after deducting the plumber's bill
+it was still a very reasonable sum for such a convenient apartment. We handed
+over the money, he wrote out a receipt on a scrap of paper torn from his
+diary, and finally he produced a bottle of grappa and four glasses to
+conclude the deal.
+</p>
+
+<p>
+We said goodbye to Dina and went to the shop for some bread. It was a rather
+long wait just to spend 83 cents, but eventually back to the apartment, to
+put on a load of washimg, eat the bread with some of the remaining ham and
+cheese, and clean the flat.
+</p>
+
+
