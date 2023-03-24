@@ -1,0 +1,77 @@
+23 March
+
+I woke with a burning feeling in my throat. Is it a cold coming on, or just
+the hotel atmosphere? Who knows? Anyway, after breakfast I felt more or less
+OK. I breakfasted with Cheryl and John again, and after breakfast we met up
+and walked in together. 
+
+It was considerably colder than yesterday; I wished I had wrapped up more
+warmly.
+
+We had Gyorgy Turan talking about algorithms for Horn formulae (popular in
+artificial intelligence, it seems); Cheryl, on the great improvements she
+and Akos have made to the analysis of the black-box recognition algorithm
+for general linear groups (depending on some nice enumerative results for
+semi-simple elements); and Harald Helfgott on growth for small subsets of
+groups (i.e. showing that if A is a not-too-large subset of a group of Lie
+type, then A^3 is substantially larger than A; he did assume a bit too much
+of his audience, I thought). In his talk I found out what has happened to
+Nick Gill: he is now Harald's postdoc.
+
+At coffee, I had a chat to Ian Leary, who works here now. (I later saw his
+photo on the faculty board.) Afterwards I began showing my age, nodding off
+in the talks by Miklos Abert (who had little respect for his audience) and
+Madhu Sudan (who was a bit slick). Sudan's talk was how you recognise that
+a map between groups is close to being a homomorphism; I tried to imagine
+a situation where you would be given a map which was close to but not a
+homomorphism, how it would be defined, but gave up and closed my eyes.
+
+I decided that I would skip lunch; large plates of greasy food no longer suit
+me. Probably this is why I am sleepy. So I logged on and read my email,
+including a letter from the Principal which didn't actually say very much,
+and tracked down a Bertrand Russell quote that John had reminded me of this
+morning. Through all this, the white toy connected flawlessly to the wireless
+network and everything worked without a hitch.
+
+I had to meet Akos before the afteroon to sort out expenses. The front door
+of the main building was open, so I went in. What you are not allowed to do
+in the building is smoke, cycle or carry a gun. Apart from the fact that
+Akos had far too much bureaucracy to do, it all went fine; I got on well 
+with the secretary, and the business was done quite quickly.
+
+After lunch, Gabor Lippner gave a much clearer explanation of graph limits
+than Miklos Abert had done. Then Igor Pak gave a rather odd talk, ending up
+with a little rant to the effect that combinatorial enumerators want an exact
+result to a counting problem, but computer scientists think an approximate
+result is more exciting. He had earlier explained that these were his two
+hats, and showed a picture of a white and a black cowboy hat; but he didn't
+actually say which of the two was the good guy, though I got the impression
+he thought it was the computer scientist.
+
+Then I swapped rooms to hear Steven Butler talking about joint work with Ron
+Graham on a variant of shuffling, and then Csaba talking about solving
+equations in groups (a bit uncompromising). Finally, after coffee, Avi
+Wigderson talked about Cayley graphs as expanders. I think he explained the
+basic theory less clearly than I recently explained it to Alex O'Neill. The
+talk was full of imprecision, and was all done in Comic Sans (I think), where
+the variable x was completely indistinguishable from a multiplication sign,
+and he had to use a "proportional" sign to simulate the semi-direct product
+symbol. Lots of very good arguments for not doing mathematics in sans serif
+fonts!
+
+There was a party at 8pm in the common room. Robert and I headed off for
+an oriental restaurant he had found the day before. We ended up leading a
+crocodile of six people. The restaurant was a bit of a shock: the food was
+nothing special, and the television was playing an absurd cartoon quite
+loudly. (What teenager would agree to the proposition that "cool is in the
+genes"? It would mean admitting that their parents were cool!)
+
+Then back to the party. Akos had rounded up several students and collaborators
+of Laci's to talk about him, and Laci responded with a long speech in narrative
+mode. I was glad that he mentioned the BCP paper as one of the highlights.
+Then we had cake, and the promise of champagne; but things had gone on rather
+long, and I had a talk to prepare, so I skipped the champagne and took the
+first bus home. On checking my talk, I found an annoying misprint; but it
+was no trouble to edit and recompile the file in London and fetch it back
+to the white toy.
+

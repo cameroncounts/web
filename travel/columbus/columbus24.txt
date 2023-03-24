@@ -1,0 +1,130 @@
+24 March
+
+I slept later this morning. Checking my email I found that Bhalchandra Thatte
+had at last sent a title and abstract, so I had to post these in two places
+on the web. After breakfast I went down and found Bob Beals ready to walk,
+but he suggested waiting for Cheryl, who came along with John soon after.
+
+On the way I talked to Bob about the construction of the sporadic simple
+groups. He feels, and I agree, that someone should document this in a more
+detailed way than either Mark Ronan or Marcus du Sauty have done, not being
+afraid to talk about the mathematics. He felt from my comments that the
+people who actually did the computing are being written out of the script.
+For a simple example, the groups that were called HHM, HJM, and LyS are now
+called He, J_3, and Ly. He said that Joe Gallian has gathered some material
+about this. He also talked about NSA, GCHQ, etc., where he has worked, and
+even told me a non-classified story about something that happened in GCHQ (but
+was unable to tell me the mathematical result of the computation).
+
+It was a beautiful sunny morning, much warmer than previously, and showing
+the beginnings of blossom on the trees.
+
+The first three talks, by Lance Fortnow, Chris Godsil and Scott Aaronson,
+were all very good. Lance confused his audience, who all understood the
+acronym PCP, by using the word "begat", which several people didn't know.
+(Later in the day, Paul Schupp talked about Garden of Eden patterns, those
+which do not arise from any transition.) His talk wa about Arthur-Merlin
+and related complexity classes. I didn't know that, if graph isomorphism is
+in P, then PH collapses.
+
+Chris talked about some quantum things related to graphs: perfect state
+transfer, walk-equivalence, controllable graphs (a stronger condition than
+having trivial automorphism group). Of course he went very fast; I would need
+to see the slides at leisure. Scott Aaronson talked about quantum versions of
+Arthur-Merlin-type protocols.
+
+During these talks, I decided that I should put at least a little bit of
+complexity in my talk; so in the coffee break I wrote a couple of frames on
+testing for, or finding, fixed-point-free elements in permutation groups.
+The latter is easily shown to be in RP for a transitive group, but the proof
+that it is in P requires the Classification. The white toy performed
+flawlessly, and I had compiled the file and fetched it over just before the
+start of Sasha Razborov's talk.
+
+He talked about a subject which got a lot of airing today, expansion properties
+of subsets of a group. He showed that, for free groups, all the difficulty is
+in the abelian case: a finite subset A of a free group which is not contained
+in a cyclic subgroup satisfies |A^3| >= |A|^2/(log |A|)^c. He also showed that
+this is essentially best possible, and explained more clearly than anyone else
+why in a nonabelian group we have to use A^3 rather than A^2.
+
+Then it was my talk. I talked a little about working with Laci, then went
+through my fixed-point-free example. This meant I was a little short of time
+for the main stuff, and went a bit fast at the end, but the whole lecture went
+over well; I think different people appreciated different parts of the lecture
+(always a good sign).
+
+Robert and I went off to lunch talking about metric dimension. We ended up
+back in the same place I'd gone to the first two days. I had a chicken salad
+sandwich, but it still comes with greasy melted cheese. I do like the 
+advertising slogan they use for their lemonade. After they explain that they
+squeeze real lemons, they say, "Why do we use real lemons? Well, fake lemons
+don't grow on trees, you know!"
+
+The afternoon also brought some very nice talks. Gabor Ivanyos talked about
+finding a matrix of maximal rank in a subspace of the space of m-by-n
+matrices, and its relation to module isomorphism. After his talk, Laci got
+to his feet and gave a not-too-short appreciation of Gabor. Apparently, among
+his achievements, he has given a test for the completeness of a set of quantum
+gates, using the Classification of Finite Simple Groups (if I understood it
+right). Martin Kassabov talked about expansion properties in Coxeter groups.
+a beautiful theorem with lots of geometric content, clearly the right way to
+go about it. Paul Schupp talked about cellular automata (like Conway's Game of
+Life) on arbitrary Cayley graphs, whose properties are closely related to
+things like amenability of the group. Finally Robert Bailey talked about metric
+dimension, and did a good job.
+
+I was a bit suspicious of one of his theorems, but didn't catch him during
+coffee, after which Laci Pyber gave his talk. Another bit of history is being
+re-written here: he has been described at this conference as the person who
+proved that the number of groups of order p^n is p^{f(n)}, where f is a
+polynomial. Of course a much more precise statement than this was proved by
+Charles Sims and Graham Higman ages ago. What Laci has done (and this is 
+no mean feat) is to get precise asymptotics, but ... His talk was on expansion
+properties in groups of Lie type. Apparently, by coincidence, he and his
+collaborator, and another team including Terry Tao and Ben Green, posted papers
+on the arXiv within four hours of each other proving exactly the same theorem
+(Laci's was first).
+
+After the talk, I caught Robert, and we walked into town together. I persuaded
+him that his theorem was wrong but could be patched (to give a weaker but still
+good bound). We agreed to go to dinner and talk about it. While we were
+walking, Cheryl caught us up. She has heard more about her house: many windows,
+and possibly the whole roof, will need to be replaced. She doesn't get back
+for another three weeks because of an IMU meeting. We invited her along to
+dinner. Waiting in the lobby, of course several people asked if we were going
+to dinner, and we picked up one more, Bob Beals. I thougt that if the worst
+came to the worst, the other two could talk while Robert and I worked.
+
+We tried the North Market, which had been recommended as full of good eating
+places, only to find that it closed at 7, two minutes after we arrived. So
+we went to a posh Italian restaurant just up the street. It was not ideal
+for our purpose, since it was very crowded and the level of conversational
+noise was deafening. So after a while Robert and I decided to finish our work
+in the hotel, and we made general conversation after that. Cheryl and Robert
+swapped stories of having to deal with nutters. Cheryl won the competition,
+having once had to deal with a Vietnamese boat person whose parents had died
+of thirst and been thrown overboard after pirates boarded the boat they were
+escaping on. He reached Australia, and at one point, went looking for
+acquaintances who, it turned out, had just left that address. He went into
+the house. The owner returned and called the police. The police challenged him.
+He decided that the incident had brought such shame on himself and his family
+that he should commit suicide, so he drew a knife to slit his wrists, upon
+which of course the police shot him through the shoulder. Cheryl had to go
+bail for him, and this committed her to getting him to the court. A long
+and quite horrific story altogether. We also got round to talking about Peter
+Johnson, who now apparently is married and happily settled in Brazil.
+
+The food was excellent, especially the bread pudding, one of the nicest I
+have ever had, and I treated the others to a bottle of Snoqualmie syrah from
+Washington State, very nice wine it was too.
+
+Back to the hotel, Robert and I talked about dual polar spaces and got nowhere.
+Then Laci Pyber came along. Robert had mentioned a paper of Liebeck,
+Macpherson and Tent about small orbital diameter; I had said that Laci's
+result was probably relevant to this. So we asked him: he knew the paper,
+and yes, it was so.
+
+It was getting late so I went to the desk to book a taxi and a wake-up call,
+and then up to bed.
+

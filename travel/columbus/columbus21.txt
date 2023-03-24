@@ -1,0 +1,89 @@
+21 March
+
+I was woken at 5am by some people talking and laughing very loudly. They
+sounded as if they were just outside my door, but it may just be that the
+hotel is not very well soundproofed. Finally they were quiet, and I went
+straight back to sleep, dragging myself awake with some difficulty at 7am.
+I took a leisurely bath and got to breakfast at about 7:30.
+
+I was sufficiently dozy that I had great difficulty finding where anything
+was, but after a cup of coffee I became a bit more aware of my surroundings.
+I was greeted by Csaba Szabo (who I didn't recognise at first, that is how
+out of it I was), and breakfasted with him and two of his students. Then
+Jarik showed up, so after the Hungarians went I had another cup of coffee
+with him.
+
+The hotel desk provided me with toothpaste, and sewing kit (to mend my
+torn bag). Since it is Sunday, with not too many buses, they had put on
+two special buses for us; I made it downstairs in time to catch the second
+of these, and found myself next to John Dixon.
+
+At the conference I checked in and got username and password for the
+university's guest network. Then it was time for the lectures.
+
+There were two parallel sessions in the afternoon but only a single session
+in the morning. And what a splendid collection of talks I heard! Ron Graham,
+as fresh as ever despite his hard day's travelling and late night, on some
+beautiful new combinatorics of permutations (involving both descents, defined
+as usual, and drops, which are numbers which are mapped to smaller numbers).
+Then we had Anna Gal on 3-query locally decodable codes (a new branch of
+coding theory for me, clearly inspired by Laci Babai's ideas), and Subhash
+Khot, on "Grothendieck inequalities" for arbitrary sets of vectors, reminiscent
+of (but quite different from) some of Aidan's work.
+
+After coffee, where we needed a bit of intelligence to find the way (it was
+in a different building all of whose outside doors were locked, but there
+was an internal entrance from the conference building), we had John Dixon
+on finding representations close to approximate representations (an old
+question of Ulam, which in other guise involves lifting representations
+from characteristic p to characteristic 0), and Bojan Mohar (quantifying
+Babai's structure theorem for large vertex-transitive graphs).
+
+For lunch we walked towards the high street and found an open sandwich bar
+("sandwich" meaning something covered in molten cheese). Nearby there was a
+bank with the intriguing title of "Fifth Third Bank", which suggests that
+five times the economy has grown enough to support three banks, and in each
+of the first four it crashed back again.
+
+After lunch, I decided to stay in one room the whole afternoon; the talks
+there looked slightly less technical and more expository. It was a great
+collection of talks once again: Zoran Sunic using the Towers of Hanoi to
+construct the first example of a branch group having the infinite dihedral
+group as a quotient; Delaram Kahrboaei on public key exchange systems based
+on non-abelian groups; Gabor Hetyei who gave a wonderful talk explaining my
+observation on the relation between John Dixon's formula for the number of
+pairs of permutations generating a transitive subgroup with the number of
+connected permutations (via the notion of "Bernoulli games"); Tom Hayes on
+why "stirring" can make a Markov chain converge faster; Gabriella Pluhar on
+the maximum number of "islands" in rectangular or triangular grids (these
+are families of rectangles or triangles such that for any two, either one
+contains the other, or they are disjoint and don't touch); Daniel Stefankovic
+on a variant of the rank generating function (where, instead of the matroid
+rank of the graph formed by a given edge set, you put the mod 2 rank of its
+adjacency matrix), which has specialisations counting matchings, perfect
+matchings, and (in the case of a bipartite graph) independent sets.
+
+At tea Cheryl told me that she has had referees' reports on the counting book,
+mostly favourable, which she will send me soon.
+
+After the talks were finished, Laci wanted to talk about a paper we should
+write. He has observed that the methods we both used ages ago to prove that
+almost all Latin squares have no non-trivial automorphisms also show that for
+almost all normalised Latin squares the rows generate the symmetric or 
+alternating group (and so, by Haggkvist and Janssen, actually the symmetric
+group). I had arranged to go to dinner with Csaba and his students to talk
+to them about infinite permutation groups; Laci and John decided to come
+too.
+
+We went to a Greek restaurant, where we had a decent meal and a lot of good
+mathematical discussion (as well as a lot of talk about Tom Lehrer etc.).
+The only down side is that they appeared to add 20% service charge, which
+seemed a trifle excessive. I will have to find a hole-in-the-wall sometime
+soon!
+
+Back in the room I tried out the internet connection. No luck. But a phone
+call to the desk established that they change the password every week on
+Sunday; with the new password it all worked flawlessly. So I copied yesterday's
+diary to London and read my email, before writing up today's and going to
+bed.
+

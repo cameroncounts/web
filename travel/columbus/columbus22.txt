@@ -1,0 +1,76 @@
+22 March
+
+I slept well but woke up about 5, thinking about nice presentations of
+homogeneous structures. Raindrops were streaming down the window. 
+Eventually I decided to get up and type up my thoughts, and email them
+to Laci and Csaba. I found that it wasn't even necessary to log in; the
+system remembered me from last night.
+
+When I had finished, I had breakfast. I was joined by Chris Godsil who had
+just finished. Our conversation drifted to such dreary topics as research
+assessments, lists of approved journals, and so on. Fortnately we were
+rescued by the appearance of Cheryl, but she had brought bad news: her
+part of Perth had just been hit by a cracker storm which had caused
+enormous damage.
+
+After breakfast the rain had stopped but it was still cloudy and cold.
+I set off a little after 8 to walk to the University, not knowing how far it
+was. I was taking a photograph when up came Cheryl and John. It turned out to
+be about a 3/4 hour walk altogether; at one point when we were crossing
+against the lights, John remarked on the damage that would be done to
+permutation group theory if we had all been wiped out.
+
+Another day of extraordinary talks. Satya Lokam talking about matrix rigidity
+(I knew the basics of this since Taoyang had got interested in it at one point
+and we had discussed it); Lajos Ronyai on polynomials and Grobner bases,
+unfortunately much too fast but he ended up with a generalisation of the
+Frankl--Wilson intersection theorem from primes to prime powers; then an
+absolutely barnstorming talk by Gene Luks. He told a story, new to me, of the 
+time when Babai had shown him a letter I had written giving bounds for orders
+of primitive groups using CFSG. Laci had left to take a bus to New York and
+a plane to Hungary; Gene had phoned the New York Port Authority to get them
+to put out a call for Laci to call him, to verify that the theorem really 
+did say what he remembered it saying.
+
+I took the 105 stairs up to the common room. After coffee we had Eva Tardos
+on adword auctions. These are how they determine the price of "sponsored links"
+on Google pages etc. The basic assumptions seemed rather remote to me since I
+never click on these, and even if I did, I am sure I would avoid the top one
+(which is the most desirable). Then Alex Lubotzky told the story of the small
+and short presentations, which I heard from Bill Kantor in Banff last year.
+
+I went back to the same place for lunch and was joined by John, who like me is
+averse to new experiences. I saw Robert outside the lecture room; he
+wanted me to think about the metric dimension of dual polar spaces. I said
+a few rather muddled things, but afterwards thought about it a bit more
+sensibly, and found that I could remove the log factor from Babai's upper
+bound but no more. Not really worth doing.
+
+After lunch, Bill Kantor told the same story Alex had told, from a slightly
+different point of view; then Bob Beals talked about polynomial-time matrix
+group computation. One thing that happened in the session was that my 
+suggestion to Laci, that speakers put their slides on a web page, has been
+taken up, and we have been asked to mail our slides to the conference address.
+
+Two talks not quite up to standard, and then Laci's talk. It was a talk with
+the Erdosian title "Some of my favourite problems". He wrote on the blackboard
+so that the problems would remain visible. The first problem was whether the
+number of self-normalising subgroups of a group of order n is at most n^c.
+He promised to come back and tell us why he wanted to know this but never did.
+The remainder was an assortment of problems about inmprovements to the
+Frankl-Wilson bound, graph spectra, vertex-transitive graphs, polynomials
+with coefficients 0 and 1, etc.
+
+At various points during the day I had run into Ron Solomon and Neil
+Robertson, both of whom have threatened to come to my talk.
+
+I walked to the bus stop with Robert and then walked back to the hotel. While
+I was waiting, Csaba and his students came by and suggested we go to dinner
+and talk about homogeneous structures.
+
+We went to a pub/microbrewery very near the hotel and had a pub meal and a
+few pitchers of beer - Csaba is still as good as ever in that respect. We
+had a very good conversation about many aspects of homogeneous structures
+and many related things. Finally we went back to the hotel. I flopped down
+and was asleep almost immediately.
+
