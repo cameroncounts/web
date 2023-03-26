@@ -1,0 +1,3079 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+<title> Problems ex Cameron's homepage </title>
+<link rel="icon" type="image/png" href="n.png">
+</head>
+
+<body bgcolor="FFFFFF">
+
+<h2 align="center"> Problems </h2>
+
+<p align="center">
+<img src="qu_book.jpg" alt="???">
+<img src="qu_book.jpg" alt="???">
+<img src="qu_book.jpg" alt="???">
+
+<p>
+
+These are problems which have been on my 
+<a href="http://www.maths.qmul.ac.uk/~pjc/homepage.html#problem">homepage</a> 
+and are now put out to grass. See also 
+<a href="http://www.maths.qmul.ac.uk/~pjc/pgprob.html"> permutation group 
+problems</a>.
+
+<hr>
+
+<a name="H1"><b>Problem 1.</b></a> 
+In 1956, Rudin defined a permutation of the integers which maps
+3<I>x</I> to 2<I>x</I>, 3<I>x</I>+1 to 4<I>x</I>+1, and
+3<I>x</I>-1 to 4<I>x</I>-1 for all <I>x</I>. <EM> Problem:</EM>
+Determine the cycle structure of this permutation.
+
+<P>
+
+I have just learned (December 1998) that this problem is older: it is
+the "original Collatz problem" from the 1930s (before the famous 3<I>x</I>+1
+problem). <A HREF="http://www.cecm.sfu.ca/organics/papers/lagarias/index.html">
+A paper by Jeff Lagarias</A> gives details.
+
+<HR>
+
+<a name="H2"><b>Problem 2.</b></a>
+Let <I>f</I>(<I>k,n</I>) be the number of rooted trees with <I>n</I>
+leaves, all at level <I>k</I> (that is, distance <I>k</I>
+from the root), up to isomorphism of rooted trees.
+Prove that <I>f</I>(<I>k</I>+1,<I>n</I>)/<I>f</I>(<I>k,n</I>) tends to
+infinity with <I>n</I>, for fixed <I>k</I>. Is it even true that
+<I>f</I>(<I>k</I>+1,<I>n</I>)/<I>f</I>(<I>k,n</I>)
+is at least 1 + (<I>n</I>-1)/<I>k</I>?
+
+<P>
+
+
+<FONT COLOR=FF0000>Solution</FONT> by Peter Johnson.
+
+<P>
+
+Let <I>r</I> be the maximum number of edges from a vertex on
+one level to the next level, in a tree with <I>n</I> vertices
+at level <I>k</I>. Then <I>r<SUP>k</SUP></I> is at least <I>n</I>,
+so <I>r</I> is at least <I>n</I><SUP>1/<I>k</I></SUP>.
+
+<P>
+
+From any tree of height <I>k</I>+1, we obtain at most <I>k</I>
+different trees of height <I>k</I> by suppressing one level (replacing the
+paths of length 2 crossing this level by single edges).
+
+<P>
+
+But there is some tree of height <I>k</I>  from which at least
+<I>p</I>(<I>n</I><SUP>1/<I>k</I>)</SUP> trees of height <I>k</I>+1 
+can be recovered by introducing a new level. (Choose a level where some vertex
+has at least <I>n</I><SUP>1/<I>k</I></SUP> upward edges; if the number of
+such edges is <I>r</I>, then we can split the <I>r</I>
+edges  in <I>p</I>(<I>r</I>) ways giving non-isomorphic trees. 
+(Treat all the other vertices on this level alike.)
+
+<P>
+
+So <I>f</I>(<I>k</I>+1,<I>n</I>)/<I>f</I>(<I>k,n</I>) is at least
+<I>p</I>(<I>n</I><SUP>1/<I>k</I></SUP>)/<I>k</I>.
+
+<P>
+
+For motivation, see <EM> On the probability of connectedness</EM> in
+<EM>Discrete Mathematics</EM> 167/168 (1997), 173-185.
+
+<HR>
+
+<a name="H3"><b>Problem 3.</b></a>
+Let <I>C</I> be a class of graphs closed under forming disjoint unions
+and connected components. Let <I>c<SUB>n</SUB></I> be the number of 
+connected <I>n</I>-vertex graphs in <I>C</I>, and 
+<I>a<SUB>n</SUB></I> the total number  of <I>n</I>-vertex
+graphs in <I>C</I> (up to isomorphism). Suppose that 
+<I>c</I>(<I>x</I>) is the generating function of the sequence 
+(<I>c<SUB>n</SUB></I>); assume that <I>c</I>(<I>x</I>) has
+non-zero radius of convergence <I>r</I> less than 1. 
+
+<P>
+
+Is it true that, if  the ratio <I>c<SUB>n</SUB></I>/<I>a<SUB>n</SUB></I> 
+tends to a positive limit
+as <I>n</I> tends to infinity, then <I>c</I>(<I>r</I>) converges?
+
+<P>
+
+For further information, see papers in <EM>Discrete Mathematics</EM> 
+167/168 (1997), 173-185; and <i>Electronic J. Combinatorics</i> <b>7(1)</b>
+(2000), article #R33.
+
+<HR>
+
+<a name="H4"><b>Problem 4.</b></a>
+The number of strings of <VAR>n</VAR> red and blue 
+beads is equal to the number of collections of 
+necklaces of red and blue beads, where rotation of 
+each necklace is permitted and only necklaces with 
+no rotational symmetry are allowed. (The number
+is 2<SUP><I>n</I></SUP> in each case.)
+
+<P>
+
+For example, when <I>n</I>=2</VAR>, the collections 
+of necklaces are 
+(<font color="red">R</font>)(<font color="red">R</font>), 
+(<font color="red">R</font>)(<font color="blue">B</font>), 
+(<font color="blue">B</font>)(<font color="blue">B</font>), and 
+(<font color="red">R</font><font color="blue">B</font>); 
+(<font color="red">RR</font>) and 
+(<font color="blue">BB</font>) are not allowed. The strings are 
+<font color="red">RR</font>, 
+<font color="red">R</font><font color="blue">B</font>, 
+<font color="blue">B</font><font color="red">R</font>, 
+<font color="blue">BB</font>.
+
+<P>
+
+<EM>Problem:</EM> find a bijective proof of this fact.
+
+<P>
+
+Solutions were given by Dima Fon-Der-Flass, Rosemary Bailey,
+and Robin Chapman. Then Roger Bryant drew my attention to
+C. Reutenauer, Free Lie Algebras, London Math. Soc. Monographs
+(New Series) 7, Oxford University Press, 1993, which
+contains this and more. 
+
+<P>
+
+An account of my secret agenda in asking this question is in
+the paper <EM>The algebra of an age</EM>, in <EM>Model Theory of
+Groups and Automorphism Groups</EM> (ed. David M. Evans), London
+Math. Soc. Lecture Notes 244, Cambridge University Press, 1997,
+pp. 126-133.
+  
+<HR>
+
+<a name="H5"><b>Problem 5.</b></a>
+Let <I>G</I> be a finite graph, and <I>X</I>(<I>G</I>)
+the class of graphs containing no induced subgraph isomorphic to
+<I>G</I>. For which <I>G</I> is it true that the probability
+that a (labelled or unlabelled) graph in <I>X</I>(<I>G</I>) with
+<I>n</I> vertices is connected tends to a limit strictly between 
+zero and one as <I>n</I> tends to infinity?
+
+<P>
+
+For example, if <I>G</I> is the path of length 3, then the 
+probability of connectedness in <I>n</I>-vertex graphs in
+<I>X</I>(<I>G</I>) is 1/2 for all <I>n>1</I>.
+
+<HR>
+
+<a name="H6"><b>Problem 6.</b></a>
+Let <I>s</I>(<I>n</I>) be the number of sequences of elements from 
+the set {1,...,<I>n</I>} for which each term is at least 
+twice the preceding one, and <I>u</I>(<I>n</I>) the number of such
+sequences in which each term is greater than the sum of its 
+predecessors. It is known that
+<I>u</I>(<I>n</I>) - <I>u</I>(<I>n</I>-1) = <I>s</I>(<I>n</I>)/2.
+<EM>Problem:</EM> Find a bijective proof.
+
+<P>
+
+<FONT COLOR=FF0000>Solution</FONT> by Jeannette Janssen:
+
+<P>
+
+Use the terms S-sequence and U-sequence for the sequences counted
+by <I>s</I>(<I>n</I>)  and  <I>u</I>(<I>n</I>). The left-hand side of the
+equality counts U-sequences ending in <I>n</I>; removing the last
+term gives a U-sequence with sum less than <I>n</I>.
+
+<P>
+
+Given an S-sequence, we can add or remove 1 without changing the
+S-sequence property. So the right-hand side counts S-sequences
+containing 1.
+
+<P>
+
+Now take one of these U-sequences, say <I>u</I><SUB>1</SUB>,
+<I>u</I><SUB>2</SUB>, ...; the corresponding S-sequence is
+1, 1+<I>u</I><SUB>1</SUB>, 1+<I>u</I><SUB>1</SUB>+<I>u</I><SUB>2</SUB>, ...
+
+<P>
+
+Note: this problem is from my combinatorics textbook, for which a
+<A HREF="http://www.maths.qmul.ac.uk/~pjc/comb/comb.html">Web page</A>
+now exists.
+
+<HR>
+
+<a name="H7"><b>Problem 7.</b></a>
+A triangular prism made of uniform material has cross-section with
+sides <I>a</I>, <I>b</I> and <I>c</I> (not necessarily
+equal). It is rolled along a smooth plane so that it rotates about
+its axis. It gradually loses energy (because of air resistance).
+What are the probabilities that it lands on each of the three
+faces (in terms of <I>a</I>, <I>b</I> and <I>c</I>)?
+
+<P>
+
+There are obviously some points of detail in the physics to discuss.
+Dima Fon-Der-Flaass has an argument to show that, if the loss of
+energy is infinitesimally slow, and the triangle has unequal sides, then
+the probabilities are either 1/2, 1/4, 1/4 or 1/2, 1/2, 0.
+
+<P>
+
+This assumption is not physically realistic. Paul Glendinning found the
+even more surprising result that there is a collection of non-trivial
+intervals, arbitrarily close to 0, such that if the dissipation rate
+<I>d</I> lies in one of these intervals, then the probabilities
+are 1, 0, 0 for almost all initial conditions; that is, there is one
+face on which the prism is almost certain to land. See
+P. Glendinning, Inaccessible attractors of weakly dissipative systems,
+<I>Nonlinearity</I> <B>10</B> (1997), 507-522. 
+
+<P>
+
+Franco Vivaldi pointed out that, if instead the prism is turned to a random
+orientation and dropped onto a plane covered with glue, then the
+probabilities are proportional to the angles subtended by the sides
+at the centroid of the triangle.
+
+<HR>
+
+<a name="H8"><b>Problem 8.</b></a>
+It can be shown that, if <I>F<SUB>i</SUB></I> is the number of 
+orbits of a
+finite permutation group <I>G</I> on <I>i</I>-tuples of distinct
+elements, then the proportion of elements of <I>G</I> which are
+derangements (have no fixed points) is the alternating sum of the
+quantities <I>F<SUB>i</I></SUB>/<I>i</I>!. (See
+N. Boston, W. Dabrowski, T. Foguel, P. J. Gies, J. Leavitt, D. T. Ose
+and D. A. Jackson,
+The proportion of fixed-point-free elements of a transitive permutation
+group, <I>Communications in Algebra</I> <B>21</B> (1993), 3259-3275.)
+
+
+<P>
+
+For an infinite oligomorphic group (one with <I>F<SUB>i</SUB></I> finite for
+all <I>i</I>), the alternating sum may make sense (i.e. it may
+converge, or some other summation method may apply), even though the
+proportion of derangements does not. <EM>Problem:</EM> What does this
+mean?
+
+<P>
+
+For example, in the infinite symmetric group, <I>F<SUB>i</SUB></I>=1 for
+all <I>i</I>, and the sum is 1/e, which is just the
+limiting proportion of derangements in finite symmetric groups.
+
+<P>
+
+A more mysterious example is the group of order preserving permutations
+of the rational numbers. Here, <I>f<SUB>i</SUB>=i</I>! for all <I>i</I>,
+and the sum is 1-1+1-1...=1/2 (according to Euler). In what sense are
+half of the order-preserving permutations derangements?
+
+<p>
+
+For a closely related problem, see <a href="odds/derang_puzzle.pdf">here</a>.
+
+<HR>
+
+<a name="H9"><b>Problem 9.</b></a>
+(A. D. Keedwell). Suppose that <I>x</I><SUB>1</SUB>, ...,
+<I>x<SUB>m</SUB></I>, <I>y</I><SUB>1</SUB>, ..., 
+<I>y<SUB>n</SUB></I> are positive integers such that there
+exists a bipartite graph with vertex degrees <I>x</I><SUB>1</SUB>, ...,
+<I>x<SUB>m</SUB></I> in one bipartite block and <I>y</I><SUB>1</SUB>, ..., 
+<I>y<SUB>n</SUB></I> in the other. (This is equivalent to asserting that the
+conditions of the Gale-Ryser theorem are satisfied.) Suppose
+further that all the <I>x<SUB>i</SUB></I> and <I>y<SUB>j</SUB></I> are
+greater than 1. Show that there is a bipartite graph having 
+these vertex degrees, which has two proper edge-colourings
+such that
+<UL>
+<LI> for any vertex, the sets of colours appearing on edges
+at that vertex are the same in both colourings;
+<LI> no edge receives the same colour in both colourings.
+</UL>
+Note: it is not true that any graph with these vertex-degrees
+has such a pair of colourings. A counterexample is given by the
+two degree sequences (3,2,2,2) and (3,2,2,2), when the graph
+consisting of two 4-cycles joined by an edge does not have such
+a pair of colourings (though the graph consisting of two vertices
+joined by three disjoint paths of length 3 has such the same
+degree sequences and does have such colourings.
+<P>
+The conjecture is true if the degrees are all equal, or if every
+degree is either 2 or 3.
+<P>
+This problem is also Problem 16.15 in the list of
+<A HREF="http://www.maths.qmul.ac.uk/~pjc/bcc/prob16.ps">
+BCC16 problems</A> (PostScript file). See also
+<I>Discrete Math.</I> <B>197/198</B> (1999), 799-812.
+
+<P>
+
+This problem has been solved by Rong Luo, Wen-An Zang and  Cun-Quan Zhang,
+<i>Combinatorica</i> <b>24</b> (2004), 641-657; doi:
+<a href="http://dx.doi.org/10.1007/s00493-004-0039-2">10.1007/s00493-004-0039-2</a>
+
+<HR>
+
+<a name="H10"><b>Problem 10.</b></a>
+Let <I>S</I> be the symmetric group on the infinite set <I>X</I>.
+Consider the product action of <I>S</I><SUP>2</SUP> on 
+<I>X</I><SUP>2</SUP>, and let <I>a<SUB>n</SUB></I> be the 
+number of orbits on subsets of size <I>n</I>.
+
+<P>
+
+<EM>Problem:</EM> Find a formula for, or an efficient means of
+calculating, <I>a<SUB>n</SUB></I>.
+
+<P>
+
+The number <I>a<SUB>n</SUB></I> has other combinatorial interpretations:
+<UL>
+<LI> It is the number of zero-one matrices with <I>n</I> ones,
+with no zero rows or columns, up to row and column permutation.
+<LI> It is the number of bipartite graphs with <I>n</I> edges,
+no isolated vertices, and a distinguished bipartite block, up to
+isomorphism.
+</UL>
+
+For more information see two papers with T.&nbsp;Prellberg and
+D.&nbsp;Stark: 
+<a href="http://www.combinatorics.org/"><i>Electronic J. Combinatorics</i></a>
+<b>13</b> (2006), #R85 (19pp.), and 
+<i>Journal of Physics: Conference Series</i> <b>42</b> (2006), 59-70.
+
+<HR>
+
+<a name="H11"><b>Problem 11.</b></a>
+(a) Do there exist eight subsets of the set 1..10 with the properties
+<OL>
+<LI> any two points lie in at most two sets,
+<LI> any two sets meet in at least two points?
+</OL>
+
+<P>
+
+<FONT COLOR=FF0000>Solution</FONT>: yes; I found one by hand:
+<UL>
+<LI> 1, 2, 5, 8, 9
+<LI> 1, 2, 6, 7, 9
+<LI> 3, 4, 5, 7, 9
+<LI> 3, 4, 6, 8, 9
+<LI> 1, 3, 5, 6, 10
+<LI> 2, 4, 5, 6, 10
+<LI> 1, 4, 7, 8, 10
+<LI> 2, 3, 7, 8, 10
+</UL>
+
+<P>
+
+(b) Do there exist twelve subsets of the set 1..15 with the above properties?
+
+<P>
+
+<FONT COLOR=FF0000>Solution</FONT>: no (by a combination of case analysis 
+and computer search).
+
+<P>
+
+Remark. The next interesting open case is eighteen subsets of 1..21. This has
+been settled in the negative by Pablo Spiga (personal communication).<p>
+
+Clearly this problem should be updated to ask for some analysis of
+configurations satisfying the two conditions 1 and 2 above!
+
+<HR>
+
+<a name="H12"><b>Problem 12.</b></a>
+Let <I>A<SUB>n</SUB></I> denote the <I>n</I>th element on the axis of
+symmetry of Pascal's triangle (the middle binomial coefficient
+<I>2n choose n</I>).
+
+<P>
+
+A simple argument with generating functions shows that
+<P><I>A</I><SUB>0</SUB><I>A<SUB>n</SUB></I> +
+<I>A</I><SUB>1</SUB><I>A</I><SUB><I>n</I>-1</SUB>
+ + ... + <I>A<SUB>n</SUB>A</I><SUB>0</SUB> 
+ = 4<SUP><I>n</I></SUP>.<P>
+
+(The generating function <I>&sum;A<SUB>n</SUB>t<SUP>n</SUP></I> is
+equal to (1-4<I>t</I>)<SUP>-1/2</SUP>, by the binomial theorem.)<P>
+
+<B>Problem.</B> Find a "counting proof" of this identity.<P>
+
+This problem is due to Alastair King and Andrew Swann. I heard it from
+<A HREF="http://www2.bath.ac.uk/~masgcs/home.html">Geoff Smith</A>.
+A <A HREF="http://www.cs.ucsb.edu/~omer/bij.ps">solution</A> was found by 
+<A HREF="http://www.cs.ucsb.edu/~omer/">Omer Egecioglu</A>.
+Subsequently, <A HREF="http://www.maths.ex.ac.uk/~rjc/rjc.html">Robin
+Chapman</A> told me that the result is due to Daniel J. Kleitman,
+A note on some subset identites,
+<I>Studies in Applied Mathematics</I>
+LIV 289-293 (1975). Then an even earlier `proof' was unearthed in
+W. Feller's classic <I>An Introduction to Probability Theory
+and its Applications</I>, by
+<A HREF=mailto:a.d.king@maths.bath.ac.uk>Alastair King</A>.
+Here are his comments (with an addition by Robin Chapman):
+
+<P>
+
+<FONT COLOR=FF0000>Solution</FONT>: As observed by Kleitman, the 
+"central binomial convolution identity"
+amounts to the fact that the number of balanced +1/-1 sequences 
+(random walks) is equal to the number of never balanced ones 
+of the same length.
+
+<P>
+
+A simple combinatorial proof of this fact can be extracted 
+from the probability literature:
+
+<P>
+
+W. Feller, <I>An Introduction to Probability Theory
+ and its Applications</I>, Wiley, New York, 1950.
+
+<P>
+
+The result plays a fundamental role in the analysis of
+random walks (Main Lemma III.3.1). The proof given 
+in the text is not strictly combinatorial, but Problem III.10.7 
+asks for a purely combinatorial proof and sketches the construction
+of a bijection which is attributed to E. Nelson.
+Confusingly, the sketch appears to construct a bijection with
+another set of random walks of the same size, namely 
+those which are non-negative.
+However, a small modification yields the following:
+
+<P>
+
+Identify the "initial" segment of a walk as being:
+<UL>
+<LI> for a balanced walk, up to the first time it reaches either
+  <UL>
+  <LI> its minimum value for walks that start -1 or
+  <LI> its maximum value for walks that start +1,
+  </UL>
+<LI> for a never balanced walk,  up to the last time it reaches half its 
+final value
+  <UL>
+  <LI> with a +1 for walks that start with +1 or
+  <LI> with a -1 for walks that start with -1.
+  </UL>
+</UL>
+The bijection reverses the signs and order of the initial segment.
+
+<P>
+
+<B>Note:</B> the first and last steps in an initial segment have the same sign.
+Thus balanced walks that start -1 correspond to never balanced
+ones that start +1 (and vice versa).
+
+<HR>
+
+<a name="H13"><b>Problem 13.</b></a>
+This problem is due to Sylvie Corteel, Carla D. Savage, Herbert S. Wilf and
+Doron Zeilberger, and appeared in the <I>Journal of Combinatorial Theory</I>,
+Series A, <B>82</B> (1998), 186-192.
+
+<P>
+
+Among the ordered pairs of monic polynomials of degree <I>n</I> over
+<I>GF</I>(2), exactly half consist of relatively prime polynomials.
+Find a nice bijection between the relatively prime pairs and the
+non-relatively-prime pairs.
+
+<P>
+
+<b>Added 3/12/2007:</b> This problem has been solved by
+<ul>
+<li> A. Reifegerste, On an Involution Concerning Pairs of Polynomials in
+F<sub>2</sub>, <i>Journal of Combinatorial Theory</i>, Series A, <b>90</b>
+(2000) 216-220; and
+<li> Arthur T. Benjamin and Curtis D. Bennett, The Probability of
+Relatively Prime Polynomials, <i>Mathematics Magazine</i>, <b>80</b>, No. 3, 
+(2007), 196-202.
+</ul>
+Thanks to Carrie Rutherford for the information.
+
+<HR>
+
+
+<a name="H14"><b>Problem 14.</b></a>
+Two problems on designs and partitions.
+
+<P>
+
+1. Is it possible to partition the 4-subsets of a 16-set into 13
+sets of 140 subsets, each set isomorphic to the set of planes in 
+the affine space AG(4,2)? 
+
+<P>
+
+<FONT COLOR=FF0000>Solution</FONT>: Rudi Mathon informs me that Luc 
+Teirlinck has shown the non-existence of such a partition. I will add the 
+reference when I find it.
+
+<P>
+
+Of course, one can now ask for a partition of the 4-subsets of a 32-set into
+29 copies of AG(5,2).
+
+<P>
+
+2. Is there a Steiner system S(3,5,26) (a set of 5-subsets of a 26-set
+with the property that any 3 points lie in just one of them) having the
+property that there are no three of the blocks which have pairwise
+intersections of size 2 but the intersection of all three is empty?
+Such a design would give rise to a strongly regular graph on 352 vertices
+and hence to a biplane with 352 points and the same number of blocks.
+
+<HR>
+
+<a name="H15"><b>Problem 15.</b></a>
+<EM> Two problems on random Latin squares </EM>
+
+<P>
+
+1. Call a row of a Latin square <EM>even</EM> or <EM>odd</EM> according
+as it is an even or an odd permutation of the set {1,2,...,<I>n</I>}.
+Prove that the number of even rows of a random Latin square of order
+<I>n</I> is approximately binomial <I>B</I>(<I>n</I>,1/2).
+(The best result in this direction is due to 
+R. H&auml;ggkvist and J. Janssen,
+<I>Discrete Mathematics</I> <B>157</B> (1996), 199-206:
+the probability that all rows are even is exponentially small.)
+
+<P>
+
+2. Define a probability measure on permutations of {1,2,...,<I>n</I>}
+as follows: the probability of a permutation is the proportion of
+Latin squares with first row (1,2,...,<I>n</I>) in which it occurs
+as the second row. What can be said about this distribution? (For
+example, a permutation has non-zero probability if and only if it
+is a derangement.) In particular, prove that the probability that
+a permutation lies in no transitive proper subgroup of the symmetric group
+except possibly the alternating group tends to 1 as <I>n</I> approaches
+infinity.
+
+<P>
+
+(The analogous result for the uniform distribution was proved by
+T. Luczak and L. Pyber, <I>Combinatorics, Probability and Computing</I>
+<B>2</B> (1993), 505-512. Their result gives a simple deduction that
+the group generated by the rows of a random Latin square is almost
+surely the symmetric group. A solution to this problem would give
+the same conclusion for a random "normalised" Latin square.)
+
+<P>
+
+<i>Note added 28 July 2005</i>: I now believe that the distribution defined
+here "approaches" the uniform distribution on derangements as <i>n</i> grows.
+For example, when <i>n</i>=7, the numbers of ways of extending a two-rowed
+Latin rectangle corresponding to each type of derangement (with cycle lengths
+7, 2+5, 2+2+3, and 3+4 respectively) are 6566400, 6604800, 6635520, and
+6543360 respectively.
+
+<HR>
+
+<a name="H16"><b>Problem 16.</b></a>
+Find all positive integers greater than two which can be written as the sum
+of two powers of the same prime in three different ways. (I know of only
+six such integers, none of which has more than three different representations
+of this form.)
+
+<HR>
+
+<a name="H17"><b>Problem 17.</b></a>
+It is known that the average number of ways in which a positive integer
+in the range [1,...,<I>n</I>] can be written as a sum of <EM>consecutive</EM>
+primes tends to the limit log<SUB>e</SUB>2 as <I>n</I> tends to infinity.
+Is it true that the limiting distribution of the number of representations
+of this form is Poisson with parameter log<SUB>e</SUB>2? 
+
+<P>
+
+This would imply
+that the density of the set of numbers with no such representation is 1/2.
+It would also imply that there exist integers with arbitrarily many such
+representations. Either of these assertions would be a nice result!
+
+<HR>
+
+<a name="H18"><b>Problem 18.</b></a>
+<EM>A problem on Fibonacci numbers.</EM>
+(I learned this problem from John Conway; see also C. Kimberling,
+Numeration systems and fractal sequences,
+<I>Acta Arith.</I> <B>73</B> (1995), 103-117.)
+
+<P>
+
+Any positive integer can be written uniquely as the sum of non-consecutive
+Fibonacci numbers. Hence we can define the <EM>Fibonacci successor
+function</EM> on the natural numbers by taking this expression and "moving
+each Fibonacci number along one". So, for example, 40 = 34 + 5 + 1; its
+Fibonacci successor is 55 + 8 + 2 = 65.
+
+<P>
+
+Now produce a table in which each row begins with the smallest number which
+doesn't occur in any earlier row, and all further entries are obtained by
+applying the Fibonacci successor function. (So the top row consists of
+the Fibonacci numbers 1, 2, 3, 5, 8, ...; the next begins 4, 7, 11, ...)
+It turns out that if we extrapolate each row back two steps using the
+recurrence relation for the Fibonacci numbers, we obtain the natural
+numbers 0, 1, 2, 3, ...; this gives a convenient numbering of the rows.
+Every positive integer occurs exactly once in this table, and every
+sequence of positive integers satisfying the Fibonacci recurrence relation
+agrees from some point on with a row of the table.
+
+<P>
+
+Now let <I>x<SUB>n</SUB></I> denote the fractional part of <I>n</I>
+times the golden ratio. Let <I>a<SUB>n</SUB></I> and <I>b<SUB>n</SUB></I>
+be the number of earlier terms of this sequence to the left and the right
+respectively of <I>x<SUB>n</SUB></I> (including 0 and 1). The sequence of
+pairs (<I>a<SUB>n</SUB></I>, <I>b<SUB>n</SUB></I>) begins
+(1,1), (1,2), (3,1), (2,3), (1,5), (5,2), ...
+
+<P>
+
+If we look at the pairs occurring in the Fibonacci-numbered positions, we
+see (1,1), (1,2), (3,1), (1,5), ... In other words, one number in the pair
+is 1, and it bounces from side to side as we progress along the sequence.
+This follows from well-known properties of the continued fraction expansion
+of the golden ratio.
+
+<P>
+
+<EM>Problems.</EM> If we consider the pairs in the positions numbered by
+any fixed row in the table, show that there is a "bouncing number" which
+alternates sides in the pairs. Which numbers occur as "bouncing numbers"?
+
+<P>
+
+For example: row number 1 of the table is 4, 7, 11, 18, 29, ...; the pairs
+in these positions are (2,3), (3,5), (9,3), (3,16), (27,3), ...; so the
+"bouncing number" is 3. The "bouncing numbers" for rows 0, 1, 2, 3, 4, ...
+appear to be 1, 3, 2, 5, 8, 5, 9, ...
+
+<P>
+
+Further information here, in <A HREF="comb/fibo.dvi">DVI</A> or
+<A HREF="comb/fibo.ps">PostScript</A>.
+
+<HR>
+
+<a name="H19"><b>Problem 19.</b></a>
+Let <I>p</I><SUB>1</SUB> be a prime number. For every <I>n</I>, let
+<I>p</I><SUB><I>n</I>+1</SUB> be the smallest prime divisor of
+<I>p</I><SUB>1</SUB>...<I>p<SUB>n</SUB></I>+1.
+<UL>
+<LI> Is it true that, for every <I>n</I>, there is a prime
+<I>p</I><SUB>1</SUB> for which none of the first <I>n</I> terms
+of the sequence is equal to 3?<P>
+<LI> Is there a prime <I>p</I><SUB>1</SUB> for which no term of the
+sequence is equal to 3?
+</UL>
+
+(This problem is due to <A HREF=mailto:S.Donkin@qmul.ac.uk>Steve Donkin</A>.)
+
+<HR>
+
+<a name="H20"><b>Problem 20.</b></a>
+Is the following true?
+
+<BLOCKQUOTE>
+
+	If <I>P</I> is a 2-group which is not elementary abelian, then some
+	non-identity element of the centre of <I>P</I> is a square.
+</BLOCKQUOTE>
+
+<FONT COLOR=FF0000>Solution</FONT>:
+The answer to this question is negative. The smallest counterexamples
+have order 128, and there are two of them. This was found by Alexander
+Hulpke and Andreas Caranti. Alexander provided the following example in GAP:
+
+<PRE>
+
+gap> g:=SmallGroup(128,36);
+<pc group of size 128 with 7 generators>
+gap> z:=Centre(g);
+Group([ f6, f7 ])
+gap> r:=List(ConjugacyClasses(g),Representative);;
+gap> s:=Filtered(r,i->Order(i)>2);;
+gap> List(s,Order);
+[ 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 ]
+gap> Set(List(s,i->i^2));
+[ f4, f5, f4*f7, f5*f6, f3*f4*f5, f3*f4*f5*f6, f3*f4*f5*f7, f3*f4*f5*f6*f7 ]
+gap> List(last,i->i in z);
+[ false, false, false, false, false, false, false, false ]
+
+</PRE>
+
+If not, is the following weaker statement true?
+
+<BLOCKQUOTE>
+
+	If <I>P</I> is a 2-group which is not elementary abelian, and
+	<I>Q</I> is a core-free subgroup of <I>P</I>, then there is an
+	element lying in no conjugate of <I>Q</I> which is a square.
+
+</BLOCKQUOTE>
+
+Avinoam Mann also suggested the above group as a possible counterexample to the
+second question. However, Steve Linton and John Murray both checked that
+there is no core-free subgroup Q for which it is a counterexample. So
+the question is still open.
+
+<P>
+
+<FONT COLOR=FF0000>Solution</FONT> (13 September 2004): 
+The answer to the second question is also
+negative. Pablo Spiga found that the group of order 128 with generators
+(1,2,7,3)(4,8)(5,11)(6,9)(10,14)(12,16,13,15),
+(1,4,7,5)(2,8)(3,11)(6,13,14,12)(9,15)(10,16), and
+(1,6)(2,9,3,10)(4,12,5,13)(7,14)(8,15)(11,16)
+is a counterexample. Indeed, in this group the set of elements with
+fixed points coincides with the set of squares. This group is
+<TT>SmallGroup(128,836)</TT> in the GAP library.
+
+<P>
+
+This was motivated by the question of whether a vertex-transitive cubic
+graph necessarily has a semiregular group of automorphisms of order
+greater than 3 (see <a href="#H50">Problem 50</a>), which is now solved
+in the affirmative.
+
+<HR>
+
+<a name="H21"><b>Problem 21.</b></a>
+A <EM>symmetric graph design</EM>, or SGD, with parameters
+(<I>n, X</I>, &lambda;, <i>F</I>), (where <I>n</I> and &lambda; are positive
+integers and <I>X</I> and <I>F</I> are graphs on <I>n</I> vertices), is a
+set {<I>X</I><SUB>1</SUB>, ..., <I>X<SUB>n</SUB></I>} of subgraphs of the
+complete graph on {1, ..., <I>n</I>} having the following properties:
+<OL>
+<LI> <I>X<SUB>i</SUB></I> is isomorphic to <I>X</I> for all <I>i</I>;
+<LI> <I>X<SUB>i</SUB></I> intersection <I>X<SUB>j</SUB></I> is isomorphic
+to <I>F</I> for all distinct <I>i,j</I>;
+<LI> any edge of the complete graph lies in exactly &lambda; of the
+graphs <I>X</I><SUB>1</SUB>, ..., <I>X<SUB>n</SUB></I>.
+</OL>
+To avoid degenerate cases, we assume that <I>X</I> is neither the
+complete nor the null graph on <I>n</I> vertices. Symmetric graph
+designs generalise symmetric BIBDs (symmetric 2-designs, 
+the case where <I>X=K<SUB>k</SUB></I> and <i>F=K</i><SUB>&lambda;</SUB>).
+In this case, condition 2 follows from conditions 1 and 3.
+
+<P>
+
+<B>Problem:</B> Does condition 2 follow from 1
+and 3 in general? Does 3 follow from 1 and 2? Does 1 follow from 2 and 3?
+(Assume that &lambda; is greater than 1.)
+
+<P>
+
+Dima Fon-Der-Flaass has shown that condition 1 does not follow from 2 and 3.
+An example for &lambda;=2: it is easy to find <I>n</I> subgraphs of
+<I>K<SUB>n</SUB></I>, each having <I>n</I>-1 edges, in such a way that
+every edge belongs to exactly two of them, and every two subgraphs have a
+single edge in common. The subgraphs can be arbitrary.
+
+<P>
+
+<A HREF=mailto:spados@katamail.com>Santi Spadaro</A> points out that 3 does
+not follow from 1 and 2, essentially because we can take a symmetric graph
+design and choose an arbitrary subset of the graphs <I>X<SUB>i</SUB></I>.
+Moreover, 2 does not follow from 1 and 3: take all graphs on <I>n</I>
+vertices isomorphic to a fixed graph <I>X</I>; then 1 and 3 hold but 2
+usually fails. This problem is now completely settled in the
+negative. (11 June 2002)
+
+<HR>
+
+<a name="H22"><b>Problem 22.</b></a>
+It is known that, if <I>G</I> is a permutation group in which every
+non-identity element fixes exactly <I>k</I> points, then either <I>G</I>
+has a fixed set of size <I>k</I>, or <I>G</I> is one of a finite
+list of groups (for given <I>k</I>). The problem is to find a good upper
+bound (in terms of <I>k</I>) for the orders of the groups in this finite
+list.
+
+<P>
+
+For example, when <I>k</I>=2, the groups are the tetrahedral, octahedral
+and icosahedral groups, acting on the vertices, edges and faces of the
+corresponding polyhedra. (Every rotation has an axis, so has just two
+fixed points in this action.) So the correct bound is 60.
+(This is a theorem of Iwahori, <I>J. Fac. Sci., Univ. Tokyo</I>
+<B>11</B> (1964), 47-64.)
+
+<P>
+
+C. Franchi, in <i>European J. Combinatorics</i> <b>22</b> (2001), 821-837;
+doi: <a href="http://dx.doi.org/10.1006/eujc.2001.0508">10.1006/eujc.2001.0508</a>,
+solved this by giving the bound 
+max{60,<i>a</i>!<i>a</i>(<i>a</i>!<i>a</i>-1)}. I don't know whether 
+this can be improved.
+
+<HR>
+
+<a name="H23"><b>Problem 23.</b></a>
+Let <I>G</I> be a finite group, <I>a</I> an automorphism of <I>G</I>,
+and <I>X</I> the semidirect product of <I>G</I> by the group generated
+by <I>a</I>. Suppose that every element of <I>X</I> not in <I>G</I>
+has prime order <I>p</I>.
+
+<P>
+
+It follows that the centraliser of <I>a</I> in <I>G</I> is a <I>p</I>-group.
+Let its order be <I>p<SUP>m</SUP></I>.
+
+<P>
+
+A theorem of Kegel (<I>Math. Z.</I> <B>75</B> (1961), 373-376) shows that
+<I>G</I> is nilpotent. Then a theorem of Khukhro (<I>Mat. Zametki</I>
+<B>38</B> (1985), 652-657) shows that <I>G</I> has a normal subgroup
+whose nilpotency class and index are bounded by functions of <I>p</I>
+and <I>m</I>.
+
+<P>
+
+Is it true that the nilpotency class of <I>G</I> is bounded by a function
+of <I>p</I> and <I>m</I>?
+
+<P>
+
+<FONT COLOR=FF0000>Solution</FONT>:
+This question has been settled in the affirmative by
+<A HREF=mailto:mtbjazaa@lg.ehu.es>Andrei Jaikin</A>, using a theorem
+of E. Khukhro, On locally nilpotent groups admitting a
+splitting automorphism of prime order, <I>Mat. sb.</I> <B>130</B> (1986),
+120-127.
+
+<HR>
+
+<a name="H24"><b>Problem 24.</b></a>
+A <EM>separation relation</EM> on a set is the quaternary relation induced
+by a circular order on the set by the rule that <I>S</I>(<I>a,b,c,d</I>)
+holds if <I>a</I> and <I>b</I> separate <I>c</I> and <I>d</I>. (This holds
+for exactly one of the three partitions of the four points <I>a,b,c,d</I>
+into two pairs.)
+
+<P>
+
+It is known that a quaternary relation is a separation relation if and only
+if its restriction to every 5-element set is a separation relation.
+
+<P>
+
+Let <I>P</I> be an inversive plane, <I>C</I> a circle of <I>P</I>. Define
+a relation <I>S</I> on <I>C</I> by the rule that <I>S</I>(<I>a,b,c,d</I>)
+holds if every circle through <I>a</I> and <I>b</I> meets every circle
+through <I>c</I> and <I>d</I>.
+
+<P>
+
+<EM>Problem</EM>: What does it mean for <I>P</I> if, for every circle
+<I>C</I> of <I>P</I>, the above relation <I>S</I> is a separation relation?
+
+<P>
+
+<HR>
+
+<a name="H25"><b>Problem 25.</b></a>
+Let <I>S<SUB>n</SUB></I> and <I>P<SUB>n</SUB></I> be the respectively
+the symmetric group (the set of all permutations) and the set of all
+partitions on the set [1..<I>n</I>]. There is a function
+<I>F</I> from <I>S<SUB>n</SUB></I> to <I>P<SUB>n</SUB></I> which
+replaces every permutation by the partition corresponding to its
+cycle decomposition.
+
+<P> 
+
+(a) Is there an efficient method to decide whether a set of partitions
+is the image under <I>F</I> of a <EM>subgroup</EM> of <I>S<SUB>n</SUB></I>?
+
+<P>
+
+(b) If <I>G</I> and <I>H</I> are subgroups of <I>S<SUB>n</SUB></I> such
+that <I>F</I>(<I>G</I>)=<I>F</I>(<I>H</I>), then <I>G</I> and <I>H</I>
+have the same order. <EM>Are they necessarily isomorphic</EM>?
+
+<P>
+
+Note added 19 May 2000: The answer to (b) is negative. Eamonn O'Brien
+has shown that there are two pairs of groups of order 64 (numbers
+19 and 111, and 94 and 249, in the lists in MAGMA and GAP), which act
+transivitely on 16 points, such that the two groups in each pair give
+rise to the same sets of cycle partitions. You can find
+<A HREF="permgps/cycles.txt">a GAP program</A> to verify this.
+
+<P>
+
+For further details see a paper in <i>Discrete Math.</i> <b>291</b> 
+(2005), 45-54; doi:
+<a href="http://dx.doi.org/10.1016/j.disc.2004.04.019">10.1016/j.disc.2004.04.019</a>
+
+<HR>
+
+<a name="H26"><b>Problem 26.</b></a>
+It is known that the only finite or countably infinite graphs <I>G</I>
+with the property that, for any partition of the vertex set into two
+parts, at least one of the parts induces a subgraph isomorphic to
+<I>G</I>, are a single vertex, the countable complete and null graphs,
+and the countable random graphs.
+
+<P>
+
+Which graphs have the property that, for any partition of the vertex set into
+three parts, the induced subgraph on the union of some two of the parts
+is isomorphic to the original graph?
+
+<P>
+
+<EM>Note 26/6/2000:</EM> This problem is solved: see the paper by
+Bonato, Cameron, Delic and Thomass&eacute; in
+<i>European J. Combinatorics</i> <b>23</b> (2002), 257-274; doi:
+<a href="http://dx.doi.org/10.1006/eujc.2002.0574">10.1006/eujc.2002.0574</a>
+
+<HR>
+
+<a name="H27"><b>Problem 27.</b></a>
+Let <I>G</I> be a subgroup of the symmetric group <I>S<SUB>n</SUB></I>.
+For <I>i</I> = 0, ..., <I>n</I>, let <I>p<SUB>i</SUB></I> be the
+probability that a random element of <I>G</I> has exactly <I>i</I>
+fixed points, and let <I>F<SUB>i</SUB></I> be the number of orbits
+of <I>G</I> on <I>i</I>-tuples of distinct points. These two sequences
+determine each other. In fact, 
+N. Boston, W. Dabrowski, T. Foguel, P. J. Gies, J. Leavitt, D. T. Ose
+and D. A. Jackson,
+<I>Communications in Algebra</I> <B>21</B> (1993), 3259-3275, showed
+that, if <BR>
+<I>P</I>(<I>x</I>) = <I>&sum;p<SUB>i</SUB> x<SUP>i</SUP></I>
+and <I>F</I>(<I>x</I>) = <I>&sum;F<SUB>i</SUB> x<SUP>i</SUP>/i</I>! , then
+<BLOCKQUOTE>
+<I>F</I>(<I>x</I>) = <I>P</I>(<I>x</I>+1).
+</BLOCKQUOTE>
+
+<P>
+
+Now consider the linear analogue. Let <I>G</I> be a subgroup of the 
+general linear group GL(<I>n,q</I>). For <I>i</I> = 0, ..., <I>n</I>, let
+<I>p<SUB>i</SUB></I> be the probability that the fixed points of a random
+element form precisely an <I>i</I>-dimensional subspace, and
+let <I>F<SUB>i</SUB></I> be the number of orbits of <I>G</I> on
+linearly independent <I>i</I>-tuples. Again the two sequences determine
+each other.
+
+<P>
+
+<B>Problem:</B> Express the relation between these two sequences in terms
+of generating functions.
+
+<P>
+
+<EM>Note:</EM> This problem is now solved (2 August 2000). It is just a
+case of finding the right definitions of the <I>q</I>-analogues!
+See my paper with Shahn Majid in 
+<i>Communications in Algebra</i> <b>31</b> (2003), 2003-2013.
+
+<HR>
+
+<a name="H28"><b>Problem 28.</b></a>
+(An old problem revisited)
+
+<P>
+
+Let <I>G</I> be a permutation group on the infinite set <I>X</I>.
+Assume that <I>G</I> is <EM>oligomorphic</EM>, that is, <I>G</I> has
+only finitely many (say <I>f<SUB>n</SUB></I>) orbits on the set of
+<I>n</I>-element subsets of <I>X</I>. Dugald Macpherson, <I>Proc.
+London Math. Soc.</I> (3) <B>46</B> (1983), 471-486, showed that,
+if <I>G</I> is <EM>primitive</EM> on <I>X</I> (preserves no
+non-trivial equivalence relation) but not <EM>highly set-transitive</EM>
+((that is, <I>f<SUB>n</SUB></I> &gt; 1 for some <I>n</I>), then the
+sequence (<I>f<SUB>n</SUB></I>) grows exponentially, that is,
+limsup (<I>f<SUB>n</SUB></I>)<SUP>1/<I>n</I></SUP> &gt; 1. These two
+assumptions apply throughout this problem, though analogous problems
+can be posed with primitivity relaxed.
+<OL>
+<LI> Is it true that lim (<I>f<SUB>n</SUB></I>)<SUP>1/<I>n</I></SUP> exists
+for any group <I>G</I>?
+<LI> What is the smallest possible value of the limsup? (Macpherson's lower
+bound of 2<SUP>1/5</SUP> has been improved by F. Merola to about 1.324. 
+The smallest known value is 2.)
+<LI> What is the smallest limit point of the set of values of the limsup?
+</OL>
+
+<P>
+
+Further information on such sequences is available in my
+<A HREF="http://www.research.att.com/~njas/sequences/JIS/VOL3/groups.html">
+survey article</A>.
+
+<HR>
+
+<a name="H29"><b>Problem 29.</b></a>
+Let <I>n</I> be a positive integer and <I>a</I> a
+positive real number. It is easy to show that there is
+a positive real number <I>b</I> (depending on
+<I>n</I> and <I>a</I>) with the property that, for
+any positive integers <I>x</I><SUB>1</SUB>, ...,
+<I>x<SUB>n</SUB></I>,
+<BLOCKQUOTE>
+if (1/<I>x</I><SUB>1</SUB>) + ... + 
+(1/<I>x<SUB>n</SUB></I>) &lt; <I>a</I>, then
+(1/<I>x</I><SUB>1</SUB>) + ... + 
+(1/<I>x<SUB>n</SUB></I>) &lt;=  <I>a</I>-<I>b</I>.
+</BLOCKQUOTE>
+<B>Problem:</B> If <I>a</I> is an integer, find an
+explicit lower bound for <I>b</I> in terms of
+<I>n</I> and <I>a</I>.
+
+<HR>
+
+<a name="H30"><b>Problem 30.</b></a>
+Let <I>k</I> be a positive integer. 
+<OL>
+<LI> Which finite groups <I>G</I> have
+the property that, given any <I>k</I> elements of <I>G</I>, there is
+an automorphism of <I>G</I> which simultaneously inverts them all?
+<LI> Which finite groups <I>G</I> have the weaker property that, given
+any <I>k</I> elements of <I>G</I>, there is an automorphism of <I>G</I>
+and a permutation of the elements whose combination maps each element
+to its inverse?
+</OL>
+All abelian groups have the first property. Perhaps, for moderately large
+<I>k</I>, there are not too many more.<BR>
+
+<P>
+
+<B> Added 12 March 2001:</B> The problem of bounding <I>k</I>
+has been solved by my colleague
+R.&nbsp;A.&nbsp;Bailey. For a non-abelian group <I>G</I>, the value of
+<I>k</I> is at most 2 for the first question, 5 for the second. These
+bounds are best possible. The problem of classifying all groups attaining
+the bounds (or, indeed, having one of these properties for a positive
+<I>k</I>) remains open.
+
+<HR>
+
+<a name="H31"><b>Problem 31.</b></a>
+(This is a variant of Problem 30.)
+Which finite groups have the property that the automorphism group acts
+transitively on the set of ordered pairs of non-commuting elements?
+
+<P> 
+
+<b> Added 22 March 2004:</b> Pablo Spiga has pointed out that such a group 
+must be a <i>p</i>-group of Frattini class 2.
+
+<HR>
+
+<a name="H32"><b>Problem 32.</b></a>
+A graph is <I>N-free</I> if it does not contain the path of length 3
+as an induced subgraph. Let <I>c</I>(<I>n</I>) be the number of
+connected N-free graphs on <I>n</I> vertices. Then the following
+identity holds.
+
+<BLOCKQUOTE>
+&prod;<SUB><I>n</I>&gt;0</SUB>(1-<I>q</I><SUP><I>n</I></SUP>)<SUP>-<I>c</I>(<I>n</I>)</SUP>
+&nbsp;=&nbsp;1 - <I>q</I> + 2&sum;<SUB><I>n</I>&gt;0</SUB><I>c</I>(<I>n</I>)<I>q<SUP>n</SUP></I>.
+</BLOCKQUOTE>
+
+This somewhat resembles in form the denominator identity of a Kac-Moody Lie
+algebra.
+
+<P>
+
+<B>Problem:</B> Is there a nice connection?
+
+<HR>
+
+<a name="H33"><b>Problem 33.</b></a>
+Let <I>A</I><SUB>0</SUB>, ..., <I>A<SUB>s</SUB></I> be <I>n</I>&times;<I>n</I>
+matrices of zeros and ones. Consider the following conditions:
+<UL>
+<LI>(1) <I>A</I><SUB>0</SUB> + ... + <I>A<SUB>s</SUB></I> = <I>J</I>,
+the all-1 matrix.
+<LI>(2) <I>A</I><SUB>0</SUB> = <I>I</I>, the identity matrix.
+<LI>(3) For all <I>i</I>, there exists <I>j</I> such that
+<I>A<SUB>i</SUB><SUP>T</SUP>&nbsp;=&nbsp;A<SUB>j</SUB></I>.
+<LI>(3+) For all <I>i</I>, 
+<I>A<SUB>i</SUB><SUP>T</SUP>&nbsp;=&nbsp;A<SUB>i</SUB></I>.
+<LI>(4) There are numbers <I>p<SUB>ij</SUB><SUP>k</SUP></I> such that
+<I>A<SUB>i</SUB>A<SUB>j</SUB>&nbsp;=&nbsp;&sum;&nbsp;p<SUB>ij</SUB><SUP>k</SUP>A<SUB>k</SUB></I>.
+<LI>(4-) There are numbers <I>q<SUB>ij</SUB><SUP>k</SUP></I> such that
+<I>A<SUB>i</SUB>A<SUB>j</SUB>&nbsp;+&nbsp;A<SUB>j</SUB>A<SUB>i</SUB>&nbsp;=&nbsp;&sum;&nbsp;q<SUB>ij</SUB><SUP>k</SUP>A<SUB>k</SUB></I>.
+</UL>
+<P>
+If (1), (2), (3+) and (4) hold, we have an <EM>association scheme</EM>. 
+Conditions (1), (2), (3) and (4) define a 
+<EM>homogeneous coherent configuration</EM>. 
+Conditions (1), (2), (3+) and (4-) define a <EM>Jordan scheme</EM> 
+(so-called because the span of the matrices is a Jordan algebra).
+<P>
+The operation of <EM>symmetrizing</EM> involves, for each non-symmetric
+matrix <I>A<SUB>i</SUB></I>, replacing it and its transpose by their sum
+(a symmetric zero-one matrix). It is easy to see that symmetrizing a
+homogeneous coherent configuration gives a Jordan scheme.
+<P>
+<B>Problem:</B>
+Is there a Jordan scheme which is not obtained by symmetrizing a homogeneous
+coherent configuration?
+
+<HR>
+
+<a name="H34"><b>Problem 34.</b></a>
+A <I>base</I> for a permutation group is a sequence of points whose stabiliser
+is the identity; it is <I>irredundant</I> if no point is fixed by the
+stabiliser of its predecessors. Cameron and Fon-Der-Flaass, <I>Europ. J. 
+Combinatorics</I> <B>16</B> (1995), 537-544, called a permutation group
+an <I>IBIS group</I> if all irredundant bases have the same number of
+elements; they showed that the irredundant bases of an IBIS group are the
+bases of a matroid.
+
+<P>
+
+<B>Problem:</B> What is the relation between the Tutte polynomial of the
+matroid and the cycle index of the permutation group?
+
+<P> It is known that sometimes the first determines the second and sometimes
+<I>vice versa</I>. Perhaps there is a gadget which generalises both!
+See <a href="http://www.combinatorics.org/Volume_9/v9i1toc.html#N2">my
+paper</a> in <I>Electronic J. Combinatorics</I> <B>9(1)</B> (2002), #N2 (10pp).
+
+<HR>
+
+<a name="H35"><b>Problem 35.</b></a>
+R. D. Carmichael defined a <EM>primitive lambda-root</EM> or PLR of <I>n</I>
+to be an element of <I>U</I>(<I>n</I>) (the group of units modulo <I>n</I>)
+whose order is equal to the exponent of <I>U</I>(<I>n</I>). It is possible to
+count the number of PLRs of <I>n</I>, for any <I>n</I>. Donald Preece asked:
+is it possible to count the number of PLRs <I>x</I> having the property that
+<I>x</I>-1 is a unit? In particular, for which <I>n</I> do all (resp. some,
+none) of the PLRs have this property?
+
+<P>
+
+<A HREF="csgnotes/lambda.pdf">Combinatorics Study Group notes</A>
+on primitive lambda-roots are available. For reasons explained therein,
+the number can be counted in principle by inclusion-exclusion, but there
+is unlikely to be a neat formula ...
+
+<HR>
+
+<a name="H36"><b>Problem 36.</b></a>
+How large is the largest antichain of subgroups of the symmetric group
+<I>S<SUB>n</SUB></I>? More precisely, estimate
+<I>a<SUB>n</SUB></I>/<I>s<SUB>n</SUB></I>, where <I>a<SUB>n</SUB></I> is
+the size of the largest antichain and <I>s<SUB>n</SUB></I> the total
+number of subgroups.
+
+<HR>
+
+<a name="H37"><b>Problem 37.</b></a>
+37.
+Let <I>L</I>(<I>G</I>) be the subgroup lattice of the finite group <I>G</I>.
+Is the following true or false? Suppose that the Boolean lattice
+<I>B</I>(<I>n</I>) of subsets of an <I>n</I>-element set is embeddable
+as a meet-semilattice of <I>L</I>(<I>G</I>), and suppose that <I>n</I> is 
+maximal with this property. Then there is an embedding of <I>B</I>(<I>n</I>)
+as meet-semilattice, such that the least element of <I>B</I>(<I>n</I>) 
+is a normal subgroup of <I>G</I>.
+
+<P>
+
+<I>Note:</I> The quaternion group <I>Q</I><SUB>8</SUB> shows that we
+cannot make the least element of <I>B</I>(<I>n</I>) correspond to the
+identity in general.
+
+<HR>
+<a name="H38"><b>Problem 38.</b></a>
+This problem is due to R. A. Bailey.
+
+<P>
+
+Let <I>A</I> be an affine plane of order <I>q</I>. Is it possible to find, 
+for each point <I>x</I> of <I>A</I>, a permutation <I>p<SUB>x</SUB></I>
+of the set of parallel classes of <I>A</I> with the properties
+<OL>
+<LI> for all <I>x</I>, <I>p<SUB>x</SUB></I> is a derangement;
+<LI> for all distinct <I>x, y</I>, if the line <I>xy</I> lies in parallel
+class <I>C</I>, then <I>Cp<SUB>x</SUB></I> is different from 
+<I>Cp<SUB>y</SUB></I>?
+</OL>
+
+<P>
+
+There is no solution for <I>q</I>=2, since there are only two derangements
+and four points. For <I>q</I>=3, there is a solution. It is conjectured that
+a solution exists for all larger <I>q</I>.
+
+<HR>
+
+<a name="H39"><b>Problem 39.</b></a>
+This problem is due to Harut Aydinian, and was communicated to me
+by Oriol Serra.
+
+<P>
+
+
+What is the size of the largest sum-free set (one not containing two
+points and their vector sum) in the square
+{1,...,<I>n</I>}&times;{1,...,<I>n</I>}? In particular, show that the
+number is <I>cn</I><SUP>2</SUP>+<I>O</I>(<I>n</I>), and find the constant
+<I>c</I>.
+
+<P>
+
+
+Upper and lower bounds for <I>c</I> are e<SUP>-1/2</SUP>=0.6065... and
+3/5=0.6 respectively. The lower bound for the number is the integer part of
+3<I>n</I>(<I>n</I>+1)/5. Proofs can be found <A HREF="odds/sfsq.pdf">here</A>.
+
+<HR>
+
+<a name="H40"><b>Problem 40.</b></a>
+Let <I>Z</I>(<I>G</I>) denote the cycle index of the permutation group
+<I>G</I>, and let <I>F*<SUB>n</SUB></I>(<I>G</I>) be the number of
+orbits of <I>G</I> on the set of all <I>n</I>-tuples of its permutation
+domain.
+
+<P>
+
+Let <I>G</I> and <I>H</I> be permutation groups acting on sets <I>X</I> and
+<I>Y</I> respectively. We consider <I>G</I>&times;<I>H</I> as a permutation
+group on <I>X</I>&times;<I>Y</I>. We have
+<UL>
+<LI> <I>Z</I>(<I>G</I>&times;<I>H</I>)  =
+<I>Z</I>(<I>G</I>)o<I>Z</I>(<I>H</I>), where
+<I>s<SUB>i</SUB></I>o<I>s<SUB>j</SUB></I> =
+(<I>s</I><SUB>lcm(<I>i,j</I>)</SUB>)<SUP>gcd(<I>i,j</I>)</SUP>, and the
+operation is extended multiplicatively and additively;
+<LI> <I>F*<SUB>n</SUB></I>(<I>G&times;H</I>) =
+<I>F*<SUB>n</SUB></I>(<I>G</I>)<I>F*<SUB>n</SUB></I>(<I>H</I>).
+</UL>
+The second assertion is trivially proved directly. The challenge is to deduce
+it from the first; this will probably require methods of dealing with these
+very strange operations on polynomials.
+
+<P>
+
+<FONT COLOR="red">Solution:</FONT> Solved by Daniele Gewurz. See 
+a paper by Daniele Gewurz, Francesca Merola and me in
+<i>Discrete Mathematics</i> <b>308</b> (2008), 386-394; doi:
+<a href="http://dx.doi.org/10.1016/j.disc.2006.11.054">10.1016/j.disc.2006.11.054</a>
+
+<HR>
+
+<a name="H41"><b>Problem 41.</b></a>
+Given <I>n</I> and <I>k</I>, what is the largest number <I>m</I> with
+the property that, if <I>S</I> is any set of <I>m</I> permutations on
+the set {1,...,<I>n</I>}, there exists a permutation which agrees with
+each element of <I>S</I> in at most <I>k</I> places?
+
+<P>
+
+For <I>k</I>=0, the value of <I>m</I> is the integer part of <I>n</I>/2.
+For <I>k</I>=1 and even <I>n</I>, it does not exceed <I>n</I>-1, but I do
+not know whether this is the exact value. (<B>Note:</B> K&eacute;zdy and
+Snevily conjectured that <I>n</I>-1 is the correct value in this case, and
+that the value is at least <I>n</I> for odd <I>n</I>. This conjecture
+implies two celebrated conjectures by Ryser and Brualdi on Latin squares:
+Ryser conjectured that any Latin square of odd order has a transversal, and
+Brualdi that any Latin square has a partial transversal of size <I>n</I>-1.)
+
+<P>
+
+A related question: Is it true that, if <I>S</I> is the set of rows of
+a Latin square of order <I>n</I>, there is a permutation agreeing
+with each element of <I>S</I> in at most two places? <B>Note:</B> The answer
+is "yes": see my paper with Ian Wanless in
+<I>Discrete Math.</I> <B>293</B> (2005), 91-109.
+
+<HR>
+
+<a name="H42"><b>Problem 42.</b></a>
+This problem was suggested by Donald Preece.
+
+<P>
+
+Following Carmichael, a <EM>primitive lambda-root</EM> of <I>n</I> is
+a unit in the integers modulo <I>n</I> which has the largest possible
+order. Let <I>F</I>(<I>n</I>) be the number of primitive lambda-roots
+of <I>n</I>. If primitive roots of <I>n</I> exist (that is, if <I>n</I>
+is an odd prime power, or twice an odd prime power, or 4), then
+<I>F</I>(<I>n</I>)=<I>phi</I>(<I>phi</I>(<I>n</I>)), where <I>phi</I>
+is Euler's totient function. However, this
+equation holds for other numbers too; indeed, it is true for more than
+half of the integers up to a million. In general, the left-hand side is
+at least as large as the right-hand side.
+
+<P>
+
+<B>Problem:</B> Is it true that the proportion of natural numbers for which
+the equation <I>F</I>(<I>n</I>)=<I>phi</I>(<I>phi</I>(<I>n</I>)) holds tends
+to a non-zero limit? If so, what is the limit?
+
+<P>
+
+See our <A HREF="csgnotes/lambda.pdf">notes</A> on primitive lambda-roots for
+more details.
+
+<P>
+
+<FONT COLOR="red">Solution:</FONT> This problem has been solved by
+T.&nbsp;W.&nbsp;M&uuml;ller and J.-C.&nbsp;Puchta: the limiting proportion
+is zero (though it tends to zero rather slowly). I will give the reference
+when the paper appears.
+
+<HR>
+
+<a name="H43"><b>Problem 43.</b></a>
+What is the cardinality of the largest subset of the group PSL(2,<I>q</I>)
+with the property that any two of its elements agree in at least two
+points? The two-point stabiliser, with size (<I>q</I>-1)/2 for odd <I>q</I>, 
+has this property, but at least for small <I>q</I> there are larger sets.
+
+<P>
+
+Pablo Spiga points out that, if <I>q</I> is congruent to 1 mod 4, then the
+stabiliser of an unordered pair of points has the above property, and
+has size <I>q</I>-1.
+
+<HR>
+
+<a name="H44"><b>Problem 44.</b></a>
+Consider the following decision problem.
+<blockquote>
+Let <i>p</i><sub>1</sub>, ..., <i>p<sub>m</sub></i> be partial permutations
+of a finite set <i>A</i> (that is, bijections between subsets).  Suppose that
+<ul>
+<li>
+<i>p</i><sub>1</sub> is the identity map on <i>A</i>, and
+<li> for any <i>i,j</i>, there is at most one <i>k</i> such that
+<i>p<sub>k</sub></i> extends
+<i>p<sub>i</sub></i>&nbsp;o&nbsp;<i>p<sub>j</sub></i>.
+</ul>
+Does there exist a finite set <i>B</i> containing <i>A</i>, and permutations
+<i>f<sub>i</sub></i> of <i>B</i> extending <i>p<sub>i</sub></i> for
+<i>i</i>=1,...,<i>m</i>, such that, if <i>p<sub>k</sub></i> extends
+<i>p<sub>i</sub></i>&nbsp;o&nbsp;<i>p<sub>j</sub></i>, then
+<i>f<sub>i</sub></i>&nbsp;o&nbsp;<i>f<sub>j</sub></i>&nbsp;=&nbsp;<i>f<sub>k</sub></i>?
+</blockquote>
+What is the computational complexity of this problem? How is this affected if
+we insist that <i>B=A</i>?
+
+<P>
+
+Some notes about this question are <A HREF="odds/partial.pdf">here</A>.
+
+<HR>
+
+<a name="H45"><b>Problem 45.</b></a>
+This problem is due to Patrick Moss, in his Ph.D. thesis (University of East
+Anglia 2003). A sequence (<i>u</i>(<i>n</i>)) of non-negative integers
+is said to be <em>realizable</em> if there is a set <i>X</i> and a permutation
+<i>T</i> of <i>X</i> such that <i>u</i>(<i>n</i>) is the number of fixed
+points of <i>T<sup>n</sup></i> in <i>X</i>. Moss shows indirectly that, if
+(<i>u</i>(<i>n</i>)) is realizable, then so are the sequences
+(<i>u</i>(<i>n</i>)<sup><i>n</i></sup>) and (<i>u</i>(<i>n<sup>k</sup></i>)),
+where <i>k</i> is a fixed positive integer. <p><strong>Problem:</strong> Find
+a pair (<i>X',T'</i>) realizing each of these sequences, in terms of the
+pair (<i>X,T</i>) realizing the original sequence.
+
+<P>
+
+The first sequence is not likely to be easy. For example, let <i>p</i> be a 
+prime. The constant sequence with value <i>p</i> is realized by the identity 
+permutation of a set of size <i>p</i>. An obvious realization of the sequence
+(<i>p<sup>n</sup></i>) is (<i>X,T</i>), where <i>X</i> is the algebraic
+closure of the field with <i>p</i> elements and <i>T</i> is the Frobenius map
+<i>T</i>(<i>x</i>)=<i>x<sup>p</sup></i>.
+
+<P>
+
+The second, however, is reasonably straightforward. Indeed, let <i>f</i> be
+a function on the natural numbers such that <i>n</i> divides <i>f</i>(<i>n</i>),
+and suppose that there is a function <i>g</i> such that <i>g</i>(<i>m</i>)
+divides <i>n</i> if and only if <i>m</i> divides <i>f</i>(<i>n</i>). Then
+a realization of (<i>u</i>(<i>f</i>(<i>n</i>))) can be constructed directly
+from a realization of (<i>u</i>(<i>n</i>)). The function
+<i>f</i>(<i>n</i>)=<i>n<sup>k</sup></i> has these properties.
+The proof is <a href="preprints/pmp.pdf">here</a>.
+
+<HR>
+
+<a name="H46"><b>Problem 46.</b></a>
+This problem is based on joint work with Jarik Ne&#353;et&#345;il.
+
+<P>
+
+A graph <I>G</I> is said to be <I>homomorphism-homogeneous</I>, or HH, if
+any homomorphism from a finite subgraph of <I>G</I> into <I>G</I> can be
+extended to an endomorphism of <I>G</I>.
+
+<P>
+
+All finite HH graphs are known. The countable examples we know are
+disjoint unions of complete graphs of the same size, and graphs which
+contain the random graph <I>R</I> as an induced subgraph.
+
+<P>
+
+<B>Problem:</B> Are there any others?
+
+<p>
+
+<b>Note:</b> The analogous problem for posets has been solved by D. Lockett.
+
+<HR>
+
+<a name="H47"><b>Problem 47.</b></a>
+The <i>Stirling transform</i> of a sequence <i>a</i> is the 
+sequence <i>b</i> given by 
+<i>b</i>(<i>n</i>)&nbsp;=&nbsp;<i>&sum;&nbsp;S</i>(<i>n,k</i>)<i>a</i>(<i>k</i>),
+where <i>S</i>(<i>n,k</i>) are the Stirling numbers of the second kind.
+
+<P>
+
+What can be said about the asymptotics of a sequence <i>a</i> for which
+<i>b</i>(<i>n</i>)&nbsp;~&nbsp;<i>c</i>&middot;<i>a</i>(<i>n</i>) for some
+constant <i>c</i>&nbsp;&gt;&nbsp;1?
+
+<P>
+
+Many interesting sequences (e.g. chains in the partition lattice, zero-one
+matrices with <i>n</i> ones and no non-zero rows or columns) have this
+property.
+
+
+<HR> 
+
+<a name="H48"><b>Problem 48.</b></a>
+Let <i>G</i> be a Frobenius group with Frobenius kernel <i>N</I> and 
+Frobenius complement <i>H</i> having orders <i>n</i> and <i>h</i>
+respectively. Number the elements of <i>N</I> as 
+<i>x</i><sub>1</sub>,...,<i>x<sub>n</sub></i>. Now let
+<i>X<sub>ij</sub></i> be the <i>n</i>&nbsp;&times;&nbsp;<i>n</i> matrix
+with (<i>k,l</i>) entry equal to the cardinality of the intersection of
+<i>x<sub>i</sub></i><sup>-1</sup><i>Hx<sub>k</sub></i> and 
+<i>x<sub>j</sub></i><sup>-1</sup><i>Hx<sub>l</sub></i>.
+Note that <i>X<sub>ii</sub>&nbsp;=&nbsp;hI</i> while, for <i>i</i> and
+<i>j</i> distinct, <i>X<sub>ij</sub></i> is a zero-one matrix.
+
+<p>
+
+Is it true that
+<blockquote>
+&sum;<sub><i>k</i></sub>&nbsp;<i>X<sub>ik</sub>X<sub>kj</sub>&nbsp;=&nbsp;nX<sub>ij</sub>+h(h-1)J</i>,
+</blockquote>
+where <i>J</i> is the all-one matrix?
+
+<P>
+
+<FONT COLOR=FF0000>Solution</FONT>: This problem is now solved in the 
+affirmative (but I have lost the solution .&nbsp;.&nbsp;.)
+
+<HR>
+
+<a name="H49"><b>Problem 49.</b></a>
+Let <i>s</i> and <i>t</i> be the numbers of positive and negative
+eigenvalues of the adjacency matrix of a graph. A.&nbsp;Torgasev proved
+that <i>s</i> is bounded by a function of <i>t</i>. 
+
+<p>
+
+<b>Problem:</b> Find the best bound. In particular, there a polynomial
+(or even a quadratic) bound?
+
+<HR>
+
+<a name="H50"><b>Problem 50.</b></a>
+Since Problem 20 above
+has a negative solution, the following problem (due to John Sheehan and me,
+BCC problem 17.12) is open again.<P>
+
+Is it true that a vertex-transitive trivalent graph has a semiregular
+automorphism (one with all cycles of the same size) of order greater
+than 2?<P>
+
+<b>Note:</b> This has now been settled affirmatively: see 
+P.&nbsp;J.&nbsp;Cameron, J.&nbsp;Sheehan and P.&nbsp;Spiga,
+<i>Europ. J. Combinatorics</i> <b>27</b> (2006), 924-930; doi:
+<a href="http://dx.doi.org/10.1080/00927870701404812">10.1080/00927870701404812</a>,
+and a stronger result has been given by
+Cai Heng Li, <i>Proc. Amer. Math. Soc.</i> <b>136</b> (2008), 1905-1910.
+
+<HR>
+
+<a name="H51"><b>Problem 51.</b></a>
+There is a well-known connection between the three polyhedral groups
+Alt(4), Sym(4) and Alt(5), on the one hand, and the exceptional root
+lattices <i>E</i><sub>6</sub>, <i>E</i><sub>7</sub> and <i>E</i><sub>8</sub>
+on the other. (See the McKay correspondence and various results in
+singularity theory).
+
+<p>
+
+For a finite group <i>G</i>, let <i>n</i>(<i>G</i>) denote
+|<i>G</i>|/<i>mu</i>(1,<i>G</i>), where <i>mu</i> is the M&ouml;bius function
+of the subgroup lattice of <i>G</i>.
+
+<p>
+
+Is it just coincidence that, ignoring signs, the values of <i>n</i>(<i>G</i>)
+for the three polyhedral groups are equal to the connection numbers of the
+corresponding root lattices (the index in the dual lattice)? The numbers
+are 3, 2, 1 respectively.
+
+<p>
+
+The coincidence becomes sharper if we include the correspondence between
+cyclic and dihedral groups and the root lattices <i>A<sub>n</sub></i> and
+<i>D<sub>n</sub></i>, for which the numbers also agree up to sign if <i>n</i>+1
+is squarefree. (This requires some charity about the interpretation of the
+McKay correspondence.)
+
+<P>
+
+A subsidiary question: If there is a natural explanation, what is the
+interpretation for root lattices of the sign of the M&ouml;bius function?
+
+<HR>
+
+<a name="H52"><b>Problem 52.</b></a>
+Let <i>G</i> be a permutation group of degree <i>n</i>. The <em>base size</em>
+of <i>G</i> is the smallest number <i>b</i>(<i>G</i>) of points whose
+stabiliser is the identity; the <em>separation number</em> of <i>G</i> is the
+smallest size of a set <i>S</i> of points such that, for any two distinct
+points <i>x,y</i>, there exists <i>s</i> in <i>S</i> such that <i>x</i>
+and <i>y</i> lie in distinct orbits of the stabiliser of <i>s</i>.
+
+<p>
+
+Clearly <i>b</i>(<i>G</i>)&nbsp;&lt;=&nbsp;<i>s</i>(<i>G</i>). Is it true
+that, if <i>G</i> is primitive but not 2-transitive, then
+<i>s</i>(<i>G</i>)&nbsp;&lt;=&nbsp;<i>b</i>(<i>G</i>)&nbsp;log&nbsp;<i>n</i>?
+
+<p> See Combinatorics Study Group notes on this problem
+(<a href="csgnotes/basesep.pdf">PDF file</a>).
+
+<HR>
+
+<a name="H53"><b>Problem 53.</b></a>
+This problem is due to Robin Chapman.
+
+<p>
+
+Let <i>p</i> be a prime congruent to 3 mod 4, and let 
+<i>r</i>=(<i>p</i>+1)/2. Let (<i>x</i>/<i>p</i>) denote the Legendre symbol
+(taking the values +1, -1, or 0 according as <i>x</i> is congruent to a nonzero
+square, a non-square, or zero mod&nbsp;<i>p</i>. Show that the 
+<i>r</i>&times;<i>r</i> matrix with (<i>i,j</i>) entry ((<i>j-i</i>)/<i>p</i>)
+has determinant&nbsp;1.
+
+<p>
+
+This is true for primes less than 1000.
+
+<HR>
+
+<a name="H54"><b>Problem 54.</b></a>
+John Dixon  has shown that the number of pairs of permutations on 
+{1,...,<i>n</i>} which generate a transitive subgroup of <i>S<sub>n</sub></i>
+is equal to (<i>n</i>-1)! times the number of indecomposable permutations
+of {1,...,<i>n</i>+1}. (Here a permutation is <i>indecomposable</i> if
+there is no positive <i>k</i> less than <i>n</i>+1 such that it maps the
+set {1,...,<i>k</i>} to itself.)<p>
+<b>Problem:</b> Find a bijective proof!
+
+<HR>
+
+<a name="H55"><b>Problem 55.</b></a>
+A <i>tournament</i> is a directed graph in which every pair of vertices is
+joined by an arc in one direction. Its <i>score sequence</i> is the list of
+the out-degrees of the vertices in decreasing order.
+
+<p>
+
+A permutation (represented by a <i>n</i>&nbsp;&times;&nbsp;<i>n</i> 
+permutation matrix <i>P</i>) is said to be
+<i>binary</i> if no two 1s in <i>P</i> are on the same northeast-southwest
+diagonal. The <i>shadow</i> of a binary permutation is the 
+(2<i>n</i>-1)-tuple (indexed from 2 to 2<i>n</i>) with 1 in position 
+<i>i</i>+<i>j</i> if <i>P<sub>ij</sub></i>=1, and other entries 0.
+
+<p> 
+
+C. Bebeacua, T. Mansour, A. Postnikov, and S. Severini conjecture that the
+number of score sequences of <i>n</i>-vertex tournaments is equal to the
+number of shadows of binary permutations on <i>n</i> elements.
+
+<p>
+
+<b>Problems:</b> Prove (or refute) this conjecture! If it is true, find a
+bijective proof.
+
+<HR>
+
+<a name="H56"><b>Problem 56.</b></a>
+Consider the following operation of "critical set reduction" of a family
+of sets: Find a minimal proper subfamily which is critical (that is, equality
+holds in Hall's condition), if one exists; remove elements of its union from
+all the other sets in the family; now apply this method recursively to the
+sets not in the critical subfamily. Clearly the new family has the same systems
+of distinct representatives as the old one.<p>
+
+Now suppose that a Su Doku puzzle is given. (By definition, a Su Doku must
+have a unique solution.) Consider the following algorithm:<p>
+
+First, for each blank cell, calculate the "free set" consisting of numbers
+not appearing in the row, column, or subsquare containing that cell.
+
+Now repeat the following until no further progress occurs:
+<ul>
+<li> if one of the free sets has cardinality 1, write its entry in
+        the puzzle and blank it out;
+<li> for each row, column, and subsquare, apply critical set reduction to its
+        free sets.
+</ul>
+
+<b>Problem:</b> Find a Su Doku puzzle which is not solved by this algorithm.
+
+<p>
+
+<b>Remark:</b> Daniele Gewurz and Francesca Merola have pointed out that 
+solutions to this problem can be found on Gordon Royle's
+<A HREF="http://www.csse.uwa.edu.au/~gordon/sudokupat.php">Sudoku page</A>.
+
+<HR>
+
+<a name="H57"><b>Problem 57.</b></a>
+This problem is due to R.&nbsp;A.&nbsp;Bailey.<p>
+
+Given a completed Su Doku design (a 9&times;9 Latin square divided into nine
+3&times;3 subsquares each of which contains the numbers 1,...,9 once),
+consider the following block design: 
+<UL>
+<LI> the point set is {1,...,9};
+<LI> the blocks are the "short rows" and "short columns", i.e. the 54 sets
+formed by the triples of points forming a row or column of one of the
+subsquares.
+</UL>
+The problem is to find an example where, in this design, any two points
+lie in either 4 or 5 blocks, or to show that no such example exists. 
+(The average concurrence is 9/2.)
+
+<p>
+
+Added 26/11/2005: A solution has been found by Emil Vaughan:
+
+<TABLE BORDER ALIGN="center">
+<TR>
+<TD>
+  <TABLE>
+  <TR>
+  <TD>1</TD>
+  <TD>2</TD>
+  <TD>3</TD>
+  </TR>
+  <TR>
+  <TD>9</TD>
+  <TD>7</TD>
+  <TD>4</TD>
+  </TR>
+  <TR>
+  <TD>5</TD>
+  <TD>6</TD>
+  <TD>8</TD>
+  </TR>
+  </TABLE>
+</TD>
+<TD>
+  <TABLE>
+  <TR>
+  <TD>4</TD>
+  <TD>5</TD>
+  <TD>6</TD>
+  </TR>
+  <TR>
+  <TD>8</TD>
+  <TD>2</TD>
+  <TD>1</TD>
+  </TR>
+  <TR>
+  <TD>3</TD>
+  <TD>7</TD>
+  <TD>9</TD>
+  </TR>
+  </TABLE>
+</TD>
+<TD>
+  <TABLE>
+  <TR>
+  <TD>7</TD>
+  <TD>8</TD>
+  <TD>9</TD>
+  </TR>
+  <TR>
+  <TD>3</TD>
+  <TD>5</TD>
+  <TD>6</TD>
+  </TR>
+  <TR>
+  <TD>4</TD>
+  <TD>1</TD>
+  <TD>2</TD>
+  </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR>
+<TD>
+  <TABLE>
+  <TR>
+  <TD>2</TD>
+  <TD>4</TD>
+  <TD>1</TD>
+  </TR>
+  <TR>
+  <TD>3</TD>
+  <TD>5</TD>
+  <TD>6</TD>
+  </TR>
+  <TR>
+  <TD>8</TD>
+  <TD>9</TD>
+  <TD>7</TD>
+  </TR>
+  </TABLE>
+</TD>
+<TD>
+  <TABLE>
+  <TR>
+  <TD>9</TD>
+  <TD>6</TD>
+  <TD>3</TD>
+  </TR>
+  <TR>
+  <TD>1</TD>
+  <TD>8</TD>
+  <TD>7</TD>
+  </TR>
+  <TR>
+  <TD>5</TD>
+  <TD>4</TD>
+  <TD>2</TD>
+  </TR>
+  </TABLE>
+</TD>
+<TD>
+  <TABLE>
+  <TR>
+  <TD>5</TD>
+  <TD>7</TD>
+  <TD>8</TD>
+  </TR>
+  <TR>
+  <TD>2</TD>
+  <TD>9</TD>
+  <TD>4</TD>
+  </TR>
+  <TR>
+  <TD>1</TD>
+  <TD>6</TD>
+  <TD>3</TD>
+  </TR>
+  </TABLE>
+</TD>
+</TR>
+<TR>
+<TD>
+  <TABLE>
+  <TR>
+  <TD>6</TD>
+  <TD>8</TD>
+  <TD>2</TD>
+  </TR>
+  <TR>
+  <TD>4</TD>
+  <TD>1</TD>
+  <TD>9</TD>
+  </TR>
+  <TR>
+  <TD>7</TD>
+  <TD>3</TD>
+  <TD>5</TD>
+  </TR>
+  </TABLE>
+</TD>
+<TD>
+  <TABLE>
+  <TR>
+  <TD>7</TD>
+  <TD>1</TD>
+  <TD>4</TD>
+  </TR>
+  <TR>
+  <TD>6</TD>
+  <TD>3</TD>
+  <TD>5</TD>
+  </TR>
+  <TR>
+  <TD>2</TD>
+  <TD>9</TD>
+  <TD>8</TD>
+  </TR>
+  </TABLE>
+</TD>
+<TD>
+  <TABLE>
+  <TR>
+  <TD>9</TD>
+  <TD>3</TD>
+  <TD>5</TD>
+  </TR>
+  <TR>
+  <TD>8</TD>
+  <TD>2</TD>
+  <TD>7</TD>
+  </TR>
+  <TR>
+  <TD>6</TD>
+  <TD>4</TD>
+  <TD>1</TD>
+  </TR>
+  </TABLE>
+</TD>
+</TR>
+</TABLE>
+
+<P>
+
+So let me pose a further question. Is there such a square in which the graph
+with vertex set {1,...,9}, two vertices joined if they lie in five blocks,
+is the "window graph" (the line graph of <i>K</i><sub>3,3</sub>, or the
+Paley graph of order 9)?
+
+<p>
+
+Added 05/12/2005: This too can be done. So one more test: is there a square 
+in which the short rows and short columns are separately nearly balanced?
+Perhaps one could ask whether each pair of numbers lies in 2 or 3 short rows
+and 2 or 3 short columns, total 4 or 5? But a computation shows that this is 
+not possible! In fact we cannot place more than five numbers subject to these
+constraints without getting stuck.
+
+<P>
+
+Also, one can find such a square where the block concurrences are 3 and 6,
+or 2 and 7, or 0 and 9, but not 1 or 8.
+<P>
+
+For more on this and related constructions see the
+<a href="preprints/sudoku.pdf">preprint</a>.
+
+<HR>
+
+<a name="H58"><b>Problem 58.</b></a>
+Let <b>F</b> be the set of sequences <i>F</i> of positive integers whose 
+<i>n</i>th term is the number of orbits on <i>n</i>-tuples of distinct elements
+of an infinite permutation group.
+
+<p>
+
+<i>Is <b>F</b> closed under pointwise multiplication?</i>
+
+<p>
+
+I conjecture that the answer is "no". Specifically, let <i>F</i> be the
+sequence (1,2,4,10,26,...) whose <i>n</i>th term is the number of solutions of 
+<i>g</i><sup>2</sup>=1 in the symmetric group of degree <i>n</i>. This
+sequence belongs to <b>F</b>, but I conjecture that the sequence 
+(1,4,16,100,676...)
+whose terms are the squares of the terms in this sequence is not in <b>F</b>.
+
+<p>
+
+<b>Remark:</b> The set of sequences counting orbits of permutation groups on
+all <i>n</i>-tuples is closed under pointwise multiplication. Moreover, the
+set of sequences counting orbits on <i>n</i>-tuples of distinct elements for
+groups with the property that the stabiliser of a finite set fixes no
+additional points is closed under pointwise multiplication.
+
+<P>
+
+<b>Further remark:</b> The answer in general is "no": if <i>G</i> is the
+stabiliser of a point in the symmetric group, the sequence begins 2, 3, 4, ...,
+but a group with 4 orbits on points must have at least 12 orbits on ordered
+pairs of distinct points. It is harder for transitive groups
+(where a possible counterexample is given in the question), and still more so
+for primitive groups.
+<hr>
+
+<a name="H59"><b>Problem 59.</b></a>
+Let Gamma be a (finite) graph, and <i>G</i> a group of automorphisms
+of Gamma. There is a polynomial <i>P</i> whose value at a positive
+integer <i>k</i> is the number of <i>G</i>-orbits on proper 
+<i>k</i>-colourings of Gamma. (This is the <i>orbital chromatic polynomial</i>
+of Gamma and <i>G</i>.) For more information see
+<ul>
+<li> P. J. Cameron, B. Jackson and J. Rudd,
+Orbit-counting polynomials for graphs and codes,
+<i>Discrete Math.</i> <b>308</b> (2008), 920-930; doi:
+<a href="http://dx.doi.org/10.1016/j.disc.2007.07.108">10.1016/j.disc.2007.07.108</a>
+<li> P. J. Cameron and K. K. Kayibi, Orbital chromatic and flow roots,
+<i>Combinatorics, Probability and Computing</i> <b>16</b> (2007), 401-407; doi:
+<A href="http://dx.doi.org/10.1017/S0963548306008200">10.1017/S0963548306008200</a>
+</ul>
+
+<ol>
+<li> Is it true that the real roots of <i>P</i>(<i>x</i>)=0 are bounded
+above by the largest real root of the chromatic polynomial of Gamma?
+<li> Is it true that the roots of <i>P</i>, for Gamma 2-connected and <i>G</i>
+contained in the alternating group on the vertices, are dense in [1,infty)?
+(A result of Thomassen shows that they are dense in [32/27,infty).)
+</ol>
+
+<hr>
+
+<a name="H60"><b>Problem 60.</b></a>
+<EM>Henson's graph</EM> <I>H<SUB>n</SUB></I>, for <I>n</i>&gt;2, is the
+unique countable homogeneous graph whose finite subgraphs are the finite
+graphs containing no complete graph of size <i>n</i>.
+<ul>
+<li> Is Aut(<I>H<SUB>n</SUB></I>) simple? [<i>Note added 13 August 2007</i>:
+these groups have been shown to be simple by Macpherson and Tent.]
+<li> Does Aut(<I>H<SUB>n</SUB></I>) have the small index property? (That is,
+is it the case that a subgroup of countable index contains the pointwise
+stabiliser of a finite set)?
+<li> Are the groups Aut(<I>H<SUB>n</SUB></I>) and Aut(<I>H<SUB>m</SUB></I>)
+non-isomorphic for distinct <i>n</i> and <i>m</i>?
+<li> Is Aut(<I>H<SUB>n</SUB></I>) a Cayley graph for <i>n</i>&gt;3?
+</ul>
+
+<hr>
+
+<a name="H61"><b>Problem 61.</b></a>
+Consider the set of Lebesgue measurable subsets of [0,1] modulo null sets. This
+carries a natural metric, where the distance between two sets is the Lebesgue
+measure of their symmetric difference.<P>
+Prove that any isometry of this metric space is the product of the operation
+of symmetric difference with a fixed measurable set, and a measure-preserving
+transformation of [0,1].
+
+<p>
+
+<b>Remark:</b> This problem is now solved, using a theorem of Lamperti from 
+1958. (Thanks to Cho-Ho Chu for directing me to this!) See
+Cameron and Tarzi,
+<i>Topology and its Applications</i>
+<b>155</b> (2008), 1454-1461; doi:
+<a href="http://dx.doi.org/10.1016/j.topol.2008.03.022">10.1016/j.topol.2008.03.022</a>
+
+<hr>
+
+<a name="H62"><b>Problem 62.</b></a>
+What is the computational complexity of the following "generalised
+Sudoku" problem?
+<UL>
+ <LI> <B>Instance</B>: An <i>n</i>&times;<i>n</i> grid whose cells are
+      partitioned into <i>n</i> "regions" 
+      <i>S</i><sub>1</sub>,...,<i>S<sub>n</sub></i>
+      with <i>n</i> cells in each.
+ <LI> <B>Problem</B>: Is it possible to place the symbols 1,...,<i>n</i>
+      into the cells in such a way that each symbol occurs just once in
+      each row, column, and region?
+</UL>
+This problem includes the problem of deciding whether a Latin square has
+an orthogonal mate. If we allow some cells to be pre-filled (consistently),
+then it includes the "ordinary" Sudoku puzzle of arbitrary size.
+<p>
+<b>Added 6 September 2007:</b> This problem has been shown to be NP-complete 
+by Emil Vaughan. The complexity status in the case where the regions are
+polyominoes (or even rectangles) is unknown.
+
+<hr>
+
+<a name="H63"><b>Problem 63.</b></a>
+Fix a positive integer <i>n</i>. Let <i>A</i>(<i>n</i>) be the commutative
+algebra generated by indeterminates <i>x<sub>i</sub></i>, for <i>i</i> running
+over the divisors of <i>n</i>, subject to the relations
+<blockquote>
+        <i>x<sub>i</sub>x<sub>j</sub></i>&nbsp;=&nbsp;<i>x</i><sub>gcd(<i>i,j</i>)</sub><i>x</i><sub>lcm(<i>i,j</i>)</sub>
+</blockquote>
+for all <i>i,j</i>.<p>
+<b>Problem:</b> What is the <i>Hilbert series</i> for <i>A</i>(<i>n</i>),
+the generating function for the sequence whose <i>k</i>th term is the
+dimension of the space of elements of degree <i>k</i> in the algebra?
+<p>
+<b>Note:</b> This problem has been solved by Daniele Gewurz and Francesca
+Merola, and by Pablo Spiga. Natalia Iyudu has also found results on it.
+I hope that a reference will be added soon.
+
+<hr>
+
+<a name="H64"><b>Problem 64.</b></a>
+Let <i>n</i> be a multiple of 8. Is there a finite group <i>G</i> with
+a homomorphism onto the symmetric group <i>S<sub>n</sub></i> such that
+no involution in <i>G</i> maps onto a fixed-point-free involution of
+<i>S<sub>n</sub></i>? If so, what is the smallest such group?
+(For <i>n</i> even but not divisible by 8, one or
+other of the double covers of <i>S<sub>n</sub></i> has this property.)
+
+<hr>
+
+<a name="H65"><b>Problem 65.</b></a>
+This problem is due to John McKay.<p>
+
+The first of the following sequences is the number of commuting triples
+of elements in the symmetric group <i>S<sub>n</sub></i>, divided by
+<i>n</i>!&nbsp;. The second is the number of non-zero elements in the 
+character table of <i>S<sub>n</sub></i>.
+<p>
+<table border cellpadding="5">
+<tr>
+<td><i>n</i></td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+</tr>
+<tr>
+<td>1st</td>
+<td>1</td>
+<td>4</td>
+<td>8</td>
+<td>21</td>
+<td>39</td>
+<td>92</td>
+<td>170</td>
+<td>360</td>
+<td>667</td>
+</tr>
+<tr>
+<td>2nd</td>
+<td>1</td>
+<td>4</td>
+<td>8</td>
+<td>21</td>
+<td>39</td>
+<td>92</td>
+<td>170</td>
+<td>331</td>
+<td>593</td>
+</tr>
+</table>
+<p><b>Problem:</b> What is going on here?
+
+<hr>
+
+<a name="H66"><b>Problem 66.</b></a>
+Let <i>n</i> be a positive integer. A linear car park has <i>n</i> spaces
+numbered 1,2,...,<i>n</i>. Each of <i>n</i> drivers independently chooses
+a favourite parking space. In turn, each driver enters the car park, goes
+to his chosen space, and parks there if it is free; if not, he takes
+the first available space. If he reaches the end of the car park without
+finding a space, he leaves in disgust. It is known that, of the
+<i>n<sup>n</sup></i> possible choices by the drivers, exactly
+(<i>n</i>+1)<sup><i>n</i>-1</sup> result in all drivers parking successfully.
+<p>
+<b>Problem:</b> Given <i>k</i>&le;<i>n</i>, what is the number of choices
+which result in exactly <i>k</i> drivers parking?
+<p>
+<b>Added 19 November 2007</b>: Pascal Schweitzer and Daniel Johannsen have
+found a formula (involving a single summation) for these
+numbers. Thomas Prellberg has shown that, after re-scaling by the square
+root of <i>n</i>, the probability density function for the number of
+drivers who fail to park successfully is 
+4<i>x</i>&nbsp;exp(-2<i>x</i><sup>2</sup>). The paper is
+<a href="http://www.combinatorics.org/Volume_15/Abstracts/v15i1r92.html">here</a>.
+
+<hr>
+
+<a name="H67"><b>Problem 67.</b></a>
+For a graph <i>G</i>, let <i>a</i>&#176;(<i>G</i>) be the greatest integer 
+<i>k</i> such that, for any circular ordering of the vertices of <i>G</i>, 
+there is a monotonic cycle with <i>k</i> vertices. (An edge counts as a cycle 
+of length 2 here.) This parameter is related to the <i>altitude</i> of <i>G</i>
+investigated by Mynhardt <i>et&nbsp;al.</i> It is easy to see that 
+<i>a</i>&#176;(<i>G</i>) is bounded below by the
+clique number and above by the chromatic number of <i>G</i>. Moreover,
+either <i>a</i>&#176;(<i>G</i>)=2, or <i>a</i>&#176;(<i>G</i>) is bounded 
+below by the girth of <i>G</i>.
+<br>
+<b>Problem:</b> Investigate this parameter. In particular, for which graphs
+does equality hold in any of the above bounds?
+<br>
+<b>Remark:</b> If we replace "circular order" by "linear order" and "cycle"
+by "path", the corresponding parameter is equal to the chromatic number. See 
+notes <a href="http://www.maths.qmul.ac.uk/~pjc/preprints/valt.pdf">here</a>.
+<hr>
+
+<a name="H68"><b>Problem 68.</b></a>
+I conjectured in 1972 that there is a function <i>f</i> with the following
+property: Let <i>G</i> be a finite primitive permutation group, with rank
+<i>r</i>; let <i>s</i> be the <em>subrank</em> of <i>G</i>, the maximum rank
+of a point stabiliser on any of its orbits. Then either
+<ul>
+<li> <i>G</i> has a base of size 2; or
+<li> <i>r</i>&nbsp;&lt;=&nbsp;<i>f</i>(<i>s</i>).
+</ul>
+Perhaps the time has come to revisit this conjecture.
+<p>
+The most extreme example I know is an extension of a 2<i>n</i>-dimensional
+vector space over GF(2) by a dihedral group of order
+2(2<sup><i>n</i></sup>+1); this has rank 2<sup><i>n</i></sup> and subrank
+2<sup><i>n</i>-1</sup>+1. So perhaps the conjecture holds with a linear
+function <i>f</i>.
+<hr>
+
+<a name="H69"><b>Problem 69.</b></a>
+A <i>homomorphism</i> of graphs is a mapping of vertices which carries
+edges to edges. Two graphs are <i>homomorphism-equivalent</i> if there
+are homomorphisms in both directions. Any homomorphism-equivalence class
+contains a unique (up to isomorphism) smallest graph called a <i>core</i>;
+a graph is a core if all its self-homomorphisms are automorphisms. For any
+graph <i>G</i>, the core of the equivalence class [<i>G</i>] is embeddable
+as an induced subgraph of <i>G</i>; any such subgraph is called a
+<i>core</i> of <i>G</i>.
+<p>
+A graph <i>G</i> is called <i>core-transitive</i> if any isomorphism
+between cores of <i>G</i> can be extended to an automorphism of <i>G</i>.
+<p>
+<b>Problem:</b> What can be said about core-transitive graphs?
+<hr>
+
+<a name="H70"><b>Problem 70.</b></a>
+Does there exist a countable group <i>G</i> with the following property:
+<ul>
+<li> <i>G</i> has just two non-identity conjugacy classes, each 
+inverse-closed;
+<li> if <i>C</i> is one of these classes, then the Cayley graph
+Cay(<i>G</i>,<i>C</i>) is isomorphic to the countable random graph?
+</ul>
+<hr>
+
+<a name="H71"><b>Problem 71.</b></a>
+Do there exist infinitely many non-abelian finite simple groups whose order 
+is a prime plus one?
+<p>
+The context is a theorem of Cauchy which states that a primitive permutation
+group of degree prime plus one is doubly transitive. Neumann, Sims and Wiegold
+pointed out in 1968 that this is false: if <i>S</i> is a non-abelian finite
+simple group, then <i>S</i>&nbsp;&times;&nbsp;<i>S</i>, acting on <i>S</i>
+by left and right multiplication, is primitive but not doubly transitive.
+The first few finite simple groups have order a prime plus one. So the
+question asks whether this construction gives infinitely many counterexamples
+to Cauchy's "theorem".
+
+<hr>
+
+<a name="H72"><b>Problem 72</b></a>
+
+Let Gamma be a (finite) graph, and <i>G</i> a group of automorphisms
+of Gamma. There is a polynomial <i>F</i> whose value at a positive
+integer <i>k</i> coprime to the order of <i>G</i> is the number of 
+<i>G</i>-orbits on nowhere-zero <i>A</i>-flows of Gamma, for any abelian
+group <i>A</i> of order <i>k</i>.
+(This is the univariate <i>orbital flow polynomial</i>
+of Gamma and <i>G</i>. To handle arbitrary <i>A</i>, we need a multivariate
+polynomial, since the answer depends on the structure of <i>A</i>.) 
+The roots of these polynomials are called <i>orbital flow roots</i>.
+For more information see
+<ul>
+<li> P. J. Cameron, B. Jackson and J. Rudd,
+Orbit-counting polynomials for graphs and codes,
+<i>Discrete Math.</i> <b>308</b> (2008), 920-930; doi:
+<a href="http://dx.doi.org/10.1016/j.disc.2007.07.108">10.1016/j.disc.2007.07.108</a>
+<li> P. J. Cameron and K. K. Kayibi, Orbital chromatic and flow roots,
+<i>Combinatorics, Probability and Computing</i> <b>16</b> (2007), 401-407; doi:
+<A href="http://dx.doi.org/10.1017/S0963548306008200">10.1017/S0963548306008200</a>
+</ul>
+
+<ol>
+<li> Is there a universal upper bound for real orbital flow roots, as is
+conjectured to be the case for flow roots?
+<li> Are real orbital flow roots dense in [0,1]? (They are dense in the
+negative real line but the only limit points known between zero and one are
+reciprocals of positive integers.)
+</li>
+</ol>
+
+<hr>
+<a name="H73"><b>Problem 73</b></a>
+
+<p>
+
+<b>Conjecture:</b> Let <i>a</i> be an algebraic integer. Then there exists
+a natural number <i>n</i> such that <i>a</i>&nbsp;+&nbsp;<i>n</i> is a
+root of the chromatic polynomial of a graph.
+
+<p>
+
+<b>Remarks:</b>
+<ol>
+<li> The conjecture is true in many cases, e.g. for all integers in
+quadratic number fields.
+<li> Conversely, if <i>a</i> is a chromatic root, then so is 
+<i>a</i>&nbsp;+&nbsp;<i>n</i> for every natural number <i>n</i>.
+</ol>
+
+<hr>
+
+<a name="H74"><b>Problem 74</b></a>
+
+<p>
+This is perhaps a model for a network where channels silt up if not used.
+It is rather open-ended, so feel free to interpret or change the hypotheses.
+</p>
+<p>
+Consider a network in which all edges have capacity 1. At unit time steps,
+perform the following operation:
+<ul>
+<li> Choose a random maximal flow <i>f</i> in the network. (The maximal flows 
+form a compact subset of a finite-dimensional Euclidean space; use the measure
+induced from the uniform measure on a suitable box.)</li>
+<li> Choose a random edge <i>e</i>.</li>
+<li> Delete <i>e</i> with probability 1-<i>f</i>(<i>e</i>).</li>
+</ul></p>
+<p>
+Eventually the network will be reduced to <i>c</i> edge-disjoint paths from
+source to target, where <i>c</i> is the capacity. What can be said about the
+time required for this to happen?
+</p>
+<p>
+For example, if the network is a cube and the source and target are antipodal
+vertices, the expected time required is 19.5.
+</p>
+
+<hr>
+
+<a name="H75"><b>Problem 75</b></a>
+
+<p>
+This problem is due to Tatiana Gateva-Ivanova. The topic is set-theoretic
+solutions of the Yang-Baxter equation, but no background knowledge is needed
+to understand the problem.
+</p><p>
+Let <i>X</i> be a finite set. A <i>solution</i> is a pair of maps L and R from
+<i>X</i> to the symmetric group on <i>X</i> satisfying the three conditions
+(for all <i>x</i>, <i>y</i> in <i>X</i>), where the image of <i>x</i> under
+L is denoted by L<sub><i>x</i></sub>:
+<ol>
+<li> L<sub><i>x</i></sub>(<i>x</i>) = <i>x</i>;</li>
+<li> L<sub>L<sub><i>x</i></sub>(<i>y</i>)</sub>R<sub><i>y</i></sub>(<i>x</i>)
+= <i>x</i>;
+<li> L<sub>L<sub><i>x</i></sub>(<i>y</i>)</sub>L<sub>R<sub><i>y</i></sub>(<i>x</i>)</sub>
+ = L<sub><i>x</i></sub>L<sub><i>y</i></sub>. 
+(Unlike my usual convention, maps act on
+the left and compose right-to-left.)</li>
+</ol>
+</p><p>
+<b>Problem:</b> Given any solution in which <i>X</i> has more than one element,
+show that there exist distinct points <i>x</i>, <i>y</i> in <i>X</i> such
+that L<sub><i>x</i></sub>=L<sub><i>y</i></sub>.
+</p>
+
+<hr>
+
+<a name="H76"><b>Problem 76</b></a>
+
+<p>
+This problem is due to Josephine Kusuma.
+Let <i>C</i> be a set of binary <i>n</i>-tuples. The 
+(Vapnik-Chervonenkis) <i>dimension</i> of <i>C</i> is the largest <i>t</i>
+such that, in every projection of <i>C</i> onto <i>t</i> coordinates,
+each binary <i>t</i>-tuple occurs; and the <i>strength</i> of <i>C</i> (as
+orthogonal array) is the largest <i>t</i>
+such that, in every projection of <i>C</i> onto <i>t</i> coordinates,
+each binary <i>t</i>-tuple occurs <i>equally often</i>.
+Clearly strength is not greater than dimension, and the two parameters
+are equal if <i>C</i> is a binary linear code.
+</p>
+
+<p>
+Now suppose that <i>C</i> is a <i>Gray map image</i> of a linear
+code over <b>Z</b><sub>4</sub>, and <i>C</i> has dimension <i>t</i>. What
+can be said about the strength of <i>C</i>? 
+</p>
+
+<p>
+<b>Solution:</b> It is at least 1+<i>t</i>/2
+(rounded down), and this is the best possible lower bound.
+</p>
+<hr>
+
+<a name="H77"><b>Problem 77</b></a> 
+
+<p>
+Let <i>S</i> be a set of elements of the symmetric group <i>S<sub>n</sub></i>.
+It is not always true that every element in the group generated by <i>S</i>
+can be written as a word in <i>S</i> of length bounded by a polynomial in
+<i>n</i>. (Take <i>S</i> to be a singleton whose element has maximum possible
+order in <i>S<sub>n</sub></i>.)<br>
+<b>Problem:</b> If the group generated by <i>S</i> contains a fixed-point-free
+element, can we always find one which is a word of polynomially bounded length?
+</p>
+<hr>
+
+<a name="H78"><b>Problem 78</b></a>
+
+<p>
+In connection with optimality of block designs, statisticians are interested
+in various functions of the Laplacian eigenvalues of a graph. If the graph
+is connected, then 0 is an eigenvalue with multiplicity 1; the other
+eigenvalues are called <i>non-trivial</i>, and are strictly positive.
+The most interesting are:
+<ul>
+<li> the harmonic mean of the non-trivial eigenvalues (for A-optimality);</li>
+<li> the geometric mean of the non-trivial eigenvalues (for D-optimality);</li>
+<li> the smallest non-trivial eigenvalue (for E-optimality).</li>
+</ul>
+See my forthcoming paper with R.&nbsp;A.&nbsp;Bailey on "Combinatorics of
+optimal designs".
+</p>
+
+<p> 
+The geometric mean is determined by the Tutte polynomial of the graph --
+it is essentially the number of spanning trees. <b>Problem</b>: Is it true
+that the other two are not determined by the Tutte polynomial, i.e. they
+may take different values for graphs with the same Tutte polynomial?
+</p>
+
+<p>
+<b>Solution:</b> This is indeed true. Emil Vaughan pointed out to me that any
+tree on <i>n</i> vertices has Tutte polynomial <i>x<sup>n</sup></i>, whereas
+trees certainly differ on the other criteria (the star being optimal).
+</p>
+
+<p>
+In the reverse direction, the two strongly regular graphs on 16 points (the
+line graph of <i>K</i><sub>4,4</sub> and the Shrikhande graph) have the same
+Laplace eigenvalues (and so agree on all eigenvalue-based optimality criteria)
+but different Tutte polynomials (the first has 576 proper 4-colourings, the
+second 240).
+</p>
+
+<hr>
+
+<a name="H79"><b>Problem 79</b></a>
+
+<p>
+The following problem in design theory comes (indirectly) from automata
+theory.
+</p>
+
+<p>
+Let <i>m</i> be an integer greater than 3. Does there exist a 
+<i>t</i>-(2<i>m</i>,<i>m</i>,&lambda;) design, for some <i>t</i>&gt;1 and
+some &lambda;&gt;0, with the properties
+<ul>
+<li> the complement of a block is a block,</li>
+<li> the number of blocks properly divides the total number of 
+<i>m</i>-subsets of the point set?</li>
+</ul>
+</p>
+
+<p>
+The Hadamard conjecture would imply that the answer is "yes" for all
+<i>m</i>&gt;3; but perhaps there is 
+an easier construction, since <i>t</i> and &lambda; are not specified.
+</p>
+
+<hr>
+
+<a name="H80"><b>Problem 80</b></a>
+
+<p>
+This elegant idea, and the first question, are due to Bill Kantor, in
+<i>J. Algebraic Combinatorics</i> <b>28</b> (2008), 351-363.
+</p>
+
+<p>
+A family <i>G<sub>n</sub></i> of finite permutation groups is <i>universal</i>
+if every finite group is isomorphic to some two-point stabiliser of a group
+in the family. The motivating example: the fact that
+<blockquote>
+<i>every finite group is the automorphism group of a finite graph</i>
+</blockquote>
+(Frucht's Theorem) can be expressed as saying that the family of semidirect
+products <i>X<sub>n</sub></i>:<i>S<sub>n</sub></i> is universal, where 
+<i>S<sub>n</sub></i> is the symmetric group of degree <i>n</i> and
+<i>X<sub>n</sub></i> the exterior square of its permutation module over the
+field of two elements.
+</p>
+
+<ul>
+<li> Find necessary and sufficient conditions for a "natural" family of
+permutation groups to be universal.</li>
+<li> In particular, which families <i>V<sub>n</sub></i>:<i>S<sub>n</sub></i>
+are universal, where <i>V<sub>n</sub></i> is a module for <i>S<sub>n</sub></i>
+defined in some "natural" way as above?</li>
+</ul>
+
+<hr>
+
+<a name="H81"><b>Problem 81</b></a>
+
+<p>
+A permutation group is <i>QI</i> if the augmentation submodule of its
+permutation module over the rationals (the set of vectors with coordinate
+sum zero) is irreducible.
+</p>
+
+<p>
+If <i>G</i> is not QI, then there exist vectors <i>v</i> and <i>w</i> in
+the permutation module such that
+<ul> 
+<li>the coordinates of <i>v</i> and <i>w</i> are non-negative integers,
+with at least one and at most <i>n</i>-2 coordinates zero, where <i>n</i>
+is the degree;</li>
+<li> the inner product of <i>v</i> and <i>w<sup>g</sup></i> is constant for
+<i>g</i> in <i>G</i>.</li>
+</ul>
+</p>
+
+<p>
+Find an example of a permuation group for which this is the case but there is
+<b>no</b> pair of vectors satisfying these conditions and also
+<ul>
+<li> the coordinate sum of <i>v</i> divides <i>n</i>;</li>
+<li> all coordinates of <i>w</i> are zero or one.</li>
+</ul>
+
+<p>
+Remarkably, no such group is currently known.
+</p>
+
+<hr>
+
+<a name="H82"><b>Problem 82</b></a>
+
+<p>
+This is <i>Bulgarian solitaire</i>; it is well-known, though I
+have only just learned about it. You may want to have fun playing with it
+before looking up references.
+</p>
+<p>
+A library has <i>n</i> books, stacked up in piles, so there are
+<i>p</i>(<i>n</i>) possibilities for the sizes of the piles (the integer
+partition function). Every day, the librarian comes in and picks up the top
+book from each pile, making a new pile from these books. This defines a map
+on the set of integer partitions. Now many questions can be asked, such as
+<ul>
+<li> How many connected components are there?</li>
+<li> What are the cycle lengths?</li>
+<li> What is the maximum number of days before a partition is repeated?</li>
+<li> How many periodic points are there?
+</ul>
+</p>
+
+<hr>
+
+
+<p><a name="H83"><b>Problem 83</b></a></p>
+
+<p>
+Donald Preece and I have failed to solve the following problem.
+</p>
+<p>
+Let <i>p</i> be an odd prime, and <i>k</i> an integer at least 3. A
+<i>k-AP decomposition</i> mod <i>p</i> is an arithmetic progression
+<i>a</i><sub>1</sub>,&nbsp;.&nbsp;.&nbsp;.&nbsp;<i>a<sub>k</sub></i>
+consisting of integers not congruent to 0 or 1 mod&nbsp;<i>p</i> such that the
+group of units of <b>Z</b><sub><i>p</i></sub> is the direct product by the
+cyclic groups generated by the terms of the progression.
+</p>
+<p>
+There are many examples of 3-AP decompositions, but we found no 4-AP
+decompositions; none exist for primes less than 20000.
+</p>
+<p>
+<b>Problem:</b> Do <i>k</i>-AP decompositions exist for <i>k</i>&gt;3?
+</p>
+<p>(Note: we assume that each cyclic factor has order greater than 1.
+Without this assumption, the AP [3528,1148,2381,1] mod 3613 is an example.)</p>
+
+<hr>
+
+<p><a name="H84"><b>Problem 84</b></a></p>
+
+<p>
+A group <i>G</i> is a <em>B-group</em> if every primitive permutation group
+containing the regular representation of <i>G</i> is doubly transitive.
+There are many finite B-groups (including cyclic groups of composite order),
+but no countably infinite B-groups are known.
+</p>
+<p>
+<ul>
+<li> Does there exist a countably infinite B-group?</li>
+<li> Let <i>G</i> be the infinite <em>dicyclic group</em>, generated by two
+elements <i>a</i> and <i>b</i>, where <i>b</i> has order 4 and inverts
+<i>a</i>. Is <i>G</i> a B-group?
+(Note that the countable random graph is not a Cayley graph for <i>G</i>; so
+the standard method for showing a group is not a B-group fails!)</li>
+</ul>
+</p>
+
+<hr>
+
+<p><a name="H85"><b>Problem 85</b></a></p>
+
+<p>
+The <em>power graph</em> of a group is the undirected graph whose
+vertex set is the group, two elements being adjacent if one is a power of the
+other.
+</p>
+<p>
+Two finite abelian groups with isomorphic power graphs must be isomorphic, but
+this is not true for arbitrary finite groups.
+</p>
+<p>
+<b>Conjecture:</b> Two finite groups with isomorphic power graphs have
+the same number of elements of each order.
+</p>
+
+<p>
+This problem has been solved in the affirmative. A stronger statement holds.
+If the power graphs are isomorphic, then the <em>directed power graphs</em>
+(with a directed edge from <i>x</i> to <i>y</i> if <i>y</i> is a power of
+<i>x</i>) are also isomorphic. The proof will appear in <i>J. Group Theory</i>,
+doi: <a href="http://dx.doi.org/10.1515/JGT.2010.023">10.1515/JGT.2010.023</a>
+</p>
+ 
+<hr>
+
+<p><a name="H86"><b>Problem 86</b></a></p>
+
+<p>
+This problem is due to Josephine Kusuma.
+</p>
+<p>
+It is well known that the strength (as an orthogonal array) of a linear
+code over a field is one less than the minimum Hamming weight of
+the dual code. Josephine showed that this is true over arbitrary commutative
+rings with identity.
+</p>
+<p>
+<b>Problem:</b> Let <i>C</i> be a linear code over <b>Z</b><sub>4</sub>,
+and let <i>C</i>' be its Gray map image. Is it true that the strength of
+<i>C</i>' is one less than the minimum Lee weight of the dual of <i>C</i>?
+(Josephine also showed that this holds with "is at most" replacing "is".)
+</p>
+<p>
+(The Gray map from <b>Z</b><sub>4</sub> to <b>Z</b><sub>2</sub><sup>2</sup>
+is defined coordinatewise, and maps 0 to 00, 1 to 01, 2 to 11, and 3 to 10.
+The Lee distance on <b>Z</b><sub>4</sub> is given by
+<i>d<sub>L</sub></i>(<i>x,y</i>)=min(<i>x-y,y-x</i>). The Gray map is an
+isometry from the Lee metric on <b>Z</b><sub>4</sub><sup><i>n</i></sup> to
+the Hamming metric on <b>Z</b><sub>2</sub><sup>2<i>n</i></sup>.)
+</p>
+
+<hr>
+
+<p><a name="H87"><b>Problem 87</b></a></p>
+
+<p>
+Given <i>n</i>, what is the smallest number <i>k</i> such that any partial
+Latin square of order <i>n</i> can be broken into <i>k</i> pieces, each
+of which can be completed to a Latin square?
+</p>
+<p>
+It is known that, for any <i>n</i>&gt;1, we have <i>k</i>=2, 3 or 4; which
+value is correct?
+</p>
+<p>
+See W. E. Opencomb, <i>Discrete Math.</i> <b>50</b> (1984), 71-97.
+</p>
+
+<hr>
+
+<p><a name="H88"><b>Problem 88</b></a></p>
+
+<p>
+Which total orderings of a finite vector space have the property that the 
+unique order-preserving bijection between two subspaces of the same dimension
+is linear?
+</p>
+<p>
+The lexicographic ordering of GF(<i>q</i>)<sup>n</sup> has this property (if
+the field is ordered arbitrarily). There are other
+examples: how many?
+</p>
+
+<hr>
+
+<p><a name="H89"><b>Problem 89</b></a></p>
+
+<p>
+Which finite groups <i>G</i> have the property that the number of
+isomorphisms between pairs of subgroups of <i>G</i> is equal to the 
+number of endomorphisms of <i>G</i>?
+</p>
+<p>
+Every abelian group has this property; no non-abelian group is known to
+do so.
+</p>
+
+<hr>
+
+<p><a name="H90"><b>Problem 90</b></a></p>
+
+<p>
+Suppose that <i>k</i> is a proper divisor of <i>n</i>. Let <i>S</i> consist
+of all those integers between 2 and <i>n</i>&ndash;1 inclusive which are
+either a multiple of <i>k</i>, or at least <i>n</i>/<i>k</i> (or both).
+Let <i>q</i>(<i>n</i>) denote the minimum of |<i>S</i>|/<i>n</i>, over all
+divisors of <i>n</i>. If <i>n</i> is prime we set
+<i>q</i>(<i>n</i>)=<i>n</i> by default.)
+</p>
+<p><b>Problem:</b> Is it true that the lim inf of <i>q</i>(<i>n</i>), as
+<i>n</i>&rarr;&infin;, is 3/4?
+</p> 
+<p>
+<i>Solution:</i> This is an easy problem; the answer is "yes". For, if
+<i>k</i>&ge;4, then there are at least about (3/4)<i>n</i> numbers greater
+than <i>n</i>/<i>k</i>; for <i>k</i>=3, there are about (2/3)</i>n</i> numbers
+greater than <i>n</i>/3, and another about <i>n</i>/9 multiples of 3 smaller
+than <i>n</i>/3; and for <i>k</i>=2, there are about (1/2)</i>n</i> numbers
+greater than <i>n</i>/2, and another about <i>n</i>/4 multiples of 2 smaller
+than <i>n</i>/2.
+</p>
+
+<hr>
+
+<p><a name="H91"><b>Problem 91</b></a></p>
+
+<p>
+A graph <i>X</i> is a <em>hull</em> if, for any two non-adjacent vertices
+<i>v</i> and <i>w</i>, there is an endomorphism of <i>X</i> (a homomorphism
+from <i>X</i> to itself) which maps <i>v</i> and <i>w</i> to the same place.
+</p>
+<p>
+It is known that any countably infinite graph with infinite clique size is
+a hull.
+</p>
+<p>
+<b>Problem:</b> Let <i>X</i> be a countably infinite hull with finite clique
+size &omega;(<i>X</i>). Is it true that &chi;(<i>X</i>)=&omega;(<i>X</i>)
+(where &chi;(<i>X</i>) is the chromatic number of <i>X</i>)?
+</p>
+
+<p>
+<b>Solution by Nick Gravin:</b> Take any finite subgraph <i>Y</i>. If it is
+not a complete graph, we can collapse two of its vertices by an endomorphism
+of <i>X</i>. If the image is not complete, we can collapse two more. We end
+with a homomorphism from <i>Y</i> to a complete graph, so the chromatic number
+of <i>Y</i> is at most &omega;(<i>X</i>). Since this holds for all finite
+subgraphs, a compactness argument shows that 
+&chi;(<i>X</i>)&le;&omega;(<i>X</i>), and so equality holds.
+</p>
+
+<hr>
+
+<p><a name="H92"><b>Problem 92</b></a></p>
+
+<p>
+(An update of Problem 85.) A magma (a set with a binary operation) is 
+<i>power-associative</i> if the value of a power <i>a<sup>n</sup></i> is 
+independent of the bracketing used to calculate it. The <i>directed power
+graph</i> of a power-associative  magma is the digraph whose vertices are 
+the elements of the magma, an edge from <i>a</i> to <i>b</i> if <i>b</i> is
+a power of <i>a</i>; the <i>undirected power graph</i> has an undirected edge 
+connecting <i>a</i> and <i>b</i> if one is a power of the other.
+</p>
+<p>
+It is known that if two groups have isomorphic undirected power graphs, then 
+they have isomorphic directed power graphs. Does this hold for wider classes 
+of power-associative magmas? (In particular, I conjecture that it holds for 
+Moufang loops.)
+</p>
+
+<hr>
+
+<p><a name="H93"><b>Problem 93</b></a></p>
+
+<p>
+A zero-one sequence is called <em>universal</em> if every finite zero-one
+sequence occurs as a (consecutive) subsequence of it.
+</p>
+<p>
+Let <i>s</i> be the sequence whose <i>n</i>th term is 0 if the <i>n</i>th odd
+prime is congruent to 1 (mod&nbsp;4), and to 1 if the <i>n</i>th odd prime is
+congruent to 3 (mod&nbsp;4). Is <i>s</i> universal?
+</p>
+<p>
+Unless I am missing something, this is probably a hard problem; but in view of
+the theorem of Green and Tao, it might be worth revisiting.
+</p>
+
+<hr>
+
+<p><a name="H94"><b>Problem 94</b></a></p>
+
+The theorem of Engeler, Ryll-Nardzewski and Svenonius asserts that, if
+<i>T</i> is a first-order theory in a countable language, then <i>T</i> is
+countably categorical (that is, all its countable models are isomorphic)
+if and only if the automorphism group of any countable model is oligomorphic
+(that is, has only finitely many orbits on <i>n</i>-tuples, for all
+<i>n</i>).
+</p>
+<p>
+Sam Tarzi has asked whether an analogous result holds for homomorphisms and
+monoids. Let <i>T</i> have the property that all its countable models are
+<i>hom-equivalent</i> (that is, there exist homomorphisms in both directions
+between any two). What property do the endomorphism monoids of the models
+have? And does this monoid property imply that all countable models are
+hom-equivalent?
+</p>
+<p>
+The theory of graphs in which every finite set of vertices has a common neighbour has the property that all its countable models are hom-equivalent.
+</p>
+
+<hr>
+
+<p><a name="H95"><b>Problem 95</b></a></p>
+
+<p>
+This question is due to Sam Tarzi.
+</p>
+<p>
+The countable random graph is characterised by the property that, given any
+two finite sets <i>U</i> and <i>V</i> of vertices, there is a vertex <i>z</i>
+joined to everything in <i>U</i> and nothing in <i>V</i>.
+</p>
+<p>
+Does there exist a construction of the random graph in which the vertices
+and edges are computable but the witness
+<i>z</i> is not bounded by any provably computable function?
+</p>
+<p>
+Presumably this would be a graph whose isomorphism to <i>R</i> would be
+unprovable in Peano arithmetic.
+</p>
+
+<hr>
+
+<p><a name="H96"><b>Problem 96</b></a></p>
+
+<p>
+Consider a class of discrete minimization problems.
+Suppose that the cost of a solution is equal to the amount by which the
+objective function exceeds its true minimum value, and that the cost of
+computation is &epsilon; times the number of Turing machine steps reqired.
+What is the solution that minimizes the sum of these two costs? In particular,
+how does it depend on &epsilon;?
+</p>
+
+<hr>
+
+<p><a name="H97"><b>Problem 97</b></a></p>
+
+<p>
+This problem was considered by Sharad Sane and me over 20 years ago: we
+failed to solve it. Sharad raised it again at the recent combinatorics
+conference in Cochin. It is connected with the Erd&#337;s&ndash;Lov&aacute;sz
+problem about maximal cliques of <i>r</i>-sets.
+</p>
+<p>
+Given a 2-(<i>v</i>, <i>k</i>, 1) design (that is, a collection of
+<i>k</i>-subsets of a <i>v</i>-set with the property that any two points
+lie in exactly one of the subsets), the point set is covered by the
+<i>r</i>=(<i>v</i>-1)/(<i>k</i>-1) passing through a given point. Show 
+that, if the design is not a projective plane
+(that is, if <i>r</i>&gt;<i>k</i>), then the point set can be covered by
+a set of <i>r</i> blocks not of this form.
+</p>
+<p>
+The assertion is easy to prove for <i>k</i>&le;3.
+</p>
+
+<hr>
+
+<p><a name="H98"><b>Problem 98</b></a></p>
+<p>
+This question was inspired by one of Stanislav Shkalin.
+</p>
+<p>
+Anatoly Vershik and I, in <em>Ann. Pure Appl. Logic</em> <b>143</b> (2006),
+70-78,
+gave a "random" construction of isometries of the Urysohn space such that
+every orbit is dense. The closure <i>A</i> of the group generated by such
+an isometry is abelian and transitive, and so gives the Urysohn space an
+abelian group structure.
+</p>
+<p>
+<b>Problem:</b> Can we make the choice such that <i>A</i> has no
+non-trivial proper closed subgroup?
+</p>
+
+<hr>
+
+<p><a name="H99"><b>Problem 99</b></a></p>
+
+<p>
+This question is due to Brendan McKay.
+</p>
+<p>
+The <em>rank</em> of a function is the size of its image.
+A transformation monoid is <em>synchronizing</em> if it contains an element
+of rank 1.
+</p>
+<p>
+Suppose that <i>k</i> transformations of {1,...,<i>n</i>} are
+chosen at random.
+<ul>
+<li> What is the probability that the monoid they generate is synchronizing?
+<li> Given that it is, what is the expected length of a shortest <em>reset word</em> (a word in the generators which has rank 1)?
+</ul>
+</p>
+
+<hr>
+
+<p><a name="H100"><b>Problem 100</b></a></p>
+
+<p>
+Let <i>H</i> be a subgroup of the finite group <i>G</i>. Say that the pair
+(<i>G</i>,<i>H</i>) is <em>good</em> if <i>G</i> can be generated by a set
+of representatives of the right cosets of <i>H</i> in <i>G</i>.
+<ul>
+<li> If core<sub><i>G</i></sub>(<i>H</i>)=1 then <i>G</i> is good. Prove
+this without using the Classification of Finite Simple Groups.</li>
+<li> What can be said about the function <i>f</i>, where <i>f</i>(<i>n</i>)
+is the largest <i>m</i> such that if the index of <i>H</i> in <i>G</i> is
+<i>n</i> and core<sub><i>G</i></sub>(<i>H</i>) can be generated by <i>m</i>
+elements, then (<i>G</i>,<i>H</i>) is good?</li>
+</ul>
+<p>
+
+<hr>
+
+<p><a name="H101"><b>Problem 101</b></a></p>
+
+<p>
+The <em>power graph</em> of a group <i>G</i> has as vertices the group
+elements,
+with two vertices adjacent whenever one is a power of the other.
+</p>
+<p>
+It is known that the power graph of any group has clique number at most
+countably infinite. Is the same true for the chromatic number?
+</p>
+
+<hr>
+
+<p><a name="H102"><b>Problem 102</b></a></p>
+
+<p>
+A submonoid of the full transformation monoid <i>T<sub>n</sub></i> on the
+set {1,...,<i>n</i>} is <em>synchronizing</em> if it contains a transformation
+whose image has size 1.
+</p>
+<p>
+Is it true that two random transformations generate a synchronizing monoid
+with probability 1-o(1)?
+</p>
+
+<hr>
+
+<p><a name="H103"><b>Problem 103</b></a></p>
+
+
+<p>
+Which graphs on <i>n</i> vertices have the property that they have at most
+<i>i</i> different induced subgraphs on <i>i</i> vertices, for some
+<i>i</i>&lt;<i>n</i>/2 (where <i>n</i> is the number of vertices)?
+</p>
+<p>
+To avoid uninteresting cases, assume that the graph is connected and not
+bipartite, and so is its complement. For <i>i</i>=2, every graph (except
+complete and null) has this property, and for <i>i</i>=3 every triangle-free
+graph and the complement of such; what about larger <i>i</i>?
+</p>
+<p>
+<b>Footnote</b>: I didn't make the conditions strong enough. The graph should
+be vertex-transitive and edge-transitive.
+</p>
+
+<hr>
+
+<p><a name="H104"><b>Problem 104</b></a></p>
+
+<p>
+This problem was suggested to me by Dennis Lin.
+</p>
+<p>
+Let <i>n</i> be congruent to 2 mod 4. Define a <em>cold matrix</em> to be a
+skew-symmetric matrix of order <i>n</i> with (0 diagonal and) &plusmn;1
+off-diagonal, and a <em>hot matrix</em> to be a matrix with +1 on the diagonal
+and otherwise skew-symmetric with entries &plusmn;1. Thus, <i>C</i> is cold if
+and only if <i>C</i>+<i>I</i> is hot. (The names arise because of the 
+motivation from conference and Hadamard matrices.)
+</p>
+<p>
+<b>Conjecture:</b> <i>C</i> has maximum determinant among cold matrices of
+order <i>n</i> if and only if <i>C</i>+<i>I</i> has maximum determinant among
+hot matrices of order <i>n</i>.
+</p>
+
+<hr>
+
+<p><a name="H105"><b>Problem 105</b></a></p>
+
+<p>
+Characterise the primes <i>p</i> which have the property that there exists
+an element <i>c</i> of the multiplicative group of <b>Z</b>/(<i>p</i>) with
+the property that {<i>c</i>,<i>c</i>&minus;1,&minus;1} generates a proper
+subgroup of the multiplicative group.
+</p>
+<p>
+Primes congruent to 1 (mod 4) have this property since &minus;1 is a square and
+there are two consecutive squares. Also primes congruent to 1 (mod 3) have the
+property: take <i>c</i> to be a primitive 6th root of unity. There are others:
+the remaining primes less than 1000 with this property are 131, 191, 239, 251,
+311, 419, 431 and 491.
+</p>
+<p>
+This problem arose in my work with Jo&atilde;o Ara&uacute;jo on regular
+semigroups.
+</p>
+
+<hr>
+
+<p><a name="H106"><b>Problem 106</b></a></p>
+
+<p>
+This is a conjecture of Jo&atilde;o Ara&uacute;jo.
+</p>
+<p>
+Let <i>G</i> be a primitive permutation group on the finite set <i>X</i>, and
+let <i>f</i> be a map from <i>X</i> to itself whose kernel (the partition of
+<i>X</i> given by inverse images of points in the image) is non-uniform (has
+parts of different sizes).
+</p>
+<p>
+Prove (or disprove) that the semigroup &lang;<i>G,f</i>&rang; contains a
+constant function.
+</p>
+
+<hr>
+
+<p><a name="H107"><b>Problem 107</b></a></p>
+
+<p>
+This is a problem of Gregory Cherlin, slightly modified.
+</p>
+<p>
+Is it true that any highly transitive permutation group <i>G</i> of countable
+degree which contains no finitary permutations has a subgroup <i>H</i> whose
+closure (in the topology of pointwise convergence) is the automorphism group
+of the random graph?
+</p>
+
+<hr>
+
+<p><a name="H108"><b>Problem 108</b></a></p>
+
+<p>
+Let <i>n</i> be a positive integer, and <i>c</i> a vector in
+<b>R</b><sup><i>n</i></sup> whose components are linearly independent over
+<b>Q</b>. Is it true that any line with direction vector <i>c</i> passes
+arbitrarily close to a point with integer coordinates?
+</p>
+<p>
+This is true for <i>n</i>&nbsp;=&nbsp;2, by the simplest result about
+approximating irrationals by rationals. Maybe it is too much to ask for it
+to hold in general; if so, I'd like a specific example and a specific
+counterexample.
+</p>
+
+<p>
+<b>Solution</b>: This is the multidimensional version of a theorem of
+Kronecker; it is proved in chapter 23 of Hardy and Wright.
+</p>
+
+<hr>
+
+<p><a name="H109"><b>Problem 109</b></a></p>
+
+<p>
+<a href="http://www.maths.qmul.ac.uk/~pjc/oldprob.html#H19">Problem 19</a>
+asked:
+<blockquote>
+Let <i>p</i><sub>1</sub> be a prime number. For every <i>n</i>, let
+<i>p</i><sub><i>n</i>+1</sub> be the smallest prime divisor of
+<i>p</i><sub>1</sub>...<i>p<sub>n</sub></i>+1.
+<ul>
+<li> Is it true that, for every <i>n</i>, there is a prime
+<i>p</i><sub>1</sub> for which none of the first <i>n</i> terms
+of the sequence is equal to 3? </li>
+<li> Is there a prime <i>p</i><sub>1</sub> for which no term of the
+sequence is equal to 3? </li>
+</ul>
+</blockquote>
+John Bray has done some substantial computation on this problem, which was
+originally suggested to me by Steve Donkin.
+John has not found any prime answering the second part (that is, it appears
+that 3 always occurs), but has observed empirically that the number of primes
+<i>p</i><sub>1</sub> for which none of <i>p</i><sub>1</sub>, ..., 
+<i>p<sub>n</sub></i> is equal to 3 falls off by a factor greater than 3 when
+<i>n</i> increases by 1 (for <i>n</i>&nbsp;&gt;&nbsp;4).
+</p>
+<p>
+<b>Problem:</b> Explain this!
+</p>
+
+<hr>
+
+<p><a name="H110"><b>Problem 110</b></a></p>
+
+<p>
+Let <i>G</i> be a primitive permutation group of degree <i>n</i>, generated
+by a set <i>S</i> of permutations. Let <i>x</i> and <i>y</i> be distinct
+points of the domain. Form the directed graph <i>D</i> whose edges are all
+images of (<i>x,y</i>) under all words of length <i>n</i>&minus;1 in elements
+of <i>S</i>.
+</p>
+<p><b>Problem</b> Is <i>D</i> necessarily strongly connected?</p>
+<p>
+The cyclic group of prime order shows that the bound <i>n</i>&minus;1 would
+be best possible.
+</p>
+<hr>
+
+<p align="right">
+Peter J. Cameron<br>
+<tt>p.j.cameron(AT)qmul.ac.uk</tt><br>
+31 August 2013
+
+</body>
+
+</HTML>
+
+

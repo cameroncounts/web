@@ -1,0 +1,817 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<HTML>
+<HEAD>
+<TITLE> Permutation Group Problems </TITLE>
+<META NAME="description" CONTENT="Research problems on permutation groups,
+with commentary">
+<link rel="icon" type="image/png" href="n.png">
+</HEAD>
+
+<BODY BGCOLOR=#FFFFFF>
+
+<H2 ALIGN=CENTER> Problems on Permutation Groups </H2>
+
+<P ALIGN=CENTER>
+<IMG SRC="qu_book.jpg" ALT="???">
+<IMG SRC="qu_book.jpg" ALT="???">
+<IMG SRC="qu_book.jpg" ALT="???">
+
+<P>
+
+These are research problems containing notes and references to solutions
+if they exist. There is also a list of <A HREF="oldprob.html">old problems
+from my homepage</A>; if you are interested
+in exercises on permutation groups, there are many in my
+<A HREF="permgps/pgbook.html">book</A>, and you can find some
+<A HREF="permgps/exerc.html">further exercises</A> on the web. You may 
+also be interested in the <A HREF="permgps/">Permutation Groups
+Resources Page</A>, or the page devoted to
+<a href="permgps/permutations.html">problems</a> from the paper
+P. J. Cameron, Permutations, 
+pp. 205-239 in <i>Paul Erd&#337;s and his Mathematics</i>,
+Vol. II (ed. G. Hal&aacute;sz, L. Lov&aacute;sz, M. Simonovits and
+V. T. S&oacute;s), Bolyai Society Mathematical Studies <b>11</b>, Springer,
+Berlin, 2002.
+</p>
+
+<HR>
+
+<a name="P1"><B>Problem 1.</B></a>
+Is there a function <I>F</I>(<I>m,p</I>) (where the first argument is an
+integer and the second a prime) such that, if <I>G</I> is a finite
+permutation group which is a <I>p</I>-group with <I>m</I> orbits,
+each of size at least <I>p</I><SUP><I>F</I>(<I>m,p</I>)</SUP>, then
+<I>G</I> contains a fixed-point-free element? (This is a very old problem;
+for <I>p</I>=2, it is implicitly due to Isbell in 1959.)
+
+<p>
+<strong>STOP PRESS</strong> 23 December 2008: 
+Eleonora Crestani and Pablo Spiga have claimed
+a negative solution to this problem. More news later .&nbsp;.&nbsp;.
+
+<HR>
+
+<a name="P2"><B>Problem 2.</B></a>
+Let <I>G</I> be a permutation group on an infinite set 
+<I>X</I>. There is a
+graded algebra <I>A</I>[<I>G</I>] associated with <I>G</I> as follows:
+the <I>n</I>th
+homogeneous component <I>V<SUB>n</SUB></I> is the set of all
+<I>G</I>-invariant functions from
+the set of <I>n</I>-element subsets of <I>X</I> to the complex numbers;
+multiplication is defined by the rule that, if 
+<I>f in V<SUB>n</SUB></I>, <I>g in V<SUB>m</SUB></I>,
+and <I>K</I> is an (<I>n</I>+<I>m</I>)-element set then
+<P>
+(<I>fg</I>)(<I>K</I>) = <I>sum</I> <I>f</I>(<I>L</I>)<I>g</I>(<I>K-L</I>)
+: <I>L subseteq K</I>, |<I>L</I>| = <I>n</I>.
+<P>
+The constant function <I>e in V</I><SUB>1</SUB> with value 1 is not a 
+zero-divisor. We say that <I>G</I> is <B>entire</B> if <I>A</I>[<I>G</I>]
+is an integral domain, and
+<B>strongly entire</B> if <I>A</I>[<I>G</I>]/<I>eA</I>[<I>G</I>] is an
+integral domain. It is
+conjectured that <I>G</I> is (strongly) entire if and only if it has no
+finite orbits on <I>X</I>. In the absence of a proof of this conjecture,
+can one show the following:
+<BLOCKQUOTE>
+If the permutation groups <I>G</I><SUB>1</SUB> on <I>X</I><SUB>1</SUB> and
+<I>G</I><SUB>2</SUB> on <I>X</I><SUB>2</SUB>
+are (strongly) entire, then <I>G</I><SUB>1</SUB> &times; <I>G</I><SUB>2</SUB> 
+(in its intransitive action on <I>X</I><SUB>1</SUB> <I>union X</I><SUB>2</SUB>)
+is (strongly) entire.
+</BLOCKQUOTE>
+
+<b>Note</b>: Maurice Pouzet has proved that, if <I>G</I> has
+no finite orbits, then <I>G</I> is entire. This appears in
+<i>Theor. Inform. Appl.</i> <b>42</b> (2008), 83-103.
+
+<HR>
+
+<a name="P3"><B>Problem 3.</B></a>
+Let <I>S</I> be the symmetric group on the infinite set <I>X</I>.
+Consider the product action of <I>S</I><SUP>2</SUP> on <I>X</I><SUP>2</SUP>, 
+and let <I>a<SUB>n</SUB></I> be the number of orbits on subsets of 
+size <I>n</I>.
+The problem is to find a formula for, or an efficient means of
+calculating, <I>a<SUB>n</SUB></I>.
+
+<P>
+
+The number <I>a<SUB>n</SUB></I> has various other interpretations:
+<UL>
+<LI> It is the number of zero-one matrices with <I>n</I> ones,
+with no zero rows or columns, up to row and column permutation.
+<LI> It is the number of bipartite graphs with <I>n</I> edges,
+no isolated vertices, and a distinguished bipartite block, up to
+isomorphism.
+</UL>
+
+<P>
+
+The initial terms in the sequence can be found
+<A HREF="http://www.research.att.com:80/cgi-bin/access.cgi/as/njas/sequences/eisA.cgi?Anum=049311">here</A>.
+
+<HR>
+
+<a name="P4"><B>Problem 4.</B></a> This problem is due to Dragan Marusic
+and Mikhail Klin. It appears in the
+<A HREF="prob15.tex">research problems</A> from the 15th
+British Combinatorial Conference.
+
+A permutation group <I>G</I> is <B>2-closed</B> if
+any permutation which preserves the orbits of <I>G</I> on
+ordered pairs belongs to <I>G</I>.
+<B>Problem:</B> is there a 2-closed transitive 
+permutation group containing no non-identity semiregular subgroup?
+
+<P>
+
+(Not every transitive permutation group contains a
+non-identity semiregular subgroup; the smallest counterexample has
+degree 12.)
+
+<P>
+
+<B>Note:</B> Michael Giudici has some partial results on this problem,
+including the statement that every minimal normal subgroup of any
+counterexample to the conjecture is intransitive. See:
+<ul>
+<li> P. J. Cameron, M.  Giudici, G. A. Jones, W. M. Kantor, M. H. Klin, 
+D. Marusic and L. A. Nowitz,
+Transitive permutation groups without semiregular subgroups, 
+<i>J. London Math. Soc.</i> (2) <b>66</b> (2002), 325-333.
+<li> M. Giudici, 
+Quasiprimitive groups with no fixed point free elements of 
+prime order, <i>J. London Math. Soc.</i> (2) <b>67</b> (2003), 73-84.
+</ul>
+
+<HR>
+
+<a name="P5"><B>Problem 5.</B></a>
+A <B>base</B> for a permutation group <I>G</I>
+is a sequence of points whose pointwise stabiliser
+is the identity; it is <B>irredundant</B> if no point in the sequence is
+fixed by the stabiliser of its predecessors. The group <I>G</I> is said to
+be an <B>IBIS group</B> if any two irredundant bases have the same number
+of elements. If this condition holds, then the irredundant bases are the
+bases of a matroid (and conversely). It is too much to ask for a
+classification of IBIS groups (since, for example, any semiregular
+group is IBIS); but can one classify the matroids which can arise?
+
+<P>
+
+Note added 22 November 2001: The matroids include all those representable
+over finite fields (with each element replaced by <I>q</I> parallel elements,
+where <I>q</I> is the field order). See Problem 18 below for further details.
+
+<HR>
+
+
+<a name="P6"><B>Problem 6.</B></a> McIver and Neumann, <I>Quart. J. Math.</I> 
+(2) <B>38</B> (1987), 473-488, showed that a subgroup of the symmetric
+group <I>S<SUB>n</SUB></I> can be generated by at most <I>n/2</I> elements,
+provided that <I>n</I> is at least 4. <B>Problem:</B> Give an efficient
+algorithm to find such a generating set, preferably an "on-line" algorithm
+(one which, given a small generating set for <I>H</I> and a permutation
+<I>g</I>, finds efficiently a small generating set for the group generated
+by <I>H</I> and <I>g</I>).
+
+<HR>
+
+<a name="P7"><B>Problem 7.</B></a> 
+Martin Liebeck and Aner Shalev have shown that there is
+an absolute constant <I>c</I> such that an almost simple primitive finite
+permutation group, which is not a symmetric or alternating group acting
+on subsets or partitions, or a classical group acting on subspaces or
+complementary pairs of subspaces in its natural module, has a base of
+size <I>c</I>. Does this assertion hold with <I>c</I>&nbsp;=&nbsp;5 
+(if we allow finitely many more exceptions)?
+
+<P>
+
+<b>Note added 13/7/2007</b>: It has now been proved by Burness <i>et al.</i>
+that the assertion holds for <i>c</i>&nbsp;=&nbsp;6, with a single
+exception, the Mathieu group <i>M</i><sub>24</sub>.
+
+<HR>
+
+<a name="P8"><B>Problem 8.</B></a>
+Let <I>G</I> be a transitive permutation group on a set <I>X</I>.
+For each orbit <I>O<SUB>i</SUB></I> of <I>G</I> on <I>X</I><SUP>2</SUP>,
+we associate a <EM>basis matrix</EM> <I>A<SUB>i</SUB></I>, whose 
+<I>xy</I> entry is equal to 1 if (<I>x,y</I>) is in <I>O<SUB>i</SUB></I>,
+or 0 otherwise. The matrices <I>A<SUB>i</SUB></I> span an algebra, which
+is the <EM>centraliser algebra</EM> of the permutation group <I>G</I>.
+
+<P>
+
+A subalgebra of the centraliser algebra which contains the identity matrix
+and is spanned by symmetric
+zero-one matrices is the <EM>Bose-Mesner algebra</EM> of an
+<EM>association scheme</EM> on the set <I>X</I>, and <I>G</I> acts
+as a group of automorphisms of this association scheme. There is always
+at least one such subalgebra, namely the span of <I>I</I> and 
+<I>J-I</I>, where <I>J</I> is the all-one matrix. We call this subalgebra
+or association scheme <EM>trivial</EM>.
+
+<P>
+
+<B>Problem:</B> For which transitive permutation groups is it true that
+the only association scheme invariant under <I>G</I> is the trivial one?
+
+<P>
+
+This class of groups includes the 2-homogeneous groups. Any such group
+must be primitive, and (if not 2-homogeneous) is either of diagonal type
+or almost simple. 
+
+<P>
+
+Examples which are not 2-homogeneous do exist. Some can be found in table
+3.5.1 of I. A. Faradzev, M. H. Klin and M. E. Muzichuk, "Cellular rings and
+groups of automorphisms of graphs", pp. 1-152 in <I>Investigations in
+Algebraic Theory of Combinatorial Objects</I> (ed. I. A. Faradzev, A. A.
+Ivanov, M. H. Klin and A. J. Woldar), Kluwer, Dordrecht, 1994. The smallest is
+the group PSL(3,3) acting on the cosets of PO(3,3); this group has
+degree 234. (I am grateful to Leonard Soicher for this reference).
+
+<P>
+
+No such group of diagonal type is known, and the problem of deciding whether
+any such group exists remains open. There are none having two or three
+simple factors in their socle. See:
+<ul>
+<li> P. P. Alejandro, R. A. Bailey, and P. J. Cameron,
+Association schemes and permutation groups,
+<i>Discrete Math.</i> <b>266</b> (2003), 47-67.
+<li> P. J. Cameron, Coherent configurations, association schemes, and 
+permutation groups, 
+pp. 55-71 in <i>Groups, Combinatorics and Geometry</i> 
+(ed. A. A. Ivanov, M. W. Liebeck and J. Saxl), 
+World Scientific, Singapore, 2003.
+</ul>
+
+<HR>
+
+<a name="P9"><B>Problem 9.</B></a> A derangement problem.
+
+<P>
+
+Let <I>d(k,n)</I> be the proportion of derangements in
+the symmetric group <I>S<SUB>n</SUB></I> in its action on <I>k</I>-sets.
+Then <I>d(k,n)</I> tends to a limit <I>a(k)</I> as <I>n</I> tends to
+infinity. (So, for example, <I>a</I>(1)=e<SUP>-1</SUP> - this is the usual
+"derangement problem".) Does <I>a(k)</I> tend monotonically to 1 as <I>k</I>
+tends to infinity?
+
+<HR>
+
+<a name="P10"><B>Problem 10.</B></a> 
+It is known that, for any finite group <I>G</I>, if
+<I>x(G,n)</I> is the number of (unlabelled) graphs on <I>n</I> vertices
+whose automorphism group contains <I>G</I>, and <I>y(G,n)</I> the number
+whose automorphism group is precisely <I>G</I>, then the ratio
+<I>y(G,n)/x(G,n)</I> tends to a limit as <I>n</I> tends to infinity.
+
+<P>
+
+<B>Problem:</B> Does this result hold for trivalent graphs? What about
+other special classes of graphs such as strongly regular graphs? 
+
+<HR>
+
+<a name="P11"><B>Problem 11.</B></a>
+
+The <I>Parker vector</I> of a finite permutation group <I>G</I> is the
+<I>n</I>-tuple whose <I>k</I>th component is the number of orbits of <I>G</I>
+on the set of <I>k</I>-cycles occurring in elements of <I>G</I>.
+
+<P>
+
+If <I>G</I> has the same Parker vector as a Frobenius group
+(resp. a 2-transitive group), is it a Frobenius group (resp.
+a 2-transitive group)?
+
+<HR>
+
+<a name="P12"><B>Problem 12.</B></a>
+
+Is the following true?
+
+<BLOCKQUOTE>
+
+	If <I>P</I> is a 2-group which is not elementary abelian, then some
+	non-identity element of the centre of <I>P</I> is a square.
+</BLOCKQUOTE>
+
+The answer to this question is negative. The smallest counterexamples
+have order 128, and there are two of them. This was found by Alexander
+Hulpke and Andreas Caranti. Alexander provided the following example in GAP:
+
+<PRE>
+
+gap> g:=SmallGroup(128,36);
+<pc group of size 128 with 7 generators>
+gap> z:=Centre(g);
+Group([ f6, f7 ])
+gap> r:=List(ConjugacyClasses(g),Representative);;
+gap> s:=Filtered(r,i->Order(i)>2);;
+gap> List(s,Order);
+[ 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 ]
+gap> Set(List(s,i->i^2));
+[ f4,f5,f4*f7,f5*f6,f3*f4*f5,f3*f4*f5*f6,f3*f4*f5*f7,f3*f4*f5*f6*f7 ]
+gap> List(last,i->i in z);
+[ false, false, false, false, false, false, false, false ]
+
+</PRE>
+
+If not, is the following weaker statement true?
+
+<BLOCKQUOTE>
+
+	If <I>P</I> is a 2-group which is not elementary abelian, and
+	<I>Q</I> is a core-free subgroup of <I>P</I>, then there is an
+	element lying in no conjugate of <I>Q</I> which is a square.
+
+</BLOCKQUOTE>
+
+Avinoam Mann also suggested the above group as a possible counterexample to the
+second question. However, Steve Linton and John Murray both checked that
+there is no core-free subgroup Q for which it is a counterexample. So
+the question is still open.
+
+<P>
+
+<FONT COLOR=FF0000>Solution</FONT> (13 September 2004):
+The answer to the second question is also
+negative. Pablo Spiga found that the group of order 128 with generators
+(1,2,7,3)(4,8)(5,11)(6,9)(10,14)(12,16,13,15),
+(1,4,7,5)(2,8)(3,11)(6,13,14,12)(9,15)(10,16), and
+(1,6)(2,9,3,10)(4,12,5,13)(7,14)(8,15)(11,16)
+is a counterexample. Indeed, in this group the set of elements with
+fixed points coincides with the set of squares. This group is
+<TT>SmallGroup(128,836)</TT> in the GAP library.
+
+<P> 
+
+The motivating question, whether a vertex-transitive trivalent graph
+necessarily has a semiregular automorphism of order greater than 2, is
+currently still open. (But see Problem 23.)
+
+<HR>
+
+<a name="P13"><B>Problem 13.</B></a>
+
+It is known that, if <I>G</I> is a permutation group in which every
+non-identity element fixes exactly <I>k</I> points, then either <I>G</I>
+has a fixed set of size <I>k</I>, or <I>G</I> is one of a finite
+list of groups (for given <I>k</I>). The problem is to find a good upper
+bound (in terms of <I>k</I>) for the orders of the groups in this finite
+list.
+
+<P>
+
+For example, when <I>k</I>=2, the groups are the tetrahedral, octahedral
+and icosahedral groups, acting on the vertices, edges and faces of the
+corresponding polyhedra. (Every rotation has an axis, so has just two
+fixed points in this action.) So the correct bound is 60.
+(This is a theorem of Iwahori, <I>J. Fac. Sci., Univ. Tokyo</I>
+<B>11</B> (1964), 47-64.)
+
+<P>
+
+An upper bound in terms of <I>k</I> has been found by C. Franchi,
+On permutation groups of finite type,
+<I>European J. Combinatorics</I> <B>22</B> (2001), 821-837.
+
+<HR>
+
+<a name="P14"><B>Problem 14.</B></a>
+
+Let <I>G</I> be a finite group, <I>a</I> an automorphism of <I>G</I>,
+and <I>X</I> the semidirect product of <I>G</I> by the group generated
+by <I>a</I>. Suppose that every element of <I>X</I> not in <I>G</I>
+has prime order <I>p</I>.
+
+<P>
+
+It follows that the centraliser of <I>a</I> in <I>G</I> is a <I>p</I>-group.
+Let its order be <I>p<SUP>m</SUP></I>.
+
+<P>
+
+A theorem of Kegel (<I>Math. Z.</I> <B>75</B> (1961), 373-376) shows that
+<I>G</I> is nilpotent. Then a theorem of Khukhro (<I>Mat. Zametki</I>
+<B>38</B> (1985), 652-657) shows that <I>G</I> has a normal subgroup
+whose nilpotency class and index are bounded by functions of <I>p</I>
+and <I>m</I>.
+
+<P>
+
+Is it true that the nilpotency class of <I>G</I> is bounded by a function
+of <I>p</I> and <I>m</I>?
+
+<P>
+
+This question has been settled in the affirmative by 
+<A HREF=mailto:mtbjazaa@lg.ehu.es>Andrei Jaikin</A>, using a theorem
+of E. Khukhro, On locally nilpotent groups admitting a
+splitting automorphism of prime order, <I>Mat. sb.</I> <B>130</B> (1986),
+120-127.
+
+<HR>
+
+<a name="P15"><B>Problem 15.</B></a>
+
+Let <I>S<SUB>n</SUB></I> and <I>P<SUB>n</SUB></I> be the respectively
+the symmetric group (the set of all permutations) and the set of all
+partitions on the set [1..<I>n</I>]. There is a function
+<I>F</I> from <I>S<SUB>n</SUB></I> to <I>P<SUB>n</SUB></I> which
+replaces every permutation by the partition corresponding to its
+cycle decomposition.
+
+<P> 
+
+(a) Is there an efficient method to decide whether a set of partitions
+is the image under <I>F</I> of a <EM>subgroup</EM> of <I>S<SUB>n</SUB></I>?
+
+<P>
+
+(b) If <I>G</I> and <I>H</I> are subgroups of <I>S<SUB>n</SUB></I> such
+that <I>F</I>(<I>G</I>)=<I>F</I>(<I>H</I>), then <I>G</I> and <I>H</I>
+have the same order. <EM>Are they necessarily isomorphic</EM>?
+
+<P>
+
+Note added 19 May 2000: The answer to (b) is negative. Eamonn O'Brien
+has shown that there are two pairs of groups of order 64 (numbers
+19 and 111, and 94 and 249, in the lists in MAGMA and GAP), which act
+transivitely on 16 points, such that the two groups in each pair give
+rise to the same sets of cycle partitions. You can find
+<A HREF="permgps/cycles.txt">a GAP program</A> to verify this.
+
+<P>
+
+See P. J. Cameron, Partitions and permutations, <i>Discrete Math.</i>
+<b>291</b> (2005), 45-54.
+
+<HR>
+
+
+<a name="P16"><B>Problem 16.</B></a>
+
+Let <I>G</I> be a subgroup of the symmetric group <I>S<SUB>n</SUB></I>.
+For <I>i</I> = 0, ..., <I>n</I>, let <I>p<SUB>i</SUB></I> be the
+probability that a random element of <I>G</I> has exactly <I>i</I>
+fixed points, and let <I>F<SUB>i</SUB></I> be the number of orbits
+of <I>G</I> on <I>i</I>-tuples of distinct points. These two sequences
+determine each other. In fact, 
+N. Boston, W. Dabrowski, T. Foguel, P. J. Gies, J. Leavitt, D. T. Ose
+and D. A. Jackson,
+<I>Communications in Algebra</I> <B>21</B> (1993), 3259-3275, showed
+that, if <BR>
+<I>P</I>(<I>x</I>) = <I>Sum p<SUB>i</SUB> x<SUP>i</SUP></I>
+and <I>F</I>(<I>x</I>) = <I>Sum F<SUB>i</SUB> x<SUP>i</SUP>/i</I>! , then
+<BLOCKQUOTE>
+<I>F</I>(<I>x</I>) = <I>P</I>(<I>x</I>+1).
+</BLOCKQUOTE>
+
+<P>
+
+Now consider the linear analogue. Let <I>G</I> be a subgroup of the 
+general linear group GL(<I>n,q</I>). For <I>i</I> = 0, ..., <I>n</I>, let
+<I>p<SUB>i</SUB></I> be the probability that the fixed points of a random
+element form precisely an <I>i</I>-dimensional subspace, and
+let <I>F<SUB>i</SUB></I> be the number of orbits of <I>G</I> on
+linearly independent <I>i</I>-tuples. Again the two sequences determine
+each other.
+
+<P>
+
+<B>Problem:</B> Express the relation between these two sequences in terms
+of generating functions.
+
+<P>
+
+<EM>Note:</EM> This problem is now solved (2 August 2000). It is just a
+case of finding the right definitions of the <I>q</I>-analogues!
+See:
+<ul>
+<li> P. J. Cameron and S. Majid, Braided line and counting fixed points of
+<i>GL</i>(<i>d</i>,<b>F</b><sub><i>q</i></sub>),
+<i>Communications in Algebra</i> <b>31</b> (2003), 2003-2013.
+<li> P. J. Cameron, Fixed points and cycles, pp. 49-60 in 
+<i>Finite Geometries: Proceedings of the Fourth Isle of Thorns Conference</i> 
+(ed. A. Blokhuis, J. W. P. Hirschfeld, D. Jungnickel and J. A. Thas), 
+Kluwer, Boston, 2001.
+</ul>
+
+<HR>
+
+<a name="P17"><B>Problem 17.</B></a> (An old problem revisited)
+
+<P>
+
+Let <I>G</I> be a permutation group on the infinite set <I>X</I>.
+Assume that <I>G</I> is <EM>oligomoprhic</EM>, that is, <I>G</I> has
+only finitely many (say <I>f<SUB>n</SUB></I>) orbits on the set of
+<I>n</I>-element subsets of <I>X</I>. Dugald Macpherson, <I>Proc.
+London Math. Soc.</I> (3) <B>46</B> (1983), 471-486, showed that,
+if <I>G</I> is <EM>primitive</EM> on <I>X</I> (preserves no
+non-trivial equivalence relation) but not <EM>highly set-transitive</EM>
+((that is, <I>f<SUB>n</SUB></I> &gt; 1 for some <I>n</I>), then the
+sequence (<I>f<SUB>n</SUB></I>) grows exponentially, that is,
+limsup (<I>f<SUB>n</SUB></I>)<SUP>1/<I>n</I></SUP> &gt; 1. These two
+assumptions apply throughout this problem, though analogous problems
+can be posed with primitivity relaxed.
+<OL>
+<LI> Is it true that lim (<I>f<SUB>n</SUB></I>)<SUP>1/<I>n</I></SUP> exists
+for any group <I>G</I>?
+<LI> What is the smallest possible value of the limsup? (Macpherson's lower
+bound of 2<SUP>1/5</SUP> has been improved by F. Merola to about 1.324. 
+The smallest known value is 2.)
+<LI> What is the smallest limit point of the set of values of the limsup?
+</OL>
+
+<P>
+
+Further information on such sequences is available in my
+<A HREF="http://www.research.att.com/~njas/sequences/JIS/VOL3/groups.html">
+survey article</A>.
+
+<HR>
+
+<a name="P18"><B>Problem 18.</B></a>
+
+<P>
+
+A <I>base</I> for a permutation group is a sequence of points whose stabiliser
+is the identity; it is <I>irredundant</I> if no point is fixed by the
+stabiliser of its predecessors. Cameron and Fon-Der-Flaass, <I>Europ. J.
+Combinatorics</I> <B>16</B> (1995), 537-544, called a permutation group
+an <I>IBIS group</I> if all irredundant bases have the same number of
+elements; they showed that the irredundant bases of an IBIS group are the
+bases of a matroid.
+
+<P>
+
+<B>Problem:</B> What is the relation between the Tutte polynomial of the
+matroid and the cycle index of the permutation group?
+
+<P> It is known that sometimes the first determines the second and sometimes
+<I>vice versa</I>. Perhaps there is a gadget which generalises both!
+See P. J. Cameron,
+<a HREF="http://www.combinatorics.org/Volume_9/v9i1toc.html#N2">Cycle 
+index, weight enumerator and Tutte polynomial</a>, 
+<a HREF="http://www.combinatorics.org"><i>Electronic J. Combinatorics</i></a>
+<b>9(1)</b> (2002), #N2 (10pp).
+
+<HR>
+
+<a name="P19"><B>Problem 19.</B></a>
+
+<P>
+
+How large is the largest antichain of subgroups of the symmetric group
+<I>S<SUB>n</SUB></I>? More precisely, estimate
+<I>a<SUB>n</SUB></I>/<I>s<SUB>n</SUB></I>, where <I>a<SUB>n</SUB></I> is
+the size of the largest antichain and <I>s<SUB>n</SUB></I> the total
+number of subgroups.
+
+<HR>
+
+<a name="P20"><B>Problem 20.</B></a>
+
+<P>
+
+Let <I>L</I>(<I>G</I>) be the subgroup lattice of the finite group <I>G</I>.
+Is the following true or false? Suppose that the Boolean lattice
+<I>B</I>(<I>n</I>) of subsets of an <I>n</I>-element set is embeddable
+as a meet-semilattice of <I>L</I>(<I>G</I>), and suppose that <I>n</I> is 
+maximal with this property. Then there is an embedding of <I>B</I>(<I>n</I>)
+as meet-semilattice, such that the least element of <I>B</I>(<I>n</I>) 
+is a normal subgroup of <I>G</I>.
+
+<P>
+
+<I>Note:</I> The quaternion group <I>Q</I><SUB>8</SUB> shows that we
+cannot make the least element of <I>B</I>(<I>n</I>) correspond to the
+identity in general.
+
+<HR>
+
+<a name="P21"><B>Problem 21.</B></a>
+
+<P>
+
+Let <I>Z</I>(<I>G</I>) denote the cycle index of the permutation group
+<I>G</I>, and let <I>F<SUB>n</SUB></I><SUP>*</SUP>(<I>G</I>) be the number of
+orbits of <I>G</I> on the set of all <I>n</I>-tuples of its permutation
+domain.
+
+<P>
+
+Let <I>G</I> and <I>H</I> be permutation groups acting on sets <I>X</I> and
+<I>Y</I> respectively. We consider <I>G</I>&times;<I>H</I> as a permutation
+group on <I>X</I>&times;<I>Y</I>. We have
+<UL>
+<LI> <I>Z</I>(<I>G</I>&times;<I>H</I>)  =
+<I>Z</I>(<I>G</I>)o<I>Z</I>(<I>H</I>), where
+<I>s<SUB>i</SUB></I>o<I>s<SUB>j</SUB></I> =
+(<I>s</I><SUB>lcm(<I>i,j</I>)</SUB>)<SUP>gcd(<I>i,j</I>)</SUP>, and the
+operation is extended multiplicatively and additively;
+<LI> <I>F<SUB>n</SUB></I><SUP>*</SUP>(<I>G&times;H</I>) =
+<I>F<SUB>n</SUB></I><SUP>*</SUP>(<I>G</I>)<I>F<SUB>n</SUB></I><SUP>*</SUP>(<I>
+H</I>).
+</UL>
+The second assertion is trivially proved directly. The challenge is to deduce
+it from the first; this will probably require methods of dealing with these
+very strange operations on polynomials.
+
+<P>
+
+<FONT COLOR=FF0000>Solution</FONT>: Solved by Daniele Gewurz. See
+a paper by Daniele Gewurz, Francesca Merola and me in
+<i>Discrete Mathematics</i> <b>308</b> (2008), 386-394; doi:
+<a href="http://dx.doi.org/10.1016/j.disc.2006.11.054">10.1016/j.disc.2006.11.054</a>
+
+<HR>
+
+<a name="P22"><B>Problem 22.</B></a>
+
+<P>
+
+Let <i>G</i> be a Frobenius group with Frobenius kernel <i>N</I> and 
+Frobenius complement <i>H</i> having orders <i>n</i> and <i>h</i>
+respectively. Number the elements of <i>N</I> as 
+<i>x</i><sub>1</sub>,...,<i>x<sub>n</sub></i>. Now let
+<i>X<sub>ij</sub></i> be the <i>n</i>&nbsp;&times;&nbsp;<i>n</i> matrix
+with (<i>k,l</i>) entry equal to the cardinality of the intersection of
+<i>x<sub>i</sub></i><sup>-1</sup><i>Hx<sub>k</sub></i> and 
+<i>x<sub>j</sub></i><sup>-1</sup><i>Hx<sub>l</sub></i>.
+Note that <i>X<sub>ii</sub>&nbsp;=&nbsp;hI</i> while, for <i>i</i> and
+<i>j</i> distinct, <i>X<sub>ij</sub></i> is a zero-one matrix.
+
+<p>
+
+Is it true that
+<blockquote>
+Sum<sub><i>k</i></sub>&nbsp;<i>X<sub>ik</sub>X<sub>kj</sub>&nbsp;=&nbsp;nX<sub>ij</sub>+h(h-1)J</i>,
+</blockquote>
+where <i>J</i> is the all-one matrix?
+
+<P>
+
+<FONT COLOR=FF0000>Solution</FONT>: This problem is now solved in the 
+affirmative (but I have lost the solution .&nbsp;.&nbsp;.)
+
+<HR>
+
+<a name="P23"><b>Problem 23.</b></a>
+Since Problem 20 in the <A HREF="oldprob.html">list of old problems</A>
+has a negative solution, the following problem (due to John Sheehan and me,
+BCC problem 17.12) is open again.<P>
+
+Is it true that a vertex-transitive trivalent graph has a semiregular
+automorphism (one with all cycles of the same size) of order greater
+than 2?<p>
+
+<b>Note:</b> This has now been settled affirmatively: see
+P.&nbsp;J.&nbsp;Cameron, J.&nbsp;Sheehan and P.&nbsp;Spiga,
+<i>Europ. J. Combinatorics</i> <b>27</b> (2006), 924-930; doi:
+<a href="http://dx.doi.org/10.1080/00927870701404812">10.1080/00927870701404812</a>,
+and a stronger result has been given by
+Cai Heng Li, <i>Proc. Amer. Math. Soc.</i> <b>136</b> (2008), 1905-1910.
+
+<HR>
+
+<a name="P24"><b>Problem 24.</b></a>
+Let <i>G</i> be a permutation group of degree <i>n</i>. The <em>base size</em>
+of <i>G</i> is the smallest number <i>b</i>(<i>G</i>) of points whose
+stabiliser is the identity; the <em>separation number</em> of <i>G</i> is the
+smallest size of a set <i>S</i> of points such that, for any two distinct
+points <i>x,y</i>, there exists <i>s</i> in <i>S</i> such that <i>x</i>
+and <i>y</i> lie in distinct orbits of the stabiliser of <i>s</i>.
+
+<p>
+
+Clearly <i>b</i>(<i>G</i>)&nbsp;&lt;=&nbsp;<i>s</i>(<i>G</i>). Is it true
+that, if <i>G</i> is primitive but not 2-transitive, then
+<i>s</i>(<i>G</i>)&nbsp;&lt;=&nbsp;<i>b</i>(<i>G</i>)&nbsp;log&nbsp;<i>n</i>?
+
+<p> See Combinatorics Study Group notes on this problem
+(<a href="csgnotes/basesep.pdf">PDF file</a>).
+
+<HR>
+
+<a name="P25"><b>Problem 25.</b></a>
+Let <b>F</b> be the set of sequences <i>F</i> of positive integers whose 
+<i>n</i>th term is the number of orbits on <i>n</i>-tuples of distinct elements
+of an infinite permutation group.
+
+<p>
+
+<i>Is <b>F</b> closed under pointwise multiplication?</i>
+
+<p>
+
+I conjecture that the answer is "no". Specifically, let <i>F</i> be the
+sequence (1,2,4,10,26,...) whose <i>n</i>th term is the number of solutions of 
+<i>g</i><sup>2</sup>=1 in the symmetric group of degree <i>n</i>. This
+sequence belongs to <b>F</b>, but I conjecture that the sequence 
+(1,4,16,100,676...)
+whose terms are the squares of the terms in this sequence is not in <b>F</b>.
+
+<p>
+
+<b>Remark:</b> The set of sequences counting orbits of permutation groups on
+all <i>n</i>-tuples is closed under pointwise multiplication. Moreover, the
+set of sequences counting orbits on <i>n</i>-tuples of distinct elements for
+groups with the property that the stabiliser of a finite set fixes no
+additional points is closed under pointwise multiplication.
+
+<P>
+
+<b>Further remark:</b> The answer in general is "no": if <i>G</i> is the
+stabiliser of a point in the symmetric group, the sequence begins 2, 3, 4, ...,
+but a group with 4 orbits on points must have at least 12 orbits on ordered
+pairs of distinct points. It is harder for transitive groups
+(where a possible counterexample is given in the question), and still more so
+for primitive groups.
+<hr>
+
+<a name="P26"><b>Problem 26.</b></a>
+I conjectured in 1972 that there is a function <i>f</i> with the following
+property: Let <i>G</i> be a finite primitive permutation group, with rank
+<i>r</i>; let <i>s</i> be the <em>subrank</em> of <i>G</i>, the maximum rank
+of a point stabiliser on any of its orbits. Then either
+<ul>
+<li> <i>G</i> has a base of size 2; or
+<li> <i>r</i>&nbsp;&lt;=&nbsp;<i>f</i>(<i>s</i>).
+</ul>
+Perhaps the time has come to revisit this conjecture.
+<p>
+The most extreme example I know is an extension of a 2<i>n</i>-dimensional
+vector space over GF(2) by a dihedral group of order
+2(2<sup><i>n</i></sup>+1); this has rank 2<sup><i>n</i></sup> and subrank
+2<sup><i>n</i>-1</sup>+1. So perhaps the conjecture holds with a linear
+function <i>f</i>.
+<hr>
+
+<a name="P27"><b>Problem 27.</b></a>
+Let <i>S</i> be a set of elements of the symmetric group <i>S<sub>n</sub></i>.
+It is not always true that every element in the group generated by <i>S</i>
+can be written as a word in <i>S</i> of length bounded by a polynomial in
+<i>n</i>. (Take <i>S</i> to be a singleton whose element has maximum possible
+order in <i>S<sub>n</sub></i>.)<br>
+<b>Problem:</b> If the group generated by <i>S</i> contains a fixed-point-free
+element, can we always find one which is a word of polynomially bounded length?
+
+<hr>
+
+<P ALIGN=CENTER>
+<A HREF="http://www.maths.qmul.ac.uk/~pjc/">My homepage</A>
+|
+<A HREF="permgps/">Permutation Groups Resources</A>
+
+<P ALIGN=RIGHT>
+Peter J. Cameron<BR>
+<tt>p.j.cameron(at)qmul.ac.uk</tt><br>
+11 September 2007
+
+<P>
+
+<CENTER>
+<TABLE BORDER=0 CELLPADDING=3 CELLSPACING=0 WIDTH="90%">
+<TR><TD ALIGN=CENTER BGCOLOR="#FFFFCC">
+<FONT FACE="helvetica"><B>
+Permutation Groups Pages at Queen Mary:
+</B></FONT>
+</TD></TR>
+<TR><TD ALIGN=CENTER BGCOLOR="#FFFFCC">
+<FONT FACE="helvetica" SIZE=-1><B>
+<A HREF="permgps/permgps.html">Resources</A>
+|
+<A HREF="permgps/notes.html">Lecture Notes</A>
+|
+<A HREF="pgprob.html">Problems</A>
+|
+<A HREF="permgps/pgbook.html">The Book</A>
+|
+<A HREF="permgps/permutations.html">Problems from "Permutations"</A>
+</B></FONT>
+</TD></TR>
+<TR><TD ALIGN=CENTER BGCOLOR="#FFFFCC">
+<FONT FACE="helvetica" SIZE=-1><B>
+<A HREF="http://www.maths.qmul.ac.uk/MRC/">Maths Research Centre</A>
+</B></FONT>
+</TD></TR>
+</TABLE>
+</CENTER>
+
+</BODY>
+
+</HTML>
+
+

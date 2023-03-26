@@ -1,0 +1,731 @@
+<HTML>
+<HEAD><TITLE>Peter Cameron's BCC problems</TITLE></HEAD>
+<BODY>
+
+<h2>Peter Cameron's BCC problems</h2>
+
+This file contains the problems I have posed at the British Combinatorial
+Conference since 1989. Some of these are originally due to other people,
+and I have also included problems in which I had some hand which were
+posed at the conference by other people.
+
+<HR>
+
+<a name="BCC12.3"><b>BCC12.3: Two Diophantine equations</b></a>
+<p>
+Let <i>q,n,k</i> be positive integers with <i>q</i>&gt;1, <i>n</i>&gt;3.
+<ol>
+<li> Show that
+<blockquote>	
+	(<i>k</i> choose 2)-1=(<i>q<sup>n</sup></i>-1)/(<i>q</i>-1)
+</blockquote>
+has no solutions.
+<li> Show that
+<blockquote>
+(<i>k</i> choose 2)-1=<i>q<sup>n</sup></i>+1
+</blockquote>
+has only the solution <i>q<sup>n</sup></i>=64, <i>k</i>=12.
+</ol>
+<p>
+Richard Guy remarks that, for fixed <i>n</i>, these
+equations are presumably of the sort to which Faltings' theorem
+applies, in which case there are only finitely many solutions for
+each <i>n</i>. But surely these equations are less difficult than
+Fermat's last theorem!
+<p>
+Hering (LMSLN 165 (1992), 448-458) has obtained further
+results on these equations, including the fact that the second equation
+has only finitely many solutions if <i>q</i>&lt;47 or if <i>n</i> is 
+divisible by 3.
+
+<hr>
+
+<a name="BCC12.4"><b>BCC12.4: Generalised quadrangles</b></a>
+<p>
+This problem is due independently to Jacques Tits and me.
+
+<p>
+
+Show that there is no generalised quadrangle with parameters <i>s,t</i>,
+where <i>s</i> is finite and greater than 1, and <i>t</i> is infinite.
+
+<p>
+
+A <i>generalised quadrangle</i> is a
+geometry of points and lines, with any two points on at most
+one line, such that if point <i>P</i> is not on line <i>L</i>, 
+then <i>P</i> is collinear with a unique point of <i>L</i>. It has 
+parameters <i>s,t</i> if each line contains <i>s</i>+1 points and 
+each point lies on <i>t</i>+1 lines. If <i>s</i>=1, it is a complete 
+bipartite graph. The finiteness of <i>t</i> when <i>s</i>=2,3,4 was 
+shown by Cameron, Kantor, and Cherlin respectively; a simplified proof 
+for the case <i>s</i>=3 was given by Brouwer. Cherlin's argument 
+(<i>Discrete Math.</i> <b>291</b> (2005), 73-79), gives a general method
+which can in principle deal with larger values of <i>s</i> (with 
+ever-increasing amounts of hard labour).
+
+<hr>
+
+<a name="BCC12.5"><b>BCC12.5: Edge-density of infinite graphs</b></a>
+<p>
+Let <i>G</i> be an infinite graph. List all labelled <i>n</i>-vertex
+subgraphs of <i>G</i> (a finite list, for each <i>n</i>), and let 
+<i>d<sub>n</sub></i> be the average density of edges in the list (that is, 
+the total number of edges divided by (<i>n</i> choose 2) times the number 
+of graphs in the list. Does the limit of <i>d<sub>n</sub></i>, as 
+<i>n</i> tends to infinity, exist?
+
+<hr>
+
+
+<a name="BCC12.6"><b>BCC12.6: Intersecting families</b></a>
+<p>
+This problem is due to P. J. Cameron, P. Frankl and W. M. Kantor,
+<i>Europ. J. Combinatorics</i> <b>10</b> (1989), 149-160.
+<p>
+
+Let <b>F</b> be an intersecting family of subsets of {1,2,...,<i>n</i>}
+which is maximal (that is, |<b>F</b>|=2<sup><i>n</i>-1</sup>) 
+and regular (each point lies in the same number of elements of <b>F</b>). 
+Let <i>m</i> be the size of the smallest set in <b>F</b>. It is known that
+<i>m</i>&gt;=(1/2)log&nbsp;<i>n</i>+<i>c</i>; examples are known with 
+<i>m</i> about the square root of <i>n</i>. What is the truth?
+<p>
+This problem has been solved by Aaron Meyerowitz 
+(<i>Europ. J. Combinatorics</i> <b>16</b> (1995), 491-501); doi:
+<a href="http://dx.doi.org/10.1016/0195-6698(95)90004-7">10.1016/0195-6698(95)90004-7</a>,
+who showed that the lower bound is correct.
+
+<hr>
+
+<a name="BCC12.7"><b>BCC12.7: Forbidding divisibility</b></a>
+<p>
+This problem was posed by Paul Erd&ouml;s and me (<i>Number Theory</i>,
+ed. R. Mollin, de Gruyter 1990).
+<p>
+Let <i>f</i>(<i>n</i>) be the number of sequences
+<blockquote>
+	1&lt;=<i>a</i><sub>1</sub>&lt;...&lt;<i>a<sub>t</sub></i>&lt;=<i>n</i>
+</blockquote>
+where <i>a<sub>i</sub></i> doesn't divide <i>a<sub>j</sub></i> for 
+<i>i&lt;j</i>. Prove that the limit, as <i>n</i> tends to infinity, of
+<i>f</i>(<i>n</i>)<sup>1/<i>n</i></sup> exists.
+<p>
+The limit should be about 1.58.
+
+<hr>
+
+<a name="BCC13.12"><b>BCC13.12: Permutations of projective space</b></a>
+<p>
+
+This problem was posed by A. Gy&aacute;rf&aacute;s.
+<p>
+For which <i>n</i> and <i>q</i> does there exist a permutation <i>p</i> 
+of the point set of the finite projective space PG(<i>n,q</i>) with the 
+property that, for any hyperplane <i>H</i>,
+there exists a hyperplane <i>H'</i> meeting <i>p</i>(<i>H</i>) in the empty
+set? It is known that the answer is "yes" for <i>n</i>=2 (asymptotically, 
+almost all permutations have this property), and "no" for <i>n</i>&gt;<i>q</i>
+(by a short argument due to A. Blokhuis).
+
+<hr>
+
+<a name="BCC13.14"><b>BCC13.14: Cyclic shifts of binary words</b></a>
+<p>
+For odd <i>n</i>, let <i>W<sub>n</sub></i> be the space of binary words of 
+length <i>n</i> and even weight. Let <i>f</i>(<i>n</i>) be the maximum 
+codimension of a subspace <i>U</i> of <i>W<sub>n</sub></i>
+such that the union of all cyclic shifts of <i>U</i> is equal to 
+<i>W<sub>n</sub></i>. It is known that <i>f</i>(<i>n</i>)&gt;=2 for 
+<i>n</i>&gt;3, but little more is known. Does <i>f</i>(<i>n</i>) tend to
+infinity as <i>n</i> does? Or is <i>f</i>(<i>n</i>) equal to 2 for infinitely 
+many <i>n</i>?
+
+<hr>
+
+<a name="BCC13.17"><b>BCC13.17: A generalisation of affine designs</b></a>
+<p>
+This problem is due to Marion Kimberley (as a result of an incorrect
+statement by a student).
+<p>
+An <i>affine design</i> is a resolvable 2-design in which any two
+non-parallel blocks meet in a constant number <i>y</i> of points. What
+happens if we replace "non-parallel" by "non-disjoint" in this
+definition? In addition to affine designs, there are resolvable
+designs with lambda=1 (and <i>y</i>=1), for example Kirkman systems.
+No others are known: the first unknown case is a resolvable
+2-(70,10,6) design with <i>y</i>=2.
+
+<hr>
+
+<a name="BCC13.19"><b>BCC13.19: Permutations with few distances</b></a>
+<p>
+For fixed <i>s</i> and large <i>n</i>, the best known upper and lower bounds 
+for the maximum number of permutations of an <i>n</i>-set with <i>s</i> 
+different distances are both roughly (<i>cn/s</i>)<sup>2<i>s</i></sup> 
+(with different values of <i>c</i>). Find the correct value.
+
+<hr>
+
+<a name="BCC13.24"><b>BCC13.24: Sum-free sets containing 2</b></a>
+<p>
+What is the probability that, in a random sum-free set <i>S</i> of natural 
+numbers, 2 is the only even number in <i>S</i>? (Is it zero or not?)
+
+The probability measure is defined by the following rule. Consider the
+natural numbers in their usual order. If <i>n</i> is the sum of two numbers
+in <i>S</i>, then <i>n</i> is not in <i>S</i>; otherwise, decide on the 
+toss of a fair coin. It is known that the probability that <i>S</i> contains 
+no even number is non-zero, but the present problem is a bit more delicate.
+<p>
+This problem has been solved by Neil Calkin and me (<i>Combin. Probab. 
+Comput.</i> <b>7</b> (1998), 27-32). We showed that the probability is
+strictly positive and gave a heuristic estimate for it.
+
+<hr>
+
+<a name="BCC14.8"><b>BCC14.8: The rows of a Latin square</b></a>
+<p>
+This problem is due to Jeanette Janssen and me.
+<p>
+(a) It is known that, for almost all Latin squares of order <i>n</i> (that is, 
+a proportion tending to 1 as <i>n</i> tends to infinity), the rows of the 
+square (regarded as permutations) generate either the symmetric group
+<i>S<sub>n</sub></i> or the alternating group <i>A<sub>n</sub></i>. 
+Is this statement still true if the squares are normalized so that the 
+first row is the identity permutation?
+<p>
+(b) Is it true that the distribution of the number
+of rows of a random Latin square which are odd permutations is
+"approximately" binomial Bin(<i>n</i>,1/2)?
+<p>
+(c)
+Let <i>M</i>(<i>n</i>) and <i>m</i>(<i>n</i>) denote the
+maximum and minimum numbers of extensions of a 2&times;<i>n</i> Latin 
+rectangle to an <i>n</i>&times;<i>n</i> Latin square. Find a good upper 
+bound for <i>M</i>(<i>n</i>)/<i>m</i>(<i>n</i>).
+<p>
+(d)
+How do you choose a random Latin square of order <i>n</i>?
+<p>
+In connection with (b),
+H&auml;ggkvist and Janssen (<i>Discrete Math.</i> <b>157</b> (1996), 199-206) 
+have shown that the proportion of
+Latin squares in which all rows are even permutations is exponentially
+small. This was the form asked at the Conference; the strengthened version
+was suggested by Jeannette Janssen.
+<p>
+A Markov chain method for choosing a random Latin square was given by
+Jacobson and Matthews (<i>J. Combinatorial Design</i> <b>4</b> (1996), 405-437).
+<p>
+I currently conjecture that the ratio in (c) tends to 1.
+
+<hr>
+
+<a name="BCC14.10"><b>BCC14.10: Even and odd permutations</b></a>
+<p>
+For even <i>n</i>, the number of permutations of {1,...,<i>n</i>} with all
+cycles of even length is equal to the number of permutations with all
+cycles of odd length. Find a bijective proof of this fact.
+<p>
+After the conference, this problem was solved
+independently by Richard Lewis and Simon Norton. Their joint
+paper appears in the volume of contributed papers
+(<i>Discrete Math.</i> <b>138</b> (1995), 315-318).
+
+<hr>
+
+<a name="BCC14.11"><b>BCC14.11: How many sum-free sets?</b></a>
+<p>
+This problem is due to Paul Erd&ouml;s and me.
+<p>
+Let <i>s</i>(<i>n</i>) be the number of sum-free subsets of {1,...,<i>n</i>} 
+(that is, containing no solution to <i>x</i>+<i>y</i>=<i>z</i>). 
+Show that there exist constants <i>c'</i> and <i>c''</i> such that 
+<i>s</i>(<i>n</i>)/2<sup><i>n</i>/2</sup> tends to <i>c'</i> or <i>c''</i> 
+as <i>n</i> tends to infinity through odd or even values respectively.
+<p>
+This problem has been solved by 
+Ben Green, <i>Bulletin of the London Mathematical Society</i> <b>36</b> (2004),
+769-778 (doi: <a href="http://dx.doi.org/10.1112/S0024609304003650">
+10.1112/S0024609304003650</a>);  and by Alexander Sapozhenko,
+<i>Discrete Mathematics</i> <b>308</b> (2008), 4361-4369
+(doi: <a href="http://dx.doi.org/10.1016/j.disc.2007.08.103">10.1016/j.disc.2007.08.103</a>
+
+<hr>
+
+<a name="BCC14.13"><b>BCC14.13: Block-transitive designs</b></a>
+<p>
+This problem is due to Cheryl Praeger and me: see
+<i>Discrete Math.</i> <b>118</b> (1993), 33-43, and <i>Finite Geometry and 
+Combinatorics</i>, CUP 1993.
+<p>
+A <i>t</i>-(<i>v, k</i>, lambda) design has <i>v</i> points and a collection of
+blocks of size <i>k</i>, any <i>t</i> points lying in exactly lambda blocks.
+Terms such as "block-transitive" apply to the action of the
+automorphism group.
+<p>
+(a) Show that there is no block-transitive 6-design.
+<p>
+(b) Show that a block-transitive, point-imprimitive 3-design
+satisfies <i>v</i>&lt;=(<i>k</i> choose 2)+1.
+<p>
+(c) Is there a block-transitive 2-(infty,4,1) design which
+is not point-transitive?
+<p>
+The design asked for in (c) has been constructed by David Evans,
+<i>J. Combin. Des.</i> <b>12</b> (2004), 459-465.
+Part (b) has been answered in the affirmative by Avinoam Mann and
+Ngo Dac Tuan, <i>Geom. Dedicata</i> <b>88</b> (2001), 81-90.
+
+<hr>
+
+<a name="BCC15.8"><b>BCC15.8: On the probability of connectedness</b></a>
+<p>
+Which graphs <i>G</i> have the property that, in the class X(<i>G</i>)
+of graphs having no induced subgraph isomorphic to <i>G</i>, the limiting
+probability of connectedness is strictly between zero and one (in either
+the unlabelled or the labelled case)? (The smallest <i>G</i> with this
+property is the path of length 3; the probability of connectedness
+in X(<i>G</i>) is 1/2 if the number of vertices is
+greater than one.)
+<p>
+See <i>Combin. Probab. Comput.</i> <b>8</b> (1999), 31-43 and
+<i>Electron. J. Combin.</i>  <b>7</b> (2000), #R33 for more information.
+
+<hr>
+
+<a name="BCC15.18"><b>BCC15.18: Counting classes of graphs</b></a>
+<p>
+Find good asymptotic estimates for the numbers of
+<ol>
+<li> line graphs,
+<li> line graphs of bipartite graphs,
+<li> comparability graphs of 2-dimensional posets
+</ol>
+on <i>n</i> vertices?
+<p>
+The last class of graphs are defined as follows:
+Take a permutation <i>p</i> of {1,...,<i>n</i>}, and join <i>i</i> to 
+<i>j</i> whenever 
+(<i>i</i>-<i>j</i>)(<i>p</i>(<i>i</i>)-<i>p</i>(<i>j</i>))&gt;0.
+
+<p>
+
+<b>Added 24/09/2007:</b> The first question has been solved in the
+labelled case. The solution is
+<a href="http://www.maths.qmul.ac.uk/~pjc/preprints/cover.pdf">here</a>.
+
+<hr>
+
+<a name="BCC15.20"><b>BCC15.20: Cycles of a permutation</b></a>
+<p>
+As an example of a "typical" automorphism of the space of
+periodic integrable functions (acting on Fourier coefficients),
+W. Rudin (<i>Acta Math.</i> <b>95</b> (1956), 39-56) considered the 
+permutation of the integers defined by
+<blockquote>
+	3<i>n</i>&nbsp;-&gt;&nbsp;2<i>n</i>,&nbsp;&nbsp;
+	3<i>n</i>&#177;1&nbsp;-&gt;&nbsp;4<i>n</i>&#177;1
+</blockquote>
+Describe the cycles of this permutation. In
+particular, does it have only finitely many finite cycles?
+<p>
+In fact, this problem is older: it is
+the "original Collatz problem" from the 1930s (before the famous 
+"3<i>x</i>+1 problem"), though never published by Collatz.
+<a href="http://www.cecm.sfu.ca/organics/papers/lagarias/index.html">A paper by
+Jeff Lagarias</a> gives details.
+
+<hr>
+
+<a name="BCC16.15"><b>BCC16.15: Simultaneous edge-colourings</b></a>
+<p>
+This problem is due to Donald Keedwell.
+<p>
+Suppose that <i>x</i><sub>1</sub>,...,<i>x<sub>m</sub></i>,
+<i>y</i><sub>1</sub>,...,<i>y<sub>m</sub></i> are positive integers 
+such that there exists a bipartite graph with vertex degrees 
+<i>x</i><sub>1</sub>,...,<i>x<sub>m</sub></i> in one bipartite block and 
+<i>y</i><sub>1</sub>,...,<i>y<sub>m</sub></i> in the other.
+(This is equivalent to asserting that the
+conditions of the Gale--Ryser theorem are satisfied.) Suppose
+further that all the <i>x<sub>i</sub></i> and <i>y<sub>j</sub></i> are
+greater than 1. Show that there is a bipartite graph having
+these vertex degrees, which has two proper edge-colourings
+such that
+<ul>
+<li> for any vertex, the sets of colours appearing on edges
+at that vertex are the same in both colourings;
+<li> no edge receives the same colour in both colourings.
+</ul>
+<p>
+This problem has been solved by Rong Luo, Wen-An Zang and  Cun-Quan Zhang,
+<i>Combinatorica</i> <b>24</b> (2004), 641-657; doi:
+<a href="http://dx.doi.org/10.1007/s00493-004-0039-2">10.1007/s00493-004-0039-2</a>
+
+<hr>
+
+<a name="BCC16.16"><b>BCC16.16: Abnormal strongly regular graphs</b></a>
+<p>
+This problem is due to Paul Fisher and me.
+<p>
+Call a strongly regular graph Gamma <i>abnormal</i> if it
+contains vertices <i>x,y,z</i> such that <i>x</i> is not adjacent to 
+<i>y</i> or <i>z</i>, <i>y</i> and <i>z</i> are adjacent, and
+Gamma(<i>x</i>)&nbsp;intersect&nbsp;Gamma(<i>y</i>)=Gamma(<i>x</i>)&nbsp;intersect&nbsp;Gamma(<i>z</i>),
+where Gamma(<i>x</i>) denotes the set of neighbours of <i>x</i>.
+<p>
+Does an abnormal strongly regular graph exist?
+<p>
+Such a graph must have lambda&gt;=mu, and not all the
+induced subgraphs on the non-neighbours of a vertex can be edge-regular.
+Any strongly regular graph with lambda&gt;0 and mu=1 is abnormal;
+but no such graphs are known.
+
+<hr>
+
+<a name="BCC16.19"><b>BCC16.19: Semi-Latin squares which are partial linear
+spaces</b></a>
+<p>
+This problem is due to Leonard Soicher, R.A. Bailey and me.
+<p>
+An (<i>n</i>&times;<i>n</i>)/<i>k</i> semi-Latin square is an arrangement 
+of <i>nk</i> letters in an <i>n</i>&times;<i>n</i> square, with <i>k</i>
+letters per cell, such that each letter occurs once in each row and once 
+in each column. It is a <i>Trojan square</i> if it can be obtained by 
+superimposing <i>k</i> mutually orthogonal <i>n</i>&times;<i>n</i>
+Latin squares. It is a <i>partial linear space</i> if no two letters occur 
+together in the same cell more than once. Trojan squares are partial linear 
+spaces.
+<p>
+Bailey (<i>Statistica Sinica</i> <b>2</b> (1992), 413-437) showed that when 
+<i>k</i>=<i>n</i>-1 then any semi-Latin square which is a partial linear 
+space must be Trojan, and arises from an affine plane with two distinguished 
+parallel classes of lines.
+<p>
+If <i>k</i>=<i>n</i>-2, must any semi-Latin square
+which is a partial linear space be Trojan?
+<p>
+Semi-Latin squares which are partial linear spaces
+are known as SOMAs.
+<p>
+Recent exhaustive checking by Soicher
+shows that the answer to the problem stated is affirmative when
+<i>n</i>=6 (there are no SLS-PLS or Trojan squares) and when <i>n</i>=7.
+
+<hr>
+
+<a name="BCC16.23"><b>BCC16.23: Representing orthogonal matroids</b></a>
+<p>
+Let <i>V</i> and <i>W</i> be vector spaces over a field <i>F</i>. Suppose that
+<i>v</i><sub>1</sub>,...,<i>v<sub>n</sub></i> in <i>V</i> and
+<i>w</i><sub>1</sub>,...,<i>w<sub>n</sub></i> in <i>W</i>
+<blockquote>
+	Sum (<i>v<sub>i</sub></i> tensor <i>w<sub>i</sub></i>) = 0.
+</blockquote>
+Then the matroids <i>M</i> and <i>M'</i> on the ground set {1,...,<i>n</i>}
+represented by (<i>v</i><sub>1</sub>,...,<i>v<sub>n</sub></i>) and 
+(<i>w</i><sub>1</sub>,...,<i>w<sub>n</sub></i>) are
+<i>orthogonal</i>, in the sense that any base of <i>M</i> is disjoint
+from some base of <i>M'</i> and vice versa.
+<p>
+Let <i>M</i> and <i>M'</i> be matroids on {1,...,<i>n</i>}
+which are both representable over a field <i>F</i> and are orthogonal
+in the above sense. Do there exist representations of <i>M</i>
+and <i>M'</i> (by 
+<i>v</i><sub>1</sub>,...,<i>v<sub>n</sub></i> in <i>V</i> and
+<i>w</i><sub>1</sub>,...,<i>w<sub>n</sub></i> in <i>W</i> respectively)
+over <i>F</i> such that the displayed equation holds?
+
+<hr>
+
+<a name="BCC17.4"><b>BCC17.4: An extremal problem related to biplanes</b></a>
+<p>
+This problem is due to Gregory Gutin.
+<p>
+Given <i>n</i>, what is the smallest <i>m</i> such that there
+exist <i>m</i> subsets (called blocks) of the point set {1,...,<i>n</i>}
+such that
+<ol>
+	<li> any two points lie in <i>at least</i> two blocks,
+	<li> any two blocks meet in <i>at most</i> two points?
+</ol>
+<p>
+It is known that <i>n</i>&lt;=<i>m</i>&lt;=(2+o(1))<i>n</i>; the lower bound
+comes from a simple counting argument, and the upper bound is obtained
+by taking blocks to be the translates of <i>D</i> and -<i>D</i>, where
+<i>D</i> is a planar difference set in <i>C<sub>n</sub></i>, with 
+<i>n</i>=<i>q</i>&#178;+<i>q</i>+1. For more
+details, see <i>Australasian J. Combinatorics</i> <b>20</b> (1999), 97-100.
+
+<hr>
+
+<a name="BCC17.12"><b>BCC17.12: Semiregular automorphisms</b></a>
+<p>
+This problem is due to John Sheehan and me.
+<p>
+Marusic and Scapellato (<i>Europ. J. Comb.</i> <b>19</b> (1998), 707-712) 
+proved that a vertex-transitive
+connected cubic simple graph has a non-trivial semiregular
+automorphism (one for which all cycles have the same length).
+Is it true that there exists such an automorphism having order
+at least <i>f</i>(<i>n</i>), where <i>n</i> is the number of vertices and 
+<i>f</i> is a function going to infinity with <i>n</i>? Easy examples
+show that <i>f</i>(<i>n</i>) cannot exceed O(<i>n</i><sup>1/3</sup>).
+<p>
+The proposers and Pablo Spiga have recently shown that there is a
+semiregular automorphism of order greater than 2 (<i>Europ. J. Comb.</i>, to
+appear).
+
+<hr>
+
+<a name="BCC17.13"><b>BCC17.13: Regular graphs admitting a given group</b></a>
+<p>
+It is known (<i>Europ. J. Comb.</i> <b>1</b> (1980), 91-96) 
+that, for any finite group <i>G</i>, there
+exists a rational number <i>a</i>(<i>G</i>) [0,1] such that, if Gamma denotes
+a random graph on the vertex set {1,...,<i>n</i>} (with all graphs equally
+likely), then
+<blockquote>
+	Prob(Aut(Gamma)=<i>G</i>&nbsp;|&nbsp;Aut(Gamma)&gt;=<i>G</i>) tends
+	to <i>a</i>(<i>G</i>) as <i>n</i> tends to infinity.
+</blockquote>
+Does a similar result hold for other random graph models, in particular for
+random regular graphs of degree <i>d</i>&gt;2 (as described by 
+Nick Wormald at the conference)?
+
+<hr>
+
+<a name="BCC17.19"><b>BCC17.19: Covering radius and Tutte polynomial</b></a>
+<p>
+This problem is due to Carrie Rutherford and Fuad Shareef.
+<p>
+Associated with any matrix <i>A</i> over a field <i>F</i>, there is a matroid
+representable over <i>F</i> (whose elements are the columns of <i>A</i>, and
+in which dependence is linear dependence) and a linear code (spanned
+by the rows of <i>F</i>). Greene (<i>Studies in Applied Math.</i> <b>55</b> 
+(1976), 119-128) showed that the weight enumerator of
+the code is a specialisation of the Tutte polynomial of the matroid.
+<p>
+Do there exist two binary linear codes which have the same Tutte
+polynomials but different covering radii? (There are codes with
+the same weight enumerators but different covering radii.)
+<p>
+This problem has been answered in the negative by Thomas Britz and Carrie
+Rutherford, <i>Discrete Math.</i> <b>296</b> (2005), 117-120; doi:
+<a href="http://dx.doi.org/10.1016/j.disc.2005.03.002">10.1016/j.disc.2005.03.002</a>
+
+<hr>
+
+<a name="BCC18.5"><b>BCC18.5: projective space analogues of Steiner 
+		systems</b></a>
+<p>
+This problem is possibly due to Ph. Delsarte.
+<p>
+Does there exist a collection <i>S</i> of planes in the projective space
+PG(<i>n,q</i>), where <i>n</i>&gt;2, such that any line lies in a unique member
+of <i>S</i>? (This would be the analogue for projective spaces of a Steiner 
+triple system.) No examples are known.
+<p>
+One can easily define analogues of arbitrary <i>t</i>-designs in projective 
+spaces (probably Delsarte was the first to do so), but very few
+examples are known. However, infinite examples exist in great profusion!
+
+<hr>
+
+<a name="BCC18.9"><b>BCC18.9: A Markov chain for Steiner triple systems</b></a>
+<p>
+A slight modification of the method of Jacobson and Matthews
+(<i>J. Combinatorial Design</i> <b>4</b> (1996), 405-437)
+should work for
+Steiner triple systems. We simply replace "ordered triples" by "unordered
+triples of distinct elements" in the definition; then a STS is a function
+from unordered triples to {0,1} which satisfies
+<blockquote>
+	Sum<sub><i>z</i>&lt;&gt;<i>x,y</i></sub>&nbsp;<i>f</i>({<i>x,y,z</i>})&nbsp;=&nbsp;1
+</blockquote>
+for all distinct points <i>x,y</i>,
+and an improper STS is allowed to take the value -1 exactly once. Now the
+moves are defined as before. However, before we know that the limiting
+distribution is uniform, we have to solve the following
+<p>
+<b>Problem:</b> Is the chain connected? That is, is it possible to get from
+any STS to any other by a sequence of moves?
+
+<hr>
+
+<a name="BCC19.10"><b>BCC19.10: Sum-free sets in the square</b></a>
+<p>
+This problem is due to Harut Aydinian.
+<p>
+What is the size of the largest sum-free set (one not containing two points
+and their vector sum) in the square {1,...,<i>n</i>}&times;{1,...,<i>n</i>}?
+In particular, show that the number is $<i>cn</i>&#178;+O(<i>n</i>), and find 
+the constant <i>c</i>.
+<p>
+Upper and lower bounds for <i>c</i> are e<sup>-&#189;</sup>=0.6065...
+and 3/5=0.6 respectively.
+
+<hr>
+
+<a name="BCC19.12"><b>BCC19.12: Covering radius of PGL(2,<i>q</i>)</b></a>
+<p>
+The group PGL(2,<i>q</i>) is the group of all linear fractional
+transformations 
+<i>x</i>&nbsp;-&gt;&nbsp;(<i>ax</i>+<i>b</i>)/(<i>cx</i>+<i>d</i>) of the 
+projective line over GF(<i>q</i>), where <i>ad-bc</i>&lt;&gt;0.
+<p>
+The covering radius of a set <i>S</i> of permutations is the maximum,
+over all permutations <i>g</i> in <i>S<sub>n</sub></i>, of 
+the minimum Hamming distance from <i>g</i> to <i>S</i>.
+<p>
+The covering radius of PGL(2,<i>q</i>) is known in all cases where <i>q</i> 
+is not congruent to 1 mod 6. (It is <i>q</i>-2 if <i>q</i> is even, and 
+<i>q</i>-3 if <i>q</i> is odd.) For the excluded case, it is only known that 
+the covering radius is between <i>q</i>-5 and <i>q</i>-3 inclusive. See
+<i>Discrete Math.</i> <b>293</b> (2005), 91-109.
+<p>
+Find the exact value.
+<p>
+This problem has a geometric formulation, suggested by N. Knarr. What is the
+smallest <i>s</i> such that there is a set of <i>q</i>+1 points in the 
+classical Minkowski plane (ruled quadric) of order <i>q</i> which meets 
+every line in exactly one point and every conic in at most <i>s</i> points? 
+The covering radius of PGL(2,<i>q</i>) is then <i>q</i>+1-<i>s</i>.
+
+<hr>
+
+<a name="BCC20.8"><b>BCC20.8: Positive and negative eigenvalues</b></a>
+<p>
+Let <i>s</i> and <i>t</i> be the numbers of positive and negative 
+eigenvalues of the adjacency matrix of a graph. Torgasev
+(<i>Publ. Inst. Math. (Beograd)</i> <b>51(65)</b> (1992), 25-28)
+proved that <i>s</i> is bounded by a function of <i>t</i>.
+<p>
+Find the best bound. In particular, there a polynomial
+(or even a quadratic) bound?
+
+<hr>
+
+<a name="BCC20.10"><b>BCC20.10: A determinant problem</b></a>
+<p>
+This problem is due to Robin Chapman.
+<p>
+Let <i>p</i> be a prime congruent to 3 mod 4, and let 
+<i>k</i>=(<i>p</i>+1)/2. Let <i>A</i>
+be the <i>k</i>&times;<i>k</i> matrix with (<i>i,j</i>) entry
+(<i>j-i</i>/<i>p</i>),
+where (<i>x</i>/<i>p</i>) is the Legendre symbol
+(equal to +1 if <i>x</i> is a non-zero square mod <i>p</i>, to -1 if <i>x</i> 
+is a non-square mod <i>p</i>, and to 0 if <i>p</i> divides <i>x</i>).
+<p>
+Prove that det(<i>A</i>)=1.
+<p>
+This conjecture is true for primes <i>p</i>&lt;1000.
+
+<hr>
+
+<a name="BCC20.16"><b>BCC20.16: Index of connection and M&ouml;bius 
+		number</b></a>
+<p>
+There is a well-known relation between
+the three polyhedral groups Alt(4), Sym(4) and Alt(5) (the groups
+of rotations of the tetrahedron, octahedron and dodecahedron), and
+the three exceptional root lattices <i>E</i><sub>6</sub>, <i>E</i><sub>7</sub>
+and <i>E</i><sub>8</sub>.
+(See the "McKay correspondence"
+(Kostant, <i>Proc. Nat. Acad. Sci. U.S.A.</i> <b>81</b> (1984), 5275-5277)
+and various results in singularity theory
+(Arnol'd, <i>Funkcional. Anal. i Prilozen</i> <b>6</b> (1972), 3-25).
+<p>
+For a finite group <i>G</i>, the M&ouml;bius number mu(<i>G</i>) is the value 
+of mu(1,<i>G</i>), where mu is the M&ouml;bius function of the subgroup lattice
+of <i>G</i>
+(Shareshian, <i>J. Combinatorial Theory</i> (A) <b>78</b> (1997), 236-267). 
+Let <i>n</i>(<i>G</i>)=|<i>G</i>|/mu(<i>G</i>).
+<p>
+The index of connection of a root
+lattice <i>L</i> is its index in the dual lattice, or the determinant of the
+Coxeter matrix, 
+(Humphreys, <i>Reflection Groups and Coxeter Groups</i>, CUP 1990, p.40). 
+The Coxeter matrix is 2<i>I</i>-<i>A</i>, where <i>A</i>
+is the adjacency matrix of the Coxeter-Dynkin diagram of the lattice.
+<p>
+Is it just coincidence that, ignoring signs, the values of <i>n</i>(<i>G</i>) 
+for the three polyhedral groups are equal to the indices of connection of the
+corresponding root lattices? The numbers are 3, 2, 1 respectively.
+
+<hr>
+
+<a name="BCC21.2"><b>BCC21.2: The row space of an adjacency matrix</b></a><p>
+
+This problem is due to S. Akbari, G. B. Khosrovshahi and me; it was 
+communicated by S. Akbari.
+<p>
+
+Prove the following assertion:
+<blockquote>
+Let <i>G</i> be a graph with at least one edge. If <i>A</i> is the
+adjacency matrix of <i>G</i>, then there exists a non-zero (0,1)-vector
+in the row space of <i>A</i> (over the real numbers) which does not occur
+as a row of <i>A</i>.
+</blockquote>
+The assertion is true for all graphs with at most 9 vertices and also for
+all line graphs.
+
+<hr>
+
+<a name="BCC21.12"><b>BCC21.12: Orbital chromatic roots</b></a><p>
+
+This problem is due to Koko Kayibi and me.<p>
+
+Let <i>Gamma</i> be a graph and <i>G</i> a group of automorphisms of
+<i>Gamma</i>. The <i>orbital chromatic polynomial</i> of 
+(<i>Gamma</i>,<i>G</i>) is the polynomial whose value at the positive
+integer <i>k</i> is the number of orbits of <i>G</i> on proper
+vertex colourings of <i>Gamma</i> with <i>k</i> colours. Note that if
+<i>G</i>=1, then the orbital chromatic polyomial is the chromatic polynomial
+of <i>Gamma</i> (where 1 denotes the trivial group). See Cameron, Jackson
+and Rudd, <i>Discrete Math.</i>, to appear.
+<p>
+Roots of orbital chromatic polynomials are investigated by Cameron and
+Kayibi, <i>Combin. Probab. Computing</i> <b>16</b> (2007), 401-407. Here 
+are two open problems.
+<ol>
+<li> Is it true that the real roots of the orbital chromatic polynomial are
+bounded above by the largest real root of the chromatic polynomial?
+<li> Is it true that real roots of the orbital chromatic polynomial, in
+cases where <i>G</i> consists of even permutations of the vertex set of
+<i>Gamma</i>, are dense in [1,<i>infinity</i>)? (There are no such roots less
+than 1 except 0; but a result of Thomassen, <i>Combin. Probab. Comput</i>
+<b>6</b> (1997), 497-506, shows that such roots are dense in
+[32/27,<i>infinity</i>).)
+</ol>
+<hr>
+
+<a name="BCC21.13"><b>Problem BCC21.13: Covers of the symmetric group</b></a>
+<p>
+
+This problem is due to Sam Tarzi and me.  
+It arises in studying the  automorphism group of the countable
+"<i>n</i>-coloured random graph". An <i>involution</i> in a group is an
+element of order 2.<p>
+Let <i>n</i> be a multiple of 8. Does there exist a finite group <i>G</i>,
+and a homomorphism from <i>G</i> onto the symmetric group of degree <i>n</i>,
+such that no involution of <i>G</i> maps to a fixed-point-free involution
+in the symmetric group? If so, what is the order of the smallest such group?<p>
+If <i>n</i> is odd, the symmetric group has no fixed-point-free involutions,
+and so the smallest group is the symmetric group itself. It is known that,
+if <i>n</i> is even and not a multiple of 8, then there is a group whose
+order is just twice that of the symmetric group.
+
+<hr>
+<p align="right">
+Peter J. Cameron<br>
+<tt>p.j.cameron(AT)qmul.ac.uk</tt><br>
+12 September 2007
+
+</body>
+</html>
+
