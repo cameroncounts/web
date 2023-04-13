@@ -75,20 +75,33 @@ seminars</a> </li>
 <hr>
 <h3>Research snapshots</h3>
 
-<h4>Low in the permutation group hierarchy</h4>
+<h4>Bases</h4>
 
 <p>
-With Marina Anagnostopoulou-Merkouri and Enoch Suleiman, I defined a concept for finite permutation groups lying between transitivity and primitivity,
-which we called "pre-primitivity". It has the property that it is logically independent of quasiprimitivity, but together with quasiprimitivity it is 
-equivalent to primitivity. So it throws some light on the gap (which confused Galois, who devised both concepts) between quasiprimitivity and 
-primitivity. We proved various things about pre-primitivity. The paper is <a href="https://arxiv.org/abs/2302.13703">here</a>.
+A <em>base</em> for a permutation group is a sequence (<i>a</i><sub>1</sub>,&hellip;,<i>a<sub>r</sub></i>) of points in the permutation domain whose pointwise stabiliser is the identity. A base is <em>irredundant</em> if no point in the base is fixed by the stabiliser of its predecessors; it is <em>minimal</em> if no point in the base is fixed by the stabiliser of all the others.
 </p>
 <p>
-In subsequent work with Marina, I have defined an even weaker concept, which we don't have a name for yet, tentatively the OBS property. The term comes 
-from experimental design in statistics, where an orthogonal block structure is a set of partitions of a finite set which forms a lattice (with top element
-the partition with a single part and bottom element the partition into singletons), such that any partition in the set is uniform, and any two commute
-(as relations). A transitive permutation group has the OBS property if the partitions invariant under the group form an orthogonal block structure. This
- property lies between transitivity and pre-primitivity, and almost all transitive groups appear to satisfy it. This is still under investigation.
+A couple of things are clear:
+<ul>
+<li> any minimal base is irredundant (but the converse is false); </li>
+<li> any re-ordering of a minimal base is minimal (but this is not true for
+irredundant bases). </li>
+</ul>
+</p>
+<p>
+In 1995, Dima Fon-Der-Flaass and I showed that the three conditions on irredundant bases, namely
+<ul>
+<li> they are preserved by re-ordering;
+<li> they all have the same size;
+<li> they are the bases of a matroid;
+</ul>
+are all equivalent. We call groups having this property <em>IBIS groups</em>.
+</p>
+<p>
+Recently several people (Murray Whyte, Scott Harper, Pablo Spiga, maybe others) asked whether the set of sizes of irredundant bases form an interval. This is true. However, the analogue for minimal bases is false. For any integer <i>d</i>&nbsp;&gt;&nbsp;1, there is a group whose minimal bases have sizes 1 and d only. However, it is not yet known whether they do form an interval if the permutation group is required to be transitive.
+</p>
+<p>
+A further question is: What happens for greedy bases? One of these is found by choosing the next base point in an orbit of maximum size for the stabiliser of its predecessors. (There is some variability because there might be a number of orbits of the same size.)
 </p>
 <p></p>
 <p>
@@ -122,7 +135,7 @@ Fax: +44 (0)1334 46 3748<br>
 Email: pjc20(at)st-arthurs(dot)ac(dot)uk<br>
 &nbsp;&nbsp;[oops &ndash; wrong saint!]<br><br>
   </td>
-  <td><br><br><br><br>Page revised 17 March 2023</td>
+  <td><br><br><br><br>Page revised 13 April 2023</td>
  </tr>
 </table>
 <hr>
