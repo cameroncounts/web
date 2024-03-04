@@ -76,33 +76,22 @@ Edinburgh</a>.
 <hr>
 <h3>Research snapshots</h3>
 
-<h4>Bases</h4>
-
+<h4>Cauchy numbers</h4>
 <p>
-A <em>base</em> for a permutation group is a sequence (<i>a</i><sub>1</sub>,&hellip;,<i>a<sub>r</sub></i>) of points in the permutation domain whose pointwise stabiliser is the identity. A base is <em>irredundant</em> if no point in the base is fixed by the stabiliser of its predecessors; it is <em>minimal</em> if no point in the base is fixed by the stabiliser of all the others.
+In group theory, <em>Cauchy's Theorem</em> states that, if a prime <i>p</i> divides the order of a finite group <i>G</i>, then <i>G</i> contains a subgroup which is cyclic of order <i>p</i>.
 </p>
 <p>
-A couple of things are clear:
+Can we reverse-engineer this? Clearly we cannot ask for a single subgroup, since primes are the only numbers for which such a result would be true. So we say that <i>n</i> is a <em>Cauchy number</em> if there is a finite list <b>F</b> of finite groups such that a finite group <i>G</i> has order divisible by <i>n</i> if and only if <i>G</i> has a subgroup isomorphic to one of the groups in <b>F</b>.
+</p>
+In a paper with David Craven, Hamid Reza Dorbidi, Scott Harper and Benjamin Sambale, I proved that the Cauchy numbers are as follows:
 <ul>
-<li> any minimal base is irredundant (but the converse is false); </li>
-<li> any re-ordering of a minimal base is minimal (but this is not true for
-irredundant bases). </li>
+<li> prime powers; </li>
+<li> 6; </li>
+<li> 2<i>p<sup>a</sup></i>, where <i>p</i> is a Fermat prime greater than 3 and <i>a</i> is a positive integer. </li>
 </ul>
 </p>
 <p>
-In 1995, Dima Fon-Der-Flaass and I showed that the three conditions on irredundant bases, namely
-<ul>
-<li> they are preserved by re-ordering;
-<li> they all have the same size;
-<li> they are the bases of a matroid;
-</ul>
-are all equivalent. We call groups having this property <em>IBIS groups</em>.
-</p>
-<p>
-Recently several people (Murray Whyte, Scott Harper, Pablo Spiga, maybe others) asked whether the set of sizes of irredundant bases form an interval. This is true. However, the analogue for minimal bases is false. For any integer <i>d</i>&nbsp;&gt;&nbsp;1, there is a group whose minimal bases have sizes 1 and d only. However, it is not yet known whether they do form an interval if the permutation group is required to be transitive.
-</p>
-<p>
-A further question is: What happens for greedy bases? One of these is found by choosing the next base point in an orbit of maximum size for the stabiliser of its predecessors. (There is some variability because there might be a number of orbits of the same size.)
+The paper is <a href="https://arxiv.org/abs/2311.15652">here</a>.
 </p>
 <p></p>
 <p>
