@@ -126,32 +126,43 @@ Fax: +44 (0)1334 46 3748<br>
 Email: pjc20(at)st-arthurs(dot)ac(dot)uk<br>
 &nbsp;&nbsp;[oops &ndash; wrong saint!]<br><br>
   </td>
-  <td><br><br><br><br>Page revised 9 March 2024</td>
+  <td><br><br><br><br>Page revised 21 August 2024</td>
  </tr>
 </table>
 <hr>
-<h3>A problem</h3>
 <p>
-Cayley's Theorem in group theory states that every group of order <i>n</i> can be embedded as a subgroup of the symmetric group S<sub>n</sub>. But usually this
-group is much too large.
-</p>
-<p><b>Problem:</b> What is the size <i>F</i>(<i>n</i>) of the smallest group which embeds every group of order <i>n</i>?
-</p>
-<p>
-In a paper with David Craven, Hamid Reza Dorbidi, Scott Harper and Benjamin Sambale, we looked at this problem, without a lot of success. For the case where <i>n</i> is a prime power <i>p<sup>m</sup></i>, we found a lower bound of <i>p</i><sup><i>cm</i><sup>2</sup></sup> and an upper bound roughly <i>p<sup>p<sup>m</sup></sup></i>.
-</p>
-<p><b>Subproblem 1:</b> is there an upper bound which is <i>p<sup>m<sup>c</sup></sup></i> for some <i>c</i>?
+Let <i>G</i> be a group. For <i>x,y</i> in <i>G</i> and a natural number <i>n</i>, we define [<i>x,&nbsp;<sub>n</sub>y</i>] inductively by
+<ul>
+<li> [<i>x</i>,&nbsp;<sub>1</sub><i>y</i>]&nbsp;=&nbsp;[<i>x,&nbsp;y</i>]&nbsp;=&nbsp;<i>x</i><sup>&minus;1</sup><i>y</i><sup>&minus;1</sup><i>xy</i>, </li>
+<li> [<i>x</i>,&nbsp;<sub><i>n</i>+1</sub><i>y</i>]&nbsp;=&nbsp;[[<i>x,&nbsp;<sub>n</sub>y</i>],&nbsp;<i>y</i>]. </li>
+</ul>
+The <em>directed Engel graph</em> on <i>G</i> is the graph with vertex set <i>G</i>, with an arc <i>y</i>&rarr;<i>x</i> if [<i>x,&nbsp;<sub>n</sub>y</i>] is
+ the identity for some natural number <i>n</i>.
 </p>
 <p>
-We were able to find the exact order of the smallest abelian group containing every abelian group of order <i>p<sup>m</sup></i>; it is <i>p</i><sup><i>F</i>(<i>m</i>)</sup>, where 
-</p>
-<p align="center">
-<i>F</i>(<i>m</i>)&nbsp;=&nbsp;&Sigma;&lfloor;<i>m</i>/<i>k</i>&rfloor;,
+The graph has a loop at each vertex; these loops will not affect what follows.
 </p>
 <p>
-where the sum over <i>k</i> runs from 1 to <i>m</i>. Dirichlet found the order of magnitude of this function; it is roughly <i>m</i>&nbsp;log&nbsp;<i>m</i>.
+If <i>G</i> is nilpotent, then any pair of vertices are joined by arcs in both directions, so we have the complete directed graph with loops. It follows
+ from the theorem of Zorn that the converse of this is also true.
 </p>
-<p><b>Subproblem 2:</b> Is it true that no smaller non-abelian group can contain all abelian groups of order <i>p<sup>m</sup></i>?
+<p>
+The <em>undirected Engel graph</em> is obtained by ignoring directions and loops and replacing a double edge by a single edge.
+</p>
+<p>
+<b>Problem 1:</b> Does the undirected Engel graph determine the directed Engel graph up to isomorphism? If this is false in general, for which groups does it hold?
+</p>
+<p>
+Note that the analogous statement holds for the directed and undirected power graph.
+</p>
+<p>
+In a recent preprint with Rishabh Chakraborty, Rajat Kanti Nath and Deiborlang Nongsiang (arXiv <a href="https://arxiv.org/abs/2408.03879">2408.03879</a>),
+ we showed (among other things) that, if <i>G</i> is a finite soluble group which is not nilpotent, then the directed Engel graph has two vertices joined
+ by a single (non-loop) arc. These vertices can be chosen so that the source of the arc is in the Fitting subgroup of <i>G</i> (which is the set of vertices 
+ which send arcs to all vertices) and the target is outside the Fitting subgroup.
+</p>
+<p>
+<b>Problem 2:</b> Classify the finite soluble groups for which all single arcs in the directed Engel graph have one vertex in the Fitting subgroup.
 </p>
 <p>
  Old problems are kept <a href="problems/oldprob_sta.html">here</a>.
