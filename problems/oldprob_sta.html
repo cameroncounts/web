@@ -333,7 +333,8 @@ the theorem of Green and Tao, it might be worth revisiting.
 A set <i>S</i> of natural numbers is <em>sum-free</em> if it contains no solution {<i>x,y,z</i>} to <i>x</i>+<i>y</i>&nbsp;=&nbsp;<i>z</i>.
 </p>
 <p>
-We can choose a random sum-free set as follows: Consider the natural numbers in turn. When considering <i>n</i>, if <i>n</i> is the sum of two members of <i>S</i>, then <i>n</i> is not in <i>S</i>; otherwise decide whether to put <i>n</i> in <i>S</i> by tossing a fair coin.
+We can choose a random sum-free set as follows: Consider the natural numbers in turn. When considering <i>n</i>, if <i>n</i> is the sum of two members of <i>S</i>,
+ then <i>n</i> is not in <i>S</i>; otherwise decide whether to put <i>n</i> in <i>S</i> by tossing a fair coin.
 </p>
 <p>
 A little is known, but much is not. Let <i>S</i> be a random sum-free set.
@@ -347,7 +348,9 @@ A little is known, but much is not. Let <i>S</i> be a random sum-free set.
 <hr>
 <p><b>Problem 17: Forbidding intersection size 1</b></p>
 <p>
-A very specific problem. Let <i>n</i>&nbsp;=&nbsp;<i>q</i><sup>2</sup>+<i>q</i>+1, <i>k</i>&nbsp;=&nbsp;<i>q</i>+1. If it helps, suppose that a projective plane of order <i>q</i> exists. Let <i>S</i> be a collection of <i>k</i>-subsets of an <i>n</i>-set <i>X</i>, with the property that the intersection of two members of <i>S</i> does not have cardinality 1. The size of such a set is at most
+A very specific problem. Let <i>n</i>&nbsp;=&nbsp;<i>q</i><sup>2</sup>+<i>q</i>+1, <i>k</i>&nbsp;=&nbsp;<i>q</i>+1. If it helps, suppose that a projective plane of
+ order <i>q</i> exists. Let <i>S</i> be a collection of <i>k</i>-subsets of an <i>n</i>-set <i>X</i>, with the property that the intersection of two members of <i>S</i>
+ does not have cardinality 1. The size of such a set is at most
 {<i>n</i>&nbsp;choose&nbsp;<i>k</i>}/<i>n</i>. Suppose that <i>S</i> attains this bound.
 </p>
 <p><b>Problem:</b> Is it true that, if <i>q</i>&nbsp;&gt;&nbsp;2, then the cardinality of the intersection of two members of <i>S</i> must be at least 2?
@@ -571,6 +574,41 @@ where the sum over <i>k</i> runs from 1 to <i>m</i>. Dirichlet found the order o
 <p><b>Subproblem 2:</b> Is it true that no smaller non-abelian group can contain all abelian groups of order <i>p<sup>m</sup></i>?
 </p>
 <hr>
-<p align="right">Peter J. Cameron<br>21 August 2024</p>
+<p><b>Problem 27: Parker vector of generalised wreath product</b></p>
+<p>
+Let <i>G</i> be a group. For <i>x,y</i> in <i>G</i> and a natural number <i>n</i>, we define [<i>x,&nbsp;<sub>n</sub>y</i>] inductively by
+<ul>
+<li> [<i>x</i>,&nbsp;<sub>1</sub><i>y</i>]&nbsp;=&nbsp;[<i>x,&nbsp;y</i>]&nbsp;=&nbsp;<i>x</i><sup>&minus;1</sup><i>y</i><sup>&minus;1</sup><i>xy</i>, </li>
+<li> [<i>x</i>,&nbsp;<sub><i>n</i>+1</sub><i>y</i>]&nbsp;=&nbsp;[[<i>x,&nbsp;<sub>n</sub>y</i>],&nbsp;<i>y</i>]. </li>
+</ul>
+The <em>directed Engel graph</em> on <i>G</i> is the graph with vertex set <i>G</i>, with an arc <i>y</i>&rarr;<i>x</i> if [<i>x,&nbsp;<sub>n</sub>y</i>] is
+ the identity for some natural number <i>n</i>.
+</p>
+<p>
+The graph has a loop at each vertex; these loops will not affect what follows.
+</p>
+<p>
+If <i>G</i> is nilpotent, then any pair of vertices are joined by arcs in both directions, so we have the complete directed graph with loops. It follows
+ from the theorem of Zorn that the converse of this is also true.
+</p>
+<p>
+The <em>undirected Engel graph</em> is obtained by ignoring directions and loops and replacing a double edge by a single edge.
+</p>
+<p>
+<b>Problem 1:</b> Does the undirected Engel graph determine the directed Engel graph up to isomorphism? If this is false in general, for which groups does it hold?
+</p>
+<p>
+Note that the analogous statement holds for the directed and undirected power graph.
+</p>
+<p>
+In a recent preprint with Rishabh Chakraborty, Rajat Kanti Nath and Deiborlang Nongsiang (arXiv <a href="https://arxiv.org/abs/2408.03879">2408.03879</a>),
+ we showed (among other things) that, if <i>G</i> is a finite soluble group which is not nilpotent, then the directed Engel graph has two vertices joined
+ by a single (non-loop) arc. These vertices can be chosen so that the source of the arc is in the Fitting subgroup of <i>G</i> (which is the set of vertices 
+ which send arcs to all vertices) and the target is outside the Fitting subgroup.
+</p>
+<p>
+<b>Problem 2:</b> Classify the finite soluble groups for which all single arcs in the directed Engel graph have one vertex in the Fitting subgroup.
+</p> 
+<p align="right">Peter J. Cameron<br>16 December 2024</p>
 </body>
 </html>
