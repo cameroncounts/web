@@ -121,47 +121,34 @@ Fax: +44 (0)1334 46 3748<br>
 Email: pjc20(at)st-arthurs(dot)ac(dot)uk<br>
 &nbsp;&nbsp;[oops &ndash; wrong saint!]<br><br>
   </td>
-  <td><br><br><br><br>Page revised 21 August 2024</td>
+  <td><br><br><br><br>Page revised 16 December 2024</td>
  </tr>
 </table>
 <hr>
 <h3>A problem</h3>
 <p>
-Let <i>G</i> be a group. For <i>x,y</i> in <i>G</i> and a natural number <i>n</i>, we define [<i>x,&nbsp;<sub>n</sub>y</i>] inductively by
-<ul>
-<li> [<i>x</i>,&nbsp;<sub>1</sub><i>y</i>]&nbsp;=&nbsp;[<i>x,&nbsp;y</i>]&nbsp;=&nbsp;<i>x</i><sup>&minus;1</sup><i>y</i><sup>&minus;1</sup><i>xy</i>, </li>
-<li> [<i>x</i>,&nbsp;<sub><i>n</i>+1</sub><i>y</i>]&nbsp;=&nbsp;[[<i>x,&nbsp;<sub>n</sub>y</i>],&nbsp;<i>y</i>]. </li>
-</ul>
-The <em>directed Engel graph</em> on <i>G</i> is the graph with vertex set <i>G</i>, with an arc <i>y</i>&rarr;<i>x</i> if [<i>x,&nbsp;<sub>n</sub>y</i>] is
- the identity for some natural number <i>n</i>.
+Richard Parker, who died recently, made a beautiful observation about finite permutation groups. 
+He showed that the number <i>P<sub>k</sub></i> of orbits of a permutation group <i>G</i> on the set of
+<i>k</i>-cycles of elements of the symmetric group which actually occur in elements of <i>G</i> is the
+average, over <i>G</i>, of the number of points lying in <i>k</i>-cycles of an element of <i>G</i>.
+As a consequence, this result generalises the Orbit-Counting Lemma, and also shows that the sum over <i>k</i>
+of the numbers <i>P<sub>k</sub></i> is equal to the degree of the permutation group.
+The tuple (<i>P</i><sub>1</sub>,&hellip;,<i>P<sub>n</sub></i>) is called the <em>Parker vector</em> of <i>G</i>.
 </p>
 <p>
-The graph has a loop at each vertex; these loops will not affect what follows.
+Daniele Gewurz showed me some time ago that the Parker vectors of the two wreath products
+<i>G</i>&nbsp;wr&nbsp;<i>H</i> and <i>H</i>&nbsp;wr&nbsp;<i>G</i> are equal. This led me to wonder briefly
+whether the Parker vector of a generalised wreath product depends only on the factors and not on the partially
+ordered set used to glue them together. But this is false in general. The Parker vector of
+<i>C</i><sub>2</sub>&nbsp;wr&nbsp;<i>C</i><sub> is (1,2,0,1), whereas the Parker vector of
+<i>C</i><sub>2</sub>&nbsp;&times;&nbsp;<i>C</i><sub> is (1,3,0,0).
 </p>
 <p>
-If <i>G</i> is nilpotent, then any pair of vertices are joined by arcs in both directions, so we have the complete directed graph with loops. It follows
- from the theorem of Zorn that the converse of this is also true.
+<b>Problem:</b> Is it true that, if the factors of a generalized wreath product have pairwise coprime orders,
+then the Parker vector is independent of the poset used in the construction but depends only on the factors?
 </p>
 <p>
-The <em>undirected Engel graph</em> is obtained by ignoring directions and loops and replacing a double edge by a single edge.
-</p>
-<p>
-<b>Problem 1:</b> Does the undirected Engel graph determine the directed Engel graph up to isomorphism? If this is false in general, for which groups does it hold?
-</p>
-<p>
-Note that the analogous statement holds for the directed and undirected power graph.
-</p>
-<p>
-In a recent preprint with Rishabh Chakraborty, Rajat Kanti Nath and Deiborlang Nongsiang (arXiv <a href="https://arxiv.org/abs/2408.03879">2408.03879</a>),
- we showed (among other things) that, if <i>G</i> is a finite soluble group which is not nilpotent, then the directed Engel graph has two vertices joined
- by a single (non-loop) arc. These vertices can be chosen so that the source of the arc is in the Fitting subgroup of <i>G</i> (which is the set of vertices 
- which send arcs to all vertices) and the target is outside the Fitting subgroup.
-</p>
-<p>
-<b>Problem 2:</b> Classify the finite soluble groups for which all single arcs in the directed Engel graph have one vertex in the Fitting subgroup.
-</p>
-<p>
- Old problems are kept <a href="problems/oldprob_sta.html">here</a>.
+Old poblems are kept <a href="problems/oldprob_sta.html">here</a>.
 </p>
 </body>
 </html>
