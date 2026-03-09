@@ -81,34 +81,41 @@ Edinburgh</a>.
 <hr>
 <h3>Research snapshots</h3>
 
-<h4> Ramsey, Fra&iuml;ss&eacute;, and orders </h4>
-</p>
-In the 1980s, Jarik Ne&#x161;et&#x159;il investigated <em>Ramsey classes</em>: these are classes of structures
- over a fixed relational language satisfying the condition that, for any structures <i>A,B</i>, there exists 
- <i>C</i> such that, if the embeddings <i>A</i>&rarr;<i>C</i> are coloured red and blue, there is an embedding 
- <i>B</i>&rarr;<i>C</i> such that the embeddings of <i>A</i> into the image of the embedding of <i>B</i> are 
- monochromatic. (This generalises the classical Ramsey theorem.)
+<h4>Recovering directed from undirected graphs</h4>
+<p>
+There are several examples of directed graphs defined on groups from the group
+structure. In each case one obtains an undirected graph by ignoring directions
+(and suppressing double edges), and can ask whether the undirected graph
+determines the directed graph up to isomorphism.
 </p>
 <p>
-Among his discoveries was the fact that the structures in a nontrivial Ramsey class form a Fra&iuml;ss&eacute;
- class (and so have a countable homogeneous Fra&iuml;ss&eacute; limit), and are <em>rigid</em> (they have trivial
- automorphism group).
+In the case of the <em>power graph</em>, the digraph has an arc 
+<i>x</i>&rarr;<i>y</i> if <i>y</i> is a power of <i>x</i>. I showed that the
+answer to the question is "yes"; Daniela Bubboloni and Nicolas Pinzauti gave
+an algorithm; and further results are due to Samir Zahirović and coauthors.
 </p>
 <p>
-This was subsequently explained by the celebrated theorem of Kechris, Pestov and Todor&#x10D;evi&cacute;,
- which uses topological dynamics (specifically, the automorphism group of the Fra&iuml;ss&eacute; limit is
- <em>extremely amenable</em>) to show that this group has a total order as a reduct, and hence the structures
- in the class are totally ordered (and hence rigid).
+Things are different for the <em>endomorphism graph</em>, where the digraph has
+an arc <i>x</i>&rarr;<i>y</i> if some endomorphism carries <i>x</i> to
+<i>y</i>. There are many negative examples. Perhaps the easiest are the two
+groups of order <i>p</i><sup>3</sup> and exponent <i>p</i>, for <i>p</i> an
+odd prime (one elementary abelian, the other non-abelian). The undirected
+graphs are both complete but the directed graphs are quite different. See
+arXiv <a href="https://arxiv.org/abs/2511.15602">2511.15602</a>.
 </p>
 <p>
-Early in this story, I observed that there exist Fra&iuml;ss&eacute; classes of rigid structures which have
- no "natural" total order, and wondered whether they could be Ramsey classes, and (after the KPT theorem
- showed that they were not) whether one could find explicit failures of the Ramsey property.
+The third case is the <em>Engel graph</em>, where the digraph has an arc
+<i>x</i>&rarr;<i>y</i> if [<i>y</i>,<i>x</i>,&hellip;,<i>x</i>]=1 (where the
+iterated commutator has any number of entries <i>x</i>). To my knowledge, the
+answer was not known until recently. It turns out that the undirected graph 
+does not always determine the directed graph, though examples are not easy to
+find. There are just two group orders less than 100 for which examples exist
+(namely, 54 and 96), though several different groups realise each graph or
+digraph. A new version at arXiv
+<a href="https://arxiv.org/abs/2408.03879">2408.93879</a> should be posted
+soon.
 </p>
-<p>
-Siavash Lashkarighouchani and I have just done this. The paper is on the arXiv, at
- <a href="https://arxiv.org/abs/2512.05684">2512.05684</a>.
-</p>
+
 <p></p>
 <p>
 Old research snapshots are kept <a href="snapshots/index.html">here</a>.
