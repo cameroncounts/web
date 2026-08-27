@@ -453,9 +453,52 @@ Siavash Lashkarighouchani and I have just done this. The paper is on the arXiv, 
  <a href="https://arxiv.org/abs/2512.05684">2512.05684</a>.
 </p>
 <p></p>
+<hr>
+<h4>Recovering directed from undirected graphs</h4>
+<p>
+There are several examples of directed graphs defined on groups from the group
+structure. In each case one obtains an undirected graph by ignoring directions
+(and suppressing double edges), and can ask whether the undirected graph
+determines the directed graph up to isomorphism.
+</p>
+<p>
+In the case of the <em>power graph</em>, the digraph has an arc 
+<i>x</i>&rarr;<i>y</i> if <i>y</i> is a power of <i>x</i>. I showed that the
+answer to the question is "yes"; Daniela Bubboloni and Nicolas Pinzauti gave
+an algorithm; and further results are due to Samir Zahirović and coauthors.
+</p>
+<p>
+Things are different for the <em>endomorphism graph</em>, where the digraph has
+an arc <i>x</i>&rarr;<i>y</i> if some endomorphism carries <i>x</i> to
+<i>y</i>. There are many negative examples. Perhaps the easiest are the two
+groups of order <i>p</i><sup>3</sup> and exponent <i>p</i>, for <i>p</i> an
+odd prime (one elementary abelian, the other non-abelian). The undirected
+graphs are both complete but the directed graphs are quite different. See
+arXiv <a href="https://arxiv.org/abs/2511.15602">2511.15602</a>.
+</p>
+<p>
+The third case is the <em>Engel graph</em>, where the digraph has an arc
+<i>x</i>&rarr;<i>y</i> if [<i>y</i>,<i>x</i>,&hellip;,<i>x</i>]=1 (where the
+iterated commutator has any number of entries <i>x</i>). To my knowledge, the
+answer was not known until recently. It turns out that the undirected graph 
+does not always determine the directed graph, though examples are not easy to
+find. There are just two group orders less than 100 for which examples exist
+(namely, 54 and 96), though several different groups realise each graph or
+digraph. See arXiv <a href="https://arxiv.org/abs/2408.03879">2408.93879</a>.
+</p>
+<p>
+A fourth digraph appears on a recent preprint, arXiv
+<a href="https://arxiv.org/abs/2511.01552">2511.01552</a> by Constantino Delizia,
+ Michele Gaeta and Carmine Monetta (also suggested by Michael Kinyon): this is the
+ <em>normalizing digraph</em>, in which there is an arc <i>x</i>&rarr;<i>y</i>
+ if and only if <i>y</i> normalizes the subgroup &lang;<i>x</i>&rang;. The digraph
+ is complete if and only if the group is a Dedekind group; but for SmallGroup(16,6)
+ in the GAP list, the digraph is not complete but its undirected version is.
+</p>
+<p></p>
 <p align="right">
 Peter J. Cameron<br>
-9 March 2026
+27 August 2026
 </p>
 </body></html>
 
