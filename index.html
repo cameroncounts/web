@@ -84,46 +84,46 @@ Edinburgh</a>.
 
  <h3>Research snapshots</h3>
 
-<h4>Recovering directed from undirected graphs</h4>
+ <h4>Complete mappings semigroups</h4>
 <p>
-There are several examples of directed graphs defined on groups from the group
-structure. In each case one obtains an undirected graph by ignoring directions
-(and suppressing double edges), and can ask whether the undirected graph
-determines the directed graph up to isomorphism.
+Let <i>A</i> be a <em>magma</em>, a set with a binary operation. A <em>complete
+mapping</em> for <i>A</i> is a bijection &theta; on <i>A</i> such that the map
+&psi; defined by &psi;(<i>a</i>)&nbsp;=&nbsp;<i>a</i>&middot;&theta;(<i>a</i>)
+is also a bijection, where &middot; is the operation. It defines a transversal
+of the Cayley table of the magma, a set of cells meeting each row, column and
+symbol in a unique element.
 </p>
 <p>
-In the case of the <em>power graph</em>, the digraph has an arc 
-<i>x</i>&rarr;<i>y</i> if <i>y</i> is a power of <i>x</i>. I showed that the
-answer to the question is "yes"; Daniela Bubboloni and Nicolas Pinzauti gave
-an algorithm; and further results are due to Samir Zahirović and coauthors.
+The celebrated Hall&ndash;Paige conjecture asserted that a finite group has a
+complete mapping if and only if either it has odd order or its Sylow 2-subgroups
+are non-cyclic. They proved the necessity of the conditions, but sufficiency
+had to wait for the work of Wilcox, Evans and Bray in 2009.
 </p>
 <p>
-Things are different for the <em>endomorphism graph</em>, where the digraph has
-an arc <i>x</i>&rarr;<i>y</i> if some endomorphism carries <i>x</i> to
-<i>y</i>. There are many negative examples. Perhaps the easiest are the two
-groups of order <i>p</i><sup>3</sup> and exponent <i>p</i>, for <i>p</i> an
-odd prime (one elementary abelian, the other non-abelian). The undirected
-graphs are both complete but the directed graphs are quite different. See
-arXiv <a href="https://arxiv.org/abs/2511.15602">2511.15602</a>.
+Little can be said about the existence of complete mappings for arbitrary finite
+magmas. One simple necessary condition is that every element of the magma can
+be expressed as a product; more generally, the set of products with fixed
+left factors has a transversal, and similarly for right factors.
 </p>
 <p>
-The third case is the <em>Engel graph</em>, where the digraph has an arc
-<i>x</i>&rarr;<i>y</i> if [<i>y</i>,<i>x</i>,&hellip;,<i>x</i>]=1 (where the
-iterated commutator has any number of entries <i>x</i>). To my knowledge, the
-answer was not known until recently. It turns out that the undirected graph 
-does not always determine the directed graph, though examples are not easy to
-find. There are just two group orders less than 100 for which examples exist
-(namely, 54 and 96), though several different groups realise each graph or
-digraph. See arXiv <a href="https://arxiv.org/abs/2408.03879">2408.93879</a>.
+A bit less than ten years ago, Jo&atilde;o Ara&uacute;jo asked me what could be
+said about semigroups with complete mappings. It has taken a while, and required
+the accumulation of three more coauthors (Wolfram Bentz, Kevin Hendrey and
+Michael Kinyon), but we now have a workable answer to the question; it is
+too complicated to state here, but I note that it uses the Green&ndash;Rees
+theory of principal factors with a variety of combinatorial tools such as
+unimodular matrices, Hall's marriage theorm, the proof of the permanent
+conjecture, and Bevis&ndash;Hall&ndash;Katz incidence theory over finite abelian
+groups.
 </p>
 <p>
-A fourth digraph appears on a recent preprint, arXiv
-<a href="https://arxiv.org/abs/2511.01552">2511.01552</a> by Constantino Delizia,
- Michele Gaeta and Carmine Monetta (also suggested by Michael Kinyon): this is the
- <em>normalizing digraph</em>, in which there is an arc <i>x</i>&rarr;<i>y</i>
- if and only if <i>y</i> normalizes the subgroup &lang;<i>x</i>&rang;. The digraph
- is complete if and only if the group is a Dedekind group; but for SmallGroup(16,6)
- in the GAP list, the digraph is not complete but its undirected version is.
+One consequence of our result, with quite a bit more work, is that the complete
+transformation semigroup <i>T<sub>n</sub></i> has a complete mapping for
+exactly the same values of <i>n</i> as the symmetric group <i>S<sub>n</sub></i>
+does, namely, all <i>n</i> different from 2 and 3.
+</p>
+<p>
+You can find the paper on the arXiv at <a href="https://arxiv.org/abs/2608.25092">2608.25092</a>.
 </p>
 <p></p>
 <p>
